@@ -1,0 +1,26 @@
+Taint	(0x7efb03dfecb0, f)
+CMP+JUMP-Instruction 0x607889471cd6: cmp byte ptr [rax], 0xd	2	13	0xd
+CMP+JUMP_NEXT-Instruction : jz 0x607889471d18
+Instruction 0x607889471cd6: cmp byte ptr [rax], 0xd	2	13	0xd
+CMP+JUMP-Instruction 0x607889471d18: cmp byte ptr [rbp+rbx*1-0x1], 0xa	2	14	0xa
+CMP+JUMP_NEXT-Instruction : jnz 0x607889471cdb
+Instruction 0x607889471d18: cmp byte ptr [rbp+rbx*1-0x1], 0xa	2	14	0xa
+Function	2	exit 	recvcmd.part.0
+Instruction 0x607889475923: movzx ebp, byte ptr [rsp+0x60d0]	2	0	0x7efb03dfecb0	0x55
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	1	0x7efb03dfecb1	0x53
+LOOP	607889475970	f
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	2	0x7efb03dfecb2	0x45
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	3	0x7efb03dfecb3	0x52
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	4	0x7efb03dfecb4	0x20
+LOOP	607889475990	f
+Instruction 0x607889475994: movzx ebp, byte ptr [r12+rax*1]	2	5	0x7efb03dfecb5	0x77
+Function	2	enter	ftpUSER	(607889472fa0,607889473098,6078894759fe)
+Function	2	enter	writelogentry	(607889472e10,607889472f96,607889472fd4)
+Function	2	exit 	writelogentry
+Function	2	exit 	ftpUSER
+Function	2	enter	writelogentry	(607889472e10,607889472f96,607889475b12)
+Function	2	exit 	writelogentry
+LOOP	607889475900	b
+LOOP	60788947590b	10
+Function	2	enter	recvcmd.part.0	(607889471c90,607889471d27,60788947591b)
+recv_point taint

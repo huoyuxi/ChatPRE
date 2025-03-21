@@ -1,0 +1,2 @@
+assembly not taint included : imul esi, dword ptr [rsp], 0x3e8 47 0
+assembly not taint included : idiv rcx 9 10

@@ -1,0 +1,28 @@
+Taint	(0x7efb03dfecb0, 6)
+CMP+JUMP-Instruction 0x607889471cd6: cmp byte ptr [rax], 0xd	2	4	0xd
+CMP+JUMP_NEXT-Instruction : jz 0x607889471d18
+Instruction 0x607889471cd6: cmp byte ptr [rax], 0xd	2	4	0xd
+CMP+JUMP-Instruction 0x607889471d18: cmp byte ptr [rbp+rbx*1-0x1], 0xa	2	5	0xa
+CMP+JUMP_NEXT-Instruction : jnz 0x607889471cdb
+Instruction 0x607889471d18: cmp byte ptr [rbp+rbx*1-0x1], 0xa	2	5	0xa
+Function	2	exit 	recvcmd.part.0
+Instruction 0x607889475923: movzx ebp, byte ptr [rsp+0x60d0]	2	0	0x7efb03dfecb0	0x51
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	1	0x7efb03dfecb1	0x55
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	2	0x7efb03dfecb2	0x49
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	3	0x7efb03dfecb3	0x54
+Function	2	enter	ftpQUIT	(6078894730a0,607889473197,6078894759fe)
+Function	2	enter	writelogentry	(607889472e10,607889472f96,6078894730e2)
+Function	2	exit 	writelogentry
+LOOP	60788947310c	17
+Function	2	exit 	ftpQUIT
+Function	2	enter	writelogentry	(607889472e10,607889472f96,607889475b12)
+Function	2	exit 	writelogentry
+Function	2	enter	worker_thread_cleanup	(607889475520,607889475626,607889475a30)
+Function	2	exit 	worker_thread_cleanup
+spreadMem size:8
+spreadMem size:8
+Function	2	enter	writelogentry	(607889472e10,607889472f96,607889475adf)
+Function	2	exit 	writelogentry
+Function	2	enter	writelogentry	(607889472e10,607889472f96,6078894757b1)
+Function	2	exit 	writelogentry
+Function	2	exit 	ftp_client_thread

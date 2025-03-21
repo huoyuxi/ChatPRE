@@ -1,0 +1,37 @@
+===============SEMANTIC===================
+sizeofTaint: 12
+
+field-to-constantcmp
+	4,5:{'0xc', '0x7'}
+	2,3:{'0x0'}
+	7:{'0x3', '0x1', '0x5', '0x6', '0x10', '0x17', '0x11', '0x4'}
+	10:{'0xff'}
+ 
+constantcmp-to-field
+	0x7:['4,5']
+	0xc:['4,5']
+	0x0:['2,3']
+	0x11:['7']
+	0x4:['7']
+	0x3:['7']
+	0x10:['7']
+	0x6:['7']
+	0x17:['7']
+	0x1:['7']
+	0x5:['7']
+	0xff:['10']
+ 
+cmp_true
+4,5
+10
+2,3
+7
+Polyglot_Separator:[]
+KEYWORDs:
+collect:[2, 3, 4, 5, 7, 10]
+Polyglot_keyword:	['2,3,4,5', '7', '10']
+
+Length:	4,5
+	;4,5
+	None
+	None

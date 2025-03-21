@@ -1,0 +1,1416 @@
+=================Time TO StartProgram===================
+Function	0	enter	main	(4012b6,401457,779aa405d083)
+Function	0	enter	eMBTCPInit	(402077,402114,4012cf)
+Function	0	enter	eMBTCPDoInit	(402500,40252f,402097)
+Function	0	enter	xMBTCPPortInit	(401924,401ae9,402520)
+Function	0	enter	memset@plt	(4010d0,4010db,40196e)
+Function	0	enter	htonl@plt	(4010c0,4010cb,40197e)
+Function	0	enter	htons@plt	(401080,40108b,40198c)
+Function	0	enter	socket@plt	(4011a0,4011ab,4019a4)
+Function	0	enter	bind@plt	(401150,40115b,4019f6)
+Function	0	enter	listen@plt	(401140,40114b,401a35)
+LOOP	401a75	3
+Function	0	exit 	xMBTCPPortInit
+Function	0	exit 	eMBTCPDoInit
+Function	0	enter	xMBPortEventInit	(4018b5,4018c6,4020b1)
+Function	0	exit 	xMBPortEventInit
+Function	0	exit 	eMBTCPInit
+Function	0	enter	eSetPollingThreadState	(401536,401560,401307)
+Function	0	enter	pthread_mutex_lock@plt	(401180,40118b,40154b)
+Function	0	enter	pthread_mutex_unlock@plt	(401130,40113b,40155e)
+Function	0	exit 	eSetPollingThreadState
+Function	0	enter	puts@plt	(401060,40106b,401311)
+Function	0	enter	printf@plt	(4010a0,4010ab,401324)
+Function	0	enter	getchar@plt	(4010f0,4010fb,401329)
+Function	0	enter	bCreatePollingThread	(401458,4014c0,401365)
+Function	0	enter	eGetPollingThreadState	(40150c,401535,401474)
+Function	0	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	0	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	0	exit 	eGetPollingThreadState
+Function	0	enter	pthread_create@plt	(401040,40104b,401493)
+Function	0	exit 	bCreatePollingThread
+Function	0	enter	getchar@plt	(4010f0,4010fb,401434)
+LOOP	401434	9
+LOOP	401315	f
+Function	1	enter	pvPollingThread	(4014c1,40150b,779aa4281609)
+Function	0	enter	printf@plt	(4010a0,4010ab,401324)
+Function	1	enter	eSetPollingThreadState	(401536,401560,4014d7)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40154b)
+LOOP	401324	5
+Function	0	enter	getchar@plt	(4010f0,4010fb,401329)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,40155e)
+Function	1	exit 	eSetPollingThreadState
+Function	1	enter	eMBEnable	(402271,4022ab,4014dc)
+Function	1	enter	eMBTCPStart	(402530,402536,402294)
+Function	1	exit 	eMBTCPStart
+Function	1	exit 	eMBEnable
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401b90)
+Function	1	enter	prvbMBPortAcceptClient	(401f76,401ff7,401bea)
+Function	1	enter	accept@plt	(401160,40116b,401fc4)
+Function	1	exit 	prvbMBPortAcceptClient
+LOOP	401bff	3
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 7)
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+Instruction 0x401de8: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401def: sub edx, eax	1	4,5	0x6;0x7
+Instruction 0x401df1: mov eax, edx	1	4,5	0x406484	0xffffffff
+Instruction 0x401df3: add eax, 0x6	1	4,5	0xffffffff
+Instruction 0x401df6: mov word ptr [rip+0x478d], ax	1	4,5	0x406484	0x5
+LOOP	401bea	15
+LOOP	401c02	89
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+LOOP	401c8b	13
+LOOP	401c9e	d
+LOOP	401cab	d
+LOOP	401cb8	45
+Instruction 0x401cfd: movzx eax, word ptr [rip+0x4886]	1	4,5	0x406484	0x5
+LOOP	401cfd	2f
+Instruction 0x401d04: movzx edx, ax	1	4,5	0x406484	0x5
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+LENGTH	4,5
+recv_point taint
+Taint	(0x406487, 5)
+LOOP	401d2c	f
+LOOP	401d3b	9
+LOOP	401d65	3f
+Instruction 0x401d7d: movzx eax, word ptr [rip+0x4806]	1	4,5	0x406484	0x5
+Instruction 0x401d8a: sub eax, edx	1	4,5	0x5;0x5
+Instruction 0x401d8c: mov word ptr [rip+0x47f7], ax	1	4,5	0x406484	0x0
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+LOOP	401da4	3d
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+Instruction 0x401e0c: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401e13: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnz 0x401bea
+Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,401e28)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+LOOP	4014e0	5
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Function	1	enter	eMBTCPReceive	(402543,4025fe,402376)
+Function	1	enter	xMBTCPPortGetRequest	(401e4b,401e88,402580)
+Function	1	exit 	xMBTCPPortGetRequest
+Instruction 0x40258c: movzx eax, byte ptr [rax]	1	2	0x406482	0x0
+Instruction 0x40258f: movzx eax, al	1	2	0x406482	0x0
+Instruction 0x402592: shl eax, 0x8	1	2	0x0
+Instruction 0x402595: mov word ptr [rbp-0x16], ax	1	2	0x406482	0x0
+Instruction 0x4025a1: movzx eax, byte ptr [rax]	1	3	0x406483	0x0
+Instruction 0x4025a4: movzx eax, al	1	3	0x406483	0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2;3	0x0;0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2,3	0x0
+CMP+JUMP-Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+CMP+JUMP_NEXT-Instruction : jnz 0x4025e6
+Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+Function	1	exit 	eMBTCPReceive
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,4023ae)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	eMBPoll
+LOOP	4014e5	4
+LOOP	4014e9	5
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+LOOP	4014ee	5
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Instruction 0x4023ba: movzx eax, byte ptr [rax]	1	7	0x406487	0x4
+Instruction 0x4023bd: mov byte ptr [rip+0x420f], al	1	7	0x406487	0x4
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x4
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x11;0x4
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x11;0x4
+LOOP	402434	a
+LOOP	4023d6	16
+LOOP	4023ec	1d
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x4
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x4;0x4
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x4;0x4
+Function	1	enter	eMBFuncReadInputRegister	(402eec,403033,40242c)
+Instruction 0x402f1c: movzx eax, byte ptr [rax]	1	8	0x406488	0x0
+Instruction 0x402f1f: movzx eax, al	1	8	0x406488	0x0
+Instruction 0x402f22: shl eax, 0x8	1	8	0x0
+Instruction 0x402f25: mov word ptr [rbp-0x14], ax	1	8	0x406488	0x0
+Instruction 0x402f31: movzx eax, byte ptr [rax]	1	9	0x406489	0x30
+Instruction 0x402f34: movzx eax, al	1	9	0x406489	0x30
+Instruction 0x402f37: or word ptr [rbp-0x14], ax	1	8;9	0x0;0x30
+Instruction 0x402f37: or word ptr [rbp-0x14], ax	1	8,9	0x0
+Instruction 0x402f3b: movzx eax, word ptr [rbp-0x14]	1	8,9	0x406488	0x30
+Instruction 0x402f3f: add eax, 0x1	1	8,9	0x30
+Instruction 0x402f42: mov word ptr [rbp-0x14], ax	1	8,9	0x406488	0x31
+Instruction 0x402f4e: movzx eax, byte ptr [rax]	1	10	0x40648a	0x0
+Instruction 0x402f51: movzx eax, al	1	10	0x40648a	0x0
+Instruction 0x402f54: shl eax, 0x8	1	10	0x0
+Instruction 0x402f57: mov word ptr [rbp-0x12], ax	1	10	0x40648a	0x0
+Instruction 0x402f63: movzx eax, byte ptr [rax]	1	11	0x40648b	0x28
+Instruction 0x402f66: movzx eax, al	1	11	0x40648b	0x28
+Instruction 0x402f69: or word ptr [rbp-0x12], ax	1	10;11	0x0;0x28
+Instruction 0x402f69: or word ptr [rbp-0x12], ax	1	10,11	0x0
+CMP+JUMP-Instruction 0x402f6d: cmp word ptr [rbp-0x12], 0x0	1	10,11	0x28
+CMP+JUMP_NEXT-Instruction : jz 0x40301f
+Instruction 0x402f6d: cmp word ptr [rbp-0x12], 0x0	1	10,11	0x28
+CMP+JUMP-Instruction 0x402f78: cmp word ptr [rbp-0x12], 0x7c	1	10,11	0x28
+CMP+JUMP_NEXT-Instruction : jnbe 0x40301f
+Instruction 0x402f78: cmp word ptr [rbp-0x12], 0x7c	1	10,11	0x28
+Instruction 0x402fc0: movzx edx, word ptr [rbp-0x12]	1	10,11	0x40648a	0x28
+Instruction 0x402fc4: add edx, edx	1	10,11;10,11	0x28;0x28
+Instruction 0x402fc6: mov byte ptr [rax], dl	1	11	0x40648b	0x50
+Instruction 0x402fd9: movzx edx, word ptr [rbp-0x12]	1	10,11	0x40648a	0x28
+Instruction 0x402fdd: movzx ecx, word ptr [rbp-0x14]	1	8,9	0x406488	0x31
+Instruction 0x402fe5: mov esi, ecx	1	8,9	0x406488	0x31
+Function	1	enter	eMBRegInputCB	(401561,40160b,402fef)
+Instruction 0x401569: mov ecx, esi	1	8,9	0x406488	0x31
+Instruction 0x40156b: mov eax, edx	1	10,11	0x40648a	0x28
+Instruction 0x40156d: mov word ptr [rbp-0x1c], cx	1	8,9	0x406488	0x31
+Instruction 0x401571: mov word ptr [rbp-0x20], ax	1	10,11	0x40648a	0x28
+CMP+JUMP-Instruction 0x40157c: cmp word ptr [rbp-0x1c], 0x3e7	1	8,9	0x31
+CMP+JUMP_NEXT-Instruction : jbe 0x401600
+Instruction 0x40157c: cmp word ptr [rbp-0x1c], 0x3e7	1	8,9	0x31
+Function	1	exit 	eMBRegInputCB
+Function	1	enter	prveMBError2Exception	(403484,4034c6,403002)
+Function	1	exit 	prveMBError2Exception
+Function	1	exit 	eMBFuncReadInputRegister
+Instruction 0x402481: movzx edx, byte ptr [rip+0x414a]	1	7	0x406487	0x4
+Instruction 0x402488: or edx, 0xffffff80	1	7	0x4
+Instruction 0x40248b: mov byte ptr [rax], dl	1	7	0x406487	0x84
+Function	1	enter	eMBTCPSend	(4025ff,40267a,4024d9)
+Function	1	enter	xMBTCPPortSendResponse	(401e89,401f3b,40266b)
+Function	1	enter	send@plt	(401090,40109b,401edb)
+Function	1	exit 	xMBTCPPortSendResponse
+Function	1	exit 	eMBTCPSend
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 0)
+Function	1	enter	close@plt	(4010e0,4010eb,401d51)
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401b90)
+Function	1	enter	prvbMBPortAcceptClient	(401f76,401ff7,401bea)
+Function	1	enter	accept@plt	(401160,40116b,401fc4)
+Function	1	exit 	prvbMBPortAcceptClient
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 7)
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+Instruction 0x401de8: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401def: sub edx, eax	1	4,5	0x6;0x7
+Instruction 0x401df1: mov eax, edx	1	4,5	0x406484	0xffffffff
+Instruction 0x401df3: add eax, 0x6	1	4,5	0xffffffff
+Instruction 0x401df6: mov word ptr [rip+0x478d], ax	1	4,5	0x406484	0x5
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Instruction 0x401cfd: movzx eax, word ptr [rip+0x4886]	1	4,5	0x406484	0x5
+Instruction 0x401d04: movzx edx, ax	1	4,5	0x406484	0x5
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+LENGTH	4,5
+recv_point taint
+Taint	(0x406487, 5)
+Instruction 0x401d7d: movzx eax, word ptr [rip+0x4806]	1	4,5	0x406484	0x5
+Instruction 0x401d8a: sub eax, edx	1	4,5	0x5;0x5
+Instruction 0x401d8c: mov word ptr [rip+0x47f7], ax	1	4,5	0x406484	0x0
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+Instruction 0x401e0c: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401e13: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnz 0x401bea
+Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,401e28)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Function	1	enter	eMBTCPReceive	(402543,4025fe,402376)
+Function	1	enter	xMBTCPPortGetRequest	(401e4b,401e88,402580)
+Function	1	exit 	xMBTCPPortGetRequest
+Instruction 0x40258c: movzx eax, byte ptr [rax]	1	2	0x406482	0x0
+Instruction 0x40258f: movzx eax, al	1	2	0x406482	0x0
+Instruction 0x402592: shl eax, 0x8	1	2	0x0
+Instruction 0x402595: mov word ptr [rbp-0x16], ax	1	2	0x406482	0x0
+Instruction 0x4025a1: movzx eax, byte ptr [rax]	1	3	0x406483	0x0
+Instruction 0x4025a4: movzx eax, al	1	3	0x406483	0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2;3	0x0;0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2,3	0x0
+CMP+JUMP-Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+CMP+JUMP_NEXT-Instruction : jnz 0x4025e6
+Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+Function	1	exit 	eMBTCPReceive
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,4023ae)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Instruction 0x4023ba: movzx eax, byte ptr [rax]	1	7	0x406487	0x3
+Instruction 0x4023bd: mov byte ptr [rip+0x420f], al	1	7	0x406487	0x3
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x3
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x11;0x3
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x11;0x3
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x3
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x4;0x3
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x4;0x3
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x3
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x3;0x3
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x3;0x3
+Function	1	enter	eMBFuncReadHoldingRegister	(402ba5,402cef,40242c)
+Instruction 0x402bd5: movzx eax, byte ptr [rax]	1	8	0x406488	0x0
+Instruction 0x402bd8: movzx eax, al	1	8	0x406488	0x0
+Instruction 0x402bdb: shl eax, 0x8	1	8	0x0
+Instruction 0x402bde: mov word ptr [rbp-0x14], ax	1	8	0x406488	0x0
+Instruction 0x402bea: movzx eax, byte ptr [rax]	1	9	0x406489	0x2
+Instruction 0x402bed: movzx eax, al	1	9	0x406489	0x2
+Instruction 0x402bf0: or word ptr [rbp-0x14], ax	1	8;9	0x0;0x2
+Instruction 0x402bf0: or word ptr [rbp-0x14], ax	1	8,9	0x0
+Instruction 0x402bf4: movzx eax, word ptr [rbp-0x14]	1	8,9	0x406488	0x2
+Instruction 0x402bf8: add eax, 0x1	1	8,9	0x2
+Instruction 0x402bfb: mov word ptr [rbp-0x14], ax	1	8,9	0x406488	0x3
+Instruction 0x402c07: movzx eax, byte ptr [rax]	1	10	0x40648a	0x0
+Instruction 0x402c0a: movzx eax, al	1	10	0x40648a	0x0
+Instruction 0x402c0d: shl eax, 0x8	1	10	0x0
+Instruction 0x402c10: mov word ptr [rbp-0x12], ax	1	10	0x40648a	0x0
+Instruction 0x402c1c: movzx eax, byte ptr [rax]	1	11	0x40648b	0x8
+Instruction 0x402c1f: movzx eax, al	1	11	0x40648b	0x8
+Instruction 0x402c22: or word ptr [rbp-0x12], ax	1	10;11	0x0;0x8
+Instruction 0x402c22: or word ptr [rbp-0x12], ax	1	10,11	0x0
+CMP+JUMP-Instruction 0x402c26: cmp word ptr [rbp-0x12], 0x0	1	10,11	0x8
+CMP+JUMP_NEXT-Instruction : jz 0x402cdb
+Instruction 0x402c26: cmp word ptr [rbp-0x12], 0x0	1	10,11	0x8
+CMP+JUMP-Instruction 0x402c31: cmp word ptr [rbp-0x12], 0x7d	1	10,11	0x8
+CMP+JUMP_NEXT-Instruction : jnbe 0x402cdb
+Instruction 0x402c31: cmp word ptr [rbp-0x12], 0x7d	1	10,11	0x8
+Instruction 0x402c79: movzx edx, word ptr [rbp-0x12]	1	10,11	0x40648a	0x8
+Instruction 0x402c7d: add edx, edx	1	10,11;10,11	0x8;0x8
+Instruction 0x402c7f: mov byte ptr [rax], dl	1	11	0x40648b	0x10
+Instruction 0x402c92: movzx edx, word ptr [rbp-0x12]	1	10,11	0x40648a	0x8
+Instruction 0x402c96: movzx esi, word ptr [rbp-0x14]	1	8,9	0x406488	0x3
+Function	1	enter	eMBRegHoldingCB	(40160c,40173e,402cab)
+Instruction 0x401614: mov eax, edx	1	10,11	0x40648a	0x8
+Instruction 0x401619: mov word ptr [rbp-0x1c], si	1	8,9	0x406488	0x3
+Instruction 0x40161d: mov word ptr [rbp-0x20], ax	1	10,11	0x40648a	0x8
+CMP+JUMP-Instruction 0x401628: cmp word ptr [rbp-0x1c], 0x7cf	1	8,9	0x3
+CMP+JUMP_NEXT-Instruction : jbe 0x401733
+Instruction 0x401628: cmp word ptr [rbp-0x1c], 0x7cf	1	8,9	0x3
+Function	1	exit 	eMBRegHoldingCB
+Function	1	enter	prveMBError2Exception	(403484,4034c6,402cbe)
+Function	1	exit 	prveMBError2Exception
+Function	1	exit 	eMBFuncReadHoldingRegister
+Instruction 0x402481: movzx edx, byte ptr [rip+0x414a]	1	7	0x406487	0x3
+Instruction 0x402488: or edx, 0xffffff80	1	7	0x3
+Instruction 0x40248b: mov byte ptr [rax], dl	1	7	0x406487	0x83
+Function	1	enter	eMBTCPSend	(4025ff,40267a,4024d9)
+Function	1	enter	xMBTCPPortSendResponse	(401e89,401f3b,40266b)
+Function	1	enter	send@plt	(401090,40109b,401edb)
+Function	1	exit 	xMBTCPPortSendResponse
+Function	1	exit 	eMBTCPSend
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 0)
+Function	1	enter	close@plt	(4010e0,4010eb,401d51)
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401b90)
+Function	1	enter	prvbMBPortAcceptClient	(401f76,401ff7,401bea)
+Function	1	enter	accept@plt	(401160,40116b,401fc4)
+Function	1	exit 	prvbMBPortAcceptClient
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 7)
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x9
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x9
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x9
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x9
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x9
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xf
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xf
+Instruction 0x401de8: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x9
+Instruction 0x401def: sub edx, eax	1	4,5	0x9;0x7
+Instruction 0x401df1: mov eax, edx	1	4,5	0x406484	0x2
+Instruction 0x401df3: add eax, 0x6	1	4,5	0x2
+Instruction 0x401df6: mov word ptr [rip+0x478d], ax	1	4,5	0x406484	0x8
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Instruction 0x401cfd: movzx eax, word ptr [rip+0x4886]	1	4,5	0x406484	0x8
+Instruction 0x401d04: movzx edx, ax	1	4,5	0x406484	0x8
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+LENGTH	4,5
+recv_point taint
+Taint	(0x406487, 8)
+Instruction 0x401d7d: movzx eax, word ptr [rip+0x4806]	1	4,5	0x406484	0x8
+Instruction 0x401d8a: sub eax, edx	1	4,5	0x8;0x8
+Instruction 0x401d8c: mov word ptr [rip+0x47f7], ax	1	4,5	0x406484	0x0
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x9
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x9
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x9
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x9
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x9
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xf;0xf
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xf;0xf
+Instruction 0x401e0c: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x9
+Instruction 0x401e13: add edx, 0x6	1	4,5	0x9
+CMP+JUMP-Instruction 0x401e16: cmp eax, edx	1	;4,5	0xf;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x401bea
+Instruction 0x401e16: cmp eax, edx	1	;4,5	0xf;0xf
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,401e28)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Function	1	enter	eMBTCPReceive	(402543,4025fe,402376)
+Function	1	enter	xMBTCPPortGetRequest	(401e4b,401e88,402580)
+Function	1	exit 	xMBTCPPortGetRequest
+Instruction 0x40258c: movzx eax, byte ptr [rax]	1	2	0x406482	0x0
+Instruction 0x40258f: movzx eax, al	1	2	0x406482	0x0
+Instruction 0x402592: shl eax, 0x8	1	2	0x0
+Instruction 0x402595: mov word ptr [rbp-0x16], ax	1	2	0x406482	0x0
+Instruction 0x4025a1: movzx eax, byte ptr [rax]	1	3	0x406483	0x0
+Instruction 0x4025a4: movzx eax, al	1	3	0x406483	0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2;3	0x0;0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2,3	0x0
+CMP+JUMP-Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+CMP+JUMP_NEXT-Instruction : jnz 0x4025e6
+Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+Function	1	exit 	eMBTCPReceive
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,4023ae)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Instruction 0x4023ba: movzx eax, byte ptr [rax]	1	7	0x406487	0x10
+Instruction 0x4023bd: mov byte ptr [rip+0x420f], al	1	7	0x406487	0x10
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x10
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x11;0x10
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x11;0x10
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x10
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x4;0x10
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x4;0x10
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x10
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x3;0x10
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x3;0x10
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x10
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x10;0x10
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x10;0x10
+Function	1	enter	eMBFuncWriteMultipleHoldingRegister	(402aac,402ba4,40242c)
+Instruction 0x402adc: movzx eax, byte ptr [rax]	1	8	0x406488	0x0
+Instruction 0x402adf: movzx eax, al	1	8	0x406488	0x0
+Instruction 0x402ae2: shl eax, 0x8	1	8	0x0
+Instruction 0x402ae5: mov word ptr [rbp-0xc], ax	1	8	0x406488	0x0
+Instruction 0x402af1: movzx eax, byte ptr [rax]	1	9	0x406489	0x1
+Instruction 0x402af4: movzx eax, al	1	9	0x406489	0x1
+Instruction 0x402af7: or word ptr [rbp-0xc], ax	1	8;9	0x0;0x1
+Instruction 0x402af7: or word ptr [rbp-0xc], ax	1	8,9	0x0
+Instruction 0x402afb: movzx eax, word ptr [rbp-0xc]	1	8,9	0x406488	0x1
+Instruction 0x402aff: add eax, 0x1	1	8,9	0x1
+Instruction 0x402b02: mov word ptr [rbp-0xc], ax	1	8,9	0x406488	0x2
+Instruction 0x402b0e: movzx eax, byte ptr [rax]	1	10	0x40648a	0x0
+Instruction 0x402b11: movzx eax, al	1	10	0x40648a	0x0
+Instruction 0x402b14: shl eax, 0x8	1	10	0x0
+Instruction 0x402b17: mov word ptr [rbp-0xa], ax	1	10	0x40648a	0x0
+Instruction 0x402b23: movzx eax, byte ptr [rax]	1	11	0x40648b	0x1
+Instruction 0x402b26: movzx eax, al	1	11	0x40648b	0x1
+Instruction 0x402b29: or word ptr [rbp-0xa], ax	1	10;11	0x0;0x1
+Instruction 0x402b29: or word ptr [rbp-0xa], ax	1	10,11	0x0
+Instruction 0x402b31: movzx eax, byte ptr [rax+0x5]	1	12	0x40648c	0x2
+Instruction 0x402b35: mov byte ptr [rbp-0xd], al	1	12	0x40648c	0x2
+CMP+JUMP-Instruction 0x402b38: cmp word ptr [rbp-0xa], 0x0	1	10,11	0x1
+CMP+JUMP_NEXT-Instruction : jz 0x402b90
+Instruction 0x402b38: cmp word ptr [rbp-0xa], 0x0	1	10,11	0x1
+CMP+JUMP-Instruction 0x402b3f: cmp word ptr [rbp-0xa], 0x78	1	10,11	0x1
+CMP+JUMP_NEXT-Instruction : jnbe 0x402b90
+Instruction 0x402b3f: cmp word ptr [rbp-0xa], 0x78	1	10,11	0x1
+Instruction 0x402b46: movzx eax, word ptr [rbp-0xa]	1	10,11	0x40648a	0x1
+Instruction 0x402b4a: add eax, eax	1	10,11;10,11	0x1;0x1
+CMP+JUMP-Instruction 0x402b4c: cmp al, byte ptr [rbp-0xd]	1	11;12	0x2;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402b90
+Instruction 0x402b4c: cmp al, byte ptr [rbp-0xd]	1	11;12	0x2;0x2
+Instruction 0x402b51: movzx edx, word ptr [rbp-0xa]	1	10,11	0x40648a	0x1
+Instruction 0x402b55: movzx eax, word ptr [rbp-0xc]	1	8,9	0x406488	0x2
+Instruction 0x402b66: mov esi, eax	1	8,9	0x406488	0x2
+Function	1	enter	eMBRegHoldingCB	(40160c,40173e,402b6d)
+Instruction 0x401614: mov eax, edx	1	10,11	0x40648a	0x1
+Instruction 0x401619: mov word ptr [rbp-0x1c], si	1	8,9	0x406488	0x2
+Instruction 0x40161d: mov word ptr [rbp-0x20], ax	1	10,11	0x40648a	0x1
+CMP+JUMP-Instruction 0x401628: cmp word ptr [rbp-0x1c], 0x7cf	1	8,9	0x2
+CMP+JUMP_NEXT-Instruction : jbe 0x401733
+Instruction 0x401628: cmp word ptr [rbp-0x1c], 0x7cf	1	8,9	0x2
+Function	1	exit 	eMBRegHoldingCB
+Function	1	enter	prveMBError2Exception	(403484,4034c6,402b80)
+Function	1	exit 	prveMBError2Exception
+Function	1	exit 	eMBFuncWriteMultipleHoldingRegister
+Instruction 0x402481: movzx edx, byte ptr [rip+0x414a]	1	7	0x406487	0x10
+Instruction 0x402488: or edx, 0xffffff80	1	7	0x10
+Instruction 0x40248b: mov byte ptr [rax], dl	1	7	0x406487	0x90
+Function	1	enter	eMBTCPSend	(4025ff,40267a,4024d9)
+Function	1	enter	xMBTCPPortSendResponse	(401e89,401f3b,40266b)
+Function	1	enter	send@plt	(401090,40109b,401edb)
+Function	1	exit 	xMBTCPPortSendResponse
+Function	1	exit 	eMBTCPSend
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 0)
+Function	1	enter	close@plt	(4010e0,4010eb,401d51)
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401b90)
+Function	1	enter	prvbMBPortAcceptClient	(401f76,401ff7,401bea)
+Function	1	enter	accept@plt	(401160,40116b,401fc4)
+Function	1	exit 	prvbMBPortAcceptClient
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 7)
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+Instruction 0x401de8: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401def: sub edx, eax	1	4,5	0x6;0x7
+Instruction 0x401df1: mov eax, edx	1	4,5	0x406484	0xffffffff
+Instruction 0x401df3: add eax, 0x6	1	4,5	0xffffffff
+Instruction 0x401df6: mov word ptr [rip+0x478d], ax	1	4,5	0x406484	0x5
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Instruction 0x401cfd: movzx eax, word ptr [rip+0x4886]	1	4,5	0x406484	0x5
+Instruction 0x401d04: movzx edx, ax	1	4,5	0x406484	0x5
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+LENGTH	4,5
+recv_point taint
+Taint	(0x406487, 5)
+Instruction 0x401d7d: movzx eax, word ptr [rip+0x4806]	1	4,5	0x406484	0x5
+Instruction 0x401d8a: sub eax, edx	1	4,5	0x5;0x5
+Instruction 0x401d8c: mov word ptr [rip+0x47f7], ax	1	4,5	0x406484	0x0
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+Instruction 0x401e0c: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401e13: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnz 0x401bea
+Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,401e28)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Function	1	enter	eMBTCPReceive	(402543,4025fe,402376)
+Function	1	enter	xMBTCPPortGetRequest	(401e4b,401e88,402580)
+Function	1	exit 	xMBTCPPortGetRequest
+Instruction 0x40258c: movzx eax, byte ptr [rax]	1	2	0x406482	0x0
+Instruction 0x40258f: movzx eax, al	1	2	0x406482	0x0
+Instruction 0x402592: shl eax, 0x8	1	2	0x0
+Instruction 0x402595: mov word ptr [rbp-0x16], ax	1	2	0x406482	0x0
+Instruction 0x4025a1: movzx eax, byte ptr [rax]	1	3	0x406483	0x0
+Instruction 0x4025a4: movzx eax, al	1	3	0x406483	0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2;3	0x0;0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2,3	0x0
+CMP+JUMP-Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+CMP+JUMP_NEXT-Instruction : jnz 0x4025e6
+Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+Function	1	exit 	eMBTCPReceive
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,4023ae)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Instruction 0x4023ba: movzx eax, byte ptr [rax]	1	7	0x406487	0x5
+Instruction 0x4023bd: mov byte ptr [rip+0x420f], al	1	7	0x406487	0x5
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x5
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x11;0x5
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x11;0x5
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x5
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x4;0x5
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x4;0x5
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x5
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x3;0x5
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x3;0x5
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x5
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x10;0x5
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x10;0x5
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x5
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x6;0x5
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x6;0x5
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x5
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x17;0x5
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x17;0x5
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x5
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x1;0x5
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x1;0x5
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x5
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x5;0x5
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x5;0x5
+Function	1	enter	eMBFuncWriteCoil	(4027e9,4028f6,40242c)
+Instruction 0x402828: movzx eax, byte ptr [rax]	1	8	0x406488	0x0
+Instruction 0x40282b: movzx eax, al	1	8	0x406488	0x0
+Instruction 0x40282e: shl eax, 0x8	1	8	0x0
+Instruction 0x402831: mov word ptr [rbp-0x1a], ax	1	8	0x406488	0x0
+Instruction 0x40283d: movzx eax, byte ptr [rax]	1	9	0x406489	0x0
+Instruction 0x402840: movzx eax, al	1	9	0x406489	0x0
+Instruction 0x402843: or word ptr [rbp-0x1a], ax	1	8;9	0x0;0x0
+Instruction 0x402843: or word ptr [rbp-0x1a], ax	1	8,9	0x0
+Instruction 0x402847: movzx eax, word ptr [rbp-0x1a]	1	8,9	0x406488	0x0
+Instruction 0x40284b: add eax, 0x1	1	8,9	0x0
+Instruction 0x40284e: mov word ptr [rbp-0x1a], ax	1	8,9	0x406488	0x1
+Instruction 0x40285a: movzx eax, byte ptr [rax]	1	11	0x40648b	0x0
+Instruction 0x40285d: test al, al	1	11;11	0x0;0x0
+Instruction 0x402869: movzx eax, byte ptr [rax]	1	10	0x40648a	0xff
+CMP+JUMP-Instruction 0x40286c: cmp al, 0xff	1	10	0xff
+CMP+JUMP_NEXT-Instruction : jz 0x40287f
+Instruction 0x40286c: cmp al, 0xff	1	10	0xff
+Instruction 0x40288b: movzx eax, byte ptr [rax]	1	10	0x40648a	0xff
+CMP+JUMP-Instruction 0x40288e: cmp al, 0xff	1	10	0xff
+CMP+JUMP_NEXT-Instruction : jnz 0x402898
+Instruction 0x40288e: cmp al, 0xff	1	10	0xff
+Instruction 0x40289c: movzx esi, word ptr [rbp-0x1a]	1	8,9	0x406488	0x1
+Function	1	enter	eMBRegCoilsCB	(40173f,40175a,4028b6)
+Instruction 0x40174c: mov word ptr [rbp-0xc], si	1	8,9	0x406488	0x1
+Function	1	exit 	eMBRegCoilsCB
+Function	1	enter	prveMBError2Exception	(403484,4034c6,4028c9)
+Function	1	exit 	prveMBError2Exception
+Function	1	exit 	eMBFuncWriteCoil
+Instruction 0x402481: movzx edx, byte ptr [rip+0x414a]	1	7	0x406487	0x5
+Instruction 0x402488: or edx, 0xffffff80	1	7	0x5
+Instruction 0x40248b: mov byte ptr [rax], dl	1	7	0x406487	0x85
+Function	1	enter	eMBTCPSend	(4025ff,40267a,4024d9)
+Function	1	enter	xMBTCPPortSendResponse	(401e89,401f3b,40266b)
+Function	1	enter	send@plt	(401090,40109b,401edb)
+Function	1	exit 	xMBTCPPortSendResponse
+Function	1	exit 	eMBTCPSend
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 0)
+Function	1	enter	close@plt	(4010e0,4010eb,401d51)
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401b90)
+Function	1	enter	prvbMBPortAcceptClient	(401f76,401ff7,401bea)
+Function	1	enter	accept@plt	(401160,40116b,401fc4)
+Function	1	exit 	prvbMBPortAcceptClient
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 7)
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x8
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x8
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x8
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x8
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x8
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xe
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xe
+Instruction 0x401de8: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x8
+Instruction 0x401def: sub edx, eax	1	4,5	0x8;0x7
+Instruction 0x401df1: mov eax, edx	1	4,5	0x406484	0x1
+Instruction 0x401df3: add eax, 0x6	1	4,5	0x1
+Instruction 0x401df6: mov word ptr [rip+0x478d], ax	1	4,5	0x406484	0x7
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Instruction 0x401cfd: movzx eax, word ptr [rip+0x4886]	1	4,5	0x406484	0x7
+Instruction 0x401d04: movzx edx, ax	1	4,5	0x406484	0x7
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+LENGTH	4,5
+recv_point taint
+Taint	(0x406487, 7)
+Instruction 0x401d7d: movzx eax, word ptr [rip+0x4806]	1	4,5	0x406484	0x7
+Instruction 0x401d8a: sub eax, edx	1	4,5	0x7;0x7
+Instruction 0x401d8c: mov word ptr [rip+0x47f7], ax	1	4,5	0x406484	0x0
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x8
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x8
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x8
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x8
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x8
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xe;0xe
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xe;0xe
+Instruction 0x401e0c: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x8
+Instruction 0x401e13: add edx, 0x6	1	4,5	0x8
+CMP+JUMP-Instruction 0x401e16: cmp eax, edx	1	;4,5	0xe;0xe
+CMP+JUMP_NEXT-Instruction : jnz 0x401bea
+Instruction 0x401e16: cmp eax, edx	1	;4,5	0xe;0xe
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,401e28)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Function	1	enter	eMBTCPReceive	(402543,4025fe,402376)
+Function	1	enter	xMBTCPPortGetRequest	(401e4b,401e88,402580)
+Function	1	exit 	xMBTCPPortGetRequest
+Instruction 0x40258c: movzx eax, byte ptr [rax]	1	2	0x406482	0x0
+Instruction 0x40258f: movzx eax, al	1	2	0x406482	0x0
+Instruction 0x402592: shl eax, 0x8	1	2	0x0
+Instruction 0x402595: mov word ptr [rbp-0x16], ax	1	2	0x406482	0x0
+Instruction 0x4025a1: movzx eax, byte ptr [rax]	1	3	0x406483	0x0
+Instruction 0x4025a4: movzx eax, al	1	3	0x406483	0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2;3	0x0;0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2,3	0x0
+CMP+JUMP-Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+CMP+JUMP_NEXT-Instruction : jnz 0x4025e6
+Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+Function	1	exit 	eMBTCPReceive
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,4023ae)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Instruction 0x4023ba: movzx eax, byte ptr [rax]	1	7	0x406487	0xf
+Instruction 0x4023bd: mov byte ptr [rip+0x420f], al	1	7	0x406487	0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x11;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x11;0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x4;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x4;0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x3;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x3;0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x10;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x10;0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x6;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x6;0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x17;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x17;0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x1;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x1;0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x5;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x5;0xf
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0xf
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0xf;0xf
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0xf;0xf
+Function	1	enter	eMBFuncWriteMultipleCoils	(4028f7,402a14,40242c)
+Instruction 0x402927: movzx eax, byte ptr [rax]	1	8	0x406488	0x0
+Instruction 0x40292a: movzx eax, al	1	8	0x406488	0x0
+Instruction 0x40292d: shl eax, 0x8	1	8	0x0
+Instruction 0x402930: mov word ptr [rbp-0xc], ax	1	8	0x406488	0x0
+Instruction 0x40293c: movzx eax, byte ptr [rax]	1	9	0x406489	0x1
+Instruction 0x40293f: movzx eax, al	1	9	0x406489	0x1
+Instruction 0x402942: or word ptr [rbp-0xc], ax	1	8;9	0x0;0x1
+Instruction 0x402942: or word ptr [rbp-0xc], ax	1	8,9	0x0
+Instruction 0x402946: movzx eax, word ptr [rbp-0xc]	1	8,9	0x406488	0x1
+Instruction 0x40294a: add eax, 0x1	1	8,9	0x1
+Instruction 0x40294d: mov word ptr [rbp-0xc], ax	1	8,9	0x406488	0x2
+Instruction 0x402959: movzx eax, byte ptr [rax]	1	10	0x40648a	0x0
+Instruction 0x40295c: movzx eax, al	1	10	0x40648a	0x0
+Instruction 0x40295f: shl eax, 0x8	1	10	0x0
+Instruction 0x402962: mov word ptr [rbp-0xa], ax	1	10	0x40648a	0x0
+Instruction 0x40296e: movzx eax, byte ptr [rax]	1	11	0x40648b	0x1
+Instruction 0x402971: movzx eax, al	1	11	0x40648b	0x1
+Instruction 0x402974: or word ptr [rbp-0xa], ax	1	10;11	0x0;0x1
+Instruction 0x402974: or word ptr [rbp-0xa], ax	1	10,11	0x0
+Instruction 0x40297c: movzx eax, byte ptr [rax+0x5]	1	12	0x40648c	0x1
+Instruction 0x402980: mov byte ptr [rbp-0xd], al	1	12	0x40648c	0x1
+Instruction 0x402983: movzx eax, word ptr [rbp-0xa]	1	10,11	0x40648a	0x1
+unhandle mask 7
+Instruction 0x402987: and eax, 0x7	1	10,11	0x1
+Instruction 0x40298a: test eax, eax	1	10,11;10,11	0x1;0x1
+Instruction 0x40298e: movzx eax, word ptr [rbp-0xa]	1	10,11	0x40648a	0x1
+Instruction 0x402992: shr ax, 0x3	1	10,11	0x1
+Instruction 0x402996: add eax, 0x1	1	10,11	0x0
+Instruction 0x402999: mov byte ptr [rbp-0xe], al	1	11	0x40648b	0x1
+CMP+JUMP-Instruction 0x4029a9: cmp word ptr [rbp-0xa], 0x0	1	10,11	0x1
+CMP+JUMP_NEXT-Instruction : jz 0x402a00
+Instruction 0x4029a9: cmp word ptr [rbp-0xa], 0x0	1	10,11	0x1
+CMP+JUMP-Instruction 0x4029b0: cmp word ptr [rbp-0xa], 0x7b0	1	10,11	0x1
+CMP+JUMP_NEXT-Instruction : jnbe 0x402a00
+Instruction 0x4029b0: cmp word ptr [rbp-0xa], 0x7b0	1	10,11	0x1
+Instruction 0x4029b8: movzx eax, byte ptr [rbp-0xe]	1	11	0x40648b	0x1
+CMP+JUMP-Instruction 0x4029bc: cmp al, byte ptr [rbp-0xd]	1	11;12	0x1;0x1
+CMP+JUMP_NEXT-Instruction : jnz 0x402a00
+Instruction 0x4029bc: cmp al, byte ptr [rbp-0xd]	1	11;12	0x1;0x1
+Instruction 0x4029c1: movzx edx, word ptr [rbp-0xa]	1	10,11	0x40648a	0x1
+Instruction 0x4029c5: movzx eax, word ptr [rbp-0xc]	1	8,9	0x406488	0x2
+Instruction 0x4029d6: mov esi, eax	1	8,9	0x406488	0x2
+Function	1	enter	eMBRegCoilsCB	(40173f,40175a,4029dd)
+Instruction 0x401747: mov eax, edx	1	10,11	0x40648a	0x1
+Instruction 0x40174c: mov word ptr [rbp-0xc], si	1	8,9	0x406488	0x2
+Instruction 0x401750: mov word ptr [rbp-0x10], ax	1	10,11	0x40648a	0x1
+Function	1	exit 	eMBRegCoilsCB
+Function	1	enter	prveMBError2Exception	(403484,4034c6,4029f0)
+Function	1	exit 	prveMBError2Exception
+Function	1	exit 	eMBFuncWriteMultipleCoils
+Instruction 0x402481: movzx edx, byte ptr [rip+0x414a]	1	7	0x406487	0xf
+Instruction 0x402488: or edx, 0xffffff80	1	7	0xf
+Instruction 0x40248b: mov byte ptr [rax], dl	1	7	0x406487	0x8f
+Function	1	enter	eMBTCPSend	(4025ff,40267a,4024d9)
+Function	1	enter	xMBTCPPortSendResponse	(401e89,401f3b,40266b)
+Function	1	enter	send@plt	(401090,40109b,401edb)
+Function	1	exit 	xMBTCPPortSendResponse
+Function	1	exit 	eMBTCPSend
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 0)
+Function	1	enter	close@plt	(4010e0,4010eb,401d51)
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401b90)
+Function	1	enter	prvbMBPortAcceptClient	(401f76,401ff7,401bea)
+Function	1	enter	accept@plt	(401160,40116b,401fc4)
+Function	1	exit 	prvbMBPortAcceptClient
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 7)
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+Instruction 0x401de8: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401def: sub edx, eax	1	4,5	0x6;0x7
+Instruction 0x401df1: mov eax, edx	1	4,5	0x406484	0xffffffff
+Instruction 0x401df3: add eax, 0x6	1	4,5	0xffffffff
+Instruction 0x401df6: mov word ptr [rip+0x478d], ax	1	4,5	0x406484	0x5
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Instruction 0x401cfd: movzx eax, word ptr [rip+0x4886]	1	4,5	0x406484	0x5
+Instruction 0x401d04: movzx edx, ax	1	4,5	0x406484	0x5
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+LENGTH	4,5
+recv_point taint
+Taint	(0x406487, 5)
+Instruction 0x401d7d: movzx eax, word ptr [rip+0x4806]	1	4,5	0x406484	0x5
+Instruction 0x401d8a: sub eax, edx	1	4,5	0x5;0x5
+Instruction 0x401d8c: mov word ptr [rip+0x47f7], ax	1	4,5	0x406484	0x0
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+Instruction 0x401e0c: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401e13: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnz 0x401bea
+Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,401e28)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Function	1	enter	eMBTCPReceive	(402543,4025fe,402376)
+Function	1	enter	xMBTCPPortGetRequest	(401e4b,401e88,402580)
+Function	1	exit 	xMBTCPPortGetRequest
+Instruction 0x40258c: movzx eax, byte ptr [rax]	1	2	0x406482	0x0
+Instruction 0x40258f: movzx eax, al	1	2	0x406482	0x0
+Instruction 0x402592: shl eax, 0x8	1	2	0x0
+Instruction 0x402595: mov word ptr [rbp-0x16], ax	1	2	0x406482	0x0
+Instruction 0x4025a1: movzx eax, byte ptr [rax]	1	3	0x406483	0x0
+Instruction 0x4025a4: movzx eax, al	1	3	0x406483	0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2;3	0x0;0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2,3	0x0
+CMP+JUMP-Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+CMP+JUMP_NEXT-Instruction : jnz 0x4025e6
+Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+Function	1	exit 	eMBTCPReceive
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,4023ae)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Instruction 0x4023ba: movzx eax, byte ptr [rax]	1	7	0x406487	0x1
+Instruction 0x4023bd: mov byte ptr [rip+0x420f], al	1	7	0x406487	0x1
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x1
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x11;0x1
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x11;0x1
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x1
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x4;0x1
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x4;0x1
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x1
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x3;0x1
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x3;0x1
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x1
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x10;0x1
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x10;0x1
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x1
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x6;0x1
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x6;0x1
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x1
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x17;0x1
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x17;0x1
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x1
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x1;0x1
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x1;0x1
+Function	1	enter	eMBFuncReadCoils	(40267b,4027e8,40242c)
+Instruction 0x4026ab: movzx eax, byte ptr [rax]	1	8	0x406488	0x0
+Instruction 0x4026ae: movzx eax, al	1	8	0x406488	0x0
+Instruction 0x4026b1: shl eax, 0x8	1	8	0x0
+Instruction 0x4026b4: mov word ptr [rbp-0x14], ax	1	8	0x406488	0x0
+Instruction 0x4026c0: movzx eax, byte ptr [rax]	1	9	0x406489	0x0
+Instruction 0x4026c3: movzx eax, al	1	9	0x406489	0x0
+Instruction 0x4026c6: or word ptr [rbp-0x14], ax	1	8;9	0x0;0x0
+Instruction 0x4026c6: or word ptr [rbp-0x14], ax	1	8,9	0x0
+Instruction 0x4026ca: movzx eax, word ptr [rbp-0x14]	1	8,9	0x406488	0x0
+Instruction 0x4026ce: add eax, 0x1	1	8,9	0x0
+Instruction 0x4026d1: mov word ptr [rbp-0x14], ax	1	8,9	0x406488	0x1
+Instruction 0x4026dd: movzx eax, byte ptr [rax]	1	10	0x40648a	0x0
+Instruction 0x4026e0: movzx eax, al	1	10	0x40648a	0x0
+Instruction 0x4026e3: shl eax, 0x8	1	10	0x0
+Instruction 0x4026e6: mov word ptr [rbp-0x12], ax	1	10	0x40648a	0x0
+Instruction 0x4026f2: movzx eax, byte ptr [rax]	1	11	0x40648b	0x6
+Instruction 0x4026f5: movzx eax, al	1	11	0x40648b	0x6
+Instruction 0x4026f8: or word ptr [rbp-0x12], ax	1	10;11	0x0;0x6
+Instruction 0x4026f8: or word ptr [rbp-0x12], ax	1	10,11	0x0
+CMP+JUMP-Instruction 0x4026fc: cmp word ptr [rbp-0x12], 0x0	1	10,11	0x6
+CMP+JUMP_NEXT-Instruction : jz 0x4027d4
+Instruction 0x4026fc: cmp word ptr [rbp-0x12], 0x0	1	10,11	0x6
+CMP+JUMP-Instruction 0x402707: cmp word ptr [rbp-0x12], 0x7cf	1	10,11	0x6
+CMP+JUMP_NEXT-Instruction : jnbe 0x4027d4
+Instruction 0x402707: cmp word ptr [rbp-0x12], 0x7cf	1	10,11	0x6
+Instruction 0x402744: movzx eax, word ptr [rbp-0x12]	1	10,11	0x40648a	0x6
+unhandle mask 7
+Instruction 0x402748: and eax, 0x7	1	10,11	0x6
+Instruction 0x40274b: test eax, eax	1	10,11;10,11	0x6;0x6
+Instruction 0x40274f: movzx eax, word ptr [rbp-0x12]	1	10,11	0x40648a	0x6
+Instruction 0x402753: shr ax, 0x3	1	10,11	0x6
+Instruction 0x402757: add eax, 0x1	1	10,11	0x0
+Instruction 0x40275a: mov byte ptr [rbp-0x15], al	1	11	0x40648b	0x1
+Instruction 0x402776: movzx edx, byte ptr [rbp-0x15]	1	11	0x40648b	0x1
+Instruction 0x40277a: mov byte ptr [rax], dl	1	11	0x40648b	0x1
+Instruction 0x40278d: movzx edx, word ptr [rbp-0x12]	1	10,11	0x40648a	0x6
+Instruction 0x402791: movzx esi, word ptr [rbp-0x14]	1	8,9	0x406488	0x1
+Function	1	enter	eMBRegCoilsCB	(40173f,40175a,4027a6)
+Instruction 0x401747: mov eax, edx	1	10,11	0x40648a	0x6
+Instruction 0x40174c: mov word ptr [rbp-0xc], si	1	8,9	0x406488	0x1
+Instruction 0x401750: mov word ptr [rbp-0x10], ax	1	10,11	0x40648a	0x6
+Function	1	exit 	eMBRegCoilsCB
+Function	1	enter	prveMBError2Exception	(403484,4034c6,4027b9)
+Function	1	exit 	prveMBError2Exception
+Function	1	exit 	eMBFuncReadCoils
+Instruction 0x402481: movzx edx, byte ptr [rip+0x414a]	1	7	0x406487	0x1
+Instruction 0x402488: or edx, 0xffffff80	1	7	0x1
+Instruction 0x40248b: mov byte ptr [rax], dl	1	7	0x406487	0x81
+Function	1	enter	eMBTCPSend	(4025ff,40267a,4024d9)
+Function	1	enter	xMBTCPPortSendResponse	(401e89,401f3b,40266b)
+Function	1	enter	send@plt	(401090,40109b,401edb)
+Function	1	exit 	xMBTCPPortSendResponse
+Function	1	exit 	eMBTCPSend
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 0)
+Function	1	enter	close@plt	(4010e0,4010eb,401d51)
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401b90)
+Function	1	enter	prvbMBPortAcceptClient	(401f76,401ff7,401bea)
+Function	1	enter	accept@plt	(401160,40116b,401fc4)
+Function	1	exit 	prvbMBPortAcceptClient
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 7)
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0x7;0xc
+Instruction 0x401de8: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401def: sub edx, eax	1	4,5	0x6;0x7
+Instruction 0x401df1: mov eax, edx	1	4,5	0x406484	0xffffffff
+Instruction 0x401df3: add eax, 0x6	1	4,5	0xffffffff
+Instruction 0x401df6: mov word ptr [rip+0x478d], ax	1	4,5	0x406484	0x5
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Instruction 0x401cfd: movzx eax, word ptr [rip+0x4886]	1	4,5	0x406484	0x5
+Instruction 0x401d04: movzx edx, ax	1	4,5	0x406484	0x5
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+LENGTH	4,5
+recv_point taint
+Taint	(0x406487, 5)
+Instruction 0x401d7d: movzx eax, word ptr [rip+0x4806]	1	4,5	0x406484	0x5
+Instruction 0x401d8a: sub eax, edx	1	4,5	0x5;0x5
+Instruction 0x401d8c: mov word ptr [rip+0x47f7], ax	1	4,5	0x406484	0x0
+Instruction 0x401da4: movzx eax, byte ptr [rip+0x46d9]	1	4	0x406484	0x0
+Instruction 0x401dab: movzx eax, al	1	4	0x406484	0x0
+Instruction 0x401dae: shl eax, 0x8	1	4	0x0
+Instruction 0x401db1: mov word ptr [rbp-0xb2], ax	1	4	0x406484	0x0
+Instruction 0x401db8: movzx eax, byte ptr [rip+0x46c6]	1	5	0x406485	0x6
+Instruction 0x401dbf: movzx eax, al	1	5	0x406485	0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4;5	0x0;0x6
+Instruction 0x401dc2: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401dd3: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401dda: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnl 0x401e02
+Instruction 0x401ddd: cmp eax, edx	1	;4,5	0xc;0xc
+Instruction 0x401e0c: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x406484	0x6
+Instruction 0x401e13: add edx, 0x6	1	4,5	0x6
+CMP+JUMP-Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+CMP+JUMP_NEXT-Instruction : jnz 0x401bea
+Instruction 0x401e16: cmp eax, edx	1	;4,5	0xc;0xc
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,401e28)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Function	1	enter	eMBTCPReceive	(402543,4025fe,402376)
+Function	1	enter	xMBTCPPortGetRequest	(401e4b,401e88,402580)
+Function	1	exit 	xMBTCPPortGetRequest
+Instruction 0x40258c: movzx eax, byte ptr [rax]	1	2	0x406482	0x0
+Instruction 0x40258f: movzx eax, al	1	2	0x406482	0x0
+Instruction 0x402592: shl eax, 0x8	1	2	0x0
+Instruction 0x402595: mov word ptr [rbp-0x16], ax	1	2	0x406482	0x0
+Instruction 0x4025a1: movzx eax, byte ptr [rax]	1	3	0x406483	0x0
+Instruction 0x4025a4: movzx eax, al	1	3	0x406483	0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2;3	0x0;0x0
+Instruction 0x4025a7: or word ptr [rbp-0x16], ax	1	2,3	0x0
+CMP+JUMP-Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+CMP+JUMP_NEXT-Instruction : jnz 0x4025e6
+Instruction 0x4025ab: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+Function	1	exit 	eMBTCPReceive
+Function	1	enter	xMBPortEventPost	(4018c7,4018e4,4023ae)
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	exit 	xMBPortEventGet
+Instruction 0x4023ba: movzx eax, byte ptr [rax]	1	7	0x406487	0x2
+Instruction 0x4023bd: mov byte ptr [rip+0x420f], al	1	7	0x406487	0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x11;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x11;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x4;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x4;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x3;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x3;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x10;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x10;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x6;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x6;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x17;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x17;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x1;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x1;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x5;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x5;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0xf;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0xf;0x2
+Instruction 0x4023fe: movzx eax, byte ptr [rip+0x41cd]	1	7	0x406487	0x2
+CMP+JUMP-Instruction 0x402405: cmp dl, al	1	;7	0x2;0x2
+CMP+JUMP_NEXT-Instruction : jnz 0x402434
+Instruction 0x402405: cmp dl, al	1	;7	0x2;0x2
+Function	1	enter	eMBFuncReadDiscreteInputs	(403155,4032bf,40242c)
+Instruction 0x403185: movzx eax, byte ptr [rax]	1	8	0x406488	0x0
+Instruction 0x403188: movzx eax, al	1	8	0x406488	0x0
+Instruction 0x40318b: shl eax, 0x8	1	8	0x0
+Instruction 0x40318e: mov word ptr [rbp-0x14], ax	1	8	0x406488	0x0
+Instruction 0x40319a: movzx eax, byte ptr [rax]	1	9	0x406489	0x0
+Instruction 0x40319d: movzx eax, al	1	9	0x406489	0x0
+Instruction 0x4031a0: or word ptr [rbp-0x14], ax	1	8;9	0x0;0x0
+Instruction 0x4031a0: or word ptr [rbp-0x14], ax	1	8,9	0x0
+Instruction 0x4031a4: movzx eax, word ptr [rbp-0x14]	1	8,9	0x406488	0x0
+Instruction 0x4031a8: add eax, 0x1	1	8,9	0x0
+Instruction 0x4031ab: mov word ptr [rbp-0x14], ax	1	8,9	0x406488	0x1
+Instruction 0x4031b7: movzx eax, byte ptr [rax]	1	10	0x40648a	0x0
+Instruction 0x4031ba: movzx eax, al	1	10	0x40648a	0x0
+Instruction 0x4031bd: shl eax, 0x8	1	10	0x0
+Instruction 0x4031c0: mov word ptr [rbp-0x12], ax	1	10	0x40648a	0x0
+Instruction 0x4031cc: movzx eax, byte ptr [rax]	1	11	0x40648b	0xa
+Instruction 0x4031cf: movzx eax, al	1	11	0x40648b	0xa
+Instruction 0x4031d2: or word ptr [rbp-0x12], ax	1	10;11	0x0;0xa
+Instruction 0x4031d2: or word ptr [rbp-0x12], ax	1	10,11	0x0
+CMP+JUMP-Instruction 0x4031d6: cmp word ptr [rbp-0x12], 0x0	1	10,11	0xa
+CMP+JUMP_NEXT-Instruction : jz 0x4032ab
+Instruction 0x4031d6: cmp word ptr [rbp-0x12], 0x0	1	10,11	0xa
+CMP+JUMP-Instruction 0x4031e1: cmp word ptr [rbp-0x12], 0x7cf	1	10,11	0xa
+CMP+JUMP_NEXT-Instruction : jnbe 0x4032ab
+Instruction 0x4031e1: cmp word ptr [rbp-0x12], 0x7cf	1	10,11	0xa
+Instruction 0x40321e: movzx eax, word ptr [rbp-0x12]	1	10,11	0x40648a	0xa
+unhandle mask 7
+Instruction 0x403222: and eax, 0x7	1	10,11	0xa
+Instruction 0x403225: test eax, eax	1	10,11;10,11	0x2;0x2
+Instruction 0x403229: movzx eax, word ptr [rbp-0x12]	1	10,11	0x40648a	0xa
+Instruction 0x40322d: shr ax, 0x3	1	10,11	0xa
+Instruction 0x403231: add eax, 0x1	1	10,11	0x1
+Instruction 0x403234: mov byte ptr [rbp-0x15], al	1	11	0x40648b	0x2
+Instruction 0x403250: movzx edx, byte ptr [rbp-0x15]	1	11	0x40648b	0x2
+Instruction 0x403254: mov byte ptr [rax], dl	1	11	0x40648b	0x2
+Instruction 0x403267: movzx edx, word ptr [rbp-0x12]	1	10,11	0x40648a	0xa
+Instruction 0x40326b: movzx ecx, word ptr [rbp-0x14]	1	8,9	0x406488	0x1
+Instruction 0x403273: mov esi, ecx	1	8,9	0x406488	0x1
+Function	1	enter	eMBRegDiscreteCB	(40175b,401775,40327d)
+Instruction 0x401763: mov ecx, esi	1	8,9	0x406488	0x1
+Instruction 0x401765: mov eax, edx	1	10,11	0x40648a	0xa
+Instruction 0x401767: mov word ptr [rbp-0xc], cx	1	8,9	0x406488	0x1
+Instruction 0x40176b: mov word ptr [rbp-0x10], ax	1	10,11	0x40648a	0xa
+Function	1	exit 	eMBRegDiscreteCB
+Function	1	enter	prveMBError2Exception	(403484,4034c6,403290)
+Function	1	exit 	prveMBError2Exception
+Function	1	exit 	eMBFuncReadDiscreteInputs
+Instruction 0x402481: movzx edx, byte ptr [rip+0x414a]	1	7	0x406487	0x2
+Instruction 0x402488: or edx, 0xffffff80	1	7	0x2
+Instruction 0x40248b: mov byte ptr [rax], dl	1	7	0x406487	0x82
+Function	1	enter	eMBTCPSend	(4025ff,40267a,4024d9)
+Function	1	enter	xMBTCPPortSendResponse	(401e89,401f3b,40266b)
+Function	1	enter	send@plt	(401090,40109b,401edb)
+Function	1	exit 	xMBTCPPortSendResponse
+Function	1	exit 	eMBTCPSend
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401c8b)
+Function	1	enter	recv@plt	(401030,40103b,401d2c)
+recv_point taint
+Taint	(0x406480, 0)
+Function	1	enter	close@plt	(4010e0,4010eb,401d51)
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(40150c,401535,4014ee)
+Function	1	enter	pthread_mutex_lock@plt	(401180,40118b,40151e)
+Function	1	enter	pthread_mutex_unlock@plt	(401130,40113b,401531)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(4022fa,4024ff,4014e5)
+Function	1	enter	xMBPortEventGet	(4018e5,401923,402338)
+Function	1	enter	xMBPortTCPPool	(401b30,401e4a,40191e)
+Function	1	enter	select@plt	(401120,40112b,401b90)

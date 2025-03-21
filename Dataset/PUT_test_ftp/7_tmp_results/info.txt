@@ -1,0 +1,48 @@
+Taint	(0x7efb03dfecb0, a)
+CMP+JUMP-Instruction 0x607889471cd6: cmp byte ptr [rax], 0xd	2	8	0xd
+CMP+JUMP_NEXT-Instruction : jz 0x607889471d18
+Instruction 0x607889471cd6: cmp byte ptr [rax], 0xd	2	8	0xd
+CMP+JUMP-Instruction 0x607889471d18: cmp byte ptr [rbp+rbx*1-0x1], 0xa	2	9	0xa
+CMP+JUMP_NEXT-Instruction : jnz 0x607889471cdb
+Instruction 0x607889471d18: cmp byte ptr [rbp+rbx*1-0x1], 0xa	2	9	0xa
+Function	2	exit 	recvcmd.part.0
+Instruction 0x607889475923: movzx ebp, byte ptr [rsp+0x60d0]	2	0	0x7efb03dfecb0	0x4d
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	1	0x7efb03dfecb1	0x4b
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	2	0x7efb03dfecb2	0x44
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	3	0x7efb03dfecb3	0x20
+Instruction 0x607889475994: movzx ebp, byte ptr [r12+rax*1]	2	4	0x7efb03dfecb4	0x74
+Function	2	enter	ftpMKD	(607889473ed0,6078894740e8,6078894759fe)
+Function	2	enter	ftp_effective_path	(607889471ac0,607889471c6b,607889473f1e)
+CMP+JUMP-Instruction 0x607889471b2e: cmp byte ptr [r12], 0x2f	2	4	0x74
+CMP+JUMP_NEXT-Instruction : jz 0x607889471bb8
+Instruction 0x607889471b2e: cmp byte ptr [r12], 0x2f	2	4	0x74
+Function	2	enter	ftp_normalize_path.part.0	(6078894717f0,607889471a2c,607889471b7f)
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	exit 	ftp_normalize_path.part.0
+Function	2	enter	ftp_normalize_path.part.0	(6078894717f0,607889471a2c,607889471c1d)
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	enter	x_malloc	(607889477be0,607889477c1c,6078894719c9)
+Function	2	exit 	x_malloc
+Function	2	exit 	ftp_normalize_path.part.0
+Function	2	exit 	ftp_effective_path
+Function	2	enter	writelogentry	(607889472e10,607889472f96,607889473f62)
+Function	2	exit 	writelogentry
+Function	2	exit 	ftpMKD
+Function	2	enter	writelogentry	(607889472e10,607889472f96,607889475b12)
+Function	2	exit 	writelogentry
+Function	2	enter	recvcmd.part.0	(607889471c90,607889471d27,60788947591b)
+recv_point taint

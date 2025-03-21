@@ -1,0 +1,25 @@
+Taint	(0x7a187b5d2010, 4a)
+CMP+JUMP-Instruction 0x5cf9285b0a5e: cmp word ptr [rbx], 0x4547	0	0	0x4548
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0de8
+Instruction 0x5cf9285b0a5e: cmp word ptr [rbx], 0x4547	0	0	0x4548
+Instruction 0x5cf9285b0a69: cmp dword ptr [rbx], 0x54534f50	0	0	0x44414548
+Function	0	exit 	_mwProcessReadSocket
+Function	0	enter	_mwCloseSocket.part.0	(5cf9285ac250,5cf9285ac4ee,5cf9285b174c)
+Function	0	exit 	_mwCloseSocket.part.0
+Function	0	enter	MiniWebQuit	(5cf9285b3080,5cf9285b3186,7a187c626090)
+Function	0	enter	mwServerShutdown	(5cf9285ac740,5cf9285ac853,5cf9285b30f2)
+LOOP	5cf9285ac790	16
+LOOP	5cf9285ac7a6	8
+Function	0	exit 	mwServerShutdown
+Function	0	enter	UninitSocket	(5cf9285abf60,5cf9285abf64,5cf9285b3105)
+Function	0	exit 	UninitSocket
+Function	0	exit 	MiniWebQuit
+LOOP	5cf9285b1490	1a
+LOOP	5cf9285b14aa	9
+LOOP	5cf9285b14f8	10
+LOOP	5cf9285b14fb	d
+LOOP	5cf9285b1508	10
+Function	0	enter	onShutdown	(5cf9285b2df0,5cf9285b2df4,5cf9285b158a)
+Function	0	exit 	onShutdown
+Function	0	exit 	mwHttpLoop
+Function	0	exit 	main

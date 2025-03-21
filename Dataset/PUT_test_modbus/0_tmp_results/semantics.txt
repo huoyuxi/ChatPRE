@@ -1,0 +1,6 @@
+===============SEMANTIC===================
+sizeofTaint: 12
+
+Length:	4,5
+	None
+	None

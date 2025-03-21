@@ -1,0 +1,18 @@
+===============SEMANTIC===================
+sizeofTaint: 74
+
+field-to-constantcmp
+	0:{'0x4547', '0x54534f50'}
+ 
+constantcmp-to-field
+	0x4547:['0']
+	0x54534f50:['0']
+ 
+cmp_true
+Polyglot_Separator:[]
+KEYWORDs:
+collect:[]
+Polyglot_keyword:	[]
+
+	None
+	None

@@ -1,0 +1,4 @@
+assembly not taint included : imul edx 54 56
+assembly not taint included : mul edx 54 56
+assembly not taint included : idiv edi 45 56
+assembly not taint included : div rsi 4 10

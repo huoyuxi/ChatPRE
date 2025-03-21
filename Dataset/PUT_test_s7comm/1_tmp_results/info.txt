@@ -1,0 +1,2072 @@
+Taint	(0x740c58000ce4, 7)
+Function	2	exit 	TMsgSocket::RecvPacket(void*, int)
+Instruction 0x740c61a7d434: movzx edx, byte ptr [rbx+0x189]	2	5	0x740c58000ce9	0xf0
+CMP+JUMP-Instruction 0x740c61a7d43b: cmp dl, 0xe0	2	5	0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d510
+Instruction 0x740c61a7d43b: cmp dl, 0xe0	2	5	0xf0
+CMP+JUMP-Instruction 0x740c61a7d444: cmp dl, 0xf0	2	5	0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d488
+Instruction 0x740c61a7d444: cmp dl, 0xf0	2	5	0xf0
+Instruction 0x740c61a7d488: movzx eax, byte ptr [rbx+0x18a]	2	6	0x740c58000cea	0x80
+Instruction 0x740c61a7d48f: shr al, 0x7	2	6	0x80
+Instruction 0x740c61a7d492: mov byte ptr [r15], al	2	6	0x740c58000cea	0x1
+Instruction 0x740c61a7d49b: mov byte ptr [rsp+0x8], dl	2	5	0x740c58000ce9	0xf0
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(740c61a78630,740c61a7863b,740c61a7d4a4)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(740c61a7cf00,740c61a7cf0d,740c61a7d4a4)
+Instruction 0x740c61a7cf00: movzx eax, byte ptr [rsi+0x2]	2	2	0x740c58000ce6	0x0
+Instruction 0x740c61a7cf04: movzx edx, byte ptr [rsi+0x3]	2	3	0x740c58000ce7	0x1f
+Instruction 0x740c61a7cf08: shl eax, 0x8	2	2	0x0
+Instruction 0x740c61a7cf0b: add eax, edx	2	2;3	0x0;0x1f
+Instruction 0x740c61a7cf0b: add eax, edx	2	2,3	0x0
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x740c61a7d4a4: movzx edx, byte ptr [rsp+0x8]	2	5	0x740c58000ce9	0xf0
+Instruction 0x740c61a7d4af: mov r15d, eax	2	2,3	0x740c58000ce6	0x1f
+Function	2	enter	TIsoTcpSocket::CheckPDU(void*, unsigned char)@plt	(740c61a785a0,740c61a785ab,740c61a7d4b7)
+Function	2	enter	TIsoTcpSocket::CheckPDU(void*, unsigned char)	(740c61a7cf10,740c61a7cf9d,740c61a7d4b7)
+Instruction 0x740c61a7cf29: mov r12d, edx	2	5	0x740c58000ce9	0xf0
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7cf31)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7cf31)
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(740c61a78630,740c61a7863b,740c61a7cf41)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(740c61a7cf00,740c61a7cf0d,740c61a7cf41)
+Instruction 0x740c61a7cf00: movzx eax, byte ptr [rsi+0x2]	2	2	0x740c58000ce6	0x0
+Instruction 0x740c61a7cf04: movzx edx, byte ptr [rsi+0x3]	2	3	0x740c58000ce7	0x1f
+Instruction 0x740c61a7cf08: shl eax, 0x8	2	2	0x0
+Instruction 0x740c61a7cf0b: add eax, edx	2	2;3	0x0;0x1f
+Instruction 0x740c61a7cf0b: add eax, edx	2	2,3	0x0
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x740c61a7cf41: sub eax, 0x7	2	2,3	0x1f
+CMP+JUMP-Instruction 0x740c61a7cf44: cmp eax, 0xff9	2	2,3	0x18
+CMP+JUMP_NEXT-Instruction : jnbe 0x740c61a7cf57
+Instruction 0x740c61a7cf44: cmp eax, 0xff9	2	2,3	0x18
+CMP+JUMP-Instruction 0x740c61a7cf4b: cmp byte ptr [rbx+0x4], 0x1	2	4	0x2
+CMP+JUMP_NEXT-Instruction : jbe 0x740c61a7cf57
+Instruction 0x740c61a7cf4b: cmp byte ptr [rbx+0x4], 0x1	2	4	0x2
+CMP+JUMP-Instruction 0x740c61a7cf51: cmp byte ptr [rbx+0x5], r12b	2	5;5	0xf0;0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7cf80
+Instruction 0x740c61a7cf51: cmp byte ptr [rbx+0x5], r12b	2	5;5	0xf0;0xf0
+Instruction 0x740c61a7cf80: xor eax, eax	2	2,3;2,3	0x18;0x18
+Function	2	exit 	TIsoTcpSocket::CheckPDU(void*, unsigned char)
+Instruction 0x740c61a7d4bb: sub r15d, 0x7	2	2,3	0x1f
+Instruction 0x740c61a7d4bf: test r15d, r15d	2	2,3;2,3	0x18;0x18
+CMP+JUMP-Instruction 0x740c61a7d4c4: cmp r15d, r13d	2	2,3	0x18;0x1000
+CMP+JUMP_NEXT-Instruction : jnle 0x740c61a7d530
+Instruction 0x740c61a7d4c4: cmp r15d, r13d	2	2,3	0x18;0x1000
+Instruction 0x740c61a7d4c9: mov edx, r15d	2	2,3	0x740c58000ce6	0x18
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)@plt	(740c61a78fe0,740c61a78feb,740c61a7d4d7)
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)	(740c61a7a0c0,740c61a7a16b,740c61a7d4d7)
+Instruction 0x740c61a7a0ca: mov ebp, edx	2	2,3	0x740c58000ce6	0x18
+Instruction 0x740c61a7a0de: mov esi, ebp	2	2,3	0x740c58000ce6	0x18
+Function	2	enter	TMsgSocket::WaitForData(int, int)@plt	(740c61a790e0,740c61a790eb,740c61a7a0e5)
+Function	2	enter	TMsgSocket::WaitForData(int, int)	(740c61a798e0,740c61a79984,740c61a7a0e5)
+Instruction 0x740c61a798e5: push rbp	2	2,3	0x740c58000ce6	0x18
+Instruction 0x740c61a798e6: mov ebp, esi	2	2,3	0x740c58000ce6	0x18
+Instruction 0x740c61a798e8: xor esi, esi	2	2,3;2,3	0x18;0x18
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a798f7)
+Function	2	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a798f7)
+Instruction 0x740c61a79800: push rbp	2	2,3	0x740c58000ce6	0x18
+Function	2	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	2	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	2	2,3	0x740c58000ce6	0x18
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79968)
+Function	2	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79968)
+Function	2	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	2	exit 	TMsgSocket::WaitingData()
+Function	2	enter	SysGetTick()@plt	(740c61a787a0,740c61a787ab,740c61a79907)
+Function	2	enter	SysGetTick()	(740c61a7a940,740c61a7a980,740c61a79907)
+Function	2	enter	clock_gettime@plt	(740c61a78fd0,740c61a78fdb,740c61a7a951)
+Function	2	exit 	SysGetTick()
+Function	2	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79912)
+Function	2	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79912)
+Function	2	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	2	exit 	TMsgSocket::WaitingData()
+Instruction 0x740c61a79912: cmp eax, ebp	2	;2,3	0x18;0x18
+Instruction 0x740c61a79923: pop rbp	2	2,3	0x740c58000ce6	0x18
+Function	2	exit 	TMsgSocket::WaitForData(int, int)
+Function	2	enter	recv@plt	(740c61a77cc0,740c61a77ccb,740c61a7a0ff)
+recv_point taint
+Taint	(0x740c58000ceb, 18)
+Function	2	exit 	TMsgSocket::RecvPacket(void*, int)
+Instruction 0x740c61a7d4e0: mov dword ptr [r12], r15d	2	2,3	0x740c58000ce6	0x18
+Function	2	exit 	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+CMP+JUMP-Instruction 0x740c61a7d5c8: cmp byte ptr [rsp+0x10], 0x0	2	6	0x1
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d610
+Instruction 0x740c61a7d5c8: cmp byte ptr [rsp+0x10], 0x0	2	6	0x1
+Instruction 0x740c61a7d5cf: add ebp, dword ptr [rsp+0x20]	2	;2,3	0x0;0x18
+Function	2	exit 	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Function	2	enter	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)@plt	(740c61a78b00,740c61a78b0b,740c61a80055)
+Function	2	enter	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)	(740c61a7d7e0,740c61a7d8a5,740c61a80055)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(740c61a78630,740c61a7863b,740c61a7d7f9)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(740c61a7cf00,740c61a7cf0d,740c61a7d7f9)
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x740c61a7d803: movzx eax, byte ptr [rbx+0x5]	2	5	0x740c58000ce9	0xf0
+CMP+JUMP-Instruction 0x740c61a7d807: cmp al, 0xe0	2	5	0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d890
+Instruction 0x740c61a7d807: cmp al, 0xe0	2	5	0xf0
+CMP+JUMP-Instruction 0x740c61a7d80f: cmp al, 0xf0	2	5	0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d870
+Instruction 0x740c61a7d80f: cmp al, 0xf0	2	5	0xf0
+Function	2	exit 	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(740c61a78630,740c61a7863b,740c61a800c3)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(740c61a7cf00,740c61a7cf0d,740c61a800c3)
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Function	2	enter	TS7Worker::IsoPerformCommand(int&)	(740c61a84fa0,740c61a8506c,740c61a800d8)
+Function	2	enter	TS7Worker::CheckPDU_in(int)@plt	(740c61a77ce0,740c61a77ceb,740c61a84fbf)
+Function	2	enter	TS7Worker::CheckPDU_in(int)	(740c61a80210,740c61a8029f,740c61a84fbf)
+Instruction 0x740c61a8023c: movzx esi, word ptr [rax+0x6]	2	13,14	0x740c58000cf1	0xe00
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a80245)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a80245)
+Instruction 0x740c61a79410: mov eax, esi	2	13,14	0x740c58000cf1	0xe00
+Instruction 0x740c61a79412: rol ax, 0x8	2	13,14	0xe00
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x740c61a80245: movzx r13d, ax	2	13,14	0x740c58000cf1	0xe
+Instruction 0x740c61a80253: movzx esi, word ptr [rax+0x8]	2	15,16	0x740c58000cf3	0x0
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a8025c)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a8025c)
+Instruction 0x740c61a79410: mov eax, esi	2	15,16	0x740c58000cf3	0x0
+Instruction 0x740c61a79412: rol ax, 0x8	2	15,16	0x0
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x740c61a8025c: movzx eax, ax	2	15,16	0x740c58000cf3	0x0
+Instruction 0x740c61a80264: xor eax, eax	2	15,16;15,16	0x0;0x0
+Instruction 0x740c61a80272: movzx edx, byte ptr [rax+0x1]	2	8	0x740c58000cec	0x1
+Instruction 0x740c61a80276: cmp dl, 0x7	2	8	0x1
+Instruction 0x740c61a8027c: cmp dl, 0x1	2	8	0x1
+Function	2	exit 	TS7Worker::CheckPDU_in(int)
+Instruction 0x740c61a84fca: movzx eax, byte ptr [rax+0x1]	2	8	0x740c58000cec	0x1
+CMP+JUMP-Instruction 0x740c61a84fce: cmp al, 0x1	2	8	0x1
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a85058
+Instruction 0x740c61a84fce: cmp al, 0x1	2	8	0x1
+Function	2	enter	TS7Worker::PerformPDURequest(int&)@plt	(740c61a78070,740c61a7807b,740c61a800d8)
+Function	2	enter	TS7Worker::PerformPDURequest(int&)	(740c61a84ef0,740c61a84f8c,740c61a800d8)
+Instruction 0x740c61a84efb: movzx eax, byte ptr [rax+0xa]	2	17	0x740c58000cf5	0x4
+CMP+JUMP-Instruction 0x740c61a84eff: cmp al, 0x1f	2	17	0x4
+CMP+JUMP_NEXT-Instruction : jnbe 0x740c61a84f10
+Instruction 0x740c61a84eff: cmp al, 0x1f	2	17	0x4
+CMP+JUMP-Instruction 0x740c61a84f03: cmp al, 0x1d	2	17	0x4
+CMP+JUMP_NEXT-Instruction : jb 0x740c61a84f50
+Instruction 0x740c61a84f03: cmp al, 0x1d	2	17	0x4
+CMP+JUMP-Instruction 0x740c61a84f50: cmp al, 0x5	2	17	0x4
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a84f78
+Instruction 0x740c61a84f50: cmp al, 0x5	2	17	0x4
+CMP+JUMP-Instruction 0x740c61a84f54: cmp al, 0x1a	2	17	0x4
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a84f88
+Instruction 0x740c61a84f54: cmp al, 0x1a	2	17	0x4
+CMP+JUMP-Instruction 0x740c61a84f58: cmp al, 0x4	2	17	0x4
+CMP+JUMP_NEXT-Instruction : jnz 0x740c61a84f14
+Instruction 0x740c61a84f58: cmp al, 0x4	2	17	0x4
+Function	2	enter	TS7Worker::PerformFunctionRead()@plt	(740c61a778b0,740c61a778bb,740c61a800d8)
+Function	2	enter	TS7Worker::PerformFunctionRead()	(740c61a843a0,740c61a84606,740c61a800d8)
+Instruction 0x740c61a843ce: mov eax, dword ptr [rdi+0x21e8]	2	23,24	0x740c58000cfb	0x1e0
+Instruction 0x740c61a843d4: movzx r12d, byte ptr [r13+0xb]	2	18	0x740c58000cf6	0x1
+Instruction 0x740c61a843d9: mov dword ptr [rsp+0x30], eax	2	23,24	0x740c58000cfb	0x1e0
+CMP+JUMP-Instruction 0x740c61a843e0: cmp r12b, 0x14	2	18	0x1
+CMP+JUMP_NEXT-Instruction : jbe 0x740c61a84550
+Instruction 0x740c61a843e0: cmp r12b, 0x14	2	18	0x1
+Instruction 0x740c61a84550: test r12d, r12d	2	18;18	0x1;0x1
+Instruction 0x740c61a8455a: cmp r12d, 0x1	2	18	0x1
+Function	2	enter	TS7Worker::ReadArea(TResFunReadItem*, TReqFunReadItem*, int&, TEv&)@plt	(740c61a78020,740c61a7802b,740c61a8458f)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	enter	TS7Worker::ReadArea(TResFunReadItem*, TReqFunReadItem*, int&, TEv&)	(740c61a83f30,740c61a8439b,740c61a8458f)
+Instruction 0x740c61a83f3d: mov qword ptr [rsp-0x20], r12	2	18	0x740c58000cf6	0x1
+Instruction 0x740c61a83f79: movzx eax, byte ptr [rdx+0x8]	2	27	0x740c58000cff	0x83
+Instruction 0x740c61a83f80: mov word ptr [r8+0x2], ax	2	27	0x740c58000cff	0x83
+Instruction 0x740c61a83f85: xor eax, eax	2	27;27	0x83;0x83
+CMP+JUMP-Instruction 0x740c61a83f87: cmp byte ptr [rdx+0x8], 0x84	2	27	0x83
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a84250
+Instruction 0x740c61a83f87: cmp byte ptr [rdx+0x8], 0x84	2	27	0x83
+Instruction 0x740c61a83fa5: movzx esi, byte ptr [rbp+0x8]	2	27	0x740c58000cff	0x83
+Function	2	enter	TS7Worker::GetArea(unsigned char, unsigned short)@plt	(740c61a783a0,740c61a783ab,740c61a83fb4)
+Function	2	enter	TS7Worker::GetArea(unsigned char, unsigned short)	(740c61a835e0,740c61a8367e,740c61a83fb4)
+CMP+JUMP-Instruction 0x740c61a835e0: cmp sil, 0x81	2	27	0x83
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a83670
+Instruction 0x740c61a835e0: cmp sil, 0x81	2	27	0x83
+CMP+JUMP-Instruction 0x740c61a835ec: cmp sil, 0x83	2	27	0x83
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a83660
+Instruction 0x740c61a835ec: cmp sil, 0x83	2	27	0x83
+Function	2	exit 	TS7Worker::GetArea(unsigned char, unsigned short)
+Instruction 0x740c61a842f3: mov r12, qword ptr [rsp+0x48]	2	18	0x740c58000cf6	0x1
+Function	2	enter	TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)@plt	(740c61a77fb0,740c61a77fbb,740c61a8458f)
+Function	2	enter	TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)	(740c61a80400,740c61a80443,740c61a8458f)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a80422)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a80422)
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Function	2	exit 	TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)
+Instruction 0x740c61a844aa: movzx eax, word ptr [rax+0x4]	2	11,12	0x740c58000cef	0x1
+Instruction 0x740c61a844cb: mov word ptr [rsp+0x54], ax	2	11,12	0x740c58000cef	0x1
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a844d5)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a844d5)
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a844eb)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a844eb)
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x740c61a844f0: movzx eax, byte ptr [r13+0xa]	2	17	0x740c58000cf5	0x4
+Instruction 0x740c61a84500: mov byte ptr [rsp+0x5c], al	2	17	0x740c58000cf5	0x4
+Instruction 0x740c61a84504: movzx eax, byte ptr [r13+0xb]	2	18	0x740c58000cf6	0x1
+Instruction 0x740c61a84509: mov byte ptr [rsp+0x5d], al	2	18	0x740c58000cf6	0x1
+Function	2	enter	TIsoTcpSocket::isoSendBuffer(void*, int)@plt	(740c61a78cd0,740c61a78cdb,740c61a84512)
+Function	2	enter	TIsoTcpSocket::isoSendBuffer(void*, int)	(740c61a7d170,740c61a7d25d,740c61a84512)
+Instruction 0x740c61a7d181: mov qword ptr [rsp-0x10], r12	2	18	0x740c58000cf6	0x1
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7d195)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7d195)
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	memcpy@plt	(740c61a79060,740c61a7906b,740c61a7d1f5)
+Function	2	enter	TMsgSocket::SendPacket(void*, int)@plt	(740c61a779f0,740c61a779fb,740c61a7d207)
+Function	2	enter	TMsgSocket::SendPacket(void*, int)	(740c61a79f60,740c61a79fe7,740c61a7d207)
+Function	2	enter	TMsgSocket::CanWrite(int)@plt	(740c61a78f80,740c61a78f8b,740c61a79f8f)
+Function	2	enter	TMsgSocket::CanWrite(int)	(740c61a79720,740c61a797f6,740c61a79f8f)
+Function	2	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79782)
+Function	2	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a797b4)
+Function	2	exit 	TMsgSocket::CanWrite(int)
+Function	2	enter	send@plt	(740c61a78930,740c61a7893b,740c61a79fcb)
+Function	2	exit 	TMsgSocket::SendPacket(void*, int)
+Instruction 0x740c61a7d21a: mov r12, qword ptr [rsp+0x18]	2	18	0x740c58000cf6	0x1
+Function	2	exit 	TIsoTcpSocket::isoSendBuffer(void*, int)
+CMP+JUMP-Instruction 0x740c61a84512: cmp r12d, 0x1	2	18	0x1
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a845d0
+Instruction 0x740c61a84512: cmp r12d, 0x1	2	18	0x1
+Instruction 0x740c61a845e6: movzx ecx, word ptr [rsp+0x42]	2	27	0x740c58000cff	0x83
+Function	2	enter	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)@plt	(740c61a78ba0,740c61a78bab,740c61a845fb)
+Function	2	enter	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(740c61a80380,740c61a803c0,740c61a845fb)
+Instruction 0x740c61a803a8: movzx r8d, cx	2	27	0x740c58000cff	0x83
+Function	2	enter	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(740c61a7ac80,740c61a7adad,740c61a803bc)
+Instruction 0x740c61a7ac88: mov qword ptr [rsp-0x18], r12	2	18	0x740c58000cf6	0x1
+Instruction 0x740c61a7ad08: mov dword ptr [rsp+0x10], r8d	2	27	0x740c58000cff	0x83
+Function	2	enter	pthread_mutex_lock@plt	(740c61a78df0,740c61a78dfb,740c61a7ad17)
+Function	2	enter	time@plt	(740c61a79170,740c61a7917b,740c61a7ad21)
+Instruction 0x740c61a7ad30: mov r8d, dword ptr [rsp+0x10]	2	27	0x740c58000cff	0x83
+Instruction 0x740c61a7ad4d: mov word ptr [rsp+0x42], r8w	2	27	0x740c58000cff	0x83
+Function	2	enter	TMsgEventQueue::Insert(void*)@plt	(740c61a77f00,740c61a77f0b,740c61a7ad9e)
+Function	2	enter	TMsgEventQueue::Insert(void*)	(740c61a7ac20,740c61a7ac7e,740c61a7ad9e)
+Function	2	enter	TMsgEventQueue::Full()@plt	(740c61a77d20,740c61a77d2b,740c61a7ac39)
+Function	2	enter	TMsgEventQueue::Full()	(740c61a7abf0,740c61a7ac11,740c61a7ac39)
+Function	2	exit 	TMsgEventQueue::Full()
+Function	2	enter	memcpy@plt	(740c61a79060,740c61a7906b,740c61a7ad9e)
+Function	2	enter	pthread_mutex_unlock@plt	(740c61a79030,740c61a7903b,740c61a7ad88)
+Instruction 0x740c61a7acdf: mov r12, qword ptr [rsp+0x60]	2	18	0x740c58000cf6	0x1
+Function	2	exit 	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Function	2	exit 	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Function	2	exit 	TS7Worker::PerformFunctionRead()
+Function	2	exit 	TIsoTcpWorker::ExecuteRecv()
+Function	2	enter	TIsoTcpWorker::Execute()	(740c61a80120,740c61a80143,740c61a7b55a)
+Function	2	enter	TIsoTcpWorker::ExecuteSend()	(740c61a7ffd0,740c61a7ffd5,740c61a8012a)
+Function	2	exit 	TIsoTcpWorker::ExecuteSend()
+Function	2	enter	TS7Worker::ExecuteRecv()	(740c61a80100,740c61a80110,740c61a7b55a)
+Function	2	enter	TIsoTcpWorker::ExecuteRecv()@plt	(740c61a788c0,740c61a788cb,740c61a7b55a)
+Function	2	enter	TIsoTcpWorker::ExecuteRecv()	(740c61a7fff0,740c61a800fb,740c61a7b55a)
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a80009)
+Function	2	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a80009)
+Function	2	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	2	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)@plt	(740c61a78eb0,740c61a78ebb,740c61a8003a)
+Function	2	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)	(740c61a7d540,740c61a7d660,740c61a8003a)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7d576)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7d576)
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)@plt	(740c61a77e20,740c61a77e2b,740c61a7d59e)
+Function	2	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)	(740c61a7d3d0,740c61a7d535,740c61a7d59e)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7d417)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7d417)
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)@plt	(740c61a78fe0,740c61a78feb,740c61a7d427)
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)	(740c61a7a0c0,740c61a7a16b,740c61a7d427)
+Function	2	enter	TMsgSocket::WaitForData(int, int)@plt	(740c61a790e0,740c61a790eb,740c61a7a0e5)
+Function	2	enter	TMsgSocket::WaitForData(int, int)	(740c61a798e0,740c61a79984,740c61a7a0e5)
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a798f7)
+Function	2	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a798f7)
+Function	2	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	2	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79968)
+Function	2	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79968)
+Function	2	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	2	exit 	TMsgSocket::WaitingData()
+Function	2	exit 	TMsgSocket::WaitForData(int, int)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	exit 	TMsgSocket::RecvPacket(void*, int)
+Function	2	enter	TIsoTcpSocket::SetIsoError(int)@plt	(740c61a78380,740c61a7838b,740c61a7d59e)
+Function	2	enter	TIsoTcpSocket::SetIsoError(int)	(740c61a7cd70,740c61a7cd7b,740c61a7d59e)
+Function	2	exit 	TIsoTcpSocket::SetIsoError(int)
+Function	2	exit 	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Function	2	exit 	TIsoTcpWorker::ExecuteRecv()
+Function	2	enter	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(740c61a7ac80,740c61a7adad,740c61a7b54c)
+Function	2	enter	pthread_mutex_lock@plt	(740c61a78df0,740c61a78dfb,740c61a7ad17)
+Function	2	enter	time@plt	(740c61a79170,740c61a7917b,740c61a7ad21)
+Function	2	enter	EventCallBack(void*, TSrvEvent*, int)	(56874edba3e0,56874edba43f,740c61a7ad7a)
+Function	2	enter	SrvEventText[abi:cxx11](TSrvEvent*)	(56874edbb6c0,56874edbb83b,56874edba401)
+Function	2	enter	Srv_EventText	(740c61a912a0,740c61a91328,56874edbb6fd)
+Function	2	enter	EvtSrvText(TSrvEvent&)@plt	(740c61a789a0,740c61a789ab,740c61a912c6)
+Function	2	enter	EvtSrvText(TSrvEvent&)	(740c61a88170,740c61a8a750,740c61a912c6)
+Function	2	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a89774)
+Function	2	enter	SenderText(TSrvEvent&) (.isra.6)	(740c61a868b0,740c61a86b05,740c61a885a3)
+Function	2	enter	IpAddressToString(int)@plt	(740c61a77fd0,740c61a77fdb,740c61a868d2)
+Function	2	enter	IpAddressToString(int)	(740c61a86840,740c61a868a4,740c61a868d2)
+Function	2	enter	inet_ntoa@plt	(740c61a78710,740c61a7871b,740c61a86866)
+Function	2	enter	strlen@plt	(740c61a780d0,740c61a780db,740c61a86871)
+Function	2	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a8687f)
+Function	2	exit 	IpAddressToString(int)
+Function	2	enter	TimeToString(long)@plt	(740c61a78600,740c61a7860b,740c61a868e0)
+Function	2	enter	TimeToString(long)	(740c61a866d0,740c61a86837,740c61a868e0)
+Function	2	enter	localtime@plt	(740c61a78e90,740c61a78e9b,740c61a8671e)
+Function	2	enter	strftime@plt	(740c61a78f50,740c61a78f5b,740c61a86743)
+Function	2	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a86791)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a8679c)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86811)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	exit 	TimeToString(long)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a868ef)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a86905)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a86917)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a86924)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a8692f)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a86943)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a6f)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a84)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a4b)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a60)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a27)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a3c)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a07)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a18)
+Function	2	exit 	SenderText(TSrvEvent&) (.isra.6)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a885b3)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a885be)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a89aaa)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a89abf)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a885f1)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a88606)
+Function	2	exit 	EvtSrvText(TSrvEvent&)
+Function	2	enter	strncpy@plt	(740c61a78be0,740c61a78beb,740c61a912dd)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.3)	(740c61a7922a,740c61a79243,740c61a91305)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.3)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a91316)
+Function	2	exit 	Srv_EventText
+Function	2	exit 	SrvEventText[abi:cxx11](TSrvEvent*)
+Function	2	exit 	EventCallBack(void*, TSrvEvent*, int)
+Function	2	enter	TMsgEventQueue::Insert(void*)@plt	(740c61a77f00,740c61a77f0b,740c61a7ad9e)
+Function	2	enter	TMsgEventQueue::Insert(void*)	(740c61a7ac20,740c61a7ac7e,740c61a7ad9e)
+Function	2	enter	TMsgEventQueue::Full()@plt	(740c61a77d20,740c61a77d2b,740c61a7ac39)
+Function	2	enter	TMsgEventQueue::Full()	(740c61a7abf0,740c61a7ac11,740c61a7ac39)
+Function	2	exit 	TMsgEventQueue::Full()
+Function	2	enter	memcpy@plt	(740c61a79060,740c61a7906b,740c61a7ad9e)
+Function	2	enter	pthread_mutex_unlock@plt	(740c61a79030,740c61a7903b,740c61a7ad88)
+Function	2	exit 	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Function	2	enter	TS7Worker::~TS7Worker()	(740c61a850e0,740c61a850fb,740c61a7b4f4)
+Function	2	enter	TIsoTcpSocket::~TIsoTcpSocket()@plt	(740c61a78340,740c61a7834b,740c61a850f7)
+Function	2	enter	TIsoTcpSocket::~TIsoTcpSocket()	(740c61a7ccd0,740c61a7ccde,740c61a850f7)
+Function	2	enter	TMsgSocket::~TMsgSocket()@plt	(740c61a78110,740c61a7811b,740c61a850f7)
+Function	2	enter	TMsgSocket::~TMsgSocket()	(740c61a7a770,740c61a7a7a9,740c61a850f7)
+Function	2	enter	TMsgSocket::DestroySocket()@plt	(740c61a78de0,740c61a78deb,740c61a7a787)
+Function	2	enter	TMsgSocket::DestroySocket()	(740c61a799c0,740c61a79a00,740c61a7a787)
+Function	2	enter	shutdown@plt	(740c61a778d0,740c61a778db,740c61a799d6)
+Function	2	enter	TMsgSocket::Purge()@plt	(740c61a77dd0,740c61a77ddb,740c61a79a00)
+Function	2	enter	TMsgSocket::Purge()	(740c61a79990,740c61a799b1,740c61a79a00)
+Function	2	exit 	TMsgSocket::Purge()
+Function	2	enter	close@plt	(740c61a77940,740c61a7794b,740c61a799e2)
+Function	2	exit 	TMsgSocket::DestroySocket()
+Function	2	enter	TPinger::~TPinger()@plt	(740c61a77d90,740c61a77d9b,740c61a7a798)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	_ZN7TPingerD2Ev	(740c61a79800,740c61a798d6,740c61a7aa34)
+Function	2	enter	TPinger::~TPinger()	(740c61a7a760,740c61a7a760,740c61a7a798)
+Function	2	exit 	TPinger::~TPinger()
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	enter	operator delete(void*)@plt	(740c61a77b10,740c61a77b1b,740c61a850f7)
+Function	2	enter	operator delete(void*)@plt	(740c61a77b10,740c61a77b1b,740c61a7b4f4)
+Function	2	enter	TCustomMsgServer::Delete(int)@plt	(740c61a780e0,740c61a780eb,740c61a7ba71)
+Function	2	enter	TCustomMsgServer::Delete(int)	(740c61a7b480,740c61a7b4ba,740c61a7ba71)
+Function	2	enter	TCustomMsgServer::LockList()@plt	(740c61a790c0,740c61a790cb,740c61a7b499)
+Function	2	enter	TCustomMsgServer::LockList()	(740c61a7b070,740c61a7b074,740c61a7b499)
+Function	2	enter	pthread_mutex_lock@plt	(740c61a78df0,740c61a78dfb,740c61a7b499)
+Function	2	enter	TCustomMsgServer::UnlockList()@plt	(740c61a78920,740c61a7892b,740c61a7ba71)
+Function	2	enter	TCustomMsgServer::UnlockList()	(740c61a7b080,740c61a7b084,740c61a7ba71)
+Function	2	enter	pthread_mutex_unlock@plt	(740c61a79030,740c61a7903b,740c61a7ba71)
+Function	2	enter	TMsgWorkerThread::~TMsgWorkerThread()	(740c61a7b9e0,740c61a7b9fb,740c61a7ba5c)
+Function	2	enter	TSnapThread::~TSnapThread()@plt	(740c61a78c90,740c61a78c9b,740c61a7b9f7)
+Function	2	enter	TSnapThread::~TSnapThread()	(740c61a7bba0,740c61a7bbc9,740c61a7b9f7)
+Function	2	exit 	TSnapThread::~TSnapThread()
+Function	2	enter	operator delete(void*)@plt	(740c61a77b10,740c61a77b1b,740c61a7ba5c)
+Function	2	enter	pthread_exit@plt	(740c61a78440,740c61a7844b,740c61a7ba63)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Instruction 0x740c61a79800: push rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Instruction 0x740c61a798aa: pop rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::CanRead(int)
+LOOP	740c61a7aa38	9
+Function	1	enter	TMsgSocket::SckAccept()@plt	(740c61a78700,740c61a7870b,740c61a7aa41)
+Function	1	enter	TMsgSocket::SckAccept()	(740c61a79f10,740c61a79f5b,740c61a7aa41)
+Instruction 0x740c61a79f15: mov qword ptr [rsp-0x8], rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	accept@plt	(740c61a78fb0,740c61a78fbb,740c61a79f34)
+Instruction 0x740c61a79f42: mov rbp, qword ptr [rsp+0x10]	1	2,3	0x740c58000ce6	0x0
+Function	1	exit 	TMsgSocket::SckAccept()
+LOOP	740c61a7aa41	e
+LOOP	740c61a7aa4f	a
+LOOP	740c61a7aa59	4
+LOOP	740c61a7aa5d	8
+Function	1	enter	TCustomMsgServer::Incoming(int)	(740c61a7b0c0,740c61a7b234,740c61a7aa65)
+Instruction 0x740c61a7b0c5: mov qword ptr [rsp-0x18], rbp	1	2,3	0x740c58000ce6	0x0
+Function	1	enter	Msg_GetSockAddr(int)@plt	(740c61a791e0,740c61a791eb,740c61a7b0e4)
+Function	1	enter	Msg_GetSockAddr(int)	(740c61a79440,740c61a7948b,740c61a7b0e4)
+Function	1	enter	getpeername@plt	(740c61a77b60,740c61a77b6b,740c61a7946b)
+Function	1	exit 	Msg_GetSockAddr(int)
+Function	1	enter	TCustomMsgServer::CanAccept(int)	(740c61a7a9f0,740c61a7aa08,740c61a7b0f2)
+Function	1	exit 	TCustomMsgServer::CanAccept(int)
+Function	1	enter	TCustomMsgServer::LockList()@plt	(740c61a790c0,740c61a790cb,740c61a7b102)
+Function	1	enter	TCustomMsgServer::LockList()	(740c61a7b070,740c61a7b074,740c61a7b102)
+Function	1	enter	pthread_mutex_lock@plt	(740c61a78df0,740c61a78dfb,740c61a7b102)
+Function	1	enter	TCustomMsgServer::FirstFree()@plt	(740c61a78da0,740c61a78dab,740c61a7b10a)
+Function	1	enter	TCustomMsgServer::FirstFree()	(740c61a7b090,740c61a7b0bd,740c61a7b10a)
+Function	1	exit 	TCustomMsgServer::FirstFree()
+Function	1	enter	TSnap7Server::CreateWorkerSocket(int)	(740c61a801a0,740c61a8020a,740c61a7b121)
+Function	1	enter	operator new(unsigned long)@plt	(740c61a78ef0,740c61a78efb,740c61a801c3)
+Function	1	enter	TS7Worker::TS7Worker()@plt	(740c61a78f60,740c61a78f6b,740c61a801ce)
+Function	1	enter	TS7Worker::TS7Worker()	(740c61a80150,740c61a80191,740c61a801ce)
+Function	1	enter	TIsoTcpSocket::TIsoTcpSocket()@plt	(740c61a78db0,740c61a78dbb,740c61a80159)
+Function	1	enter	TIsoTcpSocket::TIsoTcpSocket()	(740c61a7cd10,740c61a7cd65,740c61a80159)
+Function	1	enter	TMsgSocket::TMsgSocket()@plt	(740c61a77a30,740c61a77a3b,740c61a7cd19)
+Function	1	enter	TMsgSocket::TMsgSocket()	(740c61a7a6a0,740c61a7a756,740c61a7cd19)
+Function	1	enter	TSnapBase::TSnapBase()@plt	(740c61a78b90,740c61a78b9b,740c61a7a6b2)
+Function	1	enter	TSnapBase::TSnapBase()	(740c61a79400,740c61a79403,740c61a7a6b2)
+Function	1	exit 	TSnapBase::TSnapBase()
+Function	1	enter	operator new(unsigned long)@plt	(740c61a78ef0,740c61a78efb,740c61a7a6ca)
+Function	1	enter	TPinger::TPinger()@plt	(740c61a77b80,740c61a77b8b,740c61a7a6d5)
+Function	1	enter	TPinger::TPinger()	(740c61a7a690,740c61a7a690,740c61a7a6d5)
+Function	1	exit 	TPinger::TPinger()
+Function	1	exit 	TMsgSocket::TMsgSocket()
+Function	1	exit 	TIsoTcpSocket::TIsoTcpSocket()
+Function	1	exit 	TS7Worker::TS7Worker()
+Function	1	enter	TMsgSocket::SetSocket(int)@plt	(740c61a781a0,740c61a781ab,740c61a801d9)
+Function	1	enter	TMsgSocket::SetSocket(int)	(740c61a796e0,740c61a79718,740c61a801d9)
+Function	1	enter	TMsgSocket::SetSocketOptions()@plt	(740c61a784b0,740c61a784bb,740c61a796f5)
+Function	1	enter	TMsgSocket::SetSocketOptions()	(740c61a79660,740c61a796d6,740c61a796f5)
+Function	1	enter	setsockopt@plt	(740c61a77e60,740c61a77e6b,740c61a79699)
+Function	1	enter	TMsgSocket::SockCheck(int)@plt	(740c61a77fa0,740c61a77fab,740c61a796a3)
+Function	1	enter	TMsgSocket::SockCheck(int)	(740c61a79640,740c61a79659,740c61a796a3)
+Function	1	exit 	TMsgSocket::SockCheck(int)
+Function	1	enter	setsockopt@plt	(740c61a77e60,740c61a77e6b,740c61a796c7)
+Function	1	enter	TMsgSocket::SockCheck(int)@plt	(740c61a77fa0,740c61a77fab,740c61a796d1)
+Function	1	enter	TMsgSocket::SockCheck(int)	(740c61a79640,740c61a79659,740c61a796d1)
+Function	1	exit 	TMsgSocket::SockCheck(int)
+Function	1	exit 	TMsgSocket::SetSocketOptions()
+Function	1	enter	TMsgSocket::GetLocal()@plt	(740c61a783f0,740c61a783fb,740c61a796fd)
+Function	1	enter	TMsgSocket::GetLocal()	(740c61a79560,740c61a7959f,740c61a796fd)
+Function	1	enter	getsockname@plt	(740c61a78490,740c61a7849b,740c61a7957e)
+Function	1	enter	TMsgSocket::GetSin(sockaddr_in, char*, unsigned short&)@plt	(740c61a78130,740c61a7813b,740c61a7959a)
+Function	1	enter	TMsgSocket::GetSin(sockaddr_in, char*, unsigned short&)	(740c61a79510,740c61a7955a,740c61a7959a)
+Function	1	enter	inet_ntoa@plt	(740c61a78710,740c61a7871b,740c61a79534)
+Function	1	enter	strcpy@plt	(740c61a78980,740c61a7898b,740c61a7953f)
+Function	1	exit 	TMsgSocket::GetSin(sockaddr_in, char*, unsigned short&)
+Function	1	exit 	TMsgSocket::GetLocal()
+Function	1	enter	TMsgSocket::GetRemote()@plt	(740c61a78300,740c61a7830b,740c61a79705)
+Function	1	enter	TMsgSocket::GetRemote()	(740c61a795a0,740c61a795df,740c61a79705)
+Function	1	enter	getpeername@plt	(740c61a77b60,740c61a77b6b,740c61a795be)
+Function	1	enter	TMsgSocket::GetSin(sockaddr_in, char*, unsigned short&)@plt	(740c61a78130,740c61a7813b,740c61a795da)
+Function	1	enter	TMsgSocket::GetSin(sockaddr_in, char*, unsigned short&)	(740c61a79510,740c61a7955a,740c61a795da)
+Function	1	enter	inet_ntoa@plt	(740c61a78710,740c61a7871b,740c61a79534)
+Function	1	enter	strcpy@plt	(740c61a78980,740c61a7898b,740c61a7953f)
+Function	1	exit 	TMsgSocket::GetSin(sockaddr_in, char*, unsigned short&)
+Function	1	exit 	TMsgSocket::GetRemote()
+Function	1	enter	TMsgSocket::GotSocket()@plt	(740c61a78940,740c61a7894b,740c61a7970d)
+Function	1	enter	TMsgSocket::GotSocket()	(740c61a795f0,740c61a795f6,740c61a7970d)
+Function	1	exit 	TMsgSocket::GotSocket()
+Function	1	exit 	TMsgSocket::SetSocket(int)
+Function	1	exit 	TSnap7Server::CreateWorkerSocket(int)
+Function	1	enter	operator new(unsigned long)@plt	(740c61a78ef0,740c61a78efb,740c61a7b12e)
+Function	1	enter	TMsgWorkerThread::TMsgWorkerThread(TMsgSocket*, TCustomMsgServer*)@plt	(740c61a78400,740c61a7840b,740c61a7b13f)
+Function	1	enter	TMsgWorkerThread::TMsgWorkerThread(TMsgSocket*, TCustomMsgServer*)	(740c61a7adb0,740c61a7adfd,740c61a7b13f)
+Function	1	enter	TSnapThread::TSnapThread()@plt	(740c61a782b0,740c61a782bb,740c61a7add1)
+Function	1	enter	TSnapThread::TSnapThread()	(740c61a7ba90,740c61a7baae,740c61a7add1)
+Function	1	exit 	TSnapThread::TSnapThread()
+Function	1	exit 	TMsgWorkerThread::TMsgWorkerThread(TMsgSocket*, TCustomMsgServer*)
+Function	1	enter	TSnapThread::Start()@plt	(740c61a78d50,740c61a78d5b,740c61a7b15a)
+Function	1	enter	TSnapThread::Start()	(740c61a7bb10,740c61a7bb2a,740c61a7b15a)
+Function	1	enter	TSnapThread::ThreadCreate()@plt	(740c61a77f40,740c61a77f4b,740c61a7bb25)
+Function	1	enter	TSnapThread::ThreadCreate()	(740c61a7bab0,740c61a7bb0e,740c61a7bb25)
+Function	1	enter	pthread_attr_init@plt	(740c61a78c50,740c61a78c5b,740c61a7bad0)
+Function	1	enter	pthread_attr_setdetachstate@plt	(740c61a79200,740c61a7920b,740c61a7badd)
+Function	1	enter	pthread_create@plt	(740c61a78140,740c61a7814b,740c61a7baf3)
+Function	1	exit 	TSnapThread::ThreadCreate()
+Function	1	exit 	TSnapThread::Start()
+Function	1	enter	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(740c61a7ac80,740c61a7adad,740c61a7b183)
+Function	1	enter	pthread_mutex_lock@plt	(740c61a78df0,740c61a78dfb,740c61a7ad17)
+Function	1	enter	time@plt	(740c61a79170,740c61a7917b,740c61a7ad21)
+Function	1	enter	EventCallBack(void*, TSrvEvent*, int)	(56874edba3e0,56874edba43f,740c61a7ad7a)
+Function	1	enter	SrvEventText[abi:cxx11](TSrvEvent*)	(56874edbb6c0,56874edbb83b,56874edba401)
+Function	3	enter	ThreadProc(void*)	(740c61a7ba20,740c61a7ba85,740c6158f609)
+Function	3	enter	Srv_EventText@plt	(740c61a78370,740c61a7837b,740c61a7ba37)
+Function	3	enter	pthread_setcancelstate@plt	(740c61a777b0,740c61a777bb,740c61a7ba43)
+Function	1	enter	pthread_setcancelstate@plt	(740c61a912a0,740c61a91328,56874edbb6fd)
+Function	3	enter	TMsgWorkerThread::Execute()	(740c61a7b4c0,740c61a7b5cf,740c61a7ba71)
+Function	1	enter	EvtSrvText(TSrvEvent&)@plt	(740c61a789a0,740c61a789ab,740c61a912c6)
+Function	1	enter	EvtSrvText(TSrvEvent&)	(740c61a88170,740c61a8a750,740c61a912c6)
+Function	3	enter	TIsoTcpWorker::Execute()	(740c61a80120,740c61a80143,740c61a7b55a)
+Function	1	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a88654)
+Function	3	enter	TIsoTcpWorker::ExecuteSend()	(740c61a7ffd0,740c61a7ffd5,740c61a8012a)
+Function	1	enter	SenderText(TSrvEvent&) (.isra.6)	(740c61a868b0,740c61a86b05,740c61a885a3)
+Function	3	exit 	TIsoTcpWorker::ExecuteSend()
+Function	3	enter	TS7Worker::ExecuteRecv()	(740c61a80100,740c61a80110,740c61a7b55a)
+Function	1	enter	IpAddressToString(int)@plt	(740c61a77fd0,740c61a77fdb,740c61a868d2)
+Function	1	enter	TIsoTcpWorker::ExecuteRecv()@plt	(740c61a86840,740c61a868a4,740c61a868d2)
+Function	3	enter	TIsoTcpWorker::ExecuteRecv()@plt	(740c61a788c0,740c61a788cb,740c61a7b55a)
+Function	3	enter	TIsoTcpWorker::ExecuteRecv()	(740c61a7fff0,740c61a800fb,740c61a7b55a)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78710,740c61a7871b,740c61a86866)
+Function	1	enter	strlen@plt	(740c61a780d0,740c61a780db,740c61a86871)
+Function	3	enter	_ZNSs6assignEPKcm@plt	(740c61a78c30,740c61a78c3b,740c61a80009)
+Function	1	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a8687f)
+Function	3	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a80009)
+Function	1	exit 	IpAddressToString(int)
+Function	1	enter	TimeToString(long)@plt	(740c61a78600,740c61a7860b,740c61a868e0)
+Function	1	enter	TimeToString(long)	(740c61a866d0,740c61a86837,740c61a868e0)
+Function	3	enter	localtime@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	localtime@plt	(740c61a78e90,740c61a78e9b,740c61a8671e)
+Function	1	enter	strftime@plt	(740c61a78f50,740c61a78f5b,740c61a86743)
+Function	3	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	3	exit 	TMsgSocket::CanRead(int)
+Function	3	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)@plt	(740c61a78eb0,740c61a78ebb,740c61a8003a)
+Function	1	enter	_ZN13TIsoTcpSocket10isoRecvPDUEP11TIsoDataPDU	(740c61a78960,740c61a7896b,740c61a86791)
+Function	3	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)	(740c61a7d540,740c61a7d660,740c61a8003a)
+Function	3	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7d576)
+Function	3	enter	_ZNSsC1ERKSs	(740c61a7cd80,740c61a7cd91,740c61a7d576)
+Function	1	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a8679c)
+Function	3	exit 	TIsoTcpSocket::ClrIsoError()
+Function	1	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86811)
+Function	3	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a77e20,740c61a77e2b,740c61a7d59e)
+Function	3	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)	(740c61a7d3d0,740c61a7d535,740c61a7d59e)
+Function	1	exit 	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+Function	3	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7d417)
+Function	3	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7d417)
+Function	3	exit 	TIsoTcpSocket::ClrIsoError()
+Function	3	enter	TMsgSocket::RecvPacket(void*, int)@plt	(740c61a78fe0,740c61a78feb,740c61a7d427)
+Function	3	enter	TMsgSocket::RecvPacket(void*, int)	(740c61a7a0c0,740c61a7a16b,740c61a7d427)
+Function	1	exit 	TMsgSocket::RecvPacket(void*, int)
+Function	1	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a868ef)
+Function	1	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a86905)
+Function	3	enter	TMsgSocket::WaitForData(int, int)@plt	(740c61a790e0,740c61a790eb,740c61a7a0e5)
+Function	3	enter	TMsgSocket::WaitForData(int, int)	(740c61a798e0,740c61a79984,740c61a7a0e5)
+Function	3	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a798f7)
+Function	3	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a798f7)
+Function	1	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a86917)
+Function	1	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a86924)
+Function	3	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	3	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	1	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a8692f)
+Function	1	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a86943)
+Function	1	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a6f)
+Function	1	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	3	exit 	TMsgSocket::CanRead(int)
+Function	3	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79968)
+Function	3	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79968)
+Function	3	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	3	exit 	TMsgSocket::WaitingData()
+Function	3	enter	SysGetTick()@plt	(740c61a787a0,740c61a787ab,740c61a79907)
+Function	3	enter	SysGetTick()	(740c61a7a940,740c61a7a980,740c61a79907)
+Function	3	enter	clock_gettime@plt	(740c61a78fd0,740c61a78fdb,740c61a7a951)
+Function	3	exit 	SysGetTick()
+Function	3	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79912)
+Function	1	enter	_ZN10TMsgSocket11WaitingDataEv	(740c61a78100,740c61a7810b,740c61a86a84)
+Function	3	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79912)
+Function	1	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a4b)
+Function	1	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	3	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	1	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a60)
+Function	1	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a27)
+Function	1	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	1	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a3c)
+Function	3	exit 	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt
+Function	1	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a07)
+Function	3	exit 	_cxxL2::_::hange_a(int, int)
+Function	1	exit 	_cxxL2::_::hange_a(int, int)
+Function	1	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a18)
+Function	1	exit 	SenderText(TSrvEvent&) (.isra.6)
+Function	1	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a885b3)
+Function	1	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a885be)
+Function	3	enter	recv@plt	(740c61a77cc0,740c61a77ccb,740c61a7a0ff)
+Function	1	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a89aaa)
+Function	1	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	1	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a89abf)
+Function	1	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a885f1)
+Function	1	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	1	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a88606)
+Function	1	exit 	EvtSrvText(TSrvEvent&)
+Function	1	enter	strncpy@plt	(740c61a78be0,740c61a78beb,740c61a912dd)
+Function	1	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.3)	(740c61a7922a,740c61a79243,740c61a91305)
+Function	1	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.3)
+Function	1	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a91316)
+Function	1	exit 	Srv_EventText
+Function	1	exit 	SrvEventText[abi:cxx11](TSrvEvent*)
+recv_point taint

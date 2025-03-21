@@ -1,0 +1,209 @@
+=================Time TO StartProgram===================
+Function	0	enter	main	(57ae7298fae0,57ae72990f83,76fbf8ad3083)
+LOOP	57ae7298fbc5	1c
+LOOP	57ae7298fbe1	9
+LOOP	57ae7298fbea	9
+LOOP	57ae7298fbf3	9
+LOOP	57ae7298fbfc	c
+LOOP	57ae7298fc08	b
+Function	0	enter	xmalloc	(57ae72994080,57ae729940be,57ae7298ffa9)
+Function	0	exit 	xmalloc
+Function	0	enter	set_socket_nonblock	(57ae72991610,57ae72991677,57ae72990518)
+Function	0	exit 	set_socket_nonblock
+Function	0	enter	set_socket_nonblock	(57ae72991610,57ae72991677,57ae72990f11)
+Function	0	exit 	set_socket_nonblock
+LOOP	57ae72990f1b	2
+Function	0	enter	set_signal	(57ae72992880,57ae729928b8,57ae72990164)
+Function	0	enter	tftp_signal	(57ae72994000,57ae7299407c,57ae7299288d)
+LOOP	57ae7299403a	3
+Function	0	exit 	tftp_signal
+Function	0	exit 	set_signal
+Function	0	enter	set_signal	(57ae72992880,57ae729928b8,57ae72990177)
+Function	0	enter	tftp_signal	(57ae72994000,57ae7299407c,57ae7299288d)
+Function	0	exit 	tftp_signal
+Function	0	exit 	set_signal
+Function	0	enter	set_signal	(57ae72992880,57ae729928b8,57ae7299021d)
+Function	0	enter	tftp_signal	(57ae72994000,57ae7299407c,57ae7299288d)
+Function	0	exit 	tftp_signal
+Function	0	exit 	set_signal
+Function	0	enter	set_signal	(57ae72992880,57ae729928b8,57ae72990230)
+Function	0	enter	tftp_signal	(57ae72994000,57ae7299407c,57ae7299288d)
+Function	0	exit 	tftp_signal
+Function	0	exit 	set_signal
+LOOP	57ae729902e3	3
+Function	0	enter	myrecvfrom	(57ae72992800,57ae7299287d,57ae729903b7)
+Function	0	exit 	myrecvfrom
+Function	0	enter	set_signal	(57ae72992880,57ae729928b8,57ae72990413)
+Function	0	enter	tftp_signal	(57ae72994000,57ae7299407c,57ae7299288d)
+Function	0	exit 	tftp_signal
+Function	0	exit 	set_signal
+LOOP	57ae72990281	e
+LOOP	57ae7299028f	a
+LOOP	57ae729902d0	13
+LOOP	57ae729902e6	8
+LOOP	57ae729902ee	6
+LOOP	57ae729902f4	a
+LOOP	57ae729902fe	12
+LOOP	57ae72990310	a
+LOOP	57ae7299031a	36
+Function	0	enter	__do_global_dtors_aux	(57ae72991030,57ae72991068,76fc0cc36f6b)
+Function	0	enter	deregister_tm_clones	(57ae72990fc0,57ae72990fe9,57ae7299105c)
+Function	0	exit 	deregister_tm_clones
+Function	0	exit 	__do_global_dtors_aux
+Function	0	enter	_fini	(57ae72994178,57ae72994184,76fc0cc36f8d)
+Function	0	exit 	_fini
+LOOP	57ae72990350	9
+LOOP	57ae72990359	8
+LOOP	57ae72990361	4
+LOOP	57ae72990365	a
+LOOP	57ae7299036f	a
+LOOP	57ae72990379	13
+LOOP	57ae7299038c	2b
+Function	0	enter	myrecvfrom	(57ae72992800,57ae7299287d,57ae729903b7)
+Function	0	exit 	myrecvfrom
+LOOP	57ae729903b7	a
+LOOP	57ae729903c1	16
+LOOP	57ae729903d7	4
+LOOP	57ae729903db	a
+LOOP	57ae729907e7	e
+LOOP	57ae729907f5	f
+LOOP	57ae7299080c	e
+LOOP	57ae729903ef	5
+LOOP	57ae729903f4	8
+LOOP	57ae729903fc	6
+LOOP	57ae729903f4	8
+LOOP	57ae729903fc	6
+Function	0	enter	set_signal	(57ae72992880,57ae729928b8,57ae72990413)
+Function	0	enter	tftp_signal	(57ae72994000,57ae7299407c,57ae7299288d)
+Function	0	exit 	tftp_signal
+Function	0	exit 	set_signal
+Function	0	enter	pick_port_bind	(57ae72993d10,57ae72993e15,57ae72990cfc)
+Function	0	exit 	pick_port_bind
+Function	0	enter	tftp	(57ae729922a0,57ae729927f7,57ae72990d85)
+LOOP	57ae72992354	f
+LOOP	57ae72992350	4
+LOOP	57ae72992340	5
+LOOP	57ae7299236b	a
+LOOP	57ae72992550	17
+LOOP	57ae72992592	8
+LOOP	57ae7299259a	4
+Function	0	enter	rewrite_access	(57ae729915d0,57ae72991608,57ae729925d0)
+Function	0	exit 	rewrite_access
+Function	0	enter	validate_access	(57ae72991250,57ae729915cf,57ae729926e5)
+Function	0	exit 	validate_access
+LOOP	57ae7299238d	5
+Function	0	enter	tftp_sendfile	(57ae72991c30,57ae72991f3f,57ae729923ce)
+Function	0	enter	r_init	(57ae72993800,57ae72993847,57ae72991d7d)
+Function	0	exit 	r_init
+Function	0	enter	readit	(57ae72993990,57ae72993a2f,57ae72991da5)
+Function	0	enter	read_ahead	(57ae72993850,57ae72993988,57ae72993a2f)
+Function	0	exit 	read_ahead
+Function	0	exit 	readit
+Function	0	enter	myrecvfrom	(57ae72992800,57ae7299287d,57ae729903b7)
+Function	0	exit 	myrecvfrom
+LOOP	57ae72990bd4	d
+Function	0	enter	read_ahead	(57ae72993850,57ae72993988,57ae72991e5b)
+Function	0	exit 	read_ahead
+Function	0	enter	set_signal	(57ae72992880,57ae729928b8,57ae72990413)
+Function	0	enter	tftp_signal	(57ae72994000,57ae7299407c,57ae7299288d)
+Function	0	exit 	tftp_signal
+Function	0	exit 	set_signal
+Function	0	enter	recv_time.constprop.0	(57ae72991a10,57ae72991c2b,57ae72991e9a)
+LOOP	57ae72991aa9	3
+Function	0	enter	set_socket_nonblock	(57ae72991610,57ae72991677,57ae72991b75)
+Function	0	exit 	set_socket_nonblock
+recv_point taint
+Taint	(0x57ae729994c0, 4)
+Function	0	enter	set_socket_nonblock	(57ae72991610,57ae72991677,57ae72991ba4)
+Function	0	exit 	set_socket_nonblock
+Function	0	exit 	recv_time.constprop.0
+Instruction 0x57ae72991e60: movzx eax, word ptr [rip+0x7659]	0	0,1	0x57ae729994c0	0x400
+Instruction 0x57ae72991e67: movzx ecx, word ptr [rip+0x7654]	0	2,3	0x57ae729994c2	0x100
+Instruction 0x57ae72991e6e: mov edx, eax	0	0,1	0x57ae729994c0	0x400
+Instruction 0x57ae72991e70: rol dx, 0x8	0	0,1	0x400
+CMP+JUMP-Instruction 0x57ae72991e74: cmp eax, 0x500	0	0,1	0x400
+CMP+JUMP_NEXT-Instruction : jz 0x57ae72991d12
+Instruction 0x57ae72991e74: cmp eax, 0x500	0	0,1	0x400
+CMP+JUMP-Instruction 0x57ae72991e7f: cmp dx, 0x4	0	0,1	0x4
+CMP+JUMP_NEXT-Instruction : jz 0x57ae72991ebb
+Instruction 0x57ae72991e7f: cmp dx, 0x4	0	0,1	0x4
+Instruction 0x57ae72991ebb: rol cx, 0x8	0	2,3	0x100
+CMP+JUMP-Instruction 0x57ae72991ebf: cmp word ptr [rip+0x714a], cx	0	;2,3	0x1;0x1
+CMP+JUMP_NEXT-Instruction : jz 0x57ae72991f08
+Instruction 0x57ae72991ebf: cmp word ptr [rip+0x714a], cx	0	;2,3	0x1;0x1
+Instruction 0x57ae72991f08: add ecx, 0x1	0	2,3	0x1
+Instruction 0x57ae72991f0b: mov word ptr [rip+0x70fe], cx	0	2,3	0x57ae729994c2	0x2
+Instruction 0x57ae72991f12: test cx, cx	0	2,3;2,3	0x2;0x2
+Function	0	exit 	tftp_sendfile
+Function	0	enter	__do_global_dtors_aux	(57ae72991030,57ae72991068,76fc0cc36f6b)
+Function	0	enter	deregister_tm_clones	(57ae72990fc0,57ae72990fe9,57ae7299105c)
+Function	0	exit 	deregister_tm_clones
+Function	0	exit 	__do_global_dtors_aux
+Function	0	enter	_fini	(57ae72994178,57ae72994184,76fc0cc36f8d)
+Function	0	exit 	_fini
+Function	0	enter	pick_port_bind	(57ae72993d10,57ae72993e15,57ae72990cfc)
+Function	0	exit 	pick_port_bind
+Function	0	enter	tftp	(57ae729922a0,57ae729927f7,57ae72990d85)
+LOOP	57ae72992354	f
+LOOP	57ae72992350	4
+LOOP	57ae72992340	5
+LOOP	57ae7299236b	a
+LOOP	57ae72992550	17
+LOOP	57ae72992592	8
+LOOP	57ae7299259a	4
+Function	0	enter	rewrite_access	(57ae729915d0,57ae72991608,57ae729925d0)
+Function	0	exit 	rewrite_access
+Function	0	enter	validate_access	(57ae72991250,57ae729915cf,57ae729926e5)
+Function	0	exit 	validate_access
+LOOP	57ae7299238d	5
+Function	0	enter	tftp_recvfile	(57ae72991f40,57ae7299229b,57ae72992744)
+Function	0	enter	w_init	(57ae729937b0,57ae729937f7,57ae72991f6f)
+Function	0	exit 	w_init
+Function	0	enter	write_behind	(57ae72993a40,57ae72993b5a,57ae72992055)
+Function	0	exit 	write_behind
+Function	0	enter	recv_time.constprop.0	(57ae72991a10,57ae72991c2b,57ae72992093)
+LOOP	57ae72991aa9	3
+Function	0	enter	set_socket_nonblock	(57ae72991610,57ae72991677,57ae72991b75)
+Function	0	exit 	set_socket_nonblock
+recv_point taint
+Taint	(0x57ae729b9544, 8)
+Function	0	enter	set_socket_nonblock	(57ae72991610,57ae72991677,57ae72991ba4)
+Function	0	exit 	set_socket_nonblock
+Function	0	exit 	recv_time.constprop.0
+Instruction 0x57ae72992065: movzx edx, word ptr [rsi]	0	0,1	0x57ae729b9544	0x300
+Instruction 0x57ae72992068: movzx edi, word ptr [rsi+0x2]	0	2,3	0x57ae729b9546	0x100
+Instruction 0x57ae7299206c: mov ecx, edx	0	0,1	0x57ae729b9544	0x300
+Instruction 0x57ae7299206e: rol cx, 0x8	0	0,1	0x300
+CMP+JUMP-Instruction 0x57ae72992072: cmp edx, 0x500	0	0,1	0x300
+CMP+JUMP_NEXT-Instruction : jz 0x57ae729920af
+Instruction 0x57ae72992072: cmp edx, 0x500	0	0,1	0x300
+CMP+JUMP-Instruction 0x57ae7299207a: cmp cx, 0x3	0	0,1	0x3
+CMP+JUMP_NEXT-Instruction : jz 0x57ae72992108
+Instruction 0x57ae7299207a: cmp cx, 0x3	0	0,1	0x3
+Instruction 0x57ae72992108: rol di, 0x8	0	2,3	0x100
+Instruction 0x57ae7299210c: cmp word ptr [rip+0x72dd], di	0	;2,3	0x1;0x1
+Instruction 0x57ae72992113: mov ebp, edi	0	2,3	0x57ae729b9546	0x1
+Function	0	enter	writeit	(57ae72993b60,57ae72993be7,57ae7299219c)
+Instruction 0x57ae72993b69: push rbp	0	2,3	0x57ae729b9546	0x1
+Instruction 0x57ae72993be4: pop rbp	0	2,3	0x57ae729b9546	0x1
+Function	0	exit 	writeit
+Function	0	enter	write_behind	(57ae72993a40,57ae72993b5a,57ae729921d9)
+Instruction 0x57ae72993a65: push rbp	0	2,3	0x57ae729b9546	0x1
+Instruction 0x57ae72993b46: pop rbp	0	2,3	0x57ae729b9546	0x1
+Function	0	exit 	write_behind
+Function	0	enter	recv_time.constprop.0	(57ae72991a10,57ae72991c2b,57ae7299223f)
+Instruction 0x57ae72991a18: push rbp	0	2,3	0x57ae729b9546	0x1
+Function	0	enter	__do_global_dtors_aux	(57ae72991030,57ae72991068,76fc0cc36f6b)
+Function	0	enter	deregister_tm_clones	(57ae72990fc0,57ae72990fe9,57ae7299105c)
+Function	0	exit 	deregister_tm_clones
+Function	0	exit 	__do_global_dtors_aux
+Function	0	enter	_fini	(57ae72994178,57ae72994184,76fc0cc36f8d)
+Function	0	exit 	_fini
+Function	0	enter	handle_exit	(57ae72991090,57ae7299109a,76fbf8af2090)
+Function	0	exit 	handle_exit
+Function	0	enter	__do_global_dtors_aux	(57ae72991030,57ae72991068,76fc0cc36f6b)
+Function	0	enter	deregister_tm_clones	(57ae72990fc0,57ae72990fe9,57ae7299105c)
+Function	0	exit 	deregister_tm_clones
+Function	0	exit 	__do_global_dtors_aux
+Function	0	enter	_fini	(57ae72994178,57ae72994184,76fc0cc36f8d)
+Function	0	exit 	_fini

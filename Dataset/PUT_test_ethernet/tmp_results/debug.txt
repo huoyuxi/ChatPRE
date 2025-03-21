@@ -1,0 +1,5 @@
+assembly not taint included : leave  0 0
+assembly not taint included : imul rax, rax, 0x3e8 10 10
+assembly not taint included : mul rdx 8 10
+assembly not taint included : div rcx 9 10
+assembly not taint included : idiv ecx 55 56

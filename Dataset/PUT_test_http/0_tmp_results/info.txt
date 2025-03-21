@@ -1,0 +1,410 @@
+Taint	(0x7a187b5d2010, 49)
+CMP+JUMP-Instruction 0x5cf9285b0a5e: cmp word ptr [rbx], 0x4547	0	0	0x4547
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0de8
+Instruction 0x5cf9285b0a5e: cmp word ptr [rbx], 0x4547	0	0	0x4547
+CMP+JUMP-Instruction 0x5cf9285b0de8: cmp byte ptr [rbx+0x2], 0x54	0	2	0x54
+CMP+JUMP_NEXT-Instruction : jnz 0x5cf9285b0a69
+Instruction 0x5cf9285b0de8: cmp byte ptr [rbx+0x2], 0x54	0	2	0x54
+Function	0	enter	_mwParseHttpHeader	(5cf9285b0080,5cf9285b09ad,5cf9285b0e15)
+Instruction 0x5cf9285b00d4: movsx edx, byte ptr [rax+0x7]	0	13	0x7a187b5d201d	0x31
+Instruction 0x5cf9285b00ea: sub edx, 0x30	0	13	0x31
+Instruction 0x5cf9285b00ed: mov dword ptr [r13+0x10], edx	0	13	0x7a187b5d201d	0x1
+Instruction 0x5cf9285b00f1: movzx edx, byte ptr [rax+0x7]	0	13	0x7a187b5d201d	0x31
+Instruction 0x5cf9285b00f8: test dl, dl	0	13;13	0x31;0x31
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	13	0x31
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	13	0x31
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	14	0x7a187b5d201e	0xd
+Instruction 0x5cf9285b0109: test dl, dl	0	14;14	0xd;0xd
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	14	0xd
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	14	0xd
+LOOP	5cf9285b00fc	5
+Instruction 0x5cf9285b0140: test dl, dl	0	14;14	0xd;0xd
+CMP+JUMP-Instruction 0x5cf9285b0144: cmp dword ptr [rbx], 0xa0d0a0d	0	14	0x6f480a0d
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0440
+Instruction 0x5cf9285b0144: cmp dword ptr [rbx], 0xa0d0a0d	0	14	0x6f480a0d
+Instruction 0x5cf9285b0183: movsx rsi, byte ptr [rbx+rsi*1]	0	16	0x7a187b5d2020	0x48
+Instruction 0x5cf9285b019e: xor esi, esi	0	16;16	0x48;0x48
+Instruction 0x5cf9285b01bb: movsx rsi, byte ptr [rbx+rsi*1]	0	16	0x7a187b5d2020	0x48
+Instruction 0x5cf9285b01c8: movzx edi, byte ptr [rbx]	0	16	0x7a187b5d2020	0x48
+Instruction 0x5cf9285b01cb: movsx rdx, dil	0	16	0x7a187b5d2020	0x48
+Instruction 0x5cf9285b0204: movsx rcx, dil	0	16	0x7a187b5d2020	0x48
+Instruction 0x5cf9285b0243: movsx rcx, dil	0	16	0x7a187b5d2020	0x48
+Instruction 0x5cf9285b0282: movsx rdx, dil	0	16	0x7a187b5d2020	0x48
+Instruction 0x5cf9285b02c3: movsx rcx, dil	0	16	0x7a187b5d2020	0x48
+Instruction 0x5cf9285b02f6: movsx rcx, byte ptr [rcx]	0	17	0x7a187b5d2021	0x6f
+LOOP	5cf9285b02f6	c
+LOOP	5cf9285b02e0	16
+Instruction 0x5cf9285b02f6: movsx rcx, byte ptr [rcx]	0	18	0x7a187b5d2022	0x73
+Instruction 0x5cf9285b02f6: movsx rcx, byte ptr [rcx]	0	19	0x7a187b5d2023	0x74
+Instruction 0x5cf9285b02f6: movsx rcx, byte ptr [rcx]	0	20	0x7a187b5d2024	0x3a
+Instruction 0x5cf9285b02f6: movsx rcx, byte ptr [rcx]	0	21	0x7a187b5d2025	0x20
+Instruction 0x5cf9285b07e8: movzx edx, byte ptr [rcx]	0	22	0x7a187b5d2026	0x6c
+Instruction 0x5cf9285b00f8: test dl, dl	0	22;22	0x6c;0x6c
+LOOP	5cf9285b00f8	4
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	22	0x6c
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	22	0x6c
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	23	0x7a187b5d2027	0x6f
+LOOP	5cf9285b0101	c
+Instruction 0x5cf9285b0109: test dl, dl	0	23;23	0x6f;0x6f
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	23	0x6f
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	23	0x6f
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	24	0x7a187b5d2028	0x63
+Instruction 0x5cf9285b0109: test dl, dl	0	24;24	0x63;0x63
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	24	0x63
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	24	0x63
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	25	0x7a187b5d2029	0x61
+Instruction 0x5cf9285b0109: test dl, dl	0	25;25	0x61;0x61
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	25	0x61
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	25	0x61
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	26	0x7a187b5d202a	0x6c
+Instruction 0x5cf9285b0109: test dl, dl	0	26;26	0x6c;0x6c
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	26	0x6c
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	26	0x6c
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	27	0x7a187b5d202b	0x68
+Instruction 0x5cf9285b0109: test dl, dl	0	27;27	0x68;0x68
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	27	0x68
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	27	0x68
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	28	0x7a187b5d202c	0x6f
+Instruction 0x5cf9285b0109: test dl, dl	0	28;28	0x6f;0x6f
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	28	0x6f
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	28	0x6f
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	29	0x7a187b5d202d	0x73
+Instruction 0x5cf9285b0109: test dl, dl	0	29;29	0x73;0x73
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	29	0x73
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	29	0x73
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	30	0x7a187b5d202e	0x74
+Instruction 0x5cf9285b0109: test dl, dl	0	30;30	0x74;0x74
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	30	0x74
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	30	0x74
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	31	0x7a187b5d202f	0xd
+Instruction 0x5cf9285b0109: test dl, dl	0	31;31	0xd;0xd
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	31	0xd
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	31	0xd
+Instruction 0x5cf9285b0140: test dl, dl	0	31;31	0xd;0xd
+LOOP	5cf9285b0140	4
+CMP+JUMP-Instruction 0x5cf9285b0144: cmp dword ptr [rbx], 0xa0d0a0d	0	31	0x73550a0d
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0440
+Instruction 0x5cf9285b0144: cmp dword ptr [rbx], 0xa0d0a0d	0	31	0x73550a0d
+LOOP	5cf9285b0144	c
+LOOP	5cf9285b0150	5
+LOOP	5cf9285b0155	12
+Instruction 0x5cf9285b0183: movsx rsi, byte ptr [rbx+rsi*1]	0	33	0x7a187b5d2031	0x55
+LOOP	5cf9285b0183	d
+LOOP	5cf9285b0190	12
+Instruction 0x5cf9285b019e: xor esi, esi	0	33;33	0x55;0x55
+Instruction 0x5cf9285b01bb: movsx rsi, byte ptr [rbx+rsi*1]	0	33	0x7a187b5d2031	0x55
+LOOP	5cf9285b01bb	d
+Instruction 0x5cf9285b01c8: movzx edi, byte ptr [rbx]	0	33	0x7a187b5d2031	0x55
+LOOP	5cf9285b01c8	18
+Instruction 0x5cf9285b01cb: movsx rdx, dil	0	33	0x7a187b5d2031	0x55
+LOOP	5cf9285b01fc	8
+Instruction 0x5cf9285b0204: movsx rcx, dil	0	33	0x7a187b5d2031	0x55
+LOOP	5cf9285b0204	14
+LOOP	5cf9285b023b	8
+Instruction 0x5cf9285b0243: movsx rcx, dil	0	33	0x7a187b5d2031	0x55
+LOOP	5cf9285b0243	14
+LOOP	5cf9285b027a	8
+Instruction 0x5cf9285b0282: movsx rdx, dil	0	33	0x7a187b5d2031	0x55
+LOOP	5cf9285b0282	14
+LOOP	5cf9285b02bb	8
+Instruction 0x5cf9285b02c3: movsx rcx, dil	0	33	0x7a187b5d2031	0x55
+LOOP	5cf9285b02c3	14
+LOOP	5cf9285b02fa	8
+Instruction 0x5cf9285b0302: movsx rcx, dil	0	33	0x7a187b5d2031	0x55
+Instruction 0x5cf9285b0342: movsx rcx, dil	0	33	0x7a187b5d2031	0x55
+Instruction 0x5cf9285b0378: movsx rdx, dil	0	33	0x7a187b5d2031	0x55
+Instruction 0x5cf9285b03b1: mov edx, edi	0	33	0x7a187b5d2031	0x55
+Instruction 0x5cf9285b00f8: test dl, dl	0	33;33	0x55;0x55
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	33	0x55
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	33	0x55
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	34	0x7a187b5d2032	0x73
+Instruction 0x5cf9285b0109: test dl, dl	0	34;34	0x73;0x73
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	34	0x73
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	34	0x73
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	35	0x7a187b5d2033	0x65
+Instruction 0x5cf9285b0109: test dl, dl	0	35;35	0x65;0x65
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	35	0x65
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	35	0x65
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	36	0x7a187b5d2034	0x72
+Instruction 0x5cf9285b0109: test dl, dl	0	36;36	0x72;0x72
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	36	0x72
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	36	0x72
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	37	0x7a187b5d2035	0x2d
+Instruction 0x5cf9285b0109: test dl, dl	0	37;37	0x2d;0x2d
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	37	0x2d
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	37	0x2d
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	38	0x7a187b5d2036	0x41
+Instruction 0x5cf9285b0109: test dl, dl	0	38;38	0x41;0x41
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	38	0x41
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	38	0x41
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	39	0x7a187b5d2037	0x67
+Instruction 0x5cf9285b0109: test dl, dl	0	39;39	0x67;0x67
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	39	0x67
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	39	0x67
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	40	0x7a187b5d2038	0x65
+Instruction 0x5cf9285b0109: test dl, dl	0	40;40	0x65;0x65
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	40	0x65
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	40	0x65
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	41	0x7a187b5d2039	0x6e
+Instruction 0x5cf9285b0109: test dl, dl	0	41;41	0x6e;0x6e
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	41	0x6e
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	41	0x6e
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	42	0x7a187b5d203a	0x74
+Instruction 0x5cf9285b0109: test dl, dl	0	42;42	0x74;0x74
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	42	0x74
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	42	0x74
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	43	0x7a187b5d203b	0x3a
+Instruction 0x5cf9285b0109: test dl, dl	0	43;43	0x3a;0x3a
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	43	0x3a
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	43	0x3a
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	44	0x7a187b5d203c	0x20
+Instruction 0x5cf9285b0109: test dl, dl	0	44;44	0x20;0x20
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	44	0x20
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	44	0x20
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	45	0x7a187b5d203d	0x63
+Instruction 0x5cf9285b0109: test dl, dl	0	45;45	0x63;0x63
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	45	0x63
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	45	0x63
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	46	0x7a187b5d203e	0x75
+Instruction 0x5cf9285b0109: test dl, dl	0	46;46	0x75;0x75
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	46	0x75
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	46	0x75
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	47	0x7a187b5d203f	0x72
+Instruction 0x5cf9285b0109: test dl, dl	0	47;47	0x72;0x72
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	47	0x72
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	47	0x72
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	48	0x7a187b5d2040	0x6c
+Instruction 0x5cf9285b0109: test dl, dl	0	48;48	0x6c;0x6c
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	48	0x6c
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	48	0x6c
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	49	0x7a187b5d2041	0x2f
+Instruction 0x5cf9285b0109: test dl, dl	0	49;49	0x2f;0x2f
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	49	0x2f
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	49	0x2f
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	50	0x7a187b5d2042	0x37
+Instruction 0x5cf9285b0109: test dl, dl	0	50;50	0x37;0x37
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	50	0x37
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	50	0x37
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	51	0x7a187b5d2043	0x2e
+Instruction 0x5cf9285b0109: test dl, dl	0	51;51	0x2e;0x2e
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	51	0x2e
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	51	0x2e
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	52	0x7a187b5d2044	0x36
+Instruction 0x5cf9285b0109: test dl, dl	0	52;52	0x36;0x36
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	52	0x36
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	52	0x36
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	53	0x7a187b5d2045	0x38
+Instruction 0x5cf9285b0109: test dl, dl	0	53;53	0x38;0x38
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	53	0x38
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	53	0x38
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	54	0x7a187b5d2046	0x2e
+Instruction 0x5cf9285b0109: test dl, dl	0	54;54	0x2e;0x2e
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	54	0x2e
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	54	0x2e
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	55	0x7a187b5d2047	0x30
+Instruction 0x5cf9285b0109: test dl, dl	0	55;55	0x30;0x30
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	55	0x30
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	55	0x30
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	56	0x7a187b5d2048	0xd
+Instruction 0x5cf9285b0109: test dl, dl	0	56;56	0xd;0xd
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	56	0xd
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	56	0xd
+Instruction 0x5cf9285b0140: test dl, dl	0	56;56	0xd;0xd
+CMP+JUMP-Instruction 0x5cf9285b0144: cmp dword ptr [rbx], 0xa0d0a0d	0	56	0x63410a0d
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0440
+Instruction 0x5cf9285b0144: cmp dword ptr [rbx], 0xa0d0a0d	0	56	0x63410a0d
+Instruction 0x5cf9285b0183: movsx rsi, byte ptr [rbx+rsi*1]	0	58	0x7a187b5d204a	0x41
+Instruction 0x5cf9285b019e: xor esi, esi	0	58;58	0x41;0x41
+Instruction 0x5cf9285b01bb: movsx rsi, byte ptr [rbx+rsi*1]	0	58	0x7a187b5d204a	0x41
+Instruction 0x5cf9285b01c8: movzx edi, byte ptr [rbx]	0	58	0x7a187b5d204a	0x41
+Instruction 0x5cf9285b01cb: movsx rdx, dil	0	58	0x7a187b5d204a	0x41
+Instruction 0x5cf9285b0204: movsx rcx, dil	0	58	0x7a187b5d204a	0x41
+Instruction 0x5cf9285b0243: movsx rcx, dil	0	58	0x7a187b5d204a	0x41
+Instruction 0x5cf9285b0282: movsx rdx, dil	0	58	0x7a187b5d204a	0x41
+Instruction 0x5cf9285b02c3: movsx rcx, dil	0	58	0x7a187b5d204a	0x41
+Instruction 0x5cf9285b0302: movsx rcx, dil	0	58	0x7a187b5d204a	0x41
+LOOP	5cf9285b0302	14
+LOOP	5cf9285b033a	8
+Instruction 0x5cf9285b0342: movsx rcx, dil	0	58	0x7a187b5d204a	0x41
+LOOP	5cf9285b0342	14
+LOOP	5cf9285b0370	8
+Instruction 0x5cf9285b036c: movsx rcx, byte ptr [rcx]	0	59	0x7a187b5d204b	0x63
+LOOP	5cf9285b036c	c
+Instruction 0x5cf9285b0378: movsx rdx, dil	0	58	0x7a187b5d204a	0x41
+LOOP	5cf9285b0378	15
+LOOP	5cf9285b03a9	8
+Instruction 0x5cf9285b03b1: mov edx, edi	0	58	0x7a187b5d204a	0x41
+LOOP	5cf9285b03b1	7
+Instruction 0x5cf9285b00f8: test dl, dl	0	58;58	0x41;0x41
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	58	0x41
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	58	0x41
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	59	0x7a187b5d204b	0x63
+Instruction 0x5cf9285b0109: test dl, dl	0	59;59	0x63;0x63
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	59	0x63
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	59	0x63
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	60	0x7a187b5d204c	0x63
+Instruction 0x5cf9285b0109: test dl, dl	0	60;60	0x63;0x63
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	60	0x63
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	60	0x63
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	61	0x7a187b5d204d	0x65
+Instruction 0x5cf9285b0109: test dl, dl	0	61;61	0x65;0x65
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	61	0x65
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	61	0x65
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	62	0x7a187b5d204e	0x70
+Instruction 0x5cf9285b0109: test dl, dl	0	62;62	0x70;0x70
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	62	0x70
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	62	0x70
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	63	0x7a187b5d204f	0x74
+Instruction 0x5cf9285b0109: test dl, dl	0	63;63	0x74;0x74
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	63	0x74
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	63	0x74
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	64	0x7a187b5d2050	0x3a
+Instruction 0x5cf9285b0109: test dl, dl	0	64;64	0x3a;0x3a
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	64	0x3a
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	64	0x3a
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	65	0x7a187b5d2051	0x20
+Instruction 0x5cf9285b0109: test dl, dl	0	65;65	0x20;0x20
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	65	0x20
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	65	0x20
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	66	0x7a187b5d2052	0x2a
+Instruction 0x5cf9285b0109: test dl, dl	0	66;66	0x2a;0x2a
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	66	0x2a
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	66	0x2a
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	67	0x7a187b5d2053	0x2f
+Instruction 0x5cf9285b0109: test dl, dl	0	67;67	0x2f;0x2f
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	67	0x2f
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	67	0x2f
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	68	0x7a187b5d2054	0x2a
+Instruction 0x5cf9285b0109: test dl, dl	0	68;68	0x2a;0x2a
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	68	0x2a
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	68	0x2a
+Instruction 0x5cf9285b0101: movzx edx, byte ptr [rbx+0x1]	0	69	0x7a187b5d2055	0xd
+Instruction 0x5cf9285b0109: test dl, dl	0	69;69	0xd;0xd
+CMP+JUMP-Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	69	0xd
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0140
+Instruction 0x5cf9285b00fc: cmp dl, 0xd	0	69	0xd
+Instruction 0x5cf9285b0140: test dl, dl	0	69;69	0xd;0xd
+CMP+JUMP-Instruction 0x5cf9285b0144: cmp dword ptr [rbx], 0xa0d0a0d	0	69	0xa0d0a0d
+CMP+JUMP_NEXT-Instruction : jz 0x5cf9285b0440
+Instruction 0x5cf9285b0144: cmp dword ptr [rbx], 0xa0d0a0d	0	69	0xa0d0a0d
+Function	0	exit 	_mwParseHttpHeader
+Instruction 0x5cf9285b0eca: movzx edx, byte ptr [rax-0x1]	0	5	0x7a187b5d2015	0x20
+CMP+JUMP-Instruction 0x5cf9285b0ed1: cmp dl, 0x20	0	5	0x20
+CMP+JUMP_NEXT-Instruction : jnz 0x5cf9285b0eb0
+Instruction 0x5cf9285b0ed1: cmp dl, 0x20	0	5	0x20
+LOOP	5cf9285b0ee1	2
+Function	0	enter	_mwBasicAuthorizationHandlers	(5cf9285ad580,5cf9285ad671,5cf9285b0be8)
+LOOP	5cf9285ad5e8	c
+Function	0	exit 	_mwBasicAuthorizationHandlers
+Function	0	enter	_mwCheckUrlHandlers	(5cf9285af490,5cf9285af79c,5cf9285b0c12)
+LOOP	5cf9285af520	10
+Function	0	exit 	_mwCheckUrlHandlers
+Instruction 0x5cf9285b0c24: mov ecx, dword ptr [rbp+0x10]	0	13	0x7a187b5d201d	0x1
+Instruction 0x5cf9285b0c37: test ecx, ecx	0	13;13	0x1;0x1
+Function	0	enter	_mwStartSendFile	(5cf9285afeb0,5cf9285b001c,5cf9285b19c0)
+Function	0	enter	_mwStartSendFile2	(5cf9285afa80,5cf9285afea8,5cf9285aff36)
+Function	0	enter	mwGetLocalFileName	(5cf9285aeff0,5cf9285af278,5cf9285afc65)
+LOOP	5cf9285af068	17
+Function	0	exit 	mwGetLocalFileName
+LOOP	5cf9285afcb8	9
+Function	0	enter	mwGetContentType	(5cf9285af840,5cf9285afa7b,5cf9285afbb1)
+Function	0	exit 	mwGetContentType
+Function	0	enter	_mwBuildHttpHeader	(5cf9285acd90,5cf9285ad1bf,5cf9285afbdd)
+Function	0	exit 	_mwBuildHttpHeader
+Function	0	exit 	_mwStartSendFile2
+Function	0	exit 	_mwStartSendFile
+LOOP	5cf9285b1764	11
+LOOP	5cf9285b1775	29
+LOOP	5cf9285b1376	29
+LOOP	5cf9285b139f	8
+LOOP	5cf9285b13a7	13
+LOOP	5cf9285b12c0	10
+LOOP	5cf9285b12d0	c
+LOOP	5cf9285b130f	7
+LOOP	5cf9285b131e	3d
+LOOP	5cf9285b16bb	d
+LOOP	5cf9285b16c8	2c
+LOOP	5cf9285b16f4	18
+LOOP	5cf9285b170c	b
+Function	0	enter	_mwSendFileChunk	(5cf9285ae8b0,5cf9285aeb67,5cf9285b19a6)
+Function	0	exit 	_mwSendFileChunk
+LOOP	5cf9285b19c4	7
+LOOP	5cf9285b19cb	17
+LOOP	5cf9285b1316	8
+LOOP	5cf9285b1717	b
+LOOP	5cf9285b1979	c
+LOOP	5cf9285b1985	b
+LOOP	5cf9285b1990	b
+LOOP	5cf9285b199b	b
+Function	0	enter	_mwSendFileChunk	(5cf9285ae8b0,5cf9285aeb67,5cf9285b19a6)
+Function	0	exit 	_mwSendFileChunk
+LOOP	5cf9285b19a6	4
+Function	0	enter	_mwCloseSocket.part.0	(5cf9285ac250,5cf9285ac4ee,5cf9285b174c)
+Function	0	exit 	_mwCloseSocket.part.0
+LOOP	5cf9285b174c	18
+LOOP	5cf9285b179e	b
+LOOP	5cf9285b17a9	1f
+LOOP	5cf9285b17e0	9
+LOOP	5cf9285b17e9	16
+LOOP	5cf9285b17ff	b
+LOOP	5cf9285b180a	11
+LOOP	5cf9285b181b	14
+LOOP	5cf9285b182f	b
+LOOP	5cf9285b183a	47
+LOOP	5cf9285b1881	26
+LOOP	5cf9285b18a7	7d
+LOOP	5cf9285b1924	33
+LOOP	5cf9285b12dc	8
+LOOP	5cf9285b12e4	32
+LOOP	5cf9285b1722	5
+LOOP	5cf9285b1727	8
+LOOP	5cf9285b19b5	b
+Function	0	enter	_mwProcessReadSocket	(5cf9285b09c0,5cf9285b11dd,5cf9285b19c0)
+recv_point taint

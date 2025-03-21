@@ -1,0 +1,21 @@
+===============SEMANTIC===================
+sizeofTaint: 15
+
+field-to-constantcmp
+	13:{'0xd'}
+	14:{'0xa'}
+ 
+constantcmp-to-field
+	0xd:['13']
+	0xa:['14']
+ 
+cmp_true
+14
+13
+Polyglot_Separator:[]
+KEYWORDs:
+collect:[13, 14]
+Polyglot_keyword:	['13,14']
+
+	None
+	None

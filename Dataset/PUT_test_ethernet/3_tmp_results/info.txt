@@ -1,0 +1,309 @@
+Taint	(0x7fffaece3610, 4)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0e9cf8)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	enter	GetUintFromMessage	(5bd41f0fbb88,5bd41f0fbbd7,5bd41f0e9da3)
+Instruction 0x5bd41f0fbba3: movzx eax, byte ptr [rax]	0	2	0x7fffaece3612	0x0
+Instruction 0x5bd41f0fbba6: movzx eax, al	0	2	0x7fffaece3612	0x0
+Instruction 0x5bd41f0fbbb1: movzx edx, byte ptr [rdx]	0	3	0x7fffaece3613	0x0
+Instruction 0x5bd41f0fbbb4: movzx edx, dl	0	3	0x7fffaece3613	0x0
+Instruction 0x5bd41f0fbbb7: shl edx, 0x8	0	3	0x0
+Instruction 0x5bd41f0fbbba: or eax, edx	0	2;3	0x0;0x0
+Instruction 0x5bd41f0fbbba: or eax, edx	0	2,3	0x0
+Instruction 0x5bd41f0fbbbc: mov word ptr [rbp-0xa], ax	0	2,3	0x7fffaece3612	0x0
+Instruction 0x5bd41f0fbbd2: movzx eax, word ptr [rbp-0xa]	0	2,3	0x7fffaece3612	0x0
+Function	0	exit 	GetUintFromMessage
+Instruction 0x5bd41f0e9da3: movzx eax, ax	0	2,3	0x7fffaece3612	0x0
+Instruction 0x5bd41f0e9da6: add eax, 0x14	0	2,3	0x0
+Instruction 0x5bd41f0e9dab: mov qword ptr [rbp-0x478], rax	0	2,3	0x7fffaece3612	0x14
+CMP+JUMP-Instruction 0x5bd41f0e9db2: cmp qword ptr [rbp-0x478], 0x1fc	0	2,3	0x14
+CMP+JUMP_NEXT-Instruction : jbe 0x5bd41f0e9ef2
+Instruction 0x5bd41f0e9db2: cmp qword ptr [rbp-0x478], 0x1fc	0	2,3	0x14
+Instruction 0x5bd41f0e9ef2: mov rdx, qword ptr [rbp-0x478]	0	2,3	0x7fffaece3612	0x14
+LENGTH	2,3
+recv_point taint
+Taint	(0x7fffaece3614, 14)
+CMP+JUMP-Instruction 0x5bd41f0e9fd7: cmp qword ptr [rbp-0x478], rax	0	2,3	0x14;0x14
+CMP+JUMP_NEXT-Instruction : jnz 0x5bd41f0ea137
+Instruction 0x5bd41f0e9fd7: cmp qword ptr [rbp-0x478], rax	0	2,3	0x14;0x14
+Instruction 0x5bd41f0e9fe4: add qword ptr [rbp-0x478], 0x4	0	2,3	0x14
+Function	0	enter	InitializeENIPMessage	(5bd41f0f9026,5bd41f0f905d,5bd41f0ea07d)
+Function	0	exit 	InitializeENIPMessage
+Instruction 0x5bd41f0ea092: mov rdx, qword ptr [rbp-0x478]	0	2,3	0x7fffaece3612	0x18
+Function	0	enter	HandleReceivedExplictTcpData	(5bd41f0fa597,5bd41f0fa7a1,5bd41f0ea0b3)
+Instruction 0x5bd41f0fa5aa: mov qword ptr [rbp-0x58], rdx	0	2,3	0x7fffaece3612	0x18
+Instruction 0x5bd41f0fa5fc: mov rcx, qword ptr [rbp-0x58]	0	2,3	0x7fffaece3612	0x18
+Instruction 0x5bd41f0fa604: mov rsi, rcx	0	2,3	0x7fffaece3612	0x18
+Function	0	enter	CreateEncapsulationStructure	(5bd41f0fb442,5bd41f0fb546,5bd41f0fa60f)
+Instruction 0x5bd41f0fb452: mov qword ptr [rbp-0x10], rsi	0	2,3	0x7fffaece3612	0x18
+Function	0	enter	GetUintFromMessage	(5bd41f0fbb88,5bd41f0fbbd7,5bd41f0fb472)
+Instruction 0x5bd41f0fbba3: movzx eax, byte ptr [rax]	0	0	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fbba6: movzx eax, al	0	0	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fbbb1: movzx edx, byte ptr [rdx]	0	1	0x7fffaece3611	0x0
+Instruction 0x5bd41f0fbbb4: movzx edx, dl	0	1	0x7fffaece3611	0x0
+Instruction 0x5bd41f0fbbb7: shl edx, 0x8	0	1	0x0
+Instruction 0x5bd41f0fbbba: or eax, edx	0	0;1	0x63;0x0
+Instruction 0x5bd41f0fbbba: or eax, edx	0	0,1	0x63
+Instruction 0x5bd41f0fbbbc: mov word ptr [rbp-0xa], ax	0	0,1	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fbbd2: movzx eax, word ptr [rbp-0xa]	0	0,1	0x7fffaece3610	0x63
+Function	0	exit 	GetUintFromMessage
+Instruction 0x5bd41f0fb476: mov word ptr [rdx], ax	0	0,1	0x7fffaece3610	0x63
+Function	0	enter	GetUintFromMessage	(5bd41f0fbb88,5bd41f0fbbd7,5bd41f0fb485)
+Instruction 0x5bd41f0fbba3: movzx eax, byte ptr [rax]	0	2	0x7fffaece3612	0x0
+Instruction 0x5bd41f0fbba6: movzx eax, al	0	2	0x7fffaece3612	0x0
+Instruction 0x5bd41f0fbbb1: movzx edx, byte ptr [rdx]	0	3	0x7fffaece3613	0x0
+Instruction 0x5bd41f0fbbb4: movzx edx, dl	0	3	0x7fffaece3613	0x0
+Instruction 0x5bd41f0fbbb7: shl edx, 0x8	0	3	0x0
+Instruction 0x5bd41f0fbbba: or eax, edx	0	2;3	0x0;0x0
+Instruction 0x5bd41f0fbbba: or eax, edx	0	2,3	0x0
+Instruction 0x5bd41f0fbbbc: mov word ptr [rbp-0xa], ax	0	2,3	0x7fffaece3612	0x0
+Instruction 0x5bd41f0fbbd2: movzx eax, word ptr [rbp-0xa]	0	2,3	0x7fffaece3612	0x0
+Function	0	exit 	GetUintFromMessage
+Instruction 0x5bd41f0fb489: mov word ptr [rdx+0x2], ax	0	2,3	0x7fffaece3612	0x0
+Function	0	enter	GetUdintFromMessage	(5bd41f0fbc9c,5bd41f0fbd0f,5bd41f0fb499)
+Instruction 0x5bd41f0fbcb7: movzx eax, byte ptr [rax]	0	4	0x7fffaece3614	0x1
+Instruction 0x5bd41f0fbcba: movzx eax, al	0	4	0x7fffaece3614	0x1
+Instruction 0x5bd41f0fbcc5: movzx edx, byte ptr [rdx]	0	5	0x7fffaece3615	0x0
+Instruction 0x5bd41f0fbcc8: movzx edx, dl	0	5	0x7fffaece3615	0x0
+Instruction 0x5bd41f0fbccb: shl edx, 0x8	0	5	0x0
+Instruction 0x5bd41f0fbcce: or edx, eax	0	5;4	0x0;0x1
+Instruction 0x5bd41f0fbcce: or edx, eax	0	4,5	0x0
+Instruction 0x5bd41f0fbcd8: movzx eax, byte ptr [rax]	0	6	0x7fffaece3616	0x0
+Instruction 0x5bd41f0fbcdb: movzx eax, al	0	6	0x7fffaece3616	0x0
+Instruction 0x5bd41f0fbcde: shl eax, 0x10	0	6	0x0
+Instruction 0x5bd41f0fbce1: or edx, eax	0	4,5;6	0x1;0x0
+Instruction 0x5bd41f0fbce1: or edx, eax	0	4,5,6	0x1
+Instruction 0x5bd41f0fbceb: movzx eax, byte ptr [rax]	0	7	0x7fffaece3617	0x0
+Instruction 0x5bd41f0fbcee: movzx eax, al	0	7	0x7fffaece3617	0x0
+Instruction 0x5bd41f0fbcf1: shl eax, 0x18	0	7	0x0
+Instruction 0x5bd41f0fbcf4: or eax, edx	0	7;4,5,6	0x0;0x1
+Instruction 0x5bd41f0fbcf4: or eax, edx	0	4,5,6,7	0x0
+Instruction 0x5bd41f0fbcf6: mov dword ptr [rbp-0xc], eax	0	4,5,6,7	0x7fffaece3614	0x1
+Instruction 0x5bd41f0fbd0b: mov eax, dword ptr [rbp-0xc]	0	4,5,6,7	0x7fffaece3614	0x1
+Function	0	exit 	GetUdintFromMessage
+Instruction 0x5bd41f0fb49d: mov dword ptr [rdx+0x4], eax	0	4,5,6,7	0x7fffaece3614	0x1
+Function	0	enter	GetUdintFromMessage	(5bd41f0fbc9c,5bd41f0fbd0f,5bd41f0fb4ac)
+Instruction 0x5bd41f0fbcb7: movzx eax, byte ptr [rax]	0	8	0x7fffaece3618	0x0
+Instruction 0x5bd41f0fbcba: movzx eax, al	0	8	0x7fffaece3618	0x0
+Instruction 0x5bd41f0fbcc5: movzx edx, byte ptr [rdx]	0	9	0x7fffaece3619	0x0
+Instruction 0x5bd41f0fbcc8: movzx edx, dl	0	9	0x7fffaece3619	0x0
+Instruction 0x5bd41f0fbccb: shl edx, 0x8	0	9	0x0
+Instruction 0x5bd41f0fbcce: or edx, eax	0	9;8	0x0;0x0
+Instruction 0x5bd41f0fbcce: or edx, eax	0	8,9	0x0
+Instruction 0x5bd41f0fbcd8: movzx eax, byte ptr [rax]	0	10	0x7fffaece361a	0x0
+Instruction 0x5bd41f0fbcdb: movzx eax, al	0	10	0x7fffaece361a	0x0
+Instruction 0x5bd41f0fbcde: shl eax, 0x10	0	10	0x0
+Instruction 0x5bd41f0fbce1: or edx, eax	0	8,9;10	0x0;0x0
+Instruction 0x5bd41f0fbce1: or edx, eax	0	8,9,10	0x0
+Instruction 0x5bd41f0fbceb: movzx eax, byte ptr [rax]	0	11	0x7fffaece361b	0x0
+Instruction 0x5bd41f0fbcee: movzx eax, al	0	11	0x7fffaece361b	0x0
+Instruction 0x5bd41f0fbcf1: shl eax, 0x18	0	11	0x0
+Instruction 0x5bd41f0fbcf4: or eax, edx	0	11;8,9,10	0x0;0x0
+Instruction 0x5bd41f0fbcf4: or eax, edx	0	8,9,10,11	0x0
+Instruction 0x5bd41f0fbcf6: mov dword ptr [rbp-0xc], eax	0	8,9,10,11	0x7fffaece3618	0x0
+Instruction 0x5bd41f0fbd0b: mov eax, dword ptr [rbp-0xc]	0	8,9,10,11	0x7fffaece3618	0x0
+Function	0	exit 	GetUdintFromMessage
+Instruction 0x5bd41f0fb4b0: mov dword ptr [rdx+0x8], eax	0	8,9,10,11	0x7fffaece3618	0x0
+Function	0	enter	GetUdintFromMessage	(5bd41f0fbc9c,5bd41f0fbd0f,5bd41f0fb4f0)
+Instruction 0x5bd41f0fbcb7: movzx eax, byte ptr [rax]	0	20	0x7fffaece3624	0x0
+Instruction 0x5bd41f0fbcba: movzx eax, al	0	20	0x7fffaece3624	0x0
+Instruction 0x5bd41f0fbcc5: movzx edx, byte ptr [rdx]	0	21	0x7fffaece3625	0x0
+Instruction 0x5bd41f0fbcc8: movzx edx, dl	0	21	0x7fffaece3625	0x0
+Instruction 0x5bd41f0fbccb: shl edx, 0x8	0	21	0x0
+Instruction 0x5bd41f0fbcce: or edx, eax	0	21;20	0x0;0x0
+Instruction 0x5bd41f0fbcce: or edx, eax	0	20,21	0x0
+Instruction 0x5bd41f0fbcd8: movzx eax, byte ptr [rax]	0	22	0x7fffaece3626	0x0
+Instruction 0x5bd41f0fbcdb: movzx eax, al	0	22	0x7fffaece3626	0x0
+Instruction 0x5bd41f0fbcde: shl eax, 0x10	0	22	0x0
+Instruction 0x5bd41f0fbce1: or edx, eax	0	20,21;22	0x0;0x0
+Instruction 0x5bd41f0fbce1: or edx, eax	0	20,21,22	0x0
+Instruction 0x5bd41f0fbceb: movzx eax, byte ptr [rax]	0	23	0x7fffaece3627	0x0
+Instruction 0x5bd41f0fbcee: movzx eax, al	0	23	0x7fffaece3627	0x0
+Instruction 0x5bd41f0fbcf1: shl eax, 0x18	0	23	0x0
+Instruction 0x5bd41f0fbcf4: or eax, edx	0	23;20,21,22	0x0;0x0
+Instruction 0x5bd41f0fbcf4: or eax, edx	0	20,21,22,23	0x0
+Instruction 0x5bd41f0fbcf6: mov dword ptr [rbp-0xc], eax	0	20,21,22,23	0x7fffaece3624	0x0
+Instruction 0x5bd41f0fbd0b: mov eax, dword ptr [rbp-0xc]	0	20,21,22,23	0x7fffaece3624	0x0
+Function	0	exit 	GetUdintFromMessage
+Instruction 0x5bd41f0fb4f4: mov dword ptr [rdx+0x14], eax	0	20,21,22,23	0x7fffaece3624	0x0
+CMP+JUMP-Instruction 0x5bd41f0fb508: cmp qword ptr [rbp-0x10], rax	0	2,3	0x18;0x80000000
+CMP+JUMP_NEXT-Instruction : jb 0x5bd41f0fb52d
+Instruction 0x5bd41f0fb508: cmp qword ptr [rbp-0x10], rax	0	2,3	0x18;0x80000000
+Instruction 0x5bd41f0fb52d: mov rax, qword ptr [rbp-0x10]	0	2,3	0x7fffaece3612	0x18
+Instruction 0x5bd41f0fb538: movzx eax, word ptr [rax+0x2]	0	2,3	0x7fffaece3612	0x0
+Instruction 0x5bd41f0fb53c: movzx eax, ax	0	2,3	0x7fffaece3612	0x0
+Instruction 0x5bd41f0fb53f: sub edx, eax	0	;2,3	0x0;0x0
+Function	0	exit 	CreateEncapsulationStructure
+Instruction 0x5bd41f0fa621: mov eax, dword ptr [rbp-0x1c]	0	20,21,22,23	0x7fffaece3624	0x0
+CMP+JUMP-Instruction 0x5bd41f0fa629: cmp eax, edx	0	20,21,22,23	0x0;0x0
+CMP+JUMP_NEXT-Instruction : jnz 0x5bd41f0fa788
+Instruction 0x5bd41f0fa629: cmp eax, edx	0	20,21,22,23	0x0;0x0
+Instruction 0x5bd41f0fa663: movzx eax, word ptr [rbp-0x30]	0	0,1	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fa667: movzx eax, ax	0	0,1	0x7fffaece3610	0x63
+CMP+JUMP-Instruction 0x5bd41f0fa66a: cmp eax, 0x70	0	0,1	0x63
+CMP+JUMP_NEXT-Instruction : jnle 0x5bd41f0fa770
+Instruction 0x5bd41f0fa66a: cmp eax, 0x70	0	0,1	0x63
+CMP+JUMP-Instruction 0x5bd41f0fa673: cmp eax, 0x63	0	0,1	0x63
+CMP+JUMP_NEXT-Instruction : jnl 0x5bd41f0fa686
+Instruction 0x5bd41f0fa673: cmp eax, 0x63	0	0,1	0x63
+Instruction 0x5bd41f0fa686: sub eax, 0x63	0	0,1	0x63
+CMP+JUMP-Instruction 0x5bd41f0fa689: cmp eax, 0xd	0	0,1	0x0
+CMP+JUMP_NEXT-Instruction : jnbe 0x5bd41f0fa770
+Instruction 0x5bd41f0fa689: cmp eax, 0xd	0	0,1	0x0
+Instruction 0x5bd41f0fa692: mov eax, eax	0	0,1	0x7fffaece3610	0x0
+Function	0	enter	HandleReceivedListIdentityCommandTcp	(5bd41f0fab8a,5bd41f0fabb3,5bd41f0fa6ec)
+Function	0	enter	EncapsulateListIdentityResponseMessage	(5bd41f0fae8a,5bd41f0faeef,5bd41f0fabb1)
+Function	0	enter	ListIdentityGetCipIdentityItemLength	(5bd41f0fac9a,5bd41f0facb0,5bd41f0faea8)
+Function	0	exit 	ListIdentityGetCipIdentityItemLength
+Function	0	enter	GenerateEncapsulationHeader	(5bd41f0fa94a,5bd41f0faa30,5bd41f0faed0)
+Instruction 0x5bd41f0fa96c: movzx eax, word ptr [rax]	0	0,1	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fa96f: movzx eax, ax	0	0,1	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fa979: mov edi, eax	0	0,1	0x7fffaece3610	0x63
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fa980)
+Instruction 0x5bd41f0fbde5: mov eax, edi	0	0,1	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fbdeb: mov word ptr [rbp-0x4], ax	0	0,1	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fbdfa: movzx edx, word ptr [rbp-0x4]	0	0,1	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fbdfe: mov byte ptr [rax], dl	0	1	0x7fffaece3611	0x63
+Instruction 0x5bd41f0fbe00: movzx eax, word ptr [rbp-0x4]	0	0,1	0x7fffaece3610	0x63
+Instruction 0x5bd41f0fbe04: shr ax, 0x8	0	0,1	0x63
+Instruction 0x5bd41f0fbe08: mov edx, eax	0	0,1	0x7fffaece3610	0x0
+Instruction 0x5bd41f0fbe19: mov byte ptr [rax], dl	0	1	0x7fffaece3611	0x0
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fa995)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddDintToMessage	(5bd41f0fbe52,5bd41f0fbef2,5bd41f0fa9a6)
+Function	0	exit 	AddDintToMessage
+Function	0	enter	AddDintToMessage	(5bd41f0fbe52,5bd41f0fbef2,5bd41f0fa9b7)
+Function	0	exit 	AddDintToMessage
+Function	0	enter	AddDintToMessage	(5bd41f0fbe52,5bd41f0fbef2,5bd41f0faa2e)
+Function	0	exit 	AddDintToMessage
+Function	0	exit 	GenerateEncapsulationHeader
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0faee1)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	EncodeListIdentityCipIdentityItem	(5bd41f0facb1,5bd41f0fae89,5bd41f0faeed)
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0facda)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	ListIdentityGetCipIdentityItemLength	(5bd41f0fac9a,5bd41f0facb0,5bd41f0face4)
+Function	0	exit 	ListIdentityGetCipIdentityItemLength
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0facf5)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fad0b)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	EncapsulateIpAddress	(5bd41f0fc11c,5bd41f0fc260,5bd41f0fad2b)
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fc15a)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fc16c)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddDintToMessage	(5bd41f0fbe52,5bd41f0fbef2,5bd41f0fc17d)
+Function	0	exit 	AddDintToMessage
+Function	0	exit 	EncapsulateIpAddress
+Function	0	enter	FillNextNMessageOctetsWithValueAndMoveToNextPosition	(5bd41f0fc358,5bd41f0fc397,5bd41f0fad41)
+Function	0	enter	FillNextNMessageOctetsWith	(5bd41f0fc321,5bd41f0fc357,5bd41f0fc384)
+Function	0	exit 	FillNextNMessageOctetsWith
+Function	0	enter	MoveMessageNOctets	(5bd41f0fc2d3,5bd41f0fc320,5bd41f0fc395)
+Function	0	exit 	MoveMessageNOctets
+Function	0	exit 	FillNextNMessageOctetsWithValueAndMoveToNextPosition
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fad59)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fad71)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fad89)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddSintToMessage	(5bd41f0fbd84,5bd41f0fbddc,5bd41f0fada1)
+Function	0	exit 	AddSintToMessage
+Function	0	enter	AddSintToMessage	(5bd41f0fbd84,5bd41f0fbddc,5bd41f0fadb9)
+Function	0	exit 	AddSintToMessage
+Function	0	enter	AddIntToMessage	(5bd41f0fbddd,5bd41f0fbe51,5bd41f0fadd1)
+Function	0	exit 	AddIntToMessage
+Function	0	enter	AddDintToMessage	(5bd41f0fbe52,5bd41f0fbef2,5bd41f0fade5)
+Function	0	exit 	AddDintToMessage
+Function	0	enter	AddSintToMessage	(5bd41f0fbd84,5bd41f0fbddc,5bd41f0fadfd)
+Function	0	exit 	AddSintToMessage
+Function	0	enter	AddSintToMessage	(5bd41f0fbd84,5bd41f0fbddc,5bd41f0fae82)
+Function	0	exit 	AddSintToMessage
+Function	0	exit 	EncodeListIdentityCipIdentityItem
+Function	0	exit 	EncapsulateListIdentityResponseMessage
+Function	0	exit 	HandleReceivedListIdentityCommandTcp
+Function	0	exit 	HandleReceivedExplictTcpData
+Function	0	enter	SocketTimerSetLastUpdate	(5bd41f0ea962,5bd41f0ea987,5bd41f0ea0dc)
+Function	0	exit 	SocketTimerSetLastUpdate
+Function	0	enter	SocketTimerSetLastUpdate	(5bd41f0ea962,5bd41f0ea987,5bd41f0ea130)
+Function	0	exit 	SocketTimerSetLastUpdate
+Function	0	exit 	HandleDataOnTcpSocket
+Function	0	enter	CheckEncapsulationInactivity	(5bd41f0ea840,5bd41f0ea8e7,5bd41f0e96f9)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0ea876)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	exit 	CheckEncapsulationInactivity
+Function	0	enter	CheckEncapsulationInactivity	(5bd41f0ea840,5bd41f0ea8e7,5bd41f0e96f9)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0ea876)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	exit 	CheckEncapsulationInactivity
+Function	0	enter	CheckEncapsulationInactivity	(5bd41f0ea840,5bd41f0ea8e7,5bd41f0e96f9)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0ea876)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	exit 	CheckEncapsulationInactivity
+Function	0	enter	CheckEncapsulationInactivity	(5bd41f0ea840,5bd41f0ea8e7,5bd41f0e96f9)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0ea876)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	exit 	CheckEncapsulationInactivity
+Function	0	enter	CheckEncapsulationInactivity	(5bd41f0ea840,5bd41f0ea8e7,5bd41f0e96f9)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0ea876)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	exit 	CheckEncapsulationInactivity
+Function	0	enter	CheckEncapsulationInactivity	(5bd41f0ea840,5bd41f0ea8e7,5bd41f0e96f9)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0ea876)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	exit 	CheckEncapsulationInactivity
+Function	0	enter	CheckEncapsulationInactivity	(5bd41f0ea840,5bd41f0ea8e7,5bd41f0e96f9)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0ea876)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	exit 	CheckEncapsulationInactivity
+Function	0	enter	CheckEncapsulationInactivity	(5bd41f0ea840,5bd41f0ea8e7,5bd41f0e96f9)
+Function	0	enter	SocketTimerArrayGetSocketTimer	(5bd41f0eaa0f,5bd41f0eaa6e,5bd41f0ea876)
+Function	0	exit 	SocketTimerArrayGetSocketTimer
+Function	0	enter	SocketTimerGetLastUpdate	(5bd41f0ea988,5bd41f0ea99d,5bd41f0ea894)
+Function	0	exit 	SocketTimerGetLastUpdate
+Function	0	exit 	CheckEncapsulationInactivity
+Function	0	enter	GetMilliSeconds	(5bd41f0eab46,5bd41f0eab6c,5bd41f0e970d)
+Function	0	enter	GetMicroSeconds	(5bd41f0eaa9d,5bd41f0eab45,5bd41f0eab53)
+Function	0	exit 	GetMicroSeconds
+Function	0	exit 	GetMilliSeconds
+Function	0	enter	ManageConnections	(5bd41f0f0c5a,5bd41f0f0ef7,5bd41f0e9767)
+Function	0	enter	HandleApplication	(5bd41f0f918a,5bd41f0f9194,5bd41f0f0c6f)
+Function	0	exit 	HandleApplication
+Function	0	enter	ManageEncapsulationMessages	(5bd41f0fb758,5bd41f0fb890,5bd41f0f0c7b)
+Function	0	exit 	ManageEncapsulationMessages
+Function	0	exit 	ManageConnections
+Function	0	exit 	NetworkHandlerProcessCyclic
+Function	0	enter	NetworkHandlerProcessCyclic	(5bd41f0e94dd,5bd41f0e97cd,5bd41f0e8abc)
+Function	0	enter	CheckAndHandleTcpListenerSocket	(5bd41f0e93b9,5bd41f0e94dc,5bd41f0e968e)
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e93d9)
+Function	0	exit 	CheckSocketSet
+Function	0	exit 	CheckAndHandleTcpListenerSocket
+Function	0	enter	CheckAndHandleUdpUnicastSocket	(5bd41f0e99e0,5bd41f0e9bbb,5bd41f0e9693)
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e9a0b)
+Function	0	exit 	CheckSocketSet
+Function	0	exit 	CheckAndHandleUdpUnicastSocket
+Function	0	enter	CheckAndHandleUdpGlobalBroadcastSocket	(5bd41f0e9804,5bd41f0e99df,5bd41f0e9698)
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e982f)
+Function	0	exit 	CheckSocketSet
+Function	0	exit 	CheckAndHandleUdpGlobalBroadcastSocket
+Function	0	enter	CheckAndHandleConsumingUdpSocket	(5bd41f0ea52e,5bd41f0ea73f,5bd41f0e969d)
+Function	0	exit 	CheckAndHandleConsumingUdpSocket
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e96b0)
+Function	0	exit 	CheckSocketSet
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e96b0)
+Function	0	exit 	CheckSocketSet
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e96b0)
+Function	0	exit 	CheckSocketSet
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e96b0)
+Function	0	exit 	CheckSocketSet
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e96b0)
+Function	0	exit 	CheckSocketSet
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e96b0)
+Function	0	exit 	CheckSocketSet
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e96b0)
+Function	0	exit 	CheckSocketSet
+Function	0	enter	CheckSocketSet	(5bd41f0e92b0,5bd41f0e93b8,5bd41f0e96b0)
+Function	0	exit 	CheckSocketSet
+Function	0	enter	HandleDataOnTcpSocket	(5bd41f0e9c54,5bd41f0ea151,5bd41f0e96be)
+recv_point taint

@@ -1,0 +1,23 @@
+===============SEMANTIC===================
+sizeofTaint: 10
+
+field-to-constantcmp
+	8:{'0xd'}
+	9:{'0xa'}
+	4:{'0x2f'}
+ 
+constantcmp-to-field
+	0xd:['8']
+	0xa:['9']
+	0x2f:['4']
+ 
+cmp_true
+9
+8
+Polyglot_Separator:[]
+KEYWORDs:
+collect:[8, 9]
+Polyglot_keyword:	['8,9']
+
+	None
+	None

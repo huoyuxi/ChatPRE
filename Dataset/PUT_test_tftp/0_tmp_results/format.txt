@@ -1,0 +1,14 @@
+[Message]	size 4:	(0) (4) (0) (1) 
+96406758562473: 96406758562476
+96406758562473: 96406758562476
+
+===============================
+sizeofTaint: 4
+ 
+Format_[FLAT: polyglot]
+	0,1
+	2,3
+ 
+Format_[FLAT: Tupni]
+ 
+Format_[Structured: Tupni]

@@ -1,0 +1,501 @@
+Taint	(0x740c58000ce4, 7)
+Function	2	exit 	TMsgSocket::RecvPacket(void*, int)
+Instruction 0x740c61a7d434: movzx edx, byte ptr [rbx+0x189]	2	5	0x740c58000ce9	0xf0
+CMP+JUMP-Instruction 0x740c61a7d43b: cmp dl, 0xe0	2	5	0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d510
+Instruction 0x740c61a7d43b: cmp dl, 0xe0	2	5	0xf0
+CMP+JUMP-Instruction 0x740c61a7d444: cmp dl, 0xf0	2	5	0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d488
+Instruction 0x740c61a7d444: cmp dl, 0xf0	2	5	0xf0
+Instruction 0x740c61a7d488: movzx eax, byte ptr [rbx+0x18a]	2	6	0x740c58000cea	0x80
+Instruction 0x740c61a7d48f: shr al, 0x7	2	6	0x80
+Instruction 0x740c61a7d492: mov byte ptr [r15], al	2	6	0x740c58000cea	0x1
+Instruction 0x740c61a7d49b: mov byte ptr [rsp+0x8], dl	2	5	0x740c58000ce9	0xf0
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(740c61a78630,740c61a7863b,740c61a7d4a4)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(740c61a7cf00,740c61a7cf0d,740c61a7d4a4)
+Instruction 0x740c61a7cf00: movzx eax, byte ptr [rsi+0x2]	2	2	0x740c58000ce6	0x0
+Instruction 0x740c61a7cf04: movzx edx, byte ptr [rsi+0x3]	2	3	0x740c58000ce7	0x21
+Instruction 0x740c61a7cf08: shl eax, 0x8	2	2	0x0
+Instruction 0x740c61a7cf0b: add eax, edx	2	2;3	0x0;0x21
+Instruction 0x740c61a7cf0b: add eax, edx	2	2,3	0x0
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x740c61a7d4a4: movzx edx, byte ptr [rsp+0x8]	2	5	0x740c58000ce9	0xf0
+Instruction 0x740c61a7d4af: mov r15d, eax	2	2,3	0x740c58000ce6	0x21
+Function	2	enter	TIsoTcpSocket::CheckPDU(void*, unsigned char)@plt	(740c61a785a0,740c61a785ab,740c61a7d4b7)
+Function	2	enter	TIsoTcpSocket::CheckPDU(void*, unsigned char)	(740c61a7cf10,740c61a7cf9d,740c61a7d4b7)
+Instruction 0x740c61a7cf29: mov r12d, edx	2	5	0x740c58000ce9	0xf0
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7cf31)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7cf31)
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(740c61a78630,740c61a7863b,740c61a7cf41)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(740c61a7cf00,740c61a7cf0d,740c61a7cf41)
+Instruction 0x740c61a7cf00: movzx eax, byte ptr [rsi+0x2]	2	2	0x740c58000ce6	0x0
+Instruction 0x740c61a7cf04: movzx edx, byte ptr [rsi+0x3]	2	3	0x740c58000ce7	0x21
+Instruction 0x740c61a7cf08: shl eax, 0x8	2	2	0x0
+Instruction 0x740c61a7cf0b: add eax, edx	2	2;3	0x0;0x21
+Instruction 0x740c61a7cf0b: add eax, edx	2	2,3	0x0
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x740c61a7cf41: sub eax, 0x7	2	2,3	0x21
+CMP+JUMP-Instruction 0x740c61a7cf44: cmp eax, 0xff9	2	2,3	0x1a
+CMP+JUMP_NEXT-Instruction : jnbe 0x740c61a7cf57
+Instruction 0x740c61a7cf44: cmp eax, 0xff9	2	2,3	0x1a
+CMP+JUMP-Instruction 0x740c61a7cf4b: cmp byte ptr [rbx+0x4], 0x1	2	4	0x2
+CMP+JUMP_NEXT-Instruction : jbe 0x740c61a7cf57
+Instruction 0x740c61a7cf4b: cmp byte ptr [rbx+0x4], 0x1	2	4	0x2
+CMP+JUMP-Instruction 0x740c61a7cf51: cmp byte ptr [rbx+0x5], r12b	2	5;5	0xf0;0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7cf80
+Instruction 0x740c61a7cf51: cmp byte ptr [rbx+0x5], r12b	2	5;5	0xf0;0xf0
+Instruction 0x740c61a7cf80: xor eax, eax	2	2,3;2,3	0x1a;0x1a
+Function	2	exit 	TIsoTcpSocket::CheckPDU(void*, unsigned char)
+Instruction 0x740c61a7d4bb: sub r15d, 0x7	2	2,3	0x21
+Instruction 0x740c61a7d4bf: test r15d, r15d	2	2,3;2,3	0x1a;0x1a
+CMP+JUMP-Instruction 0x740c61a7d4c4: cmp r15d, r13d	2	2,3	0x1a;0x1000
+CMP+JUMP_NEXT-Instruction : jnle 0x740c61a7d530
+Instruction 0x740c61a7d4c4: cmp r15d, r13d	2	2,3	0x1a;0x1000
+Instruction 0x740c61a7d4c9: mov edx, r15d	2	2,3	0x740c58000ce6	0x1a
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)@plt	(740c61a78fe0,740c61a78feb,740c61a7d4d7)
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)	(740c61a7a0c0,740c61a7a16b,740c61a7d4d7)
+Instruction 0x740c61a7a0ca: mov ebp, edx	2	2,3	0x740c58000ce6	0x1a
+Instruction 0x740c61a7a0de: mov esi, ebp	2	2,3	0x740c58000ce6	0x1a
+Function	2	enter	TMsgSocket::WaitForData(int, int)@plt	(740c61a790e0,740c61a790eb,740c61a7a0e5)
+Function	2	enter	TMsgSocket::WaitForData(int, int)	(740c61a798e0,740c61a79984,740c61a7a0e5)
+Instruction 0x740c61a798e5: push rbp	2	2,3	0x740c58000ce6	0x1a
+Instruction 0x740c61a798e6: mov ebp, esi	2	2,3	0x740c58000ce6	0x1a
+Instruction 0x740c61a798e8: xor esi, esi	2	2,3;2,3	0x1a;0x1a
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a798f7)
+Function	2	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a798f7)
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Function	2	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	2	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79968)
+Function	2	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79968)
+Function	2	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	exit 	TMsgSocket::WaitingData()
+Function	2	enter	SysGetTick()@plt	(740c61a787a0,740c61a787ab,740c61a79907)
+Function	2	enter	SysGetTick()	(740c61a7a940,740c61a7a980,740c61a79907)
+Function	2	enter	clock_gettime@plt	(740c61a78fd0,740c61a78fdb,740c61a7a951)
+Function	2	exit 	SysGetTick()
+Function	2	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79912)
+Function	2	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79912)
+Function	2	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	2	exit 	TMsgSocket::WaitingData()
+Instruction 0x740c61a79923: pop rbp	2	2,3	0x740c58000ce6	0x1a
+Function	2	exit 	TMsgSocket::WaitForData(int, int)
+Function	2	enter	recv@plt	(740c61a77cc0,740c61a77ccb,740c61a7a0ff)
+recv_point taint
+Taint	(0x740c58000ceb, 1a)
+Function	2	exit 	TMsgSocket::RecvPacket(void*, int)
+Instruction 0x740c61a7d4e0: mov dword ptr [r12], r15d	2	2,3	0x740c58000ce6	0x1a
+Function	2	exit 	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+CMP+JUMP-Instruction 0x740c61a7d5c8: cmp byte ptr [rsp+0x10], 0x0	2	6	0x1
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d610
+Instruction 0x740c61a7d5c8: cmp byte ptr [rsp+0x10], 0x0	2	6	0x1
+Instruction 0x740c61a7d5cf: add ebp, dword ptr [rsp+0x20]	2	;2,3	0x0;0x1a
+Function	2	exit 	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Function	2	enter	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)@plt	(740c61a78b00,740c61a78b0b,740c61a80055)
+Function	2	enter	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)	(740c61a7d7e0,740c61a7d8a5,740c61a80055)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(740c61a78630,740c61a7863b,740c61a7d7f9)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(740c61a7cf00,740c61a7cf0d,740c61a7d7f9)
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x740c61a7d803: movzx eax, byte ptr [rbx+0x5]	2	5	0x740c58000ce9	0xf0
+CMP+JUMP-Instruction 0x740c61a7d807: cmp al, 0xe0	2	5	0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d890
+Instruction 0x740c61a7d807: cmp al, 0xe0	2	5	0xf0
+CMP+JUMP-Instruction 0x740c61a7d80f: cmp al, 0xf0	2	5	0xf0
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a7d870
+Instruction 0x740c61a7d80f: cmp al, 0xf0	2	5	0xf0
+Function	2	exit 	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(740c61a78630,740c61a7863b,740c61a800c3)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(740c61a7cf00,740c61a7cf0d,740c61a800c3)
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Function	2	enter	TS7Worker::IsoPerformCommand(int&)	(740c61a84fa0,740c61a8506c,740c61a800d8)
+Function	2	enter	TS7Worker::CheckPDU_in(int)@plt	(740c61a77ce0,740c61a77ceb,740c61a84fbf)
+Function	2	enter	TS7Worker::CheckPDU_in(int)	(740c61a80210,740c61a8029f,740c61a84fbf)
+Instruction 0x740c61a8023c: movzx esi, word ptr [rax+0x6]	2	13,14	0x740c58000cf1	0x800
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a80245)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a80245)
+Instruction 0x740c61a79410: mov eax, esi	2	13,14	0x740c58000cf1	0x800
+Instruction 0x740c61a79412: rol ax, 0x8	2	13,14	0x800
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x740c61a80245: movzx r13d, ax	2	13,14	0x740c58000cf1	0x8
+Instruction 0x740c61a80253: movzx esi, word ptr [rax+0x8]	2	15,16	0x740c58000cf3	0x800
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a8025c)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a8025c)
+Instruction 0x740c61a79410: mov eax, esi	2	15,16	0x740c58000cf3	0x800
+Instruction 0x740c61a79412: rol ax, 0x8	2	15,16	0x800
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x740c61a8025c: movzx eax, ax	2	15,16	0x740c58000cf3	0x8
+Instruction 0x740c61a80264: xor eax, eax	2	15,16;15,16	0x8;0x8
+Instruction 0x740c61a80272: movzx edx, byte ptr [rax+0x1]	2	8	0x740c58000cec	0x7
+Instruction 0x740c61a80276: cmp dl, 0x7	2	8	0x7
+Instruction 0x740c61a8027c: cmp dl, 0x1	2	8	0x7
+Function	2	exit 	TS7Worker::CheckPDU_in(int)
+Instruction 0x740c61a84fca: movzx eax, byte ptr [rax+0x1]	2	8	0x740c58000cec	0x7
+CMP+JUMP-Instruction 0x740c61a84fce: cmp al, 0x1	2	8	0x7
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a85058
+Instruction 0x740c61a84fce: cmp al, 0x1	2	8	0x7
+CMP+JUMP-Instruction 0x740c61a84fd6: cmp al, 0x7	2	8	0x7
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a85038
+Instruction 0x740c61a84fd6: cmp al, 0x7	2	8	0x7
+Function	2	enter	TS7Worker::PerformPDUUsrData(int&)@plt	(740c61a78160,740c61a7816b,740c61a800d8)
+Function	2	enter	TS7Worker::PerformPDUUsrData(int&)	(740c61a83510,740c61a835d4,740c61a800d8)
+Instruction 0x740c61a8351b: movzx ecx, byte ptr [rax+0xf]	2	22	0x740c58000cfa	0x44
+Instruction 0x740c61a8351f: movzx esi, byte ptr [rax+0x10]	2	23	0x740c58000cfb	0x1
+Function	2	enter	TS7Worker::PerformGroupSZL()@plt	(740c61a78880,740c61a7888b,740c61a800d8)
+Function	2	enter	TS7Worker::PerformGroupSZL()	(740c61a81450,740c61a82d8f,740c61a800d8)
+Instruction 0x740c61a8148b: movzx eax, word ptr [rax+0x4]	2	11,12	0x740c58000cef	0x1
+Instruction 0x740c61a814ab: mov word ptr [rdi+0x11b4], ax	2	11,12	0x740c58000cef	0x1
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a814c1)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a814c1)
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x740c61a814d6: movzx edx, byte ptr [rdx]	2	17	0x740c58000cf5	0x0
+Instruction 0x740c61a814d9: mov byte ptr [rax], dl	2	17	0x740c58000cf5	0x0
+Instruction 0x740c61a814e9: movzx edx, byte ptr [rdx+0x1]	2	18	0x740c58000cf6	0x1
+Instruction 0x740c61a814ed: mov byte ptr [rax+0x1], dl	2	18	0x740c58000cf6	0x1
+Instruction 0x740c61a814fe: movzx edx, byte ptr [rdx+0x2]	2	19	0x740c58000cf7	0x12
+Instruction 0x740c61a81502: mov byte ptr [rax+0x2], dl	2	19	0x740c58000cf7	0x12
+Instruction 0x740c61a81534: movzx edx, byte ptr [rdx+0x6]	2	23	0x740c58000cfb	0x1
+Instruction 0x740c61a81538: mov byte ptr [rax+0x6], dl	2	23	0x740c58000cfb	0x1
+Instruction 0x740c61a81549: movzx edx, byte ptr [rdx+0x7]	2	24	0x740c58000cfc	0x0
+Instruction 0x740c61a8154d: mov byte ptr [rax+0x7], dl	2	24	0x740c58000cfc	0x0
+Instruction 0x740c61a8155d: movzx eax, byte ptr [rax+0x6]	2	23	0x740c58000cfb	0x1
+CMP+JUMP-Instruction 0x740c61a81561: cmp al, 0x2	2	23	0x1
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a81710
+Instruction 0x740c61a81561: cmp al, 0x2	2	23	0x1
+CMP+JUMP-Instruction 0x740c61a81569: cmp al, 0x1	2	23	0x1
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a81588
+Instruction 0x740c61a81569: cmp al, 0x1	2	23	0x1
+Instruction 0x740c61a81592: movzx esi, word ptr [rax+0x16]	2	29,30	0x740c58000d01	0x2404
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a815a6)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a815a6)
+Instruction 0x740c61a79410: mov eax, esi	2	29,30	0x740c58000d01	0x2404
+Instruction 0x740c61a79412: rol ax, 0x8	2	29,30	0x2404
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x740c61a815a6: movzx eax, ax	2	29,30	0x740c58000d01	0x424
+Instruction 0x740c61a815ac: mov dword ptr [rbx+0x21d0], eax	2	29,30	0x740c58000d01	0x424
+Instruction 0x740c61a815b9: movzx esi, word ptr [rax+0x6]	2	31,32	0x740c58000d03	0x0
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a815c2)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a815c2)
+Instruction 0x740c61a79410: mov eax, esi	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a79412: rol ax, 0x8	2	31,32	0x0
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x740c61a815c2: movzx edx, ax	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a815c5: mov dword ptr [rbx+0x21d4], edx	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a815cb: mov edx, dword ptr [rbx+0x21d0]	2	29,30	0x740c58000d01	0x424
+CMP+JUMP-Instruction 0x740c61a815d1: cmp edx, 0x194	2	29,30	0x424
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a81dc0
+Instruction 0x740c61a815d1: cmp edx, 0x194	2	29,30	0x424
+CMP+JUMP-Instruction 0x740c61a815e3: cmp edx, 0xf14	2	29,30	0x424
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a81d48
+Instruction 0x740c61a815e3: cmp edx, 0xf14	2	29,30	0x424
+CMP+JUMP-Instruction 0x740c61a815f6: cmp edx, 0x694	2	29,30	0x424
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a81c50
+Instruction 0x740c61a815f6: cmp edx, 0x694	2	29,30	0x424
+CMP+JUMP-Instruction 0x740c61a81608: cmp edx, 0x292	2	29,30	0x424
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a81df0
+Instruction 0x740c61a81608: cmp edx, 0x292	2	29,30	0x424
+CMP+JUMP-Instruction 0x740c61a819c0: cmp edx, 0x424	2	29,30	0x424
+CMP+JUMP_NEXT-Instruction : jz 0x740c61a81e79
+Instruction 0x740c61a819c0: cmp edx, 0x424	2	29,30	0x424
+Function	2	enter	TS7Worker::SZL_ID424()@plt	(740c61a77830,740c61a7783b,740c61a81e81)
+Function	2	enter	TS7Worker::SZL_ID424()	(740c61a81300,740c61a81391,740c61a81e81)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(740c61a78640,740c61a7864b,740c61a81317)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(740c61a79410,740c61a7941c,740c61a81317)
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Function	2	enter	TS7Worker::FillTime(TS7Time*)@plt	(740c61a78fa0,740c61a78fab,740c61a81364)
+Function	2	enter	TS7Worker::FillTime(TS7Time*)	(740c61a802c0,740c61a80370,740c61a81364)
+Function	2	enter	time@plt	(740c61a79170,740c61a7917b,740c61a802d8)
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	localtime@plt	(740c61a78e90,740c61a78e9b,740c61a802e2)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	enter	TS7Worker::BCD(unsigned short)@plt	(740c61a788e0,740c61a788eb,740c61a802f7)
+Function	2	enter	TS7Worker::BCD(unsigned short)	(740c61a802a0,740c61a802ba,740c61a802f7)
+Function	2	exit 	TS7Worker::BCD(unsigned short)
+Function	2	enter	TS7Worker::BCD(unsigned short)@plt	(740c61a788e0,740c61a788eb,740c61a8030d)
+Function	2	enter	TS7Worker::BCD(unsigned short)	(740c61a802a0,740c61a802ba,740c61a8030d)
+Function	2	exit 	TS7Worker::BCD(unsigned short)
+Function	2	enter	TS7Worker::BCD(unsigned short)@plt	(740c61a788e0,740c61a788eb,740c61a8031e)
+Function	2	enter	TS7Worker::BCD(unsigned short)	(740c61a802a0,740c61a802ba,740c61a8031e)
+Function	2	exit 	TS7Worker::BCD(unsigned short)
+Function	2	enter	TS7Worker::BCD(unsigned short)@plt	(740c61a788e0,740c61a788eb,740c61a8032f)
+Function	2	enter	TS7Worker::BCD(unsigned short)	(740c61a802a0,740c61a802ba,740c61a8032f)
+Function	2	exit 	TS7Worker::BCD(unsigned short)
+Function	2	enter	TS7Worker::BCD(unsigned short)@plt	(740c61a788e0,740c61a788eb,740c61a80340)
+Function	2	enter	TS7Worker::BCD(unsigned short)	(740c61a802a0,740c61a802ba,740c61a80340)
+Function	2	exit 	TS7Worker::BCD(unsigned short)
+Function	2	enter	TS7Worker::BCD(unsigned short)@plt	(740c61a788e0,740c61a788eb,740c61a80350)
+Function	2	enter	TS7Worker::BCD(unsigned short)	(740c61a802a0,740c61a802ba,740c61a80350)
+Function	2	exit 	TS7Worker::BCD(unsigned short)
+Function	2	enter	TS7Worker::BCD(unsigned short)@plt	(740c61a788e0,740c61a788eb,740c61a80365)
+Function	2	enter	TS7Worker::BCD(unsigned short)	(740c61a802a0,740c61a802ba,740c61a80365)
+Function	2	exit 	TS7Worker::BCD(unsigned short)
+Function	2	exit 	TS7Worker::FillTime(TS7Time*)
+Function	2	enter	TIsoTcpSocket::isoSendBuffer(void*, int)@plt	(740c61a78cd0,740c61a78cdb,740c61a81e81)
+Function	2	enter	TIsoTcpSocket::isoSendBuffer(void*, int)	(740c61a7d170,740c61a7d25d,740c61a81e81)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7d195)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7d195)
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	memcpy@plt	(740c61a79060,740c61a7906b,740c61a7d1f5)
+Function	2	enter	TMsgSocket::SendPacket(void*, int)@plt	(740c61a779f0,740c61a779fb,740c61a7d207)
+Function	2	enter	TMsgSocket::SendPacket(void*, int)	(740c61a79f60,740c61a79fe7,740c61a7d207)
+Function	2	enter	TMsgSocket::CanWrite(int)@plt	(740c61a78f80,740c61a78f8b,740c61a79f8f)
+Function	2	enter	TMsgSocket::CanWrite(int)	(740c61a79720,740c61a797f6,740c61a79f8f)
+Function	2	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79782)
+Function	2	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a797b4)
+Function	2	exit 	TMsgSocket::CanWrite(int)
+Function	2	enter	send@plt	(740c61a78930,740c61a7893b,740c61a79fcb)
+Function	2	exit 	TMsgSocket::SendPacket(void*, int)
+Function	2	exit 	TIsoTcpSocket::isoSendBuffer(void*, int)
+Instruction 0x740c61a81657: movzx r8d, word ptr [rbx+0x21d4]	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a81665: movzx ecx, word ptr [rbx+0x21d0]	2	29,30	0x740c58000d01	0x424
+Function	2	enter	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)@plt	(740c61a78ba0,740c61a78bab,740c61a817ef)
+Function	2	enter	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(740c61a80380,740c61a803c0,740c61a817ef)
+Instruction 0x740c61a803a4: movzx r9d, r8w	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a803a8: movzx r8d, cx	2	29,30	0x740c58000d01	0x424
+Function	2	enter	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(740c61a7ac80,740c61a7adad,740c61a803bc)
+Instruction 0x740c61a7ad08: mov dword ptr [rsp+0x10], r8d	2	29,30	0x740c58000d01	0x424
+Instruction 0x740c61a7ad0d: mov dword ptr [rsp+0x8], r9d	2	31,32	0x740c58000d03	0x0
+Function	2	enter	pthread_mutex_lock@plt	(740c61a78df0,740c61a78dfb,740c61a7ad17)
+Function	2	enter	time@plt	(740c61a79170,740c61a7917b,740c61a7ad21)
+Instruction 0x740c61a7ad30: mov r8d, dword ptr [rsp+0x10]	2	29,30	0x740c58000d01	0x424
+Instruction 0x740c61a7ad35: mov r9d, dword ptr [rsp+0x8]	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a7ad4d: mov word ptr [rsp+0x42], r8w	2	29,30	0x740c58000d01	0x424
+Instruction 0x740c61a7ad53: mov word ptr [rsp+0x44], r9w	2	31,32	0x740c58000d03	0x0
+Function	2	enter	EventCallBack(void*, TSrvEvent*, int)	(56874edba3e0,56874edba43f,740c61a7ad7a)
+Function	2	enter	SrvEventText[abi:cxx11](TSrvEvent*)	(56874edbb6c0,56874edbb83b,56874edba401)
+Function	2	enter	Srv_EventText	(740c61a912a0,740c61a91328,56874edbb6fd)
+Function	2	enter	EvtSrvText(TSrvEvent&)@plt	(740c61a789a0,740c61a789ab,740c61a912c6)
+Function	2	enter	EvtSrvText(TSrvEvent&)	(740c61a88170,740c61a8a750,740c61a912c6)
+Instruction 0x740c61a88ac0: movzx esi, word ptr [rbp+0x14]	2	31,32	0x740c58000d03	0x0
+Function	2	enter	NumToString(int, int, unsigned int)@plt	(740c61a78e70,740c61a78e7b,740c61a88adb)
+Function	2	enter	NumToString(int, int, unsigned int)	(740c61a85100,740c61a852f0,740c61a88adb)
+Instruction 0x740c61a85152: mov edx, esi	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a85154: mov eax, esi	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a85156: mov r10d, esi	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a85159: sar edx, 0x1f	2	31,32	0x0
+Instruction 0x740c61a85160: imul edx, eax	2	;31,32	0x10;0x0
+Instruction 0x740c61a85163: sub r10d, edx	2	31,32	0x0;0x0
+Instruction 0x740c61a85166: mov edx, r10d	2	31,32	0x740c58000d03	0x0
+Instruction 0x740c61a85169: add edx, 0x23	2	31,32	0x0
+Instruction 0x740c61a8517a: test eax, eax	2	31,32;31,32	0x0;0x0
+Instruction 0x740c61a8517e: test esi, esi	2	31,32;31,32	0x0;0x0
+Function	2	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a851f3)
+Function	2	enter	std::string::reserve(unsigned long)@plt	(740c61a77b30,740c61a77b3b,740c61a85223)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a85239)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a85246)
+Function	2	enter	std::string::assign(std::string const&)@plt	(740c61a789f0,740c61a789fb,740c61a85253)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a852b4)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+LOOP	740c61a85210	13
+Function	2	enter	std::string::reserve(unsigned long)@plt	(740c61a77b30,740c61a77b3b,740c61a85223)
+LOOP	740c61a85223	16
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a85239)
+LOOP	740c61a85239	d
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a85246)
+Function	1	exit 	TMsgSocket::CanRead(int)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Function	2	enter	std::string::assign(std::string const&)@plt	(740c61a789f0,740c61a789fb,740c61a85253)
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a852b4)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::reserve(unsigned long)@plt	(740c61a77b30,740c61a77b3b,740c61a85223)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a85239)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a85246)
+Function	2	enter	std::string::assign(std::string const&)@plt	(740c61a789f0,740c61a789fb,740c61a85253)
+LOOP	740c61a85253	e
+LOOP	740c61a852ab	9
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a852b4)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+LOOP	740c61a852b4	4
+LOOP	740c61a85261	c
+Function	2	exit 	NumToString(int, int, unsigned int)
+Instruction 0x740c61a88adb: movzx esi, word ptr [rbp+0x12]	2	29,30	0x740c58000d01	0x424
+Function	2	enter	NumToString(int, int, unsigned int)@plt	(740c61a78e70,740c61a78e7b,740c61a88af6)
+Function	2	enter	NumToString(int, int, unsigned int)	(740c61a85100,740c61a852f0,740c61a88af6)
+Instruction 0x740c61a85152: mov edx, esi	2	29,30	0x740c58000d01	0x424
+Instruction 0x740c61a85154: mov eax, esi	2	29,30	0x740c58000d01	0x424
+Instruction 0x740c61a85156: mov r10d, esi	2	29,30	0x740c58000d01	0x424
+Instruction 0x740c61a85159: sar edx, 0x1f	2	29,30	0x424
+Instruction 0x740c61a85160: imul edx, eax	2	;29,30	0x10;0x42
+Instruction 0x740c61a85163: sub r10d, edx	2	29,30	0x424;0x420
+Instruction 0x740c61a85166: mov edx, r10d	2	29,30	0x740c58000d01	0x4
+Instruction 0x740c61a85169: add edx, 0x23	2	29,30	0x4
+Instruction 0x740c61a8517a: test eax, eax	2	29,30;29,30	0x42;0x42
+Instruction 0x740c61a85150: mov esi, eax	2	29,30	0x740c58000d01	0x42
+Instruction 0x740c61a85152: mov edx, esi	2	29,30	0x740c58000d01	0x42
+Instruction 0x740c61a85154: mov eax, esi	2	29,30	0x740c58000d01	0x42
+Instruction 0x740c61a85156: mov r10d, esi	2	29,30	0x740c58000d01	0x42
+Instruction 0x740c61a85159: sar edx, 0x1f	2	29,30	0x42
+Instruction 0x740c61a85160: imul edx, eax	2	;29,30	0x10;0x4
+Instruction 0x740c61a85163: sub r10d, edx	2	29,30	0x42;0x40
+Instruction 0x740c61a85166: mov edx, r10d	2	29,30	0x740c58000d01	0x2
+Instruction 0x740c61a85169: add edx, 0x23	2	29,30	0x2
+Instruction 0x740c61a8517a: test eax, eax	2	29,30;29,30	0x4;0x4
+Instruction 0x740c61a85150: mov esi, eax	2	29,30	0x740c58000d01	0x4
+Instruction 0x740c61a85152: mov edx, esi	2	29,30	0x740c58000d01	0x4
+Instruction 0x740c61a85154: mov eax, esi	2	29,30	0x740c58000d01	0x4
+Instruction 0x740c61a85156: mov r10d, esi	2	29,30	0x740c58000d01	0x4
+Instruction 0x740c61a85159: sar edx, 0x1f	2	29,30	0x4
+Instruction 0x740c61a85160: imul edx, eax	2	;29,30	0x10;0x0
+Instruction 0x740c61a85163: sub r10d, edx	2	29,30	0x4;0x0
+Instruction 0x740c61a85166: mov edx, r10d	2	29,30	0x740c58000d01	0x4
+Instruction 0x740c61a85169: add edx, 0x23	2	29,30	0x4
+Instruction 0x740c61a8517a: test eax, eax	2	29,30;29,30	0x0;0x0
+Instruction 0x740c61a8517e: test esi, esi	2	29,30;29,30	0x4;0x4
+Function	2	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a851f3)
+Function	2	enter	std::string::reserve(unsigned long)@plt	(740c61a77b30,740c61a77b3b,740c61a85223)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a85239)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a85246)
+Function	2	enter	std::string::assign(std::string const&)@plt	(740c61a789f0,740c61a789fb,740c61a85253)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a852b4)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	exit 	NumToString(int, int, unsigned int)
+Function	2	enter	std::string::reserve(unsigned long)@plt	(740c61a77b30,740c61a77b3b,740c61a88b1f)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a88b38)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a88b4d)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a88b62)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a88b7b)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a88b90)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a88ba5)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a8a074)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a8a089)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a8a051)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a8a066)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a8a02d)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a8a043)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a8a00a)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a8a01f)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a890fd)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a89111)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a8a3a5)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a8a3ba)
+Function	2	enter	std::string::assign(std::string const&)@plt	(740c61a789f0,740c61a789fb,740c61a88c52)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a88fa2)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	SenderText(TSrvEvent&) (.isra.6)	(740c61a868b0,740c61a86b05,740c61a88893)
+Function	2	enter	IpAddressToString(int)@plt	(740c61a77fd0,740c61a77fdb,740c61a868d2)
+Function	2	enter	IpAddressToString(int)	(740c61a86840,740c61a868a4,740c61a868d2)
+Function	2	enter	inet_ntoa@plt	(740c61a78710,740c61a7871b,740c61a86866)
+Function	2	enter	strlen@plt	(740c61a780d0,740c61a780db,740c61a86871)
+Function	2	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a8687f)
+Function	2	exit 	IpAddressToString(int)
+Function	2	enter	TimeToString(long)@plt	(740c61a78600,740c61a7860b,740c61a868e0)
+Function	2	enter	TimeToString(long)	(740c61a866d0,740c61a86837,740c61a868e0)
+Function	2	enter	localtime@plt	(740c61a78e90,740c61a78e9b,740c61a8671e)
+Function	2	enter	strftime@plt	(740c61a78f50,740c61a78f5b,740c61a86743)
+Function	2	enter	std::string::assign(char const*, unsigned long)@plt	(740c61a78960,740c61a7896b,740c61a86791)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a8679c)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86811)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	exit 	TimeToString(long)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a868ef)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a86905)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a86917)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a86924)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a8692f)
+Function	2	enter	std::string::append(char const*, unsigned long)@plt	(740c61a77780,740c61a7778b,740c61a86943)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a6f)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a84)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a4b)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a60)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a27)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a3c)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a86a07)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a86a18)
+Function	2	exit 	SenderText(TSrvEvent&) (.isra.6)
+Function	2	enter	std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@plt	(740c61a77de0,740c61a77deb,740c61a888a3)
+Function	2	enter	std::string::append(std::string const&)@plt	(740c61a790a0,740c61a790ab,740c61a888b0)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a885f1)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	std::string::MsgS::ket7CanRea(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a88606)
+Function	1	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.11)	(740c61a79210,740c61a79229,740c61a89a87)
+Function	1	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a7aa34)
+Function	1	enter	_cxxL2::_::cha(int)	(740c61a79800,740c61a798d6,740c61a7aa34)
+Function	2	exit 	_cxxL2::_::cha(int)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a89a9c)
+Function	2	exit 	EvtSrvText(TSrvEvent&)
+Function	1	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	2	enter	strncpy@plt	(740c61a78be0,740c61a78beb,740c61a912dd)
+Function	2	enter	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.3)	(740c61a7922a,740c61a79243,740c61a91305)
+Function	1	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	exit 	__gnu_cxx::__exchange_and_add_dispatch(int*, int) (.constprop.3)
+Function	2	enter	std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt	(740c61a78100,740c61a7810b,740c61a91316)
+Function	2	exit 	Srv_EventText
+Function	2	exit 	SrvEventText[abi:cxx11](TSrvEvent*)
+Function	2	exit 	EventCallBack(void*, TSrvEvent*, int)
+Function	2	enter	TMsgEventQueue::Insert(void*)@plt	(740c61a77f00,740c61a77f0b,740c61a7ad9e)
+Function	2	enter	TMsgEventQueue::Insert(void*)	(740c61a7ac20,740c61a7ac7e,740c61a7ad9e)
+Function	2	enter	TMsgEventQueue::Full()@plt	(740c61a77d20,740c61a77d2b,740c61a7ac39)
+Function	2	enter	TMsgEventQueue::Full()	(740c61a7abf0,740c61a7ac11,740c61a7ac39)
+Function	2	exit 	TMsgEventQueue::Full()
+Function	2	enter	memcpy@plt	(740c61a79060,740c61a7906b,740c61a7ad9e)
+Function	2	enter	pthread_mutex_unlock@plt	(740c61a79030,740c61a7903b,740c61a7ad88)
+Function	2	exit 	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Function	2	exit 	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Function	2	exit 	TS7Worker::PerformGroupSZL()
+Function	2	exit 	TIsoTcpWorker::ExecuteRecv()
+Function	2	enter	TIsoTcpWorker::Execute()	(740c61a80120,740c61a80143,740c61a7b55a)
+Function	2	enter	TIsoTcpWorker::ExecuteSend()	(740c61a7ffd0,740c61a7ffd5,740c61a8012a)
+Function	2	exit 	TIsoTcpWorker::ExecuteSend()
+Function	2	enter	TS7Worker::ExecuteRecv()	(740c61a80100,740c61a80110,740c61a7b55a)
+Function	2	enter	TIsoTcpWorker::ExecuteRecv()@plt	(740c61a788c0,740c61a788cb,740c61a7b55a)
+Function	2	enter	TIsoTcpWorker::ExecuteRecv()	(740c61a7fff0,740c61a800fb,740c61a7b55a)
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a80009)
+Function	2	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a80009)
+Function	2	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	2	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)@plt	(740c61a78eb0,740c61a78ebb,740c61a8003a)
+Function	2	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)	(740c61a7d540,740c61a7d660,740c61a8003a)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7d576)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7d576)
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)@plt	(740c61a77e20,740c61a77e2b,740c61a7d59e)
+Function	2	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)	(740c61a7d3d0,740c61a7d535,740c61a7d59e)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(740c61a77f10,740c61a77f1b,740c61a7d417)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(740c61a7cd80,740c61a7cd91,740c61a7d417)
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)@plt	(740c61a78fe0,740c61a78feb,740c61a7d427)
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)	(740c61a7a0c0,740c61a7a16b,740c61a7d427)
+Function	2	enter	TMsgSocket::WaitForData(int, int)@plt	(740c61a790e0,740c61a790eb,740c61a7a0e5)
+Function	2	enter	TMsgSocket::WaitForData(int, int)	(740c61a798e0,740c61a79984,740c61a7a0e5)
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(740c61a78c30,740c61a78c3b,740c61a798f7)
+Function	2	enter	TMsgSocket::CanRead(int)	(740c61a79800,740c61a798d6,740c61a798f7)
+Function	2	enter	__fdelt_chk@plt	(740c61a79160,740c61a7916b,740c61a79862)
+Function	2	enter	select@plt	(740c61a77b40,740c61a77b4b,740c61a79894)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79968)
+Function	2	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79968)
+Function	2	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	2	exit 	TMsgSocket::WaitingData()
+Function	2	enter	SysGetTick()@plt	(740c61a787a0,740c61a787ab,740c61a79907)
+Function	2	enter	SysGetTick()	(740c61a7a940,740c61a7a980,740c61a79907)
+Function	2	enter	clock_gettime@plt	(740c61a78fd0,740c61a78fdb,740c61a7a951)
+Function	2	exit 	SysGetTick()
+Function	2	enter	TMsgSocket::WaitingData()@plt	(740c61a77bd0,740c61a77bdb,740c61a79912)
+Function	2	enter	TMsgSocket::WaitingData()	(740c61a79600,740c61a7963b,740c61a79912)
+Function	2	enter	ioctl@plt	(740c61a77960,740c61a7796b,740c61a7961e)
+Function	2	exit 	TMsgSocket::WaitingData()
+Function	2	exit 	TMsgSocket::WaitForData(int, int)
+Function	2	enter	recv@plt	(740c61a77cc0,740c61a77ccb,740c61a7a0ff)
+recv_point taint

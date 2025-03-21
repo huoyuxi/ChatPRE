@@ -1,0 +1,1032 @@
+2025-03-13 16:55:18,924 - my_text.py:231  - Waiting for initial analysis to complete...
+2025-03-13 16:55:18,924 - my_text.py:233  - Initial analysis completed.
+2025-03-13 16:55:18,924 - my_text.py:239  - Received argument1: ftp
+2025-03-13 16:55:18,924 - my_text.py:240  - Received argument2: 2
+2025-03-13 16:55:18,924 - my_text.py:245  - Starting analysis...
+2025-03-13 16:55:18,924 - my_text.py:86  - Total global variables: 678
+2025-03-13 16:55:18,924 - my_text.py:89  - Global Variables:
+2025-03-13 16:55:18,924 - my_text.py:110  -   Address: 0x318, Name: aLib64LdLinuxX8, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x344, Name: aGnu, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x364, Name: aGnu_0, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x388, Name: aGnu_1, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x3A0, Name: elf_gnu_hash_nbuckets, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x3A4, Name: elf_gnu_hash_symbias, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x3A8, Name: elf_gnu_hash_bitmask_nwords, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x3AC, Name: elf_gnu_hash_shift, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x3B0, Name: elf_gnu_hash_indexes, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x3B8, Name: elf_gnu_hash_bucket, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0x3C4, Name: elf_gnu_hash_chain, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0xD19, Name: aLibpthreadSo0, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0xD29, Name: aItmDeregistert, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0xD45, Name: aItmRegistertmc, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0xD5F, Name: aWrite, Type: Unknown
+2025-03-13 16:55:18,927 - my_text.py:110  -   Address: 0xD65, Name: aClose, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xD6B, Name: aAccept, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xD72, Name: aPthreadMutexDe, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xD88, Name: aPthreadJoin, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xD95, Name: aPthreadUnregis, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xDB1, Name: aPthreadCreate, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xDC0, Name: aOpen64, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xDC7, Name: aPthreadDetach, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xDD6, Name: aPthreadMutexat, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xDF0, Name: aPthreadMutexLo, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xE03, Name: aPthreadMutexUn, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xE18, Name: aPthreadUnwindN, Type: Unknown
+2025-03-13 16:55:18,928 - my_text.py:110  -   Address: 0xE2E, Name: aRead, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xE33, Name: aPthreadCancel, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xE42, Name: aPthreadRegiste, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xE5C, Name: aLseek64, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xE64, Name: aPthreadMutexIn, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xE77, Name: aPthreadMutexat_0, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xE8E, Name: aConnect, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xE96, Name: aPthreadMutexat_1, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xEB0, Name: aLibgnutlsSo30, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xEC0, Name: aGmonStart, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xECF, Name: aGnutlsHandshak, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xEE0, Name: aGnutlsFree, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xEEC, Name: aGnutlsGlobalIn, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xEFF, Name: aGnutlsBye, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xF0A, Name: aGnutlsSessionT, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xF2D, Name: aGnutlsErrorIsF, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xF43, Name: aGnutlsCertific, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xF6B, Name: aGnutlsPriority, Type: Unknown
+2025-03-13 16:55:18,929 - my_text.py:110  -   Address: 0xF7F, Name: aGnutlsCertific_0, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0xFA6, Name: aGnutlsCertific_1, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0xFCD, Name: aGnutlsMemset, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0xFDB, Name: aGnutlsDeinit, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0xFE9, Name: aGnutlsCertific_2, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x100F, Name: aGnutlsHandshak_0, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x102C, Name: aGnutlsCertific_3, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x1052, Name: aGnutlsPriority_0, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x1067, Name: aGnutlsPriority_1, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x107E, Name: aGnutlsInit, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x108A, Name: aGnutlsRecordRe, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x109D, Name: aGnutlsGlobalDe, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x10B2, Name: aGnutlsTranspor, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x10CC, Name: aGnutlsRecordSe, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x10DF, Name: aGnutlsRecordGe, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x10FA, Name: aGnutlsCredenti, Type: Unknown
+2025-03-13 16:55:18,930 - my_text.py:110  -   Address: 0x1111, Name: aGnutlsSessionT_0, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x1135, Name: aGnutlsCertific_4, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x1159, Name: aLibcSo6, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x1163, Name: aSocket, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x116A, Name: aGetc, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x116F, Name: aPrintfChk, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x117C, Name: aExit, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x1181, Name: aClosedir, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x118A, Name: aInetNtoa, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x1194, Name: aStrncpy, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x119C, Name: aStackChkFail, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11AD, Name: aUnlink, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11B4, Name: aListen, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11BB, Name: aMkdir, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11C1, Name: aAbort, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11C7, Name: aStdin, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11CD, Name: aChmod, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11D3, Name: aLocaltimeR, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11DF, Name: aCalloc, Type: Unknown
+2025-03-13 16:55:18,931 - my_text.py:110  -   Address: 0x11E6, Name: aStrlen, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x11ED, Name: aRmdir, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x11F3, Name: aBind, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x11F8, Name: aSigsetjmp, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1204, Name: aInetAddr, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x120E, Name: aStrtoul, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1216, Name: aSetsockopt, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1221, Name: aStrcasecmp, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x122C, Name: aGetpeername, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1238, Name: aLxstat64, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1243, Name: aOpendir, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x124B, Name: aXstat64, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1255, Name: aCtypeBLoc, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1263, Name: aSnprintfChk, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1272, Name: aStrncasecmp, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x127E, Name: aStrtoull, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1287, Name: aGetcwd, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x128E, Name: aRename, Type: Unknown
+2025-03-13 16:55:18,932 - my_text.py:110  -   Address: 0x1295, Name: aClockGettime, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x12A3, Name: aGetsockname, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x12AF, Name: aReaddir64, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x12B9, Name: aSleep, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x12BF, Name: aStrcpyChk, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x12CC, Name: aCxaFinalize, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x12DB, Name: aPthreadSelf, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x12E8, Name: aStrcmp, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x12EF, Name: aLibcStartMain, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x1301, Name: aGlibc233, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x130D, Name: aGlibc225, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x1319, Name: aGlibc24, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x1323, Name: aGlibc23, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x132D, Name: aGlibc234, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x1339, Name: aGlibc217, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x1344, Name: aGnutls34, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x3000, Name: .init_proc, Type: Unknown
+2025-03-13 16:55:18,933 - my_text.py:110  -   Address: 0x35E0, Name: __cxa_finalize, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x35F0, Name: .gnutls_credentials_set, Type: Unknown
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3600, Name: .chmod, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3610, Name: .memset, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3620, Name: .close, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3630, Name: .abort, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3640, Name: .gnutls_record_recv, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3650, Name: .clock_gettime, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3660, Name: .__pthread_unwind_next, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3670, Name: .gnutls_error_is_fatal, Type: Unknown
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3680, Name: .gnutls_handshake, Type: Unknown
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x3690, Name: .getpeername, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x36A0, Name: .exit, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x36B0, Name: .pthread_mutexattr_destroy, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x36C0, Name: .__printf_chk, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x36D0, Name: .strcasecmp, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x36E0, Name: .__pthread_unregister_cancel, Type: None
+2025-03-13 16:55:18,934 - my_text.py:110  -   Address: 0x36F0, Name: .read, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3700, Name: .recv, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3710, Name: .gnutls_certificate_server_set_request, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3720, Name: .unlink, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3730, Name: .gnutls_priority_init, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3740, Name: .rmdir, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3750, Name: .gnutls_global_init, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3760, Name: .gnutls_record_get_max_size, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3770, Name: .setsockopt, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3780, Name: .pthread_mutex_init, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3790, Name: .gnutls_global_deinit, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x37A0, Name: .gnutls_memset, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x37B0, Name: .gnutls_session_ticket_enable_server, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x37C0, Name: .free, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x37D0, Name: .strlen, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x37E0, Name: .gnutls_init, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x37F0, Name: .pthread_create, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3800, Name: .opendir, Type: None
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3810, Name: .gnutls_priority_deinit, Type: Unknown
+2025-03-13 16:55:18,935 - my_text.py:110  -   Address: 0x3820, Name: .listen, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3830, Name: .__ctype_b_loc, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3840, Name: .__pthread_register_cancel, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3850, Name: .gnutls_certificate_allocate_credentials, Type: Unknown
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3860, Name: .gnutls_deinit, Type: Unknown
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3870, Name: .sleep, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3880, Name: .pthread_self, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3890, Name: .pthread_join, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x38A0, Name: .gnutls_handshake_set_timeout, Type: Unknown
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x38B0, Name: .open64, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x38C0, Name: .gnutls_session_ticket_key_generate, Type: Unknown
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x38D0, Name: .getsockname, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x38E0, Name: .connect, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x38F0, Name: .__strcpy_chk, Type: Unknown
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3900, Name: .gnutls_bye, Type: Unknown
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3910, Name: .__lxstat64, Type: None
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3920, Name: .gnutls_certificate_set_x509_trust_file, Type: Unknown
+2025-03-13 16:55:18,936 - my_text.py:110  -   Address: 0x3930, Name: .socket, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3940, Name: .inet_ntoa, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3950, Name: .gnutls_record_send, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3960, Name: .pthread_mutexattr_settype, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3970, Name: .strncasecmp, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3980, Name: .gnutls_certificate_set_x509_key_file2, Type: Unknown
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3990, Name: .__stack_chk_fail, Type: Unknown
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x39A0, Name: .gnutls_certificate_free_credentials, Type: Unknown
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x39B0, Name: .strcmp, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x39C0, Name: .getcwd, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x39D0, Name: .send, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x39E0, Name: .gnutls_priority_set, Type: Unknown
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x39F0, Name: .pthread_cancel, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3A00, Name: .pthread_detach, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3A10, Name: .calloc, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3A20, Name: .strncpy, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3A30, Name: .__xstat64, Type: None
+2025-03-13 16:55:18,937 - my_text.py:110  -   Address: 0x3A40, Name: .localtime_r, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3A50, Name: .lseek64, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3A60, Name: .strtoull, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3A70, Name: .gnutls_transport_set_int2, Type: Unknown
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3A80, Name: .closedir, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3A90, Name: .__snprintf_chk, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3AA0, Name: .bind, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3AB0, Name: .gnutls_certificate_set_known_dh_params, Type: Unknown
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3AC0, Name: .pthread_mutex_lock, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3AD0, Name: .pthread_mutexattr_init, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3AE0, Name: .__sigsetjmp, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3AF0, Name: .pthread_mutex_destroy, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3B00, Name: .write, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3B10, Name: .accept, Type: None
+2025-03-13 16:55:18,938 - my_text.py:110  -   Address: 0x3B20, Name: .strtoul, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x3B30, Name: .pthread_mutex_unlock, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x3B40, Name: .rename, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x3B50, Name: .readdir64, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x3B60, Name: .mkdir, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x3B70, Name: .time, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x3B80, Name: .inet_addr, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x3B90, Name: .getc, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x3BA0, Name: main, Type: None
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x41F0, Name: _start, Type: Unknown
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x4220, Name: deregister_tm_clones, Type: Unknown
+2025-03-13 16:55:18,939 - my_text.py:110  -   Address: 0x4250, Name: register_tm_clones, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4290, Name: __do_global_dtors_aux, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x42D0, Name: frame_dummy, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x42E0, Name: skip_comments_and_blanks, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4350, Name: config_parse, Type: None
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4780, Name: config_init, Type: None
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x47F0, Name: ftp_normalize_path.part.0, Type: None
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4A40, Name: filepath, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4A90, Name: ftp_normalize_path, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4AC0, Name: ftp_effective_path, Type: None
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4C70, Name: cleanup_handler, Type: None
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4C90, Name: recvcmd.part.0, Type: None
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4D30, Name: ftpNOOP, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4D90, Name: ftpHELP, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4DF0, Name: ftpFEAT, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4E50, Name: ftpSYST, Type: Unknown
+2025-03-13 16:55:18,940 - my_text.py:110  -   Address: 0x4EB0, Name: ftpPWD, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x4FA0, Name: ftpSIZE, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x51A0, Name: ftpREST, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5300, Name: ftpPBSZ, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5400, Name: ftpPORT, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x55F0, Name: ftpPROT, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5750, Name: ftpTYPE, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x58D0, Name: sendstring_plaintext, Type: None
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5910, Name: ftp_shutdown_tls_session, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5940, Name: ftp_init_tls_session, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5AA0, Name: ftpAUTH, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5B90, Name: create_datasocket, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5CA0, Name: sendstring, Type: Unknown
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5D00, Name: sendstring_auto, Type: None
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5D60, Name: send_auto, Type: None
+2025-03-13 16:55:18,941 - my_text.py:110  -   Address: 0x5D90, Name: recv_auto, Type: None
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x5DC0, Name: writeconsolestr, Type: None
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x5E10, Name: writelogentry, Type: None
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x5FA0, Name: ftpUSER, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x60A0, Name: ftpQUIT, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x61A0, Name: ftpCDUP, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x6280, Name: ftpCWD, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x6500, Name: retr_thread, Type: None
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x69A0, Name: ftpDELE, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x6BC0, Name: ftpPASS, Type: None
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x6ED0, Name: ftpMKD, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x70F0, Name: stor_thread, Type: None
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x75A0, Name: append_thread, Type: None
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x75C0, Name: ftpRNFR, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x7810, Name: ftpRNTO, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x7A50, Name: ftpOPTS, Type: Unknown
+2025-03-13 16:55:18,942 - my_text.py:110  -   Address: 0x7B50, Name: pasv.part.0, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x7DB0, Name: ftpEPSV, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x7F50, Name: ftpPASV, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x8110, Name: ftpRMD, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x8330, Name: ftpABOR, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x8520, Name: worker_thread_cleanup, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x8630, Name: ftp_client_thread, Type: None
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x8BF0, Name: worker_thread_start, Type: None
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x8CE0, Name: ftpLIST, Type: None
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x8F60, Name: ftpRETR, Type: None
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x91F0, Name: ftpSTOR, Type: None
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x94F0, Name: ftpAPPE, Type: None
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x97D0, Name: ftpMLSD, Type: None
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x99F0, Name: strmode, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x9B70, Name: list_sub, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x9E00, Name: pasv, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x9EC0, Name: isoctaldigit, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0x9EE0, Name: parseCHMOD, Type: Unknown
+2025-03-13 16:55:18,943 - my_text.py:110  -   Address: 0xA020, Name: ftpSITE, Type: Unknown
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xA1D0, Name: mlsd_sub, Type: Unknown
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xA400, Name: list_thread, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xA6E0, Name: mlsd_thread, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xA700, Name: recvcmd, Type: Unknown
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xA720, Name: socket_set_keepalive, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xA810, Name: ftpmain, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xAAC0, Name: ftp_tls_init, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xAB80, Name: ftp_tls_cleanup, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xABE0, Name: x_malloc, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xAC20, Name: __libc_csu_init, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xAC90, Name: __libc_csu_fini, Type: None
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xAC98, Name: .term_proc, Type: Unknown
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xB000, Name: _IO_stdin_used, Type: Unknown
+2025-03-13 16:55:18,944 - my_text.py:110  -   Address: 0xB007, Name: aSS, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB020, Name: success214, Type: None
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB100, Name: success211, Type: None
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB180, Name: shortmonths, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB184, Name: aFeb, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB188, Name: aMar, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB18C, Name: aApr, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB190, Name: aMay, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB194, Name: aJun, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB198, Name: aJul, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB19C, Name: aAug, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB1A0, Name: aSep, Type: Unknown
+2025-03-13 16:55:18,945 - my_text.py:110  -   Address: 0xB1A4, Name: aOct, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB1A8, Name: aNov, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB1AC, Name: aDec, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB1B0, Name: a200CommandOkay, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB1C4, Name: a215UnixTypeL8, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB1D8, Name: a213Llu, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB1E3, Name: a200TypeSetToA, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB1F8, Name: a200TypeSetToI, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB20D, Name: a500AuthUnsucce, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB226, Name: s2, Type: None
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB22A, Name: aUser, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB232, Name: aQuit, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB238, Name: a221S, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB243, Name: aCdup, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB249, Name: aCwd, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB250, Name: a550PermissionD, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB269, Name: aDele, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB271, Name: aPswd, Type: Unknown
+2025-03-13 16:55:18,946 - my_text.py:110  -   Address: 0xB276, Name: aRoot, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB27B, Name: aAccs, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB280, Name: aAdmin, Type: None
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB286, Name: aUpload, Type: None
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB28D, Name: aReadonly, Type: None
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB296, Name: aPassSuccessful, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB2AE, Name: a257DirectoryCr, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB2C7, Name: aMkd, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB2CE, Name: aRnfr, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB2D6, Name: aRnto, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB2DE, Name: aUtf8On, Type: None
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB2E6, Name: a200AlwaysInUtf, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB301, Name: aUnsupportedOpt, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB315, Name: aLocalClient, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB324, Name: aNonlocalClient, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB336, Name: aEnteringPassiv, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB34D, Name: aAbortCommand, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB35C, Name: aEnterCancel, Type: Unknown
+2025-03-13 16:55:18,947 - my_text.py:110  -   Address: 0xB369, Name: a220LightftpSer, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB385, Name: aNewUserIpUUUUU, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3A3, Name: aPass, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3AC, Name: aCmd, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3B6, Name: aList, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3BC, Name: aRetr, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3C4, Name: aStor, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3CC, Name: aAppe, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3D4, Name: aMlsdList, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3E0, Name: aHelp, Type: None
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3E5, Name: a200Chmod, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3F1, Name: aChmod_0, Type: None
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB3F8, Name: a200ChmodOk, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB407, Name: aSize, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB40C, Name: aSizd, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB411, Name: aDir, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB415, Name: aOsUnixSlink, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB423, Name: aListMlsdComple, Type: Unknown
+2025-03-13 16:55:18,948 - my_text.py:110  -   Address: 0xB437, Name: aSoKeepaliveSet, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB455, Name: aSocketCreateEr, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB46E, Name: aUser_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB473, Name: aNoop, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB478, Name: aPwd, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB47C, Name: aType, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB481, Name: aPort_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB486, Name: aCwd_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB48A, Name: aRetr_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB48F, Name: aAbor, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB494, Name: aDele_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB499, Name: aPasv, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB49E, Name: aPass_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB4A3, Name: aRest, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB4A8, Name: aSize_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB4AD, Name: aMkd_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB4B1, Name: aRmd, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB4B5, Name: aStor_0, Type: Unknown
+2025-03-13 16:55:18,949 - my_text.py:110  -   Address: 0xB4BA, Name: aSyst, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4BF, Name: aFeat, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4C4, Name: aAppe_0, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4C9, Name: aRnfr_0, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4CE, Name: aRnto_0, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4D3, Name: aOpts, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4D8, Name: aMlsd, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4DD, Name: aAuth, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4E2, Name: aPbsz, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4E7, Name: aProt, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4EC, Name: aEpsv, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4F1, Name: aHelp_0, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB4F6, Name: aSite, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB500, Name: a530PleaseLogin, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB528, Name: a257SIsACurrent, Type: Unknown
+2025-03-13 16:55:18,950 - my_text.py:110  -   Address: 0xB550, Name: a501SyntaxError, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB580, Name: a550FileOrDirec, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB5A8, Name: a350RestSupport, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB5E8, Name: a503InvalidSequ, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB638, Name: a504CommandNotI, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB670, Name: a234AuthCommand, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB6A8, Name: a02u02uU02u02u0_0, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB6D0, Name: a02u02uU02u02u0, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB700, Name: a331UserSOkPass, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB728, Name: a250RequestedFi, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB758, Name: aRetrCompleteZd, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB7A8, Name: a451RequestedAc, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB7E8, Name: a226TransferCom, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB820, Name: a426ConnectionC, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB850, Name: a530InvalidUser, Type: Unknown
+2025-03-13 16:55:18,951 - my_text.py:110  -   Address: 0xB878, Name: a530ThisAccount, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xB898, Name: a230UserLoggedI, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xB8B8, Name: aStorAppendComp, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xB910, Name: a350FileExistsR, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xB938, Name: a500SyntaxError, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xB968, Name: a550AnotherActi, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xB9A8, Name: a229EnteringExt, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xB9D8, Name: aEnteringExtend, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xB9F8, Name: a227EnteringPas, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xBA30, Name: aNewThreadThrea, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xBA60, Name: aUserDisconnect, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xBB18, Name: aThreadExitThre, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xBB48, Name: a150FileStatusO, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xBB80, Name: aSLuLuLuLluS02u, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xBBB0, Name: aSLuLuLuLluS02u_0, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xBBD8, Name: aTypeSSLluUnixM, Type: Unknown
+2025-03-13 16:55:18,952 - my_text.py:110  -   Address: 0xBC38, Name: aFailedToStartS, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBC70, Name: a451MaximumAllo, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBC98, Name: aMainLoopStatsG, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD18, Name: aFftpConf, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD22, Name: cp, Type: None
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD2C, Name: aInterface, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD36, Name: aFtpconfig, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD40, Name: a0000, Type: None
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD48, Name: aExternalIp, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD54, Name: a2552552550, Type: None
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD62, Name: aLocalMask, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD6D, Name: aMaxusers, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD76, Name: aKeepalive, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD83, Name: aPort, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD88, Name: aMaxport, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD90, Name: aCatrustfile, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBD9C, Name: aServercertific, Type: Unknown
+2025-03-13 16:55:18,953 - my_text.py:110  -   Address: 0xBDAE, Name: aKeyfile, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBDB6, Name: aKeyfilepasswor, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBDC6, Name: aGoodbyemsg, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBDD1, Name: aLogfilepath, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBDDD, Name: a231, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBDE3, Name: aLogFileS, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBDFA, Name: aWorkingDirS, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBE11, Name: aConfigFileS, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBE28, Name: aConfigFileSS, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBE42, Name: aInterfaceIpv4S, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBE59, Name: aInterfaceMaskS, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBE70, Name: aExternalIpv4S, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBE87, Name: aPortU, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBE9E, Name: aMaxUsersU, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBEB5, Name: aPasvPortRangeU, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBED0, Name: aErrorFailedToO, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBF18, Name: aPossibleErrors, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBF88, Name: aWarningLogfile, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xBFE0, Name: aLightftpServer, Type: Unknown
+2025-03-13 16:55:18,954 - my_text.py:110  -   Address: 0xC008, Name: aTypeQOrCtrlCTo, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xC030, Name: aErrorFailedToC, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xC060, Name: aCouldNotFindCo, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xC0A3, Name: aOutOfMemory, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xC0B8, Name: __GNU_EH_FRAME_HDR, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xD4AC, Name: __FRAME_END__, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xE8B0, Name: __frame_dummy_init_array_entry, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xE8B8, Name: __do_global_dtors_aux_fini_array_entry, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xE8C0, Name: ftpprocs, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xEAC0, Name: _DYNAMIC, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xECD0, Name: _GLOBAL_OFFSET_TABLE_, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xECE8, Name: gnutls_credentials_set_ptr, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xECF0, Name: chmod_ptr, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xECF8, Name: memset_ptr, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xED00, Name: close_ptr, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xED08, Name: abort_ptr, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xED10, Name: gnutls_record_recv_ptr, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xED18, Name: clock_gettime_ptr, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xED20, Name: __pthread_unwind_next_ptr, Type: Unknown
+2025-03-13 16:55:18,955 - my_text.py:110  -   Address: 0xED28, Name: gnutls_error_is_fatal_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED30, Name: gnutls_handshake_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED38, Name: getpeername_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED40, Name: exit_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED48, Name: pthread_mutexattr_destroy_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED50, Name: __printf_chk_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED58, Name: strcasecmp_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED60, Name: __pthread_unregister_cancel_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED68, Name: read_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED70, Name: recv_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED78, Name: gnutls_certificate_server_set_request_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED80, Name: unlink_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED88, Name: gnutls_priority_init_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED90, Name: rmdir_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xED98, Name: gnutls_global_init_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xEDA0, Name: gnutls_record_get_max_size_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xEDA8, Name: setsockopt_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xEDB0, Name: pthread_mutex_init_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xEDB8, Name: gnutls_global_deinit_ptr, Type: Unknown
+2025-03-13 16:55:18,956 - my_text.py:110  -   Address: 0xEDC0, Name: gnutls_memset_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEDC8, Name: gnutls_session_ticket_enable_server_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEDD0, Name: free_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEDD8, Name: strlen_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEDE0, Name: gnutls_init_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEDE8, Name: pthread_create_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEDF0, Name: opendir_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEDF8, Name: gnutls_priority_deinit_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE00, Name: listen_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE08, Name: __ctype_b_loc_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE10, Name: __pthread_register_cancel_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE18, Name: gnutls_certificate_allocate_credentials_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE20, Name: gnutls_deinit_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE28, Name: sleep_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE30, Name: pthread_self_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE38, Name: pthread_join_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE40, Name: gnutls_handshake_set_timeout_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE48, Name: open64_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE50, Name: gnutls_session_ticket_key_generate_ptr, Type: Unknown
+2025-03-13 16:55:18,957 - my_text.py:110  -   Address: 0xEE58, Name: getsockname_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEE60, Name: connect_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEE68, Name: __strcpy_chk_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEE70, Name: gnutls_bye_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEE78, Name: __lxstat64_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEE80, Name: gnutls_certificate_set_x509_trust_file_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEE88, Name: socket_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEE90, Name: inet_ntoa_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEE98, Name: gnutls_record_send_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEA0, Name: pthread_mutexattr_settype_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEA8, Name: strncasecmp_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEB0, Name: gnutls_certificate_set_x509_key_file2_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEB8, Name: __stack_chk_fail_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEC0, Name: gnutls_certificate_free_credentials_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEC8, Name: strcmp_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEED0, Name: getcwd_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEED8, Name: send_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEE0, Name: gnutls_priority_set_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEE8, Name: pthread_cancel_ptr, Type: Unknown
+2025-03-13 16:55:18,958 - my_text.py:110  -   Address: 0xEEF0, Name: pthread_detach_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEEF8, Name: calloc_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF00, Name: strncpy_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF08, Name: __xstat64_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF10, Name: localtime_r_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF18, Name: lseek64_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF20, Name: strtoull_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF28, Name: gnutls_transport_set_int2_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF30, Name: closedir_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF38, Name: __snprintf_chk_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF40, Name: bind_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF48, Name: gnutls_certificate_set_known_dh_params_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF50, Name: pthread_mutex_lock_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF58, Name: pthread_mutexattr_init_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF60, Name: __sigsetjmp_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF68, Name: pthread_mutex_destroy_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF70, Name: write_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF78, Name: accept_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF80, Name: strtoul_ptr, Type: Unknown
+2025-03-13 16:55:18,959 - my_text.py:110  -   Address: 0xEF88, Name: pthread_mutex_unlock_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEF90, Name: rename_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEF98, Name: readdir64_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFA0, Name: mkdir_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFA8, Name: time_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFB0, Name: inet_addr_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFB8, Name: getc_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFC0, Name: __gmon_start___ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFC8, Name: __libc_start_main_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFD0, Name: _ITM_deregisterTMCloneTable_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFD8, Name: _ITM_registerTMCloneTable_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xEFE0, Name: __cxa_finalize_ptr, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF000, Name: __data_start, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF008, Name: __dso_handle, Type: None
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF010, Name: g_log, Type: None
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF014, Name: _edata, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF018, Name: __TMC_END__, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF020, Name: gnutls_free@@GNUTLS_3_4, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF030, Name: stdin@@GLIBC_2.2.5, Type: None
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF038, Name: completed.8061, Type: Unknown
+2025-03-13 16:55:18,960 - my_text.py:110  -   Address: 0xF040, Name: g_client_sockets_closed, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF048, Name: g_client_sockets_created, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF050, Name: g_threads, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF054, Name: g_newid, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF060, Name: session_keys_storage, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF070, Name: priority_cache, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF078, Name: x509_cred, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF080, Name: dh_params, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF0A0, Name: KEYFILE_PASS, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0xF1A0, Name: KEYFILE, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0x101A0, Name: CERTFILE, Type: Unknown
+2025-03-13 16:55:18,961 - my_text.py:110  -   Address: 0x111A0, Name: CAFILE, Type: Unknown
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x121A0, Name: GOODBYE_MSG, Type: Unknown
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12220, Name: g_cfg, Type: Unknown
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12238, Name: in, Type: in_addr
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12248, Name: _end, Type: Unknown
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12250, Name: gnutls_credentials_set, Type: Unknown
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12258, Name: chmod, Type: None
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12260, Name: memset, Type: None
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12268, Name: close, Type: None
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12270, Name: abort, Type: None
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12278, Name: gnutls_record_recv, Type: Unknown
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12280, Name: clock_gettime, Type: None
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12290, Name: gnutls_error_is_fatal, Type: Unknown
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x12298, Name: gnutls_handshake, Type: Unknown
+2025-03-13 16:55:18,962 - my_text.py:110  -   Address: 0x122A0, Name: getpeername, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122A8, Name: exit, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122B0, Name: pthread_mutexattr_destroy, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122B8, Name: __printf_chk, Type: Unknown
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122C0, Name: strcasecmp, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122C8, Name: __pthread_unregister_cancel, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122D0, Name: read, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122D8, Name: __libc_start_main, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122E0, Name: recv, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122E8, Name: gnutls_certificate_server_set_request, Type: Unknown
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122F0, Name: unlink, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x122F8, Name: gnutls_priority_init, Type: Unknown
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x12300, Name: rmdir, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x12308, Name: gnutls_global_init, Type: Unknown
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x12310, Name: gnutls_record_get_max_size, Type: Unknown
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x12318, Name: setsockopt, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x12320, Name: pthread_mutex_init, Type: None
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x12328, Name: gnutls_global_deinit, Type: Unknown
+2025-03-13 16:55:18,963 - my_text.py:110  -   Address: 0x12330, Name: gnutls_memset, Type: Unknown
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12338, Name: gnutls_session_ticket_enable_server, Type: Unknown
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12340, Name: free, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12348, Name: strlen, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12350, Name: gnutls_init, Type: Unknown
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12358, Name: pthread_create, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12360, Name: opendir, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12368, Name: gnutls_priority_deinit, Type: Unknown
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12370, Name: listen, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12378, Name: __ctype_b_loc, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12380, Name: __pthread_register_cancel, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12388, Name: gnutls_certificate_allocate_credentials, Type: Unknown
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12390, Name: gnutls_deinit, Type: Unknown
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x12398, Name: sleep, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x123A0, Name: pthread_self, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x123A8, Name: pthread_join, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x123B0, Name: gnutls_handshake_set_timeout, Type: Unknown
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x123B8, Name: open64, Type: None
+2025-03-13 16:55:18,964 - my_text.py:110  -   Address: 0x123C0, Name: gnutls_session_ticket_key_generate, Type: Unknown
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x123C8, Name: getsockname, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x123D0, Name: connect, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x123D8, Name: __strcpy_chk, Type: Unknown
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x123E0, Name: gnutls_bye, Type: Unknown
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x123E8, Name: __lxstat64, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x123F0, Name: gnutls_certificate_set_x509_trust_file, Type: Unknown
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x123F8, Name: socket, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12400, Name: inet_ntoa, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12408, Name: gnutls_record_send, Type: Unknown
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12410, Name: pthread_mutexattr_settype, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12418, Name: strncasecmp, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12420, Name: gnutls_certificate_set_x509_key_file2, Type: Unknown
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12428, Name: __stack_chk_fail, Type: Unknown
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12430, Name: gnutls_certificate_free_credentials, Type: Unknown
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12438, Name: strcmp, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12440, Name: getcwd, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12448, Name: send, Type: None
+2025-03-13 16:55:18,965 - my_text.py:110  -   Address: 0x12450, Name: gnutls_priority_set, Type: Unknown
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12458, Name: pthread_cancel, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12460, Name: pthread_detach, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12468, Name: calloc, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12470, Name: strncpy, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12478, Name: __xstat64, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12480, Name: localtime_r, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12488, Name: lseek64, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12490, Name: strtoull, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x12498, Name: gnutls_transport_set_int2, Type: Unknown
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x124A0, Name: closedir, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x124A8, Name: __snprintf_chk, Type: Unknown
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x124B0, Name: bind, Type: None
+2025-03-13 16:55:18,966 - my_text.py:110  -   Address: 0x124B8, Name: gnutls_certificate_set_known_dh_params, Type: Unknown
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x124C0, Name: pthread_mutex_lock, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x124C8, Name: pthread_mutexattr_init, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x124D0, Name: __sigsetjmp, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x124D8, Name: pthread_mutex_destroy, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x124E0, Name: write, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x124E8, Name: accept, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x124F0, Name: strtoul, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x124F8, Name: pthread_mutex_unlock, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x12500, Name: rename, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x12508, Name: readdir64, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x12510, Name: mkdir, Type: None
+2025-03-13 16:55:18,967 - my_text.py:110  -   Address: 0x12518, Name: time, Type: None
+2025-03-13 16:55:18,968 - my_text.py:110  -   Address: 0x12520, Name: inet_addr, Type: None
+2025-03-13 16:55:18,968 - my_text.py:110  -   Address: 0x12528, Name: getc, Type: None
+2025-03-13 16:55:18,968 - my_text.py:110  -   Address: 0x12530, Name: __imp___cxa_finalize, Type: None
+2025-03-13 16:55:18,988 - my_text.py:271  - The offset address of the function main is: 0x3ba0
+2025-03-13 16:55:18,988 - my_text.py:274  - The base address of the function main is: 0x607889470ba0
+2025-03-13 16:55:19,036 - my_text.py:313  - Extracted information: {'0:555345522077656261646d696e0d0a': {'2': {13: {'0x4cd6': '0xd'}, 14: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x55'}, 1: {'0x8974': '0x7efb03dfecb1 0x53'}, 2: {'0x8974': '0x7efb03dfecb2 0x45'}, 3: {'0x8974': '0x7efb03dfecb3 0x52'}, 4: {'0x8974': '0x7efb03dfecb4 0x20'}, 5: {'0x8994': '0x7efb03dfecb5 0x77'}}}, '1:504153532077656261646d696e0d0a': {'2': {13: {'0x4cd6': '0xd'}, 14: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x50'}, 1: {'0x8974': '0x7efb03dfecb1 0x41'}, 2: {'0x8974': '0x7efb03dfecb2 0x53'}, 3: {'0x8974': '0x7efb03dfecb3 0x53'}, 4: {'0x8974': '0x7efb03dfecb4 0x20'}, 5: {'0x8994': '0x7efb03dfecb5 0x77'}}}, '2:5057440d0a': {'2': {3: {'0x4cd6': '0xd'}, 4: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x50'}, 1: {'0x8974': '0x7efb03dfecb1 0x57'}, 2: {'0x8974': '0x7efb03dfecb2 0x44'}}}, '3:4c4953540d0a': {'2': {4: {'0x4cd6': '0xd'}, 5: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x4c'}, 1: {'0x8974': '0x7efb03dfecb1 0x49'}, 2: {'0x8974': '0x7efb03dfecb2 0x53'}, 3: {'0x8974': '0x7efb03dfecb3 0x54'}}}, '4:5245545220746573742e7478740d0a': {'2': {13: {'0x4cd6': '0xd'}, 14: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x52'}, 1: {'0x8974': '0x7efb03dfecb1 0x45'}, 2: {'0x8974': '0x7efb03dfecb2 0x54'}, 3: {'0x8974': '0x7efb03dfecb3 0x52'}, 4: {'0x8974': '0x7efb03dfecb4 0x20'}, 5: {'0x8994': '0x7efb03dfecb5 0x74', '0x4b2e': '0x74'}}}, '5:53544f5220746573742e7478740d0a': {'2': {13: {'0x4cd6': '0xd'}, 14: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x53'}, 1: {'0x8974': '0x7efb03dfecb1 0x54'}, 2: {'0x8974': '0x7efb03dfecb2 0x4f'}, 3: {'0x8974': '0x7efb03dfecb3 0x52'}, 4: {'0x8974': '0x7efb03dfecb4 0x20'}, 5: {'0x8994': '0x7efb03dfecb5 0x74', '0x4b2e': '0x74'}}}, '6:44454c4520746573742e7478740d0a': {'2': {13: {'0x4cd6': '0xd'}, 14: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x44'}, 1: {'0x8974': '0x7efb03dfecb1 0x45'}, 2: {'0x8974': '0x7efb03dfecb2 0x4c'}, 3: {'0x8974': '0x7efb03dfecb3 0x45'}, 4: {'0x8974': '0x7efb03dfecb4 0x20'}, 5: {'0x8994': '0x7efb03dfecb5 0x74', '0x4b2e': '0x74'}}}, '7:4d4b4420746573740d0a': {'2': {8: {'0x4cd6': '0xd'}, 9: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x4d'}, 1: {'0x8974': '0x7efb03dfecb1 0x4b'}, 2: {'0x8974': '0x7efb03dfecb2 0x44'}, 3: {'0x8974': '0x7efb03dfecb3 0x20'}, 4: {'0x8994': '0x7efb03dfecb4 0x74', '0x4b2e': '0x74'}}}, '8:524d4420746573740d0a': {'2': {8: {'0x4cd6': '0xd'}, 9: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x52'}, 1: {'0x8974': '0x7efb03dfecb1 0x4d'}, 2: {'0x8974': '0x7efb03dfecb2 0x44'}, 3: {'0x8974': '0x7efb03dfecb3 0x20'}, 4: {'0x8994': '0x7efb03dfecb4 0x74', '0x4b2e': '0x74'}}}, '9:504153560d0a': {'2': {4: {'0x4cd6': '0xd'}, 5: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x50'}, 1: {'0x8974': '0x7efb03dfecb1 0x41'}, 2: {'0x8974': '0x7efb03dfecb2 0x53'}, 3: {'0x8974': '0x7efb03dfecb3 0x56'}}}, '10:515549540d0a': {'2': {4: {'0x4cd6': '0xd'}, 5: {'0x4d18': '0xa'}, 0: {'0x8923': '0x7efb03dfecb0 0x51'}, 1: {'0x8974': '0x7efb03dfecb1 0x55'}, 2: {'0x8974': '0x7efb03dfecb2 0x49'}, 3: {'0x8974': '0x7efb03dfecb3 0x54'}}}}
+2025-03-13 16:55:19,038 - my_text.py:355  - Local variables for recvcmd.part.0: {' r': {'start': 40, 'end': 47}}
+2025-03-13 16:55:19,039 - my_text.py:153  - Pseudocode line:       if ( *v8 == 13 && a2[v6 - 1] == 10 )
+2025-03-13 16:55:19,039 - my_text.py:153  - Pseudocode line:       if ( *v8 == 13 && a2[v6 - 1] == 10 )
+2025-03-13 16:55:19,097 - my_text.py:355  - Local variables for ftp_client_thread: {'var_7030': {'start': 0, 'end': 0}, 'var_1118': {'start': 24344, 'end': 24351}, 'var_1110': {'start': 24352, 'end': 24359}, 'len': {'start': 24368, 'end': 24371}, 'attr': {'start': 24372, 'end': 24375}, 'addr': {'start': 24376, 'end': 24391}, 's': {'start': 24392, 'end': 24392}, 'fd': {'start': 24432, 'end': 24435}, 'var_10BC': {'start': 24436, 'end': 24439}, 'var_10B0': {'start': 24448, 'end': 24455}, 'var_10A8': {'start': 24456, 'end': 24459}, 'var_10A4': {'start': 24460, 'end': 24463}, 'var_1098': {'start': 24472, 'end': 24479}, 'var_108C': {'start': 24484, 'end': 24487}, 'var_1070': {'start': 24512, 'end': 24519}, 'anonymous_0': {'start': 24520, 'end': 24527}, 'anonymous_1': {'start': 24528, 'end': 24535}, 'anonymous_2': {'start': 24536, 'end': 24543}, 'anonymous_3': {'start': 24544, 'end': 24551}, 'var_1030': {'start': 24576, 'end': 24583}, ' r': {'start': 28720, 'end': 28727}}
+2025-03-13 16:55:19,101 - my_text.py:153  - Pseudocode line:         v4 = v39[0];
+2025-03-13 16:55:19,101 - my_text.py:153  - Pseudocode line:               v4 = *((_BYTE *)v39 + v8);
+2025-03-13 16:55:19,102 - my_text.py:153  - Pseudocode line:             v4 = *((_BYTE *)v39 + v8);
+2025-03-13 16:55:19,102 - my_text.py:367  - 0:555345522077656261646d696e0d0a c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 14: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 4: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 5: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}}}
+2025-03-13 16:55:19,102 - my_text.py:367  - 1:504153532077656261646d696e0d0a c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 14: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 4: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 5: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}}}
+2025-03-13 16:55:19,102 - my_text.py:367  - 2:5057440d0a c_taint_asm_dict: {'2': {3: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 4: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}}}
+2025-03-13 16:55:19,102 - my_text.py:367  - 3:4c4953540d0a c_taint_asm_dict: {'2': {4: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 5: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}}}
+2025-03-13 16:55:19,125 - my_text.py:355  - Local variables for ftp_effective_path: {'var_3048': {'start': 0, 'end': 0}, 'var_3030': {'start': 24, 'end': 31}, 'var_2048': {'start': 4096, 'end': 4096}, 'var_2030': {'start': 4120, 'end': 4127}, 'var_1030': {'start': 8216, 'end': 8223}, 'var_40': {'start': 12296, 'end': 12303}, ' r': {'start': 12360, 'end': 12367}}
+2025-03-13 16:55:19,126 - my_text.py:153  - Pseudocode line:   if ( *a3 != 47 )
+2025-03-13 16:55:19,126 - my_text.py:367  - 4:5245545220746573742e7478740d0a c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 14: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 4: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 5: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}, 'ftp_effective_path': {"cmp     byte ptr [r12], 2Fh ; '/'"}}}}
+2025-03-13 16:55:19,126 - my_text.py:367  - 5:53544f5220746573742e7478740d0a c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 14: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 4: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 5: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}, 'ftp_effective_path': {"cmp     byte ptr [r12], 2Fh ; '/'"}}}}
+2025-03-13 16:55:19,126 - my_text.py:367  - 6:44454c4520746573742e7478740d0a c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 14: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 4: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 5: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}, 'ftp_effective_path': {"cmp     byte ptr [r12], 2Fh ; '/'"}}}}
+2025-03-13 16:55:19,126 - my_text.py:367  - 7:4d4b4420746573740d0a c_taint_asm_dict: {'2': {8: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 9: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 4: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}, 'ftp_effective_path': {"cmp     byte ptr [r12], 2Fh ; '/'"}}}}
+2025-03-13 16:55:19,127 - my_text.py:367  - 8:524d4420746573740d0a c_taint_asm_dict: {'2': {8: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 9: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 4: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}, 'ftp_effective_path': {"cmp     byte ptr [r12], 2Fh ; '/'"}}}}
+2025-03-13 16:55:19,127 - my_text.py:367  - 9:504153560d0a c_taint_asm_dict: {'2': {4: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 5: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}}}
+2025-03-13 16:55:19,127 - my_text.py:367  - 10:515549540d0a c_taint_asm_dict: {'2': {4: {'recvcmd.part.0': {'cmp     byte ptr [rax], 0Dh'}}, 5: {'recvcmd.part.0': {'cmp     byte ptr [rbp+rbx-1], 0Ah'}}, 0: {'ftp_client_thread': {'movzx   ebp, [rsp+1118h+arg_4FB0]'}}, 1: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 2: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}, 3: {'ftp_client_thread': {'movzx   ebp, byte ptr [r12+rax]'}}}}
+2025-03-13 16:55:19,127 - my_text.py:369  - local_vars: {'recvcmd.part.0': {' r': {'start': 40, 'end': 47}}, 'ftp_client_thread': {'var_7030': {'start': 0, 'end': 0}, 'var_1118': {'start': 24344, 'end': 24351}, 'var_1110': {'start': 24352, 'end': 24359}, 'len': {'start': 24368, 'end': 24371}, 'attr': {'start': 24372, 'end': 24375}, 'addr': {'start': 24376, 'end': 24391}, 's': {'start': 24392, 'end': 24392}, 'fd': {'start': 24432, 'end': 24435}, 'var_10BC': {'start': 24436, 'end': 24439}, 'var_10B0': {'start': 24448, 'end': 24455}, 'var_10A8': {'start': 24456, 'end': 24459}, 'var_10A4': {'start': 24460, 'end': 24463}, 'var_1098': {'start': 24472, 'end': 24479}, 'var_108C': {'start': 24484, 'end': 24487}, 'var_1070': {'start': 24512, 'end': 24519}, 'anonymous_0': {'start': 24520, 'end': 24527}, 'anonymous_1': {'start': 24528, 'end': 24535}, 'anonymous_2': {'start': 24536, 'end': 24543}, 'anonymous_3': {'start': 24544, 'end': 24551}, 'var_1030': {'start': 24576, 'end': 24583}, ' r': {'start': 28720, 'end': 28727}}, 'ftp_effective_path': {'var_3048': {'start': 0, 'end': 0}, 'var_3030': {'start': 24, 'end': 31}, 'var_2048': {'start': 4096, 'end': 4096}, 'var_2030': {'start': 4120, 'end': 4127}, 'var_1030': {'start': 8216, 'end': 8223}, 'var_40': {'start': 12296, 'end': 12303}, ' r': {'start': 12360, 'end': 12367}}}
+2025-03-13 16:55:19,127 - my_text.py:371  - c_code: {'recvcmd.part.0': '__int64 __fastcall recvcmd_part_0(__int64 a1, char *a2, size_t a3)\n{\n  size_t v4; // r13\n  __int64 v6; // rbx\n  ssize_t v7; // rax\n  char *v8; // rax\n  __int64 v9; // rdi\n  char *v10; // rsi\n\n  v4 = a3 - 1;\n  v6 = 0LL;\n  memset(a2, 0, a3);\n  while ( 1 )\n  {\n    v9 = *(_QWORD *)(a1 + 24696);\n    v10 = &a2[v6];\n    if ( v9 )\n    {\n      v7 = gnutls_record_recv(v9, v10, v4);\n      if ( v7 <= 0 )\n        return 0LL;\n    }\n    else\n    {\n      v7 = recv(*(_DWORD *)(a1 + 40), v10, v4, 0);\n      if ( v7 <= 0 )\n        return 0LL;\n    }\n    v6 += v7;\n    v4 -= v7;\n    if ( v6 != 1 )\n    {\n      v8 = &a2[v6 - 2];\n      if ( *v8 == 13 && a2[v6 - 1] == 10 )\n        break;\n    }\n    if ( !v4 )\n      return 0LL;\n  }\n  *v8 = 0;\n  return 1LL;\n}\n', 'ftp_client_thread': '// positive sp value has been detected, the output may be wrong!\nvoid *__fastcall ftp_client_thread(void *a1)\n{\n  pthread_t v1; // rax\n  __int64 v2; // rbp\n  char v4; // bp\n  const unsigned __int16 **v5; // rax\n  __int64 v6; // rdx\n  const char *v7; // rbx\n  __int64 v8; // rax\n  size_t v9; // r13\n  char *v10; // rax\n  bool v11; // zf\n  char *v12; // rbp\n  const char **v13; // rbp\n  int v14; // r15d\n  int v15; // ebx\n  float v16; // xmm1_4\n  double v17; // xmm1_8\n  float v18; // xmm0_4\n  char *v19; // [rsp-E8h] [rbp-7118h]\n  socklen_t v20; // [rsp-D0h] [rbp-7100h] BYREF\n  pthread_mutexattr_t v21; // [rsp-CCh] [rbp-70FCh] BYREF\n  struct sockaddr v22; // [rsp-C8h] [rbp-70F8h] BYREF\n  pthread_mutex_t v23; // [rsp-B8h] [rbp-70E8h] BYREF\n  int v24; // [rsp-90h] [rbp-70C0h]\n  int v25; // [rsp-8Ch] [rbp-70BCh]\n  __int64 v26; // [rsp-80h] [rbp-70B0h]\n  int v27; // [rsp-78h] [rbp-70A8h]\n  int v28; // [rsp-74h] [rbp-70A4h]\n  __int64 v29; // [rsp-68h] [rbp-7098h]\n  unsigned __int32 v30; // [rsp-5Ch] [rbp-708Ch]\n  char v31; // [rsp-40h] [rbp-7070h]\n  char v32; // [rsp+0h] [rbp-7030h] BYREF\n  __int64 v33; // [rsp+1000h] [rbp-6030h] BYREF\n  __int64 v34; // [rsp+5FC0h] [rbp-1070h]\n  __int64 v35; // [rsp+5FC8h] [rbp-1068h]\n  __int64 v36; // [rsp+5FD0h] [rbp-1060h]\n  size_t v37; // [rsp+5FD8h] [rbp-1058h]\n  size_t v38; // [rsp+5FE0h] [rbp-1050h]\n  __int64 v39[521]; // [rsp+5FE8h] [rbp-1048h] BYREF\n\n  while ( &v32 != (char *)(&v33 - 3584) )\n    ;\n  v39[513] = __readfsqword(0x28u);\n  v1 = pthread_self();\n  pthread_detach(v1);\n  memset(v39, 0, 0x1000uLL);\n  memset(&v23, 0, 0x60A0uLL);\n  v24 = (int)a1;\n  v30 = _InterlockedIncrement(&g_newid);\n  __snprintf_chk(\n    v39,\n    4096LL,\n    1LL,\n    4096LL,\n    "<- New thread. Thread counter g_threads=%i",\n    (unsigned int)_InterlockedIncrement(&g_threads));\n  writelogentry(&v23, v39, "");\n  v20 = 16;\n  v22 = 0LL;\n  if ( !getsockname(v24, &v22, &v20) )\n  {\n    v20 = 16;\n    v27 = *(_DWORD *)&v22.sa_data[2];\n    v22 = 0LL;\n    if ( !getpeername(v24, &v22, &v20) )\n    {\n      v25 = -1;\n      v28 = *(_DWORD *)&v22.sa_data[2];\n      v26 = 0x1FFFFFFFFLL;\n      v29 = 0xFFFFFFFFLL;\n      pthread_mutexattr_init(&v21);\n      pthread_mutexattr_settype(&v21, 1);\n      pthread_mutex_init(&v23, &v21);\n      v31 = 47;\n      if ( v34 )\n        gnutls_record_send(v34, "220 LightFTP server ready\\r\\n", 27LL);\n      else\n        send(v24, "220 LightFTP server ready\\r\\n", 0x1BuLL, 0x4000);\n      memset(v39, 0, 0x1000uLL);\n      __snprintf_chk(\n        v39,\n        4096LL,\n        1LL,\n        4096LL,\n        "<- New user IP=%u.%u.%u.%u:%u",\n        (unsigned __int8)v22.sa_data[2],\n        (unsigned __int8)v22.sa_data[3],\n        (unsigned __int8)v22.sa_data[4],\n        HIBYTE(*(_DWORD *)&v22.sa_data[2]),\n        (unsigned __int16)__ROL2__(*(_WORD *)v22.sa_data, 8));\n      writelogentry(&v23, v39, "");\n      do\n      {\nLABEL_10:\n        if ( v24 == -1 || !(unsigned int)recvcmd_part_0((__int64)&v23, (char *)v39, 0x1000uLL) )\n          break;\n        v4 = v39[0];\n        if ( LOBYTE(v39[0]) )\n        {\n          v5 = __ctype_b_loc();\n          v6 = 0LL;\n          while ( ((*v5)[v4] & 0x400) == 0 )\n          {\n            ++v6;\n            v4 = *((_BYTE *)v39 + v6);\n            if ( !v4 )\n            {\n              v7 = (char *)v39 + v6;\n              goto LABEL_36;\n            }\n          }\n          v7 = (char *)v39 + v6;\n          v8 = v6;\n          if ( (v4 & 0xDF) != 0 )\n          {\n            do\n            {\n              ++v8;\n              v4 = *((_BYTE *)v39 + v8);\n            }\n            while ( (v4 & 0xDF) != 0 );\n            v9 = v8 - v6;\n          }\n          else\n          {\n            v9 = 0LL;\n          }\n          while ( v4 == 32 )\n          {\n            ++v8;\n            v4 = *((_BYTE *)v39 + v8);\n          }\n          v10 = (char *)v39 + v8;\n          v11 = v4 == 0;\n          v12 = 0LL;\n          if ( !v11 )\n            v12 = v10;\n          v19 = v12;\n        }\n        else\n        {\n          v7 = (const char *)v39;\nLABEL_36:\n          v19 = 0LL;\n          v9 = 0LL;\n        }\n        v13 = (const char **)&ftpprocs;\n        v14 = 0;\n        while ( strncasecmp(v7, *v13, v9) )\n        {\n          ++v14;\n          v13 += 2;\n          if ( v14 == 32 )\n          {\n            writelogentry(&v23, " @@ CMD: ", v39);\n            if ( v34 )\n              gnutls_record_send(v34, "500 Syntax error, command unrecognized.\\r\\n", 41LL);\n            else\n              send(v24, "500 Syntax error, command unrecognized.\\r\\n", 0x29uLL, 0x4000);\n            goto LABEL_10;\n          }\n        }\n        v15 = ((__int64 (__fastcall *)(pthread_mutex_t *, char *))(&ftpprocs)[2 * v14 + 1])(&v23, v19);\n        if ( v14 == 13 )\n          writelogentry(&v23, " @@ CMD: ", "PASS ***");\n        else\n          writelogentry(&v23, " @@ CMD: ", v39);\n      }\n      while ( v15 > 0 );\n      ((void (__fastcall *)(pthread_mutex_t *))worker_thread_cleanup)(&v23);\n      pthread_mutex_destroy(&v23);\n      pthread_mutexattr_destroy(&v21);\n      if ( v36 < 0 )\n        v16 = (float)(v36 & 1 | (unsigned int)((unsigned __int64)v36 >> 1))\n            + (float)(v36 & 1 | (unsigned int)((unsigned __int64)v36 >> 1));\n      else\n        v16 = (float)(int)v36;\n      v17 = (float)(v16 * 0.00000095367432);\n      if ( v35 < 0 )\n        v18 = (float)(v35 & 1 | (unsigned int)((unsigned __int64)v35 >> 1))\n            + (float)(v35 & 1 | (unsigned int)((unsigned __int64)v35 >> 1));\n      else\n        v18 = (float)(int)v35;\n      __snprintf_chk(\n        v39,\n        4096LL,\n        1LL,\n        4096LL,\n        " User disconnected. \\n"\n        "==== Session %u statistics ====\\n"\n        "Rx: %zd bytes (%f MBytes) total received by server in %zd files,\\n"\n        "Tx: %zd bytes (%f MBytes) total sent to the client in %zd files.\\n",\n        v30,\n        v35,\n        (float)(v18 * 0.00000095367432),\n        v37,\n        v36,\n        v17,\n        v38);\n      writelogentry(&v23, v39, "");\n    }\n  }\n  v2 = v34;\n  if ( v34 )\n  {\n    ((void (__fastcall *)(__int64, _QWORD))gnutls_bye)(v34, 0LL);\n    ((void (__fastcall *)(__int64))gnutls_deinit)(v2);\n  }\n  close(v24);\n  _InterlockedAdd64(&g_client_sockets_closed, 1uLL);\n  __snprintf_chk(\n    v39,\n    4096LL,\n    1LL,\n    4096LL,\n    "<- Thread exit. Thread counter g_threads=%i",\n    (unsigned int)_InterlockedDecrement(&g_threads));\n  writelogentry(&v23, v39, "");\n  return 0LL;\n}\n', 'ftp_effective_path': '__int64 __fastcall ftp_effective_path(const char *a1, const char *a2, char *a3, size_t a4, char *a5)\n{\n  unsigned int v8; // r12d\n  size_t v10; // rax\n  char *v11; // rax\n  char v12[24]; // [rsp+0h] [rbp-3048h] BYREF\n  char v13[24]; // [rsp+1000h] [rbp-2048h] BYREF\n  unsigned __int64 v14; // [rsp+3008h] [rbp-40h]\n\n  v14 = __readfsqword(0x28u);\n  memset(a5, 0, a4);\n  if ( !a3 )\n  {\n    a3 = "";\nLABEL_3:\n    __snprintf_chk(v13, 0x2000LL, 1LL, 0x2000LL, "%s/%s", a2, a3);\n    v8 = ftp_normalize_path_part_0(v13, 0x1000uLL, v12);\n    if ( !v8 )\n      return v8;\n    goto LABEL_6;\n  }\n  if ( *a3 != 47 )\n    goto LABEL_3;\n  v8 = ftp_normalize_path_part_0(a3, 0x1000uLL, v12);\n  if ( !v8 )\n    return v8;\nLABEL_6:\n  v8 = 0;\n  __snprintf_chk(v13, 0x2000LL, 1LL, 0x2000LL, "%s/%s", a1, v12);\n  if ( a4 > 1 )\n    v8 = ftp_normalize_path_part_0(v13, a4, a5);\n  v10 = strlen(a5);\n  if ( v10 > 1 )\n  {\n    v11 = &a5[v10 - 1];\n    if ( *v11 == 47 )\n      *v11 = 0;\n  }\n  return v8;\n}\n'}
+2025-03-13 16:55:19,127 - my_text.py:386  - 0:555345522077656261646d696e0d0a Updated c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 14: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 4: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 5: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}}}
+2025-03-13 16:55:19,128 - my_text.py:386  - 1:504153532077656261646d696e0d0a Updated c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 14: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 4: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 5: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}}}
+2025-03-13 16:55:19,128 - my_text.py:386  - 2:5057440d0a Updated c_taint_asm_dict: {'2': {3: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 4: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}}}
+2025-03-13 16:55:19,128 - my_text.py:386  - 3:4c4953540d0a Updated c_taint_asm_dict: {'2': {4: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 5: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}}}
+2025-03-13 16:55:19,128 - my_text.py:386  - 4:5245545220746573742e7478740d0a Updated c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 14: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 4: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 5: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}, 'ftp_effective_path': {'2Fh', 'r12', 'byte', 'ptr', 'cmp'}}}}
+2025-03-13 16:55:19,128 - my_text.py:386  - 5:53544f5220746573742e7478740d0a Updated c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 14: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 4: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 5: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}, 'ftp_effective_path': {'2Fh', 'r12', 'byte', 'ptr', 'cmp'}}}}
+2025-03-13 16:55:19,128 - my_text.py:386  - 6:44454c4520746573742e7478740d0a Updated c_taint_asm_dict: {'2': {13: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 14: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 4: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 5: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}, 'ftp_effective_path': {'2Fh', 'r12', 'byte', 'ptr', 'cmp'}}}}
+2025-03-13 16:55:19,128 - my_text.py:386  - 7:4d4b4420746573740d0a Updated c_taint_asm_dict: {'2': {8: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 9: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 4: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}, 'ftp_effective_path': {'2Fh', 'r12', 'byte', 'ptr', 'cmp'}}}}
+2025-03-13 16:55:19,129 - my_text.py:386  - 8:524d4420746573740d0a Updated c_taint_asm_dict: {'2': {8: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 9: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 4: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}, 'ftp_effective_path': {'2Fh', 'r12', 'byte', 'ptr', 'cmp'}}}}
+2025-03-13 16:55:19,129 - my_text.py:386  - 9:504153560d0a Updated c_taint_asm_dict: {'2': {4: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 5: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}}}
+2025-03-13 16:55:19,129 - my_text.py:386  - 10:515549540d0a Updated c_taint_asm_dict: {'2': {4: {'recvcmd.part.0': {'0Dh', 'byte', 'ptr', 'rax', 'cmp'}}, 5: {'recvcmd.part.0': {'0Ah', '1', 'rbx', 'rbp', 'byte', 'ptr', 'cmp'}}, 0: {'ftp_client_thread': {'1118h', 'arg_4FB0', 'ebp', 'movzx', 'rsp'}}, 1: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 2: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}, 3: {'ftp_client_thread': {'rax', 'ebp', 'movzx', 'r12', 'byte', 'ptr'}}}}
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F020 gnutls_free@@GNUTLS_3_4 (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F030 stdin@@GLIBC_2.2.5 (FILE *)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F038 completed.8061 (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F040 g_client_sockets_closed (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F048 g_client_sockets_created (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F050 g_threads (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F054 g_newid (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F060 session_keys_storage (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F068 dword_F068 (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F070 priority_cache (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F078 x509_cred (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F080 dh_params (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F0A0 KEYFILE_PASS (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:000000000000F1A0 KEYFILE (Unknown)
+2025-03-13 16:55:19,129 - my_text.py:397  - bss:0000000000010000 unk_10000 (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:00000000000101A0 CERTFILE (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:00000000000111A0 CAFILE (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:00000000000121A0 GOODBYE_MSG (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:0000000000012220 g_cfg (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:0000000000012228 dword_12228 (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:000000000001222C dword_1222C (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:0000000000012230 word_12230 (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:0000000000012232 word_12232 (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:0000000000012234 word_12234 (Unknown)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:0000000000012238 in (struct in_addr)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:000000000001223C stru_1223C (struct in_addr)
+2025-03-13 16:55:19,130 - my_text.py:397  - bss:0000000000012240 stru_12240 (struct in_addr)
+2025-03-13 16:55:19,131 - my_text.py:435  - {'2': {13: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 14: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 4: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 5: {'ftp_client_thread': {'            v4 = *((_BYTE *)v39 + v8);'}}}}
+2025-03-13 16:55:19,131 - my_text.py:446  - 0:555345522077656261646d696e0d0a Updated c_taint_c_dict: {'2': {13: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 14: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 4: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 5: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}}}
+2025-03-13 16:55:19,131 - my_text.py:463  - 0:555345522077656261646d696e0d0a var_flow: {'2': {13: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 14: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 4: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 5: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:55:19,131 - my_text.py:481  - Key pair (13, 14): Similarity = 1.0
+2025-03-13 16:55:19,131 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:55:19,131 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 16:55:19,131 - my_text.py:481  - Key pair (3, 4): Similarity = 1.0
+2025-03-13 16:55:19,131 - my_text.py:481  - Key pair (4, 5): Similarity = 1.0
+2025-03-13 16:55:19,131 - my_text.py:485  - 0:555345522077656261646d696e0d0a Similarity matrix: {(13, 14): 1.0, (14, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0, (3, 4): 1.0, (4, 5): 1.0}
+2025-03-13 16:55:19,131 - my_text.py:522  - 0:555345522077656261646d696e0d0a Merged queue: [(0,), (1, 2, 3, 4, 5), (13, 14)]
+2025-03-13 16:55:19,131 - my_text.py:528  - 0:555345522077656261646d696e0d0a used_fields: ['0', '1,2,3,4,5', '13,14']
+2025-03-13 16:55:19,132 - my_text.py:544  - 0:555345522077656261646d696e0d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3, 4, 5): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (13, 14): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:55:23,818 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:55:31,825 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:55:40,963 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:55:48,434 - my_text.py:645  - 0:555345522077656261646d696e0d0a field_type: {'0': ['int'], '1,2,3,4,5': ['int'], '13,14': ['int']}
+2025-03-13 16:55:48,434 - my_text.py:646  - 0:555345522077656261646d696e0d0a field_func: {'0': ['length'], '1,2,3,4,5': ['length'], '13,14': ['delimiter']}
+2025-03-13 16:55:49,037 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:55:50,440 - my_text.py:685  - 0:555345522077656261646d696e0d0a field_llm_type: {'USER': {'static'}, 'webadmin': {'string'}}
+2025-03-13 16:55:50,440 - my_text.py:686  - 0:555345522077656261646d696e0d0a field_llm_Sem: {'USER': {'static'}, 'webadmin': {'user'}}
+2025-03-13 16:55:50,440 - my_text.py:699  - 0:555345522077656261646d696e0d0a LLM_field_string: [-1, 3, 4, 12]
+2025-03-13 16:55:50,440 - my_text.py:700  - 0:555345522077656261646d696e0d0a string_dict: {'0,1,2,3': '55534552', '5,6,7,8,9,10,11,12': '77656261646d696e'}
+2025-03-13 16:55:50,440 - my_text.py:723  - 0:555345522077656261646d696e0d0a LLM_field_deli: ['13,14']
+2025-03-13 16:55:50,441 - my_text.py:730  - 0:555345522077656261646d696e0d0a LLM_field_LLM: [-1, 3, 4, 12, 14]
+2025-03-13 16:55:50,441 - my_text.py:731  - 0:555345522077656261646d696e0d0a used_fields_llm: ['0,1,2,3', '4', '5,6,7,8,9,10,11,12', '13,14']
+2025-03-13 16:55:50,441 - my_text.py:758  - 0:555345522077656261646d696e0d0a field_llm_type_llm: {'0,1,2,3': ['static'], '4': ['int'], '5,6,7,8,9,10,11,12': ['string'], '13,14': ['Static']}
+2025-03-13 16:55:50,441 - my_text.py:759  - 0:555345522077656261646d696e0d0a field_llm_Sem_llm: {'0,1,2,3': ['static'], '4': ['delimiter'], '5,6,7,8,9,10,11,12': ['user'], '13,14': ['Delim']}
+2025-03-13 16:55:50,441 - my_text.py:435  - {'2': {13: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 14: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 4: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 5: {'ftp_client_thread': {'            v4 = *((_BYTE *)v39 + v8);'}}}}
+2025-03-13 16:55:50,441 - my_text.py:446  - 1:504153532077656261646d696e0d0a Updated c_taint_c_dict: {'2': {13: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 14: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 4: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 5: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}}}
+2025-03-13 16:55:50,441 - my_text.py:463  - 1:504153532077656261646d696e0d0a var_flow: {'2': {13: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 14: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 4: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 5: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:55:50,441 - my_text.py:481  - Key pair (13, 14): Similarity = 1.0
+2025-03-13 16:55:50,441 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:55:50,441 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 16:55:50,441 - my_text.py:481  - Key pair (3, 4): Similarity = 1.0
+2025-03-13 16:55:50,441 - my_text.py:481  - Key pair (4, 5): Similarity = 1.0
+2025-03-13 16:55:50,441 - my_text.py:485  - 1:504153532077656261646d696e0d0a Similarity matrix: {(13, 14): 1.0, (14, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0, (3, 4): 1.0, (4, 5): 1.0}
+2025-03-13 16:55:50,442 - my_text.py:522  - 1:504153532077656261646d696e0d0a Merged queue: [(0,), (1, 2, 3, 4, 5), (13, 14)]
+2025-03-13 16:55:50,442 - my_text.py:528  - 1:504153532077656261646d696e0d0a used_fields: ['0', '1,2,3,4,5', '13,14']
+2025-03-13 16:55:50,442 - my_text.py:544  - 1:504153532077656261646d696e0d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3, 4, 5): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (13, 14): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:55:52,985 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:55:56,126 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:05,614 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:12,173 - my_text.py:645  - 1:504153532077656261646d696e0d0a field_type: {'0': ['int'], '1,2,3,4,5': ['int'], '13,14': ['int']}
+2025-03-13 16:56:12,173 - my_text.py:646  - 1:504153532077656261646d696e0d0a field_func: {'0': ['length'], '1,2,3,4,5': ['session_id'], '13,14': ['delimiter']}
+2025-03-13 16:56:12,776 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:14,180 - my_text.py:685  - 1:504153532077656261646d696e0d0a field_llm_type: {'PASS': {'static'}, 'webadmin': {'string'}}
+2025-03-13 16:56:14,180 - my_text.py:686  - 1:504153532077656261646d696e0d0a field_llm_Sem: {'PASS': {'command'}, 'webadmin': {'user'}}
+2025-03-13 16:56:14,181 - my_text.py:699  - 1:504153532077656261646d696e0d0a LLM_field_string: [-1, 3, 4, 12]
+2025-03-13 16:56:14,181 - my_text.py:700  - 1:504153532077656261646d696e0d0a string_dict: {'0,1,2,3': '50415353', '5,6,7,8,9,10,11,12': '77656261646d696e'}
+2025-03-13 16:56:14,181 - my_text.py:723  - 1:504153532077656261646d696e0d0a LLM_field_deli: ['13,14']
+2025-03-13 16:56:14,181 - my_text.py:730  - 1:504153532077656261646d696e0d0a LLM_field_LLM: [-1, 3, 4, 12, 14]
+2025-03-13 16:56:14,181 - my_text.py:731  - 1:504153532077656261646d696e0d0a used_fields_llm: ['0,1,2,3', '4', '5,6,7,8,9,10,11,12', '13,14']
+2025-03-13 16:56:14,181 - my_text.py:758  - 1:504153532077656261646d696e0d0a field_llm_type_llm: {'0,1,2,3': ['static'], '4': ['int'], '5,6,7,8,9,10,11,12': ['string'], '13,14': ['Static']}
+2025-03-13 16:56:14,181 - my_text.py:759  - 1:504153532077656261646d696e0d0a field_llm_Sem_llm: {'0,1,2,3': ['command'], '4': ['delimiter'], '5,6,7,8,9,10,11,12': ['user'], '13,14': ['Delim']}
+2025-03-13 16:56:14,181 - my_text.py:435  - {'2': {3: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 4: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}}}
+2025-03-13 16:56:14,181 - my_text.py:446  - 2:5057440d0a Updated c_taint_c_dict: {'2': {3: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 4: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}}}
+2025-03-13 16:56:14,181 - my_text.py:463  - 2:5057440d0a var_flow: {'2': {3: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 4: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:56:14,181 - my_text.py:481  - Key pair (3, 4): Similarity = 1.0
+2025-03-13 16:56:14,181 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:56:14,182 - my_text.py:485  - 2:5057440d0a Similarity matrix: {(3, 4): 1.0, (4, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0}
+2025-03-13 16:56:14,182 - my_text.py:522  - 2:5057440d0a Merged queue: [(0,), (1, 2), (3, 4)]
+2025-03-13 16:56:14,182 - my_text.py:528  - 2:5057440d0a used_fields: ['0', '1,2', '3,4']
+2025-03-13 16:56:14,182 - my_text.py:544  - 2:5057440d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (3, 4): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:56:16,673 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:26,797 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:29,211 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:37,362 - my_text.py:645  - 2:5057440d0a field_type: {'0': ['int'], '1,2': ['int'], '3,4': ['int']}
+2025-03-13 16:56:37,362 - my_text.py:646  - 2:5057440d0a field_func: {'0': ['length'], '1,2': ['length'], '3,4': ['length']}
+2025-03-13 16:56:37,952 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:38,743 - my_text.py:685  - 2:5057440d0a field_llm_type: {'PWD': {'static'}}
+2025-03-13 16:56:38,743 - my_text.py:686  - 2:5057440d0a field_llm_Sem: {'PWD': {'command'}}
+2025-03-13 16:56:38,743 - my_text.py:699  - 2:5057440d0a LLM_field_string: [-1, 2]
+2025-03-13 16:56:38,743 - my_text.py:700  - 2:5057440d0a string_dict: {'0,1,2': '505744'}
+2025-03-13 16:56:38,743 - my_text.py:723  - 2:5057440d0a LLM_field_deli: ['3,4']
+2025-03-13 16:56:38,743 - my_text.py:730  - 2:5057440d0a LLM_field_LLM: [-1, 2, 4]
+2025-03-13 16:56:38,743 - my_text.py:731  - 2:5057440d0a used_fields_llm: ['0,1,2', '3,4']
+2025-03-13 16:56:38,743 - my_text.py:758  - 2:5057440d0a field_llm_type_llm: {'0,1,2': ['static'], '3,4': ['Static']}
+2025-03-13 16:56:38,743 - my_text.py:759  - 2:5057440d0a field_llm_Sem_llm: {'0,1,2': ['command'], '3,4': ['Delim']}
+2025-03-13 16:56:38,743 - my_text.py:435  - {'2': {4: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 5: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}}}
+2025-03-13 16:56:38,744 - my_text.py:446  - 3:4c4953540d0a Updated c_taint_c_dict: {'2': {4: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 5: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}}}
+2025-03-13 16:56:38,744 - my_text.py:463  - 3:4c4953540d0a var_flow: {'2': {4: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 5: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:56:38,744 - my_text.py:481  - Key pair (4, 5): Similarity = 1.0
+2025-03-13 16:56:38,744 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:56:38,744 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 16:56:38,744 - my_text.py:485  - 3:4c4953540d0a Similarity matrix: {(4, 5): 1.0, (5, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0}
+2025-03-13 16:56:38,744 - my_text.py:522  - 3:4c4953540d0a Merged queue: [(0,), (1, 2, 3), (4, 5)]
+2025-03-13 16:56:38,745 - my_text.py:528  - 3:4c4953540d0a used_fields: ['0', '1,2,3', '4,5']
+2025-03-13 16:56:38,745 - my_text.py:544  - 3:4c4953540d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (4, 5): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:56:41,187 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:44,337 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:52,809 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:56:58,481 - my_text.py:645  - 3:4c4953540d0a field_type: {'0': ['int'], '1,2,3': ['int'], '4,5': ['int']}
+2025-03-13 16:56:58,481 - my_text.py:646  - 3:4c4953540d0a field_func: {'0': ['length'], '1,2,3': ['command_id'], '4,5': ['length']}
+2025-03-13 16:56:59,078 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:57:02,749 - my_text.py:685  - 3:4c4953540d0a field_llm_type: {}
+2025-03-13 16:57:02,750 - my_text.py:686  - 3:4c4953540d0a field_llm_Sem: {}
+2025-03-13 16:57:02,750 - my_text.py:688  - 3:4c4953540d0a used_fields_llm: ['0', '1,2,3', '4,5']
+2025-03-13 16:57:02,750 - my_text.py:689  - 3:4c4953540d0a field_llm_type_llm: {'0': ['int'], '1,2,3': ['int'], '4,5': ['int']}
+2025-03-13 16:57:02,750 - my_text.py:690  - 3:4c4953540d0a field_llm_Sem_llm: {'0': ['length'], '1,2,3': ['command_id'], '4,5': ['length']}
+2025-03-13 16:57:02,750 - my_text.py:435  - {'2': {13: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 14: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 4: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 5: {'ftp_client_thread': {'            v4 = *((_BYTE *)v39 + v8);'}, 'ftp_effective_path': {'  if ( *a3 != 47 )'}}}}
+2025-03-13 16:57:02,751 - my_text.py:446  - 4:5245545220746573742e7478740d0a Updated c_taint_c_dict: {'2': {13: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 14: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 4: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 5: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}, 'ftp_effective_path': {'if', '47', 'a3'}}}}
+2025-03-13 16:57:02,751 - my_text.py:463  - 4:5245545220746573742e7478740d0a var_flow: {'2': {13: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 14: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 4: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 5: {'ftp_effective_path:a3', 'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:57:02,751 - my_text.py:481  - Key pair (13, 14): Similarity = 1.0
+2025-03-13 16:57:02,751 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:57:02,751 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 16:57:02,751 - my_text.py:481  - Key pair (3, 4): Similarity = 1.0
+2025-03-13 16:57:02,751 - my_text.py:485  - 4:5245545220746573742e7478740d0a Similarity matrix: {(13, 14): 1.0, (14, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0, (3, 4): 1.0, (4, 5): 0.75}
+2025-03-13 16:57:02,751 - my_text.py:522  - 4:5245545220746573742e7478740d0a Merged queue: [(0,), (1, 2, 3, 4), (5,), (13, 14)]
+2025-03-13 16:57:02,751 - my_text.py:528  - 4:5245545220746573742e7478740d0a used_fields: ['0', '1,2,3,4', '5', '13,14']
+2025-03-13 16:57:02,751 - my_text.py:544  - 4:5245545220746573742e7478740d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3, 4): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (5,): {'ftp_effective_path': ['a3'], 'ftp_client_thread': ['v39', 'v4', 'v8']}, (13, 14): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:57:05,193 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:57:15,773 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:57:26,067 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:57:28,533 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:57:37,303 - my_text.py:645  - 4:5245545220746573742e7478740d0a field_type: {'0': ['int'], '1,2,3,4': ['int'], '5': ['int'], '13,14': ['int']}
+2025-03-13 16:57:37,303 - my_text.py:646  - 4:5245545220746573742e7478740d0a field_func: {'0': ['length'], '1,2,3,4': ['file_count'], '5': ['length'], '13,14': ['delimiter']}
+2025-03-13 16:57:37,938 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:57:39,421 - my_text.py:685  - 4:5245545220746573742e7478740d0a field_llm_type: {'RETR': {'command'}, 'test.txt': {'string'}}
+2025-03-13 16:57:39,421 - my_text.py:686  - 4:5245545220746573742e7478740d0a field_llm_Sem: {'RETR': {'command'}, 'test.txt': {'filename'}}
+2025-03-13 16:57:39,421 - my_text.py:699  - 4:5245545220746573742e7478740d0a LLM_field_string: [-1, 3, 4, 12]
+2025-03-13 16:57:39,421 - my_text.py:700  - 4:5245545220746573742e7478740d0a string_dict: {'0,1,2,3': '52455452', '5,6,7,8,9,10,11,12': '746573742e747874'}
+2025-03-13 16:57:39,421 - my_text.py:723  - 4:5245545220746573742e7478740d0a LLM_field_deli: ['13,14']
+2025-03-13 16:57:39,421 - my_text.py:730  - 4:5245545220746573742e7478740d0a LLM_field_LLM: [-1, 3, 4, 12, 14]
+2025-03-13 16:57:39,421 - my_text.py:731  - 4:5245545220746573742e7478740d0a used_fields_llm: ['0,1,2,3', '4', '5,6,7,8,9,10,11,12', '13,14']
+2025-03-13 16:57:39,422 - my_text.py:758  - 4:5245545220746573742e7478740d0a field_llm_type_llm: {'0,1,2,3': ['command'], '4': ['int'], '5,6,7,8,9,10,11,12': ['string'], '13,14': ['Static']}
+2025-03-13 16:57:39,422 - my_text.py:759  - 4:5245545220746573742e7478740d0a field_llm_Sem_llm: {'0,1,2,3': ['command'], '4': ['delimiter'], '5,6,7,8,9,10,11,12': ['filename'], '13,14': ['Delim']}
+2025-03-13 16:57:39,422 - my_text.py:435  - {'2': {13: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 14: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 4: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 5: {'ftp_client_thread': {'            v4 = *((_BYTE *)v39 + v8);'}, 'ftp_effective_path': {'  if ( *a3 != 47 )'}}}}
+2025-03-13 16:57:39,423 - my_text.py:446  - 5:53544f5220746573742e7478740d0a Updated c_taint_c_dict: {'2': {13: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 14: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 4: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 5: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}, 'ftp_effective_path': {'if', '47', 'a3'}}}}
+2025-03-13 16:57:39,423 - my_text.py:463  - 5:53544f5220746573742e7478740d0a var_flow: {'2': {13: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 14: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 4: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 5: {'ftp_effective_path:a3', 'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:57:39,423 - my_text.py:481  - Key pair (13, 14): Similarity = 1.0
+2025-03-13 16:57:39,423 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:57:39,423 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 16:57:39,423 - my_text.py:481  - Key pair (3, 4): Similarity = 1.0
+2025-03-13 16:57:39,423 - my_text.py:485  - 5:53544f5220746573742e7478740d0a Similarity matrix: {(13, 14): 1.0, (14, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0, (3, 4): 1.0, (4, 5): 0.75}
+2025-03-13 16:57:39,423 - my_text.py:522  - 5:53544f5220746573742e7478740d0a Merged queue: [(0,), (1, 2, 3, 4), (5,), (13, 14)]
+2025-03-13 16:57:39,423 - my_text.py:528  - 5:53544f5220746573742e7478740d0a used_fields: ['0', '1,2,3,4', '5', '13,14']
+2025-03-13 16:57:39,423 - my_text.py:544  - 5:53544f5220746573742e7478740d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3, 4): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (5,): {'ftp_effective_path': ['a3'], 'ftp_client_thread': ['v39', 'v4', 'v8']}, (13, 14): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:57:41,908 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:57:53,414 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:58:03,771 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:58:12,606 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:58:20,087 - my_text.py:645  - 5:53544f5220746573742e7478740d0a field_type: {'0': ['int'], '1,2,3,4': ['int'], '5': ['int'], '13,14': ['int']}
+2025-03-13 16:58:20,087 - my_text.py:646  - 5:53544f5220746573742e7478740d0a field_func: {'0': ['file descriptor'], '1,2,3,4': ['length'], '5': ['length'], '13,14': ['delimiter']}
+2025-03-13 16:58:20,689 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:58:22,633 - my_text.py:685  - 5:53544f5220746573742e7478740d0a field_llm_type: {'STOR': {'command'}, ' ': {'space'}, 'test.txt': {'string'}}
+2025-03-13 16:58:22,633 - my_text.py:686  - 5:53544f5220746573742e7478740d0a field_llm_Sem: {'STOR': {'upload command'}, ' ': {'delimiter'}, 'test.txt': {'filename'}}
+2025-03-13 16:58:22,633 - my_text.py:699  - 5:53544f5220746573742e7478740d0a LLM_field_string: [-1, 3, 4, 12]
+2025-03-13 16:58:22,633 - my_text.py:700  - 5:53544f5220746573742e7478740d0a string_dict: {'0,1,2,3': '53544f52', '4': '20', '5,6,7,8,9,10,11,12': '746573742e747874'}
+2025-03-13 16:58:22,633 - my_text.py:723  - 5:53544f5220746573742e7478740d0a LLM_field_deli: ['13,14']
+2025-03-13 16:58:22,633 - my_text.py:730  - 5:53544f5220746573742e7478740d0a LLM_field_LLM: [-1, 3, 4, 12, 14]
+2025-03-13 16:58:22,633 - my_text.py:731  - 5:53544f5220746573742e7478740d0a used_fields_llm: ['0,1,2,3', '4', '5,6,7,8,9,10,11,12', '13,14']
+2025-03-13 16:58:22,633 - my_text.py:758  - 5:53544f5220746573742e7478740d0a field_llm_type_llm: {'0,1,2,3': ['command'], '4': ['space'], '5,6,7,8,9,10,11,12': ['string'], '13,14': ['Static']}
+2025-03-13 16:58:22,634 - my_text.py:759  - 5:53544f5220746573742e7478740d0a field_llm_Sem_llm: {'0,1,2,3': ['upload command'], '4': ['delimiter'], '5,6,7,8,9,10,11,12': ['filename'], '13,14': ['Delim']}
+2025-03-13 16:58:22,634 - my_text.py:435  - {'2': {13: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 14: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 4: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 5: {'ftp_client_thread': {'            v4 = *((_BYTE *)v39 + v8);'}, 'ftp_effective_path': {'  if ( *a3 != 47 )'}}}}
+2025-03-13 16:58:22,634 - my_text.py:446  - 6:44454c4520746573742e7478740d0a Updated c_taint_c_dict: {'2': {13: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 14: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 4: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 5: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}, 'ftp_effective_path': {'if', '47', 'a3'}}}}
+2025-03-13 16:58:22,635 - my_text.py:463  - 6:44454c4520746573742e7478740d0a var_flow: {'2': {13: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 14: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 4: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 5: {'ftp_effective_path:a3', 'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:58:22,635 - my_text.py:481  - Key pair (13, 14): Similarity = 1.0
+2025-03-13 16:58:22,635 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:58:22,635 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 16:58:22,635 - my_text.py:481  - Key pair (3, 4): Similarity = 1.0
+2025-03-13 16:58:22,635 - my_text.py:485  - 6:44454c4520746573742e7478740d0a Similarity matrix: {(13, 14): 1.0, (14, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0, (3, 4): 1.0, (4, 5): 0.75}
+2025-03-13 16:58:22,635 - my_text.py:522  - 6:44454c4520746573742e7478740d0a Merged queue: [(0,), (1, 2, 3, 4), (5,), (13, 14)]
+2025-03-13 16:58:22,635 - my_text.py:528  - 6:44454c4520746573742e7478740d0a used_fields: ['0', '1,2,3,4', '5', '13,14']
+2025-03-13 16:58:22,635 - my_text.py:544  - 6:44454c4520746573742e7478740d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3, 4): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (5,): {'ftp_effective_path': ['a3'], 'ftp_client_thread': ['v39', 'v4', 'v8']}, (13, 14): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:58:25,165 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:58:38,889 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:58:47,089 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:58:49,736 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:58:58,725 - my_text.py:645  - 6:44454c4520746573742e7478740d0a field_type: {'0': ['int'], '1,2,3,4': ['int'], '5': ['int'], '13,14': ['int']}
+2025-03-13 16:58:58,726 - my_text.py:646  - 6:44454c4520746573742e7478740d0a field_func: {'0': ['length'], '1,2,3,4': ['length'], '5': ['length'], '13,14': ['length']}
+2025-03-13 16:58:59,332 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:00,814 - my_text.py:685  - 6:44454c4520746573742e7478740d0a field_llm_type: {'DELE': {'command'}, ' test.txt': {'string'}}
+2025-03-13 16:59:00,814 - my_text.py:686  - 6:44454c4520746573742e7478740d0a field_llm_Sem: {'DELE': {'delete operation'}, ' test.txt': {'file name'}}
+2025-03-13 16:59:00,814 - my_text.py:699  - 6:44454c4520746573742e7478740d0a LLM_field_string: [-1, 3, 12]
+2025-03-13 16:59:00,814 - my_text.py:700  - 6:44454c4520746573742e7478740d0a string_dict: {'0,1,2,3': '44454c45', '4,5,6,7,8,9,10,11,12': '20746573742e747874'}
+2025-03-13 16:59:00,814 - my_text.py:723  - 6:44454c4520746573742e7478740d0a LLM_field_deli: ['13,14']
+2025-03-13 16:59:00,814 - my_text.py:730  - 6:44454c4520746573742e7478740d0a LLM_field_LLM: [-1, 3, 12, 14]
+2025-03-13 16:59:00,814 - my_text.py:731  - 6:44454c4520746573742e7478740d0a used_fields_llm: ['0,1,2,3', '4,5,6,7,8,9,10,11,12', '13,14']
+2025-03-13 16:59:00,814 - my_text.py:758  - 6:44454c4520746573742e7478740d0a field_llm_type_llm: {'0,1,2,3': ['command'], '4,5,6,7,8,9,10,11,12': ['string'], '13,14': ['Static']}
+2025-03-13 16:59:00,814 - my_text.py:759  - 6:44454c4520746573742e7478740d0a field_llm_Sem_llm: {'0,1,2,3': ['delete operation'], '4,5,6,7,8,9,10,11,12': ['file name'], '13,14': ['Delim']}
+2025-03-13 16:59:00,814 - my_text.py:435  - {'2': {8: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 9: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 4: {'ftp_client_thread': {'            v4 = *((_BYTE *)v39 + v8);'}, 'ftp_effective_path': {'  if ( *a3 != 47 )'}}}}
+2025-03-13 16:59:00,815 - my_text.py:446  - 7:4d4b4420746573740d0a Updated c_taint_c_dict: {'2': {8: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 9: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 4: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}, 'ftp_effective_path': {'if', '47', 'a3'}}}}
+2025-03-13 16:59:00,815 - my_text.py:463  - 7:4d4b4420746573740d0a var_flow: {'2': {8: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 9: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 4: {'ftp_effective_path:a3', 'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:59:00,815 - my_text.py:481  - Key pair (8, 9): Similarity = 1.0
+2025-03-13 16:59:00,815 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:59:00,815 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 16:59:00,815 - my_text.py:485  - 7:4d4b4420746573740d0a Similarity matrix: {(8, 9): 1.0, (9, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0, (3, 4): 0.75}
+2025-03-13 16:59:00,815 - my_text.py:522  - 7:4d4b4420746573740d0a Merged queue: [(0,), (1, 2, 3), (4,), (8, 9)]
+2025-03-13 16:59:00,815 - my_text.py:528  - 7:4d4b4420746573740d0a used_fields: ['0', '1,2,3', '4', '8,9']
+2025-03-13 16:59:00,815 - my_text.py:544  - 7:4d4b4420746573740d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (4,): {'ftp_effective_path': ['a3'], 'ftp_client_thread': ['v39', 'v4', 'v8']}, (8, 9): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:59:03,275 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:12,789 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:21,202 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:23,673 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:28,532 - my_text.py:645  - 7:4d4b4420746573740d0a field_type: {'0': ['int'], '1,2,3': ['int'], '4': ['int'], '8,9': ['int']}
+2025-03-13 16:59:28,532 - my_text.py:646  - 7:4d4b4420746573740d0a field_func: {'0': ['file_count'], '1,2,3': ['command_group_index'], '4': ['length'], '8,9': ['length']}
+2025-03-13 16:59:29,131 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:30,459 - my_text.py:685  - 7:4d4b4420746573740d0a field_llm_type: {'MKD': {'static'}, 'test': {'string'}}
+2025-03-13 16:59:30,459 - my_text.py:686  - 7:4d4b4420746573740d0a field_llm_Sem: {'MKD': {'static'}, 'test': {'text'}}
+2025-03-13 16:59:30,459 - my_text.py:699  - 7:4d4b4420746573740d0a LLM_field_string: [-1, 2, 3, 7]
+2025-03-13 16:59:30,459 - my_text.py:700  - 7:4d4b4420746573740d0a string_dict: {'0,1,2': '4d4b44', '4,5,6,7': '74657374'}
+2025-03-13 16:59:30,459 - my_text.py:723  - 7:4d4b4420746573740d0a LLM_field_deli: ['8,9']
+2025-03-13 16:59:30,459 - my_text.py:730  - 7:4d4b4420746573740d0a LLM_field_LLM: [-1, 2, 3, 7, 9]
+2025-03-13 16:59:30,459 - my_text.py:731  - 7:4d4b4420746573740d0a used_fields_llm: ['0,1,2', '3', '4,5,6,7', '8,9']
+2025-03-13 16:59:30,459 - my_text.py:758  - 7:4d4b4420746573740d0a field_llm_type_llm: {'0,1,2': ['static'], '3': ['int'], '4,5,6,7': ['string'], '8,9': ['Static']}
+2025-03-13 16:59:30,459 - my_text.py:759  - 7:4d4b4420746573740d0a field_llm_Sem_llm: {'0,1,2': ['static'], '3': ['command_group_index'], '4,5,6,7': ['text'], '8,9': ['Delim']}
+2025-03-13 16:59:30,459 - my_text.py:435  - {'2': {8: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 9: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 4: {'ftp_client_thread': {'            v4 = *((_BYTE *)v39 + v8);'}, 'ftp_effective_path': {'  if ( *a3 != 47 )'}}}}
+2025-03-13 16:59:30,460 - my_text.py:446  - 8:524d4420746573740d0a Updated c_taint_c_dict: {'2': {8: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 9: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 4: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}, 'ftp_effective_path': {'if', '47', 'a3'}}}}
+2025-03-13 16:59:30,460 - my_text.py:463  - 8:524d4420746573740d0a var_flow: {'2': {8: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 9: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 4: {'ftp_effective_path:a3', 'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 16:59:30,460 - my_text.py:481  - Key pair (8, 9): Similarity = 1.0
+2025-03-13 16:59:30,460 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 16:59:30,460 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 16:59:30,460 - my_text.py:485  - 8:524d4420746573740d0a Similarity matrix: {(8, 9): 1.0, (9, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0, (3, 4): 0.75}
+2025-03-13 16:59:30,460 - my_text.py:522  - 8:524d4420746573740d0a Merged queue: [(0,), (1, 2, 3), (4,), (8, 9)]
+2025-03-13 16:59:30,460 - my_text.py:528  - 8:524d4420746573740d0a used_fields: ['0', '1,2,3', '4', '8,9']
+2025-03-13 16:59:30,460 - my_text.py:544  - 8:524d4420746573740d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (4,): {'ftp_effective_path': ['a3'], 'ftp_client_thread': ['v39', 'v4', 'v8']}, (8, 9): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 16:59:33,100 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:40,057 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:49,617 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 16:59:56,865 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:05,998 - my_text.py:645  - 8:524d4420746573740d0a field_type: {'0': ['int'], '1,2,3': ['int'], '4': ['int'], '8,9': ['int']}
+2025-03-13 17:00:05,998 - my_text.py:646  - 8:524d4420746573740d0a field_func: {'0': ['length'], '1,2,3': ['length'], '4': ['length'], '8,9': ['length']}
+2025-03-13 17:00:06,580 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:07,938 - my_text.py:685  - 8:524d4420746573740d0a field_llm_type: {'RMD': {'static'}, 'test': {'string'}}
+2025-03-13 17:00:07,938 - my_text.py:686  - 8:524d4420746573740d0a field_llm_Sem: {'RMD': {'command'}, 'test': {'text'}}
+2025-03-13 17:00:07,938 - my_text.py:699  - 8:524d4420746573740d0a LLM_field_string: [-1, 2, 3, 7]
+2025-03-13 17:00:07,938 - my_text.py:700  - 8:524d4420746573740d0a string_dict: {'0,1,2': '524d44', '4,5,6,7': '74657374'}
+2025-03-13 17:00:07,938 - my_text.py:723  - 8:524d4420746573740d0a LLM_field_deli: ['8,9']
+2025-03-13 17:00:07,938 - my_text.py:730  - 8:524d4420746573740d0a LLM_field_LLM: [-1, 2, 3, 7, 9]
+2025-03-13 17:00:07,938 - my_text.py:731  - 8:524d4420746573740d0a used_fields_llm: ['0,1,2', '3', '4,5,6,7', '8,9']
+2025-03-13 17:00:07,938 - my_text.py:758  - 8:524d4420746573740d0a field_llm_type_llm: {'0,1,2': ['static'], '3': ['int'], '4,5,6,7': ['string'], '8,9': ['Static']}
+2025-03-13 17:00:07,938 - my_text.py:759  - 8:524d4420746573740d0a field_llm_Sem_llm: {'0,1,2': ['command'], '3': ['length'], '4,5,6,7': ['text'], '8,9': ['Delim']}
+2025-03-13 17:00:07,938 - my_text.py:435  - {'2': {4: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 5: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}}}
+2025-03-13 17:00:07,939 - my_text.py:446  - 9:504153560d0a Updated c_taint_c_dict: {'2': {4: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 5: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}}}
+2025-03-13 17:00:07,939 - my_text.py:463  - 9:504153560d0a var_flow: {'2': {4: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 5: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 17:00:07,939 - my_text.py:481  - Key pair (4, 5): Similarity = 1.0
+2025-03-13 17:00:07,939 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 17:00:07,939 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 17:00:07,939 - my_text.py:485  - 9:504153560d0a Similarity matrix: {(4, 5): 1.0, (5, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0}
+2025-03-13 17:00:07,939 - my_text.py:522  - 9:504153560d0a Merged queue: [(0,), (1, 2, 3), (4, 5)]
+2025-03-13 17:00:07,939 - my_text.py:528  - 9:504153560d0a used_fields: ['0', '1,2,3', '4,5']
+2025-03-13 17:00:07,939 - my_text.py:544  - 9:504153560d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (4, 5): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 17:00:10,386 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:22,927 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:25,603 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:31,743 - my_text.py:645  - 9:504153560d0a field_type: {'0': ['int'], '1,2,3': ['int'], '4,5': ['int']}
+2025-03-13 17:00:31,743 - my_text.py:646  - 9:504153560d0a field_func: {'0': ['file_descriptor'], '1,2,3': ['length'], '4,5': ['length']}
+2025-03-13 17:00:32,343 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:33,366 - my_text.py:685  - 9:504153560d0a field_llm_type: {'PASV': {'command'}}
+2025-03-13 17:00:33,366 - my_text.py:686  - 9:504153560d0a field_llm_Sem: {'PASV': {'command'}}
+2025-03-13 17:00:33,366 - my_text.py:699  - 9:504153560d0a LLM_field_string: [-1, 3]
+2025-03-13 17:00:33,366 - my_text.py:700  - 9:504153560d0a string_dict: {'0,1,2,3': '50415356'}
+2025-03-13 17:00:33,366 - my_text.py:723  - 9:504153560d0a LLM_field_deli: ['4,5']
+2025-03-13 17:00:33,366 - my_text.py:730  - 9:504153560d0a LLM_field_LLM: [-1, 3, 5]
+2025-03-13 17:00:33,366 - my_text.py:731  - 9:504153560d0a used_fields_llm: ['0,1,2,3', '4,5']
+2025-03-13 17:00:33,366 - my_text.py:758  - 9:504153560d0a field_llm_type_llm: {'0,1,2,3': ['command'], '4,5': ['Static']}
+2025-03-13 17:00:33,367 - my_text.py:759  - 9:504153560d0a field_llm_Sem_llm: {'0,1,2,3': ['command'], '4,5': ['Delim']}
+2025-03-13 17:00:33,367 - my_text.py:435  - {'2': {4: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 5: {'recvcmd.part.0': {'      if ( *v8 == 13 && a2[v6 - 1] == 10 )'}}, 0: {'ftp_client_thread': {'        v4 = v39[0];'}}, 1: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 2: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}, 3: {'ftp_client_thread': {'              v4 = *((_BYTE *)v39 + v8);'}}}}
+2025-03-13 17:00:33,367 - my_text.py:446  - 10:515549540d0a Updated c_taint_c_dict: {'2': {4: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 5: {'recvcmd.part.0': {'if', 'v8', '1', '13', '10', 'a2', 'v6'}}, 0: {'ftp_client_thread': {'0', 'v39', 'v4'}}, 1: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 2: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}, 3: {'ftp_client_thread': {'_BYTE', 'v8', 'v39', 'v4'}}}}
+2025-03-13 17:00:33,367 - my_text.py:463  - 10:515549540d0a var_flow: {'2': {4: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 5: {'recvcmd.part.0:v6', 'recvcmd.part.0:a2', 'recvcmd.part.0:v8'}, 0: {'ftp_client_thread:v39', 'ftp_client_thread:v4'}, 1: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 2: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}, 3: {'ftp_client_thread:v39', 'ftp_client_thread:v4', 'ftp_client_thread:v8'}}}
+2025-03-13 17:00:33,367 - my_text.py:481  - Key pair (4, 5): Similarity = 1.0
+2025-03-13 17:00:33,367 - my_text.py:481  - Key pair (1, 2): Similarity = 1.0
+2025-03-13 17:00:33,367 - my_text.py:481  - Key pair (2, 3): Similarity = 1.0
+2025-03-13 17:00:33,368 - my_text.py:485  - 10:515549540d0a Similarity matrix: {(4, 5): 1.0, (5, 0): 0.0, (0, 1): 0.6666666666666666, (1, 2): 1.0, (2, 3): 1.0}
+2025-03-13 17:00:33,368 - my_text.py:522  - 10:515549540d0a Merged queue: [(0,), (1, 2, 3), (4, 5)]
+2025-03-13 17:00:33,368 - my_text.py:528  - 10:515549540d0a used_fields: ['0', '1,2,3', '4,5']
+2025-03-13 17:00:33,368 - my_text.py:544  - 10:515549540d0a data_new: {(0,): {'ftp_client_thread': ['v39', 'v4']}, (1, 2, 3): {'ftp_client_thread': ['v4', 'v8', 'v39']}, (4, 5): {'recvcmd.part.0': ['a2', 'v6', 'v8']}}
+2025-03-13 17:00:35,834 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:49,465 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:51,925 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:56,608 - my_text.py:645  - 10:515549540d0a field_type: {'0': ['int'], '1,2,3': ['int'], '4,5': ['int']}
+2025-03-13 17:00:56,608 - my_text.py:646  - 10:515549540d0a field_func: {'0': ['file_count'], '1,2,3': ['length'], '4,5': ['length']}
+2025-03-13 17:00:57,207 - _client.py:1038  - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-03-13 17:00:57,999 - my_text.py:685  - 10:515549540d0a field_llm_type: {'QUIT': {'static'}}
+2025-03-13 17:00:57,999 - my_text.py:686  - 10:515549540d0a field_llm_Sem: {'QUIT': {'command'}}
+2025-03-13 17:00:57,999 - my_text.py:699  - 10:515549540d0a LLM_field_string: [-1, 3]
+2025-03-13 17:00:57,999 - my_text.py:700  - 10:515549540d0a string_dict: {'0,1,2,3': '51554954'}
+2025-03-13 17:00:58,000 - my_text.py:723  - 10:515549540d0a LLM_field_deli: ['4,5']
+2025-03-13 17:00:58,000 - my_text.py:730  - 10:515549540d0a LLM_field_LLM: [-1, 3, 5]
+2025-03-13 17:00:58,000 - my_text.py:731  - 10:515549540d0a used_fields_llm: ['0,1,2,3', '4,5']
+2025-03-13 17:00:58,000 - my_text.py:758  - 10:515549540d0a field_llm_type_llm: {'0,1,2,3': ['static'], '4,5': ['Static']}
+2025-03-13 17:00:58,000 - my_text.py:759  - 10:515549540d0a field_llm_Sem_llm: {'0,1,2,3': ['command'], '4,5': ['Delim']}
+2025-03-13 17:00:58,000 - my_text.py:760  - Analysis completed successfully.
+2025-03-13 17:00:58,000 - my_text.py:770  - Closing IDA Pro...

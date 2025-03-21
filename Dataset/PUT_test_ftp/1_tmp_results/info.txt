@@ -1,0 +1,72 @@
+Taint	(0x7efb03dfecb0, f)
+CMP+JUMP-Instruction 0x607889471cd6: cmp byte ptr [rax], 0xd	2	13	0xd
+CMP+JUMP_NEXT-Instruction : jz 0x607889471d18
+Instruction 0x607889471cd6: cmp byte ptr [rax], 0xd	2	13	0xd
+CMP+JUMP-Instruction 0x607889471d18: cmp byte ptr [rbp+rbx*1-0x1], 0xa	2	14	0xa
+CMP+JUMP_NEXT-Instruction : jnz 0x607889471cdb
+Instruction 0x607889471d18: cmp byte ptr [rbp+rbx*1-0x1], 0xa	2	14	0xa
+Function	2	exit 	recvcmd.part.0
+LOOP	60788947591b	8
+Instruction 0x607889475923: movzx ebp, byte ptr [rsp+0x60d0]	2	0	0x7efb03dfecb0	0x50
+LOOP	607889475923	11
+LOOP	607889475934	5
+LOOP	607889475939	7
+LOOP	607889475952	b
+LOOP	60788947595d	11
+LOOP	60788947596e	11
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	1	0x7efb03dfecb1	0x41
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	2	0x7efb03dfecb2	0x53
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	3	0x7efb03dfecb3	0x53
+Instruction 0x607889475974: movzx ebp, byte ptr [r12+rax*1]	2	4	0x7efb03dfecb4	0x20
+LOOP	60788947597f	8
+LOOP	607889475999	6
+Instruction 0x607889475994: movzx ebp, byte ptr [r12+rax*1]	2	5	0x7efb03dfecb5	0x77
+LOOP	60788947599f	1f
+LOOP	6078894759d2	f
+LOOP	6078894759e1	4
+LOOP	6078894759c0	12
+LOOP	6078894759e5	19
+Function	2	enter	ftpPASS	(607889473bc0,607889473ecb,6078894759fe)
+LOOP	607889473c0d	3
+Function	2	enter	config_parse	(607889471350,60788947177c,607889473c29)
+LOOP	6078894715e0	d
+LOOP	6078894715ed	4
+LOOP	6078894715b0	11
+LOOP	6078894715c1	4
+LOOP	6078894715c5	b
+LOOP	6078894715d0	4
+LOOP	6078894715f1	4
+LOOP	607889471598	10
+LOOP	6078894715a8	4
+LOOP	6078894715ac	15
+LOOP	607889471610	d
+LOOP	60788947161d	4
+LOOP	6078894715c8	8
+LOOP	6078894715f5	8
+LOOP	6078894715fd	8
+LOOP	607889471605	4
+LOOP	607889471609	14
+LOOP	6078894714b0	4
+LOOP	6078894713d3	d
+LOOP	6078894713f0	a
+LOOP	6078894713fa	4
+LOOP	6078894714c0	9
+LOOP	6078894714c9	8
+LOOP	6078894714d1	f
+LOOP	6078894714e0	10
+Function	2	exit 	config_parse
+LOOP	607889473c93	3
+LOOP	607889473c9e	3
+Function	2	enter	config_parse	(607889471350,60788947177c,607889473cb0)
+Function	2	exit 	config_parse
+Function	2	enter	config_parse	(607889471350,60788947177c,607889473ccf)
+Function	2	exit 	config_parse
+Function	2	enter	writelogentry	(607889472e10,607889472f96,607889473d06)
+Function	2	exit 	writelogentry
+Function	2	exit 	ftpPASS
+LOOP	6078894759fe	c
+Function	2	enter	writelogentry	(607889472e10,607889472f96,607889475a20)
+Function	2	exit 	writelogentry
+LOOP	607889475a20	8
+Function	2	enter	recvcmd.part.0	(607889471c90,607889471d27,60788947591b)
+recv_point taint

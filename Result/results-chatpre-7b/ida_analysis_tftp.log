@@ -1,0 +1,782 @@
+2025-03-08 21:23:06,119 - my_text.py:228  - Waiting for initial analysis to complete...
+2025-03-08 21:23:06,119 - my_text.py:230  - Initial analysis completed.
+2025-03-08 21:23:06,119 - my_text.py:236  - Received argument1: tftp
+2025-03-08 21:23:06,119 - my_text.py:237  - Received argument2: 0
+2025-03-08 21:23:06,119 - my_text.py:242  - Starting analysis...
+2025-03-08 21:23:06,119 - my_text.py:83  - Total global variables: 629
+2025-03-08 21:23:06,119 - my_text.py:86  - Global Variables:
+2025-03-08 21:23:06,120 - my_text.py:107  -   Address: 0x318, Name: aLib64LdLinuxX8, Type: Unknown
+2025-03-08 21:23:06,120 - my_text.py:107  -   Address: 0x344, Name: aGnu, Type: Unknown
+2025-03-08 21:23:06,121 - my_text.py:107  -   Address: 0x364, Name: aGnu_0, Type: Unknown
+2025-03-08 21:23:06,126 - my_text.py:107  -   Address: 0x388, Name: aGnu_1, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0x3A0, Name: elf_gnu_hash_nbuckets, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0x3A4, Name: elf_gnu_hash_symbias, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0x3A8, Name: elf_gnu_hash_bitmask_nwords, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0x3AC, Name: elf_gnu_hash_shift, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0x3B0, Name: elf_gnu_hash_indexes, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0x3B8, Name: elf_gnu_hash_bucket, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0x3C4, Name: elf_gnu_hash_chain, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0xCC1, Name: aLibcSo6, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0xCCB, Name: aChroot, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0xCD2, Name: aSocket, Type: Unknown
+2025-03-08 21:23:06,127 - my_text.py:107  -   Address: 0xCD9, Name: aGetc, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xCDE, Name: aStrcpy, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xCE5, Name: aExit, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xCEA, Name: aSrand, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xCF0, Name: aFopen, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xCF6, Name: aGaiStrerror, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xD03, Name: aStrncmp, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xD0B, Name: aFtruncate, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xD15, Name: aInetAton, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xD1F, Name: aOptind, Type: Unknown
+2025-03-08 21:23:06,128 - my_text.py:107  -   Address: 0xD26, Name: aStrrchr, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD2E, Name: aLongjmpChk, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD3C, Name: aRegexec, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD44, Name: aIsoc99Sscanf, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD54, Name: aConnect, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD5C, Name: aFdeltChk, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD68, Name: aInitgroups, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD73, Name: aPutc, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD78, Name: aInetNtop, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD82, Name: aPuts, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD87, Name: aFork, Type: Unknown
+2025-03-08 21:23:06,129 - my_text.py:107  -   Address: 0xD8C, Name: aRegfree, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xD94, Name: aTime, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xD99, Name: aStackChkFail, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDAA, Name: aDaemon, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDB1, Name: aUnlink, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDB8, Name: aSelect, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDBF, Name: aGetpid, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDC6, Name: aStrdup, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDCD, Name: aStrtol, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDD4, Name: aFgets, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDDA, Name: aGetpwnam, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDE3, Name: aStrlen, Type: Unknown
+2025-03-08 21:23:06,130 - my_text.py:107  -   Address: 0xDEA, Name: aSend, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xDEF, Name: aSigemptyset, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xDFB, Name: aOpenlog, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xE03, Name: aGetaddrinfo, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xE0F, Name: aErrnoLocation, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xE20, Name: aBind, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xE25, Name: aFseek, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xE2B, Name: aChdir, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xE31, Name: aRead, Type: Unknown
+2025-03-08 21:23:06,131 - my_text.py:107  -   Address: 0xE36, Name: aSyslogChk, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE43, Name: aSetgroups, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE4D, Name: aFprintfChk, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE5B, Name: aSigsetjmp, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE67, Name: aRecv, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE6C, Name: aRegerror, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE75, Name: aSetresgid, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE7F, Name: aMemcpy, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE86, Name: aFclose, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE8D, Name: aStrtoul, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xE95, Name: aSetsockopt, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xEA0, Name: aMalloc, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xEA7, Name: aUmask, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xEAD, Name: aStrcasecmp, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xEB8, Name: aCtypeBLoc, Type: Unknown
+2025-03-08 21:23:06,132 - my_text.py:107  -   Address: 0xEC6, Name: aSetresuid, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xED0, Name: aRecvfrom, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xED9, Name: aRegcomp, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xEE1, Name: aOptarg, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xEE8, Name: aGetservbyname, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xEF6, Name: aStderr, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xEFD, Name: aIoctl, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xF03, Name: aOptopt, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xF0A, Name: aGetoptLong, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xF16, Name: aFxstat, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xF1F, Name: aFileno, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xF26, Name: aFwrite, Type: Unknown
+2025-03-08 21:23:06,133 - my_text.py:107  -   Address: 0xF2D, Name: aGettimeofday, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xF3A, Name: aSigaction, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xF44, Name: aMemcpyChk, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xF51, Name: aFdopen, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xF58, Name: aCtypeToupperLo, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xF6C, Name: aCtypeTolowerLo, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xF80, Name: aCxaFinalize, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xF8F, Name: aFreeaddrinfo, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xF9C, Name: aFcntl, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xFA2, Name: aSprintfChk, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xFB0, Name: aStrcmp, Type: Unknown
+2025-03-08 21:23:06,134 - my_text.py:107  -   Address: 0xFB7, Name: aLibcStartMain, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0xFC9, Name: aCloselog, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0xFD2, Name: aStrtoulInterna, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0xFE5, Name: aGlibc211, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0xFF0, Name: aGlibc27, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0xFFA, Name: aGlibc214, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x1005, Name: aGlibc234, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x1011, Name: aGlibc215, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x101C, Name: aGlibc24, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x1026, Name: aGlibc225, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x1032, Name: aGlibc23, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x103C, Name: aItmDeregistert, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x1058, Name: aGmonStart, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x1067, Name: aItmRegistertmc, Type: Unknown
+2025-03-08 21:23:06,135 - my_text.py:107  -   Address: 0x2000, Name: .init_proc, Type: Unknown
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x2580, Name: __cxa_finalize, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x2590, Name: .__ctype_toupper_loc, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x25A0, Name: .inet_ntop, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x25B0, Name: .free, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x25C0, Name: .recv, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x25D0, Name: .strcasecmp, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x25E0, Name: .closelog, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x25F0, Name: .__errno_location, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x2600, Name: .unlink, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x2610, Name: .strncmp, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x2620, Name: .strcpy, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x2630, Name: .chroot, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x2640, Name: .puts, Type: None
+2025-03-08 21:23:06,136 - my_text.py:107  -   Address: 0x2650, Name: .sigaction, Type: None
+2025-03-08 21:23:06,137 - my_text.py:107  -   Address: 0x2660, Name: .setsockopt, Type: None
+2025-03-08 21:23:06,137 - my_text.py:107  -   Address: 0x2670, Name: .fcntl, Type: None
+2025-03-08 21:23:06,137 - my_text.py:107  -   Address: 0x2680, Name: .write, Type: None
+2025-03-08 21:23:06,137 - my_text.py:107  -   Address: 0x2690, Name: .getpid, Type: None
+2025-03-08 21:23:06,137 - my_text.py:107  -   Address: 0x26A0, Name: .setresuid, Type: None
+2025-03-08 21:23:06,137 - my_text.py:107  -   Address: 0x26B0, Name: .fclose, Type: None
+2025-03-08 21:23:06,138 - my_text.py:107  -   Address: 0x26C0, Name: .regfree, Type: None
+2025-03-08 21:23:06,141 - my_text.py:107  -   Address: 0x26D0, Name: .strlen, Type: None
+2025-03-08 21:23:06,141 - my_text.py:107  -   Address: 0x26E0, Name: .chdir, Type: None
+2025-03-08 21:23:06,141 - my_text.py:107  -   Address: 0x26F0, Name: .__stack_chk_fail, Type: Unknown
+2025-03-08 21:23:06,142 - my_text.py:107  -   Address: 0x2700, Name: .setresgid, Type: None
+2025-03-08 21:23:06,142 - my_text.py:107  -   Address: 0x2710, Name: .getopt_long, Type: None
+2025-03-08 21:23:06,142 - my_text.py:107  -   Address: 0x2720, Name: .send, Type: None
+2025-03-08 21:23:06,142 - my_text.py:107  -   Address: 0x2730, Name: .__fdelt_chk, Type: None
+2025-03-08 21:23:06,142 - my_text.py:107  -   Address: 0x2740, Name: .gai_strerror, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x2750, Name: .strrchr, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x2760, Name: .ftruncate, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x2770, Name: .gettimeofday, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x2780, Name: .__strtoul_internal, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x2790, Name: .getservbyname, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x27A0, Name: .ioctl, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x27B0, Name: .close, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x27C0, Name: .setgroups, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x27D0, Name: .regcomp, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x27E0, Name: .read, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x27F0, Name: .srand, Type: None
+2025-03-08 21:23:06,143 - my_text.py:107  -   Address: 0x2800, Name: .fgets, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2810, Name: .strcmp, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2820, Name: .putc, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2830, Name: .getpwnam, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2840, Name: .__memcpy_chk, Type: Unknown
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2850, Name: .sigemptyset, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2860, Name: .umask, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2870, Name: .strtol, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2880, Name: .memcpy, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x2890, Name: .regerror, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x28A0, Name: .time, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x28B0, Name: .fileno, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x28C0, Name: .select, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x28D0, Name: .inet_aton, Type: None
+2025-03-08 21:23:06,144 - my_text.py:107  -   Address: 0x28E0, Name: .malloc, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x28F0, Name: .__isoc99_sscanf, Type: Unknown
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2900, Name: .__fxstat, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2910, Name: .recvfrom, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2920, Name: .regexec, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2930, Name: .daemon, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2940, Name: .fseek, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2950, Name: .fdopen, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2960, Name: .bind, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2970, Name: .__longjmp_chk, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2980, Name: .__syslog_chk, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x2990, Name: .open, Type: None
+2025-03-08 21:23:06,145 - my_text.py:107  -   Address: 0x29A0, Name: .fopen, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x29B0, Name: .strtoul, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x29C0, Name: .openlog, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x29D0, Name: .exit, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x29E0, Name: .connect, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x29F0, Name: .fwrite, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A00, Name: .__fprintf_chk, Type: Unknown
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A10, Name: .getaddrinfo, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A20, Name: .strdup, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A30, Name: .strerror, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A40, Name: .initgroups, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A50, Name: .__sigsetjmp, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A60, Name: .getc, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A70, Name: .fork, Type: None
+2025-03-08 21:23:06,146 - my_text.py:107  -   Address: 0x2A80, Name: .rand, Type: None
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x2A90, Name: .__ctype_tolower_loc, Type: None
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x2AA0, Name: .__ctype_b_loc, Type: None
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x2AB0, Name: .freeaddrinfo, Type: None
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x2AC0, Name: .__sprintf_chk, Type: Unknown
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x2AD0, Name: .socket, Type: None
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x2AE0, Name: main, Type: None
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x2DD5, Name: def_2C10, Type: Unknown
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x3F90, Name: _start, Type: Unknown
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x3FC0, Name: deregister_tm_clones, Type: Unknown
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x3FF0, Name: register_tm_clones, Type: Unknown
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x4030, Name: __do_global_dtors_aux, Type: Unknown
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x4070, Name: frame_dummy, Type: Unknown
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x4080, Name: handle_sighup, Type: None
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x4090, Name: handle_exit, Type: None
+2025-03-08 21:23:06,147 - my_text.py:107  -   Address: 0x40A0, Name: set_blksize, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x40F0, Name: set_blksize2, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4160, Name: set_rollover, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4180, Name: set_tsize, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x41B0, Name: set_timeout, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4200, Name: set_utimeout, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4250, Name: validate_access, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x45D0, Name: rewrite_access, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4610, Name: set_socket_nonblock, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4680, Name: read_remap_rules, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x46F0, Name: rewrite_macros, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4890, Name: nak, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4A10, Name: recv_time, Type: None
+2025-03-08 21:23:06,148 - my_text.py:107  -   Address: 0x4C30, Name: tftp_sendfile, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x4F40, Name: tftp_recvfile, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x52A0, Name: tftp, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5800, Name: myrecvfrom, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5880, Name: set_signal, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x58C0, Name: tfmalloc, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5900, Name: tfstrdup, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5940, Name: xform_null, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5950, Name: readescstring, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5A20, Name: do_genmatchstring, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5CD0, Name: genmatchstring, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5D40, Name: xform_toupper, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5D70, Name: xform_tolower, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5DA0, Name: parserulefile, Type: None
+2025-03-08 21:23:06,149 - my_text.py:107  -   Address: 0x5ED0, Name: def_5EC3, Type: Unknown
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x61A0, Name: freerules, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x6210, Name: rewrite_string, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x67B0, Name: w_init, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x6800, Name: r_init, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x6850, Name: read_ahead, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x6990, Name: readit, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x6A40, Name: write_behind, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x6B60, Name: writeit, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x6BF0, Name: synchnet, Type: None
+2025-03-08 21:23:06,150 - my_text.py:107  -   Address: 0x6D10, Name: pick_port_bind, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x6E20, Name: is_numeric_ipv6, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x6E93, Name: def_6E69, Type: Unknown
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x6ED0, Name: strip_address, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x6F10, Name: set_sock_addr, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x7000, Name: tftp_signal, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x7080, Name: xmalloc, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x70C0, Name: xstrdup, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x7100, Name: __libc_csu_init, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x7170, Name: __libc_csu_fini, Type: None
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x7178, Name: .term_proc, Type: Unknown
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x8000, Name: _IO_stdin_used, Type: Unknown
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x8008, Name: aOnlyAbsoluteFi, Type: Unknown
+2025-03-08 21:23:06,151 - my_text.py:107  -   Address: 0x8028, Name: aFileMustHaveGl_0, Type: Unknown
+2025-03-08 21:23:06,152 - my_text.py:107  -   Address: 0x8050, Name: aFileMustHaveGl, Type: Unknown
+2025-03-08 21:23:06,152 - my_text.py:107  -   Address: 0x8078, Name: aCannotSetNonbl, Type: Unknown
+2025-03-08 21:23:06,152 - my_text.py:107  -   Address: 0x80A0, Name: aTftpClientDoes, Type: Unknown
+2025-03-08 21:23:06,152 - my_text.py:107  -   Address: 0x80C8, Name: aSFromSFilename_0, Type: Unknown
+2025-03-08 21:23:06,152 - my_text.py:107  -   Address: 0x80F0, Name: msg, Type: None
+2025-03-08 21:23:06,152 - my_text.py:107  -   Address: 0x8110, Name: aUnsupportedOpt, Type: None
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x8130, Name: aBadMaximumBloc, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x8160, Name: s, Type: None
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x8190, Name: aNotInStandalon, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x81C0, Name: aCannotOpenIpv6_0, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x81F0, Name: aAddressSIsNotI_0, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x8220, Name: aAddressSIsNotI, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x8250, Name: aNumericIpv6Add, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x8288, Name: aCannotResolveL, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x82B8, Name: aCannotResolveL_0, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x82F8, Name: aCannotResolveL_1, Type: Unknown
+2025-03-08 21:23:06,153 - my_text.py:107  -   Address: 0x8328, Name: aCannotResolveL_2, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x8350, Name: aCannotBindToLo, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x8378, Name: aCannotSetsocko, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x83A0, Name: aCannotBindToLo_1, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x83D8, Name: aCannotBindToLo_0, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x8400, Name: aCannotOpenPidF, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x8430, Name: aErrorWritingPi, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x8450, Name: aErrorClosingPi, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x8470, Name: aErrorRemovingP, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x8498, Name: aReceivedAddres, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x84E8, Name: aDiskFullOrAllo, Type: Unknown
+2025-03-08 21:23:06,154 - my_text.py:107  -   Address: 0x8510, Name: aFailureToNegot, Type: Unknown
+2025-03-08 21:23:06,160 - my_text.py:107  -   Address: 0x8535, Name: aReversePathNot, Type: Unknown
+2025-03-08 21:23:06,161 - my_text.py:107  -   Address: 0x854E, Name: aForbiddenDirec, Type: Unknown
+2025-03-08 21:23:06,161 - my_text.py:107  -   Address: 0x8562, Name: aCannotResetFil, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x858F, Name: aSM, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x8596, Name: a08lx, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x859C, Name: a02x, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x85A1, Name: aSendingNakDSTo, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x85BC, Name: aNakM, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x85C4, Name: aTftpdOackM, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x85D5, Name: aTftpdReadM_0, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x85E6, Name: aTftpdWriteM, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x85F7, Name: aTftpdReadAckM, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x860C, Name: aTftpdWriteAckM, Type: Unknown
+2025-03-08 21:23:06,162 - my_text.py:107  -   Address: 0x8622, Name: aTftpdReadM, Type: Unknown
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x8632, Name: aNetascii, Type: Unknown
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x863B, Name: aMissingMode, Type: None
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x8648, Name: aWrq, Type: Unknown
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x864C, Name: aRrq, Type: Unknown
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x8650, Name: aRequestNotNull, Type: None
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x866C, Name: aSFromSFilename, Type: Unknown
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x8684, Name: aLu, Type: Unknown
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x8688, Name: aUnknownMode, Type: None
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x8695, Name: aNobody, Type: Unknown
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x869C, Name: s2, Type: None
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x86A1, Name: aBadTimeoutValu, Type: Unknown
+2025-03-08 21:23:06,163 - my_text.py:107  -   Address: 0x86B7, Name: aUU, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x86BD, Name: aBadPortRangeS, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x86D0, Name: aInvalidUmaskS, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x86E2, Name: aMultipleMOptio, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x86F6, Name: aBadMapStepsOpt, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x8711, Name: aUnknownOptionC, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x8726, Name: aNoSDirectory, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x8736, Name: aTooManySDirect, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x874E, Name: aNoUserSM, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x876E, Name: aSocketM, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x8779, Name: aCannotOpenIpv6, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x8795, Name: proto, Type: None
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x8799, Name: aCannotDaemoniz, Type: Unknown
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x87AE, Name: modes, Type: None
+2025-03-08 21:23:06,164 - my_text.py:107  -   Address: 0x87B0, Name: aD, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x87B4, Name: aSelectLoopM, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x87C4, Name: aRecvfromM, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x87D1, Name: aForkM, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x87DA, Name: aCannotClearGro, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x87F2, Name: aCannotSetGroup, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x8810, Name: path, Type: None
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x8812, Name: aChrootM, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x881D, Name: aCannotDropPriv, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x8838, Name: aBindM, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x8841, Name: aConnectM, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x884D, Name: aUnknownOptionS, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x8860, Name: aUndefinedError, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x8875, Name: aFileNotFound, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x8884, Name: aAccessDenied, Type: Unknown
+2025-03-08 21:23:06,165 - my_text.py:107  -   Address: 0x8892, Name: aIllegalTftpOpe, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88A9, Name: aUnknownTransfe, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88BD, Name: aFileAlreadyExi, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88D1, Name: aNoSuchUser, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88DE, Name: aOctet, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88E4, Name: aIpv4, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88E9, Name: aIpv6, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88EE, Name: aCreate, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88F5, Name: aSecure, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x88FC, Name: aPermissive, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x8907, Name: aVerbose, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x890F, Name: aVerbosity, Type: Unknown
+2025-03-08 21:23:06,166 - my_text.py:107  -   Address: 0x8919, Name: aVersion, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8921, Name: aListen, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8928, Name: aForeground, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8933, Name: aAddress, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x893B, Name: aBlocksize, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8945, Name: aUmask_0, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x894B, Name: aRefuse, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8952, Name: aRetransmit, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x895D, Name: aPortRange, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8968, Name: aMapFile, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8971, Name: aMapSteps, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x897B, Name: aPidfile, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8983, Name: aBlksize, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x898B, Name: aBlksize2, Type: Unknown
+2025-03-08 21:23:06,167 - my_text.py:107  -   Address: 0x8994, Name: aTsize, Type: Unknown
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x899B, Name: aTimeout, Type: Unknown
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x89A3, Name: aRollover, Type: Unknown
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x89B0, Name: jpt_2C10, Type: Unknown
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x8AC0, Name: short_options, Type: None
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x8ADE, Name: aSigactionM, Type: Unknown
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x8AEC, Name: aMallocM, Type: Unknown
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x8AF7, Name: aStrdupM, Type: Unknown
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x8B08, Name: aRemapCommandSO, Type: Unknown
+2025-03-08 21:23:06,168 - my_text.py:107  -   Address: 0x8B48, Name: aRRulesCannotBe, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8B78, Name: aERulesCannotBe, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8BB8, Name: aNoRegexOnRemap, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8BD8, Name: aBadRegexInRema, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8BF8, Name: aRemapRuleDIgno, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8C28, Name: aRemapRuleDNotE, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8C50, Name: aRemapBreakingL, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8C8B, Name: aRemapTableFail, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8C9F, Name: aRemapInputS, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8CB0, Name: aRemapRuleDAbor, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8CCA, Name: aRemapRuleDRewr, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8CE6, Name: aRemapRuleDExit, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8CFB, Name: aRemapRuleDRest, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8D13, Name: aRemapDone, Type: Unknown
+2025-03-08 21:23:06,169 - my_text.py:107  -   Address: 0x8D20, Name: jpt_5EC3, Type: Unknown
+2025-03-08 21:23:06,170 - my_text.py:107  -   Address: 0x8E4C, Name: jpt_6E69, Type: Unknown
+2025-03-08 21:23:06,170 - my_text.py:107  -   Address: 0x8F30, Name: aOutOfMemory, Type: Unknown
+2025-03-08 21:23:06,170 - my_text.py:107  -   Address: 0x8F40, Name: __GNU_EH_FRAME_HDR, Type: Unknown
+2025-03-08 21:23:06,170 - my_text.py:107  -   Address: 0x9A8C, Name: __FRAME_END__, Type: Unknown
+2025-03-08 21:23:06,170 - my_text.py:107  -   Address: 0xBA10, Name: __frame_dummy_init_array_entry, Type: Unknown
+2025-03-08 21:23:06,170 - my_text.py:107  -   Address: 0xBA18, Name: __do_global_dtors_aux_fini_array_entry, Type: Unknown
+2025-03-08 21:23:06,170 - my_text.py:107  -   Address: 0xBA20, Name: errmsgs, Type: None
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBA80, Name: formats_0, Type: None
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBB10, Name: _DYNAMIC, Type: Unknown
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBD00, Name: _GLOBAL_OFFSET_TABLE_, Type: Unknown
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBD18, Name: __ctype_toupper_loc_ptr, Type: Unknown
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBD20, Name: inet_ntop_ptr, Type: Unknown
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBD28, Name: free_ptr, Type: Unknown
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBD30, Name: recv_ptr, Type: Unknown
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBD38, Name: strcasecmp_ptr, Type: Unknown
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBD40, Name: closelog_ptr, Type: Unknown
+2025-03-08 21:23:06,171 - my_text.py:107  -   Address: 0xBD48, Name: __errno_location_ptr, Type: Unknown
+2025-03-08 21:23:06,177 - my_text.py:107  -   Address: 0xBD50, Name: unlink_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD58, Name: strncmp_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD60, Name: strcpy_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD68, Name: chroot_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD70, Name: puts_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD78, Name: sigaction_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD80, Name: setsockopt_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD88, Name: fcntl_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD90, Name: write_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBD98, Name: getpid_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBDA0, Name: setresuid_ptr, Type: Unknown
+2025-03-08 21:23:06,178 - my_text.py:107  -   Address: 0xBDA8, Name: fclose_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDB0, Name: regfree_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDB8, Name: strlen_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDC0, Name: chdir_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDC8, Name: __stack_chk_fail_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDD0, Name: setresgid_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDD8, Name: getopt_long_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDE0, Name: send_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDE8, Name: __fdelt_chk_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDF0, Name: gai_strerror_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBDF8, Name: strrchr_ptr, Type: Unknown
+2025-03-08 21:23:06,179 - my_text.py:107  -   Address: 0xBE00, Name: ftruncate_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE08, Name: gettimeofday_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE10, Name: __strtoul_internal_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE18, Name: getservbyname_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE20, Name: ioctl_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE28, Name: close_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE30, Name: setgroups_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE38, Name: regcomp_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE40, Name: read_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE48, Name: srand_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE50, Name: fgets_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE58, Name: strcmp_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE60, Name: putc_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE68, Name: getpwnam_ptr, Type: Unknown
+2025-03-08 21:23:06,180 - my_text.py:107  -   Address: 0xBE70, Name: __memcpy_chk_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBE78, Name: sigemptyset_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBE80, Name: umask_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBE88, Name: strtol_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBE90, Name: memcpy_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBE98, Name: regerror_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBEA0, Name: time_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBEA8, Name: fileno_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBEB0, Name: select_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBEB8, Name: inet_aton_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBEC0, Name: malloc_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBEC8, Name: __isoc99_sscanf_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBED0, Name: __fxstat_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBED8, Name: recvfrom_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBEE0, Name: regexec_ptr, Type: Unknown
+2025-03-08 21:23:06,181 - my_text.py:107  -   Address: 0xBEE8, Name: daemon_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBEF0, Name: fseek_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBEF8, Name: fdopen_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF00, Name: bind_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF08, Name: __longjmp_chk_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF10, Name: __syslog_chk_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF18, Name: open_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF20, Name: fopen_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF28, Name: strtoul_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF30, Name: openlog_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF38, Name: exit_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF40, Name: connect_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF48, Name: fwrite_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF50, Name: __fprintf_chk_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF58, Name: getaddrinfo_ptr, Type: Unknown
+2025-03-08 21:23:06,182 - my_text.py:107  -   Address: 0xBF60, Name: strdup_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBF68, Name: strerror_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBF70, Name: initgroups_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBF78, Name: __sigsetjmp_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBF80, Name: getc_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBF88, Name: fork_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBF90, Name: rand_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBF98, Name: __ctype_tolower_loc_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBFA0, Name: __ctype_b_loc_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBFA8, Name: freeaddrinfo_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBFB0, Name: __sprintf_chk_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBFB8, Name: socket_ptr, Type: Unknown
+2025-03-08 21:23:06,183 - my_text.py:107  -   Address: 0xBFC0, Name: _ITM_deregisterTMCloneTable_ptr, Type: Unknown
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xBFC8, Name: __libc_start_main_ptr, Type: Unknown
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xBFD0, Name: __gmon_start___ptr, Type: Unknown
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xBFD8, Name: _ITM_registerTMCloneTable_ptr, Type: Unknown
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xBFE0, Name: __cxa_finalize_ptr, Type: Unknown
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xC000, Name: __data_start, Type: Unknown
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xC008, Name: __dso_handle, Type: None
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xC010, Name: block.7572, Type: u_short
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xC014, Name: max_blksize, Type: None
+2025-03-08 21:23:06,184 - my_text.py:107  -   Address: 0xC018, Name: maxtimeout, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC020, Name: rexmtval, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC028, Name: timeout, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC040, Name: long_options, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC300, Name: options_0, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC370, Name: deadman_max_steps, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC374, Name: prevchar, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC378, Name: segsize, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC37C, Name: __bss_start, Type: Unknown
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC380, Name: optind@@GLIBC_2.2.5, Type: Unknown
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC388, Name: optarg@@GLIBC_2.2.5, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC390, Name: optopt@@GLIBC_2.2.5, Type: Unknown
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC3A0, Name: stderr@@GLIBC_2.2.5, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC3A8, Name: completed.8061, Type: Unknown
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC3C0, Name: verbosity, Type: None
+2025-03-08 21:23:06,185 - my_text.py:107  -   Address: 0xC3C4, Name: portrange_to, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3C8, Name: portrange_from, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3CC, Name: portrange, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3D0, Name: unixperms, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3D4, Name: cancreate, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3D8, Name: tftpd_progname, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3E0, Name: acksize.7597, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3E8, Name: ap.7595, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3F0, Name: block.7596, Type: u_short
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC3F8, Name: oap.7594, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC400, Name: blksize_set, Type: None
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC404, Name: exit_signal, Type: sig_atomic_t
+2025-03-08 21:23:06,186 - my_text.py:107  -   Address: 0xC408, Name: caught_sighup, Type: sig_atomic_t
+2025-03-08 21:23:06,187 - my_text.py:107  -   Address: 0xC410, Name: file, Type: None
+2025-03-08 21:23:06,187 - my_text.py:107  -   Address: 0xC418, Name: rewrite_rules, Type: None
+2025-03-08 21:23:06,187 - my_text.py:107  -   Address: 0xC420, Name: secure, Type: None
+2025-03-08 21:23:06,187 - my_text.py:107  -   Address: 0xC428, Name: dirs, Type: None
+2025-03-08 21:23:06,187 - my_text.py:107  -   Address: 0xC430, Name: ndirs, Type: None
+2025-03-08 21:23:06,188 - my_text.py:107  -   Address: 0xC434, Name: tsize_ok, Type: None
+2025-03-08 21:23:06,188 - my_text.py:107  -   Address: 0xC438, Name: tsize, Type: off_t
+2025-03-08 21:23:06,188 - my_text.py:107  -   Address: 0xC440, Name: from, Type: sock_addr
+2025-03-08 21:23:06,188 - my_text.py:107  -   Address: 0xC460, Name: tmp_p, Type: None
+2025-03-08 21:23:06,188 - my_text.py:107  -   Address: 0xC480, Name: tmpbuf, Type: None
+2025-03-08 21:23:06,188 - my_text.py:107  -   Address: 0xC4C0, Name: ackbuf, Type: None
+2025-03-08 21:23:06,188 - my_text.py:107  -   Address: 0x1C480, Name: buf, Type: tftphdr
+2025-03-08 21:23:06,189 - my_text.py:107  -   Address: 0x2C43C, Name: rollover_val, Type: uint16_t
+2025-03-08 21:23:06,189 - my_text.py:107  -   Address: 0x2C440, Name: timeoutbuf, Type: sigjmp_buf
+2025-03-08 21:23:06,189 - my_text.py:107  -   Address: 0x2C508, Name: timeout_quit, Type: None
+2025-03-08 21:23:06,189 - my_text.py:107  -   Address: 0x2C50C, Name: peer, Type: None
+2025-03-08 21:23:06,189 - my_text.py:107  -   Address: 0x2C510, Name: ai_fam, Type: None
+2025-03-08 21:23:06,189 - my_text.py:107  -   Address: 0x2C514, Name: nrule.7292, Type: Unknown
+2025-03-08 21:23:06,189 - my_text.py:107  -   Address: 0x2C520, Name: newline, Type: None
+2025-03-08 21:23:06,190 - my_text.py:107  -   Address: 0x2C540, Name: bfs, Type: None
+2025-03-08 21:23:06,190 - my_text.py:107  -   Address: 0x4C4C0, Name: current, Type: None
+2025-03-08 21:23:06,190 - my_text.py:107  -   Address: 0x4C4C4, Name: nextone, Type: None
+2025-03-08 21:23:06,190 - my_text.py:107  -   Address: 0x4C4C8, Name: _end, Type: Unknown
+2025-03-08 21:23:06,190 - my_text.py:107  -   Address: 0x4C4D0, Name: __ctype_toupper_loc, Type: None
+2025-03-08 21:23:06,191 - my_text.py:107  -   Address: 0x4C4D8, Name: inet_ntop, Type: None
+2025-03-08 21:23:06,191 - my_text.py:107  -   Address: 0x4C4E0, Name: free, Type: None
+2025-03-08 21:23:06,191 - my_text.py:107  -   Address: 0x4C4E8, Name: recv, Type: None
+2025-03-08 21:23:06,191 - my_text.py:107  -   Address: 0x4C4F0, Name: strcasecmp, Type: None
+2025-03-08 21:23:06,191 - my_text.py:107  -   Address: 0x4C4F8, Name: closelog, Type: None
+2025-03-08 21:23:06,191 - my_text.py:107  -   Address: 0x4C500, Name: __errno_location, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C508, Name: unlink, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C510, Name: strncmp, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C518, Name: strcpy, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C520, Name: chroot, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C528, Name: puts, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C530, Name: sigaction_0, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C538, Name: setsockopt, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C540, Name: fcntl, Type: None
+2025-03-08 21:23:06,192 - my_text.py:107  -   Address: 0x4C548, Name: write, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C550, Name: getpid, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C558, Name: setresuid, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C560, Name: fclose, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C568, Name: regfree, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C570, Name: strlen, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C578, Name: chdir, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C580, Name: __stack_chk_fail, Type: Unknown
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C588, Name: setresgid, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C590, Name: getopt_long, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C598, Name: send, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C5A0, Name: __fdelt_chk, Type: Unknown
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C5A8, Name: gai_strerror, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C5B0, Name: strrchr, Type: None
+2025-03-08 21:23:06,193 - my_text.py:107  -   Address: 0x4C5B8, Name: ftruncate, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C5C0, Name: gettimeofday, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C5C8, Name: __strtoul_internal, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C5D0, Name: getservbyname, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C5D8, Name: ioctl, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C5E0, Name: close, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C5E8, Name: setgroups, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C5F0, Name: regcomp, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C5F8, Name: read, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C600, Name: __libc_start_main, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C608, Name: srand, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C610, Name: fgets, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C618, Name: strcmp, Type: None
+2025-03-08 21:23:06,194 - my_text.py:107  -   Address: 0x4C620, Name: putc, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C628, Name: getpwnam, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C630, Name: __memcpy_chk, Type: Unknown
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C638, Name: sigemptyset, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C640, Name: umask, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C648, Name: strtol, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C650, Name: memcpy, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C658, Name: regerror, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C660, Name: time, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C668, Name: fileno, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C670, Name: select, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C678, Name: inet_aton, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C680, Name: malloc, Type: None
+2025-03-08 21:23:06,195 - my_text.py:107  -   Address: 0x4C688, Name: __isoc99_sscanf, Type: Unknown
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C690, Name: __fxstat, Type: None
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C698, Name: recvfrom, Type: None
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6A0, Name: regexec, Type: None
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6A8, Name: daemon, Type: None
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6B0, Name: fseek, Type: None
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6B8, Name: fdopen, Type: None
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6C0, Name: bind, Type: None
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6C8, Name: __longjmp_chk, Type: Unknown
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6D0, Name: __syslog_chk, Type: Unknown
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6D8, Name: open, Type: None
+2025-03-08 21:23:06,196 - my_text.py:107  -   Address: 0x4C6E0, Name: fopen, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C6E8, Name: strtoul, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C6F0, Name: openlog, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C6F8, Name: exit, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C700, Name: connect, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C708, Name: fwrite, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C710, Name: __fprintf_chk, Type: Unknown
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C718, Name: getaddrinfo, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C720, Name: strdup, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C728, Name: strerror, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C730, Name: initgroups, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C738, Name: __sigsetjmp, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C740, Name: getc, Type: None
+2025-03-08 21:23:06,197 - my_text.py:107  -   Address: 0x4C748, Name: fork, Type: None
+2025-03-08 21:23:06,198 - my_text.py:107  -   Address: 0x4C750, Name: rand, Type: None
+2025-03-08 21:23:06,198 - my_text.py:107  -   Address: 0x4C758, Name: __ctype_tolower_loc, Type: None
+2025-03-08 21:23:06,198 - my_text.py:107  -   Address: 0x4C760, Name: __ctype_b_loc, Type: None
+2025-03-08 21:23:06,198 - my_text.py:107  -   Address: 0x4C768, Name: freeaddrinfo, Type: None
+2025-03-08 21:23:06,198 - my_text.py:107  -   Address: 0x4C770, Name: __sprintf_chk, Type: Unknown
+2025-03-08 21:23:06,198 - my_text.py:107  -   Address: 0x4C778, Name: socket, Type: None
+2025-03-08 21:23:06,198 - my_text.py:107  -   Address: 0x4C780, Name: __imp___cxa_finalize, Type: None
+2025-03-08 21:23:06,462 - my_text.py:268  - The offset address of the function main is: 0x2ae0
+2025-03-08 21:23:06,462 - my_text.py:271  - The base address of the function main is: 0x57ae7298fae0
+2025-03-08 21:23:06,478 - my_text.py:310  - Extracted information: {'0:00040001': {'0': {0: {'0x4e60': '0x57ae729994c0 0x400', '0x4e6e': '0x57ae729994c0 0x400', '0x4e70': '0x400', '0x4e74': '0x400', '0x4e7f': '0x4'}, 1: {'0x4e60': '0x57ae729994c0 0x400', '0x4e6e': '0x57ae729994c0 0x400', '0x4e70': '0x400', '0x4e74': '0x400', '0x4e7f': '0x4'}, 2: {'0x4e67': '0x57ae729994c2 0x100', '0x4ebb': '0x100', '0x4ebf': '0x1;0x1', '0x4f08': '0x1', '0x4f0b': '0x57ae729994c2 0x2', '0x4f12': '0x2;0x2'}, 3: {'0x4e67': '0x57ae729994c2 0x100', '0x4ebb': '0x100', '0x4ebf': '0x1;0x1', '0x4f08': '0x1', '0x4f0b': '0x57ae729994c2 0x2', '0x4f12': '0x2;0x2'}}}, '1:0003000174657374': {'0': {0: {'0x5065': '0x57ae729b9544 0x300', '0x506c': '0x57ae729b9544 0x300', '0x506e': '0x300', '0x5072': '0x300', '0x507a': '0x3'}, 1: {'0x5065': '0x57ae729b9544 0x300', '0x506c': '0x57ae729b9544 0x300', '0x506e': '0x300', '0x5072': '0x300', '0x507a': '0x3'}, 2: {'0x5068': '0x57ae729b9546 0x100', '0x5108': '0x100', '0x510c': '0x1;0x1', '0x5113': '0x57ae729b9546 0x1', '0x6b69': '0x57ae729b9546 0x1', '0x6be4': '0x57ae729b9546 0x1', '0x6a65': '0x57ae729b9546 0x1', '0x6b46': '0x57ae729b9546 0x1', '0x4a18': '0x57ae729b9546 0x1'}, 3: {'0x5068': '0x57ae729b9546 0x100', '0x5108': '0x100', '0x510c': '0x1;0x1', '0x5113': '0x57ae729b9546 0x1', '0x6b69': '0x57ae729b9546 0x1', '0x6be4': '0x57ae729b9546 0x1', '0x6a65': '0x57ae729b9546 0x1', '0x6b46': '0x57ae729b9546 0x1', '0x4a18': '0x57ae729b9546 0x1'}}}}
+2025-03-08 21:23:06,482 - my_text.py:352  - Local variables for tftp_sendfile: {'oap': {'start': 0, 'end': 7}, 'pf_0': {'start': 8, 'end': 15}, 'dpp': {'start': 16, 'end': 23}, 'oacklen': {'start': 24, 'end': 27}, 'var_3C': {'start': 28, 'end': 31}, 'dp': {'start': 40, 'end': 47}, 'r_timeout': {'start': 48, 'end': 55}, 'var_20': {'start': 56, 'end': 63}, ' r': {'start': 88, 'end': 95}}
+2025-03-08 21:23:06,485 - my_text.py:150  - Pseudocode line:           if ( *(unsigned __int16 *)ackbuf == 1280 )
+2025-03-08 21:23:06,486 - my_text.py:150  - Pseudocode line:           v8 = __ROL2__(*(_WORD *)ackbuf, 8);
+2025-03-08 21:23:06,486 - my_text.py:150  - Pseudocode line:           v8 = __ROL2__(*(_WORD *)ackbuf, 8);
+2025-03-08 21:23:06,487 - my_text.py:150  - Pseudocode line:           if ( *(unsigned __int16 *)ackbuf == 1280 )
+2025-03-08 21:23:06,487 - my_text.py:150  - Pseudocode line:         while ( v8 != 4 );
+2025-03-08 21:23:06,488 - my_text.py:150  - Pseudocode line:           v6 = *(unsigned __int16 *)&ackbuf[2];
+2025-03-08 21:23:06,489 - my_text.py:150  - Pseudocode line:         v9 = __ROL2__(*(_WORD *)&ackbuf[2], 8);
+2025-03-08 21:23:06,489 - my_text.py:150  - Pseudocode line:         v9 = __ROL2__(*(_WORD *)&ackbuf[2], 8);
+2025-03-08 21:23:06,490 - my_text.py:150  - Pseudocode line:       block_7572 = v9 + 1;
+2025-03-08 21:23:06,491 - my_text.py:150  - Pseudocode line:       block_7572 = v9 + 1;
+2025-03-08 21:23:06,491 - my_text.py:150  - Pseudocode line:       if ( v9 == -1 )
+2025-03-08 21:23:06,492 - my_text.py:364  - 0:00040001 c_taint_asm_dict: {'0': {0: {'tftp_sendfile': {'rol     dx, 8', 'movzx   eax, word ptr cs:ackbuf', 'cmp     dx, 4', 'mov     edx, eax', 'cmp     eax, 500h'}}, 1: {'tftp_sendfile': {'rol     dx, 8', 'movzx   eax, word ptr cs:ackbuf', 'cmp     dx, 4', 'mov     edx, eax', 'cmp     eax, 500h'}}, 2: {'tftp_sendfile': {'mov     cs:block_7572, cx', 'movzx   ecx, word ptr cs:ackbuf+2; flags', 'test    cx, cx', 'cmp     cs:block_7572, cx', 'rol     cx, 8', 'add     ecx, 1'}}, 3: {'tftp_sendfile': {'mov     cs:block_7572, cx', 'movzx   ecx, word ptr cs:ackbuf+2; flags', 'test    cx, cx', 'cmp     cs:block_7572, cx', 'rol     cx, 8', 'add     ecx, 1'}}}}
+2025-03-08 21:23:06,496 - my_text.py:352  - Local variables for tftp_recvfile: {'len': {'start': 0, 'end': 7}, 'pf_0': {'start': 8, 'end': 15}, 'oacklen': {'start': 20, 'end': 23}, 'dpp': {'start': 24, 'end': 31}, 'dp': {'start': 40, 'end': 47}, 'r_timeout': {'start': 48, 'end': 55}, 'var_20': {'start': 56, 'end': 63}, ' r': {'start': 88, 'end': 95}}
+2025-03-08 21:23:06,509 - my_text.py:150  - Pseudocode line:         th_opcode = (unsigned __int16)dp->th_opcode;
+2025-03-08 21:23:06,510 - my_text.py:150  - Pseudocode line:         th_opcode = (unsigned __int16)dp->th_opcode;
+2025-03-08 21:23:06,510 - my_text.py:150  - Pseudocode line:         LOWORD(th_opcode) = __ROL2__(th_opcode, 8);
+2025-03-08 21:23:06,511 - my_text.py:150  - Pseudocode line:         if ( dp->th_opcode == 1280 )
+2025-03-08 21:23:06,511 - my_text.py:150  - Pseudocode line:       while ( (_WORD)th_opcode != 3 );
+2025-03-08 21:23:06,512 - my_text.py:150  - Pseudocode line:       v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);
+2025-03-08 21:23:06,512 - my_text.py:150  - Pseudocode line:       v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);
+2025-03-08 21:23:06,514 - my_text.py:150  - Pseudocode line:       v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);
+2025-03-08 21:23:06,515 - my_text.py:150  - Pseudocode line:       v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);
+2025-03-08 21:23:06,516 - my_text.py:352  - Local variables for writeit: {' r': {'start': 24, 'end': 31}}
+2025-03-08 21:23:06,517 - my_text.py:150  - Pseudocode line:   v7 = current;
+2025-03-08 21:23:06,517 - my_text.py:150  - Pseudocode line:   return ct;
+2025-03-08 21:23:06,519 - my_text.py:352  - Local variables for write_behind: {' r': {'start': 40, 'end': 47}}
+2025-03-08 21:23:06,520 - my_text.py:150  - Pseudocode line:   v2 = nextone;
+2025-03-08 21:23:06,521 - my_text.py:150  - Pseudocode line:     return write(v11, v6, counter);
+2025-03-08 21:23:06,527 - my_text.py:352  - Local variables for recv_time: {'var_138': {'start': 0, 'end': 7}, 'timeout_us_p': {'start': 8, 'end': 15}, 'tv': {'start': 16, 'end': 23}, 'timeout_left': {'start': 24, 'end': 31}, 'var_118': {'start': 32, 'end': 39}, 's': {'start': 40, 'end': 47}, 'rbuf': {'start': 48, 'end': 55}, 'fd': {'start': 56, 'end': 59}, 'var_FC': {'start': 60, 'end': 63}, 'tmv': {'start': 64, 'end': 79}, 't0': {'start': 80, 'end': 95}, 't1': {'start': 96, 'end': 111}, 'fdset': {'start': 112, 'end': 239}, 'var_40': {'start': 248, 'end': 255}, ' r': {'start': 312, 'end': 319}}
+2025-03-08 21:23:06,529 - my_text.py:150  - Pseudocode line:       v8 = select(s + 1, &fdset, 0LL, 0LL, &tmv);
+2025-03-08 21:23:06,530 - my_text.py:364  - 1:0003000174657374 c_taint_asm_dict: {'0': {0: {'tftp_recvfile': {'movzx   edx, word ptr [rsi]', 'rol     cx, 8; flags', 'cmp     cx, 3', 'mov     ecx, edx', 'cmp     edx, 500h'}}, 1: {'tftp_recvfile': {'movzx   edx, word ptr [rsi]', 'rol     cx, 8; flags', 'cmp     cx, 3', 'mov     ecx, edx', 'cmp     edx, 500h'}}, 2: {'tftp_recvfile': {'movzx   edi, word ptr [rsi+2]', 'rol     di, 8', 'mov     ebp, edi', 'cmp     cs:block_7596, di'}, 'writeit': {'push    rbp', 'pop     rbp'}, 'write_behind': {'push    rbp', 'pop     buf'}, 'recv_time': {'push    rbp'}}, 3: {'tftp_recvfile': {'movzx   edi, word ptr [rsi+2]', 'rol     di, 8', 'mov     ebp, edi', 'cmp     cs:block_7596, di'}, 'writeit': {'push    rbp', 'pop     rbp'}, 'write_behind': {'push    rbp', 'pop     buf'}, 'recv_time': {'push    rbp'}}}}
+2025-03-08 21:23:06,530 - my_text.py:366  - local_vars: {'tftp_sendfile': {'oap': {'start': 0, 'end': 7}, 'pf_0': {'start': 8, 'end': 15}, 'dpp': {'start': 16, 'end': 23}, 'oacklen': {'start': 24, 'end': 27}, 'var_3C': {'start': 28, 'end': 31}, 'dp': {'start': 40, 'end': 47}, 'r_timeout': {'start': 48, 'end': 55}, 'var_20': {'start': 56, 'end': 63}, ' r': {'start': 88, 'end': 95}}, 'tftp_recvfile': {'len': {'start': 0, 'end': 7}, 'pf_0': {'start': 8, 'end': 15}, 'oacklen': {'start': 20, 'end': 23}, 'dpp': {'start': 24, 'end': 31}, 'dp': {'start': 40, 'end': 47}, 'r_timeout': {'start': 48, 'end': 55}, 'var_20': {'start': 56, 'end': 63}, ' r': {'start': 88, 'end': 95}}, 'writeit': {' r': {'start': 24, 'end': 31}}, 'write_behind': {' r': {'start': 40, 'end': 47}}, 'recv_time': {'var_138': {'start': 0, 'end': 7}, 'timeout_us_p': {'start': 8, 'end': 15}, 'tv': {'start': 16, 'end': 23}, 'timeout_left': {'start': 24, 'end': 31}, 'var_118': {'start': 32, 'end': 39}, 's': {'start': 40, 'end': 47}, 'rbuf': {'start': 48, 'end': 55}, 'fd': {'start': 56, 'end': 59}, 'var_FC': {'start': 60, 'end': 63}, 'tmv': {'start': 64, 'end': 79}, 't0': {'start': 80, 'end': 95}, 't1': {'start': 96, 'end': 111}, 'fdset': {'start': 112, 'end': 239}, 'var_40': {'start': 248, 'end': 255}, ' r': {'start': 312, 'end': 319}}}
+2025-03-08 21:23:06,530 - my_text.py:368  - c_code: {'tftp_sendfile': 'void __fastcall tftp_sendfile(const formats *pf_0, tftphdr *oap, int oacklen)\n{\n  unsigned int v3; // ecx\n  unsigned __int64 *v4; // r8\n  __int16 v5; // dx\n  unsigned int v6; // ecx\n  unsigned __int64 *v7; // r8\n  __int16 v8; // dx\n  __int16 v9; // cx\n  int *v10; // rax\n  int v12; // [rsp+1Ch] [rbp-3Ch]\n  tftphdr *dp; // [rsp+28h] [rbp-30h] BYREF\n  unsigned __int64 r_timeout[5]; // [rsp+30h] [rbp-28h] BYREF\n\n  r_timeout[1] = __readfsqword(0x28u);\n  if ( oap )\n  {\n    timeout = rexmtval;\n    __sigsetjmp(timeoutbuf, 1);\n    while ( 1 )\n    {\n      r_timeout[0] = timeout;\n      if ( oacklen != send(peer, oap, oacklen, 0) )\n        break;\n      do\n      {\n        if ( recv_time(peer, ackbuf, (int)r_timeout, v3, v4) < 0 )\n        {\n          __syslog_chk(4LL, 1LL, "tftpd: read: %m\\n");\n          goto abort;\n        }\n        v3 = *(unsigned __int16 *)&ackbuf[2];\n        v5 = __ROL2__(*(_WORD *)ackbuf, 8);\n        if ( *(unsigned __int16 *)ackbuf == 1280 )\n        {\n          __syslog_chk(4LL, 1LL, "tftp: client does not accept options\\n", *(unsigned __int16 *)&ackbuf[2]);\n          goto abort;\n        }\n      }\n      while ( v5 != 4 );\n      if ( !*(_WORD *)&ackbuf[2] )\n        goto LABEL_13;\n      synchnet(peer);\n    }\n    __syslog_chk(4LL, 1LL, "tftpd: oack: %m\\n");\n  }\n  else\n  {\nLABEL_13:\n    dp = r_init();\n    while ( 1 )\n    {\n      v12 = readit(file, &dp, pf_0->f_convert);\n      if ( v12 < 0 )\n        break;\n      dp->th_opcode = 768;\n      dp->th_u1.th_u2.th_u3.tu_block = __ROL2__(block_7572, 8);\n      timeout = rexmtval;\n      __sigsetjmp(timeoutbuf, 1);\n      r_timeout[0] = timeout;\n      if ( v12 + 4 != send(peer, dp, v12 + 4, 0) )\n      {\n        __syslog_chk(4LL, 1LL, "tftpd: write: %m");\n        goto abort;\n      }\n      read_ahead(file, pf_0->f_convert);\n      while ( 1 )\n      {\n        do\n        {\n          if ( recv_time(peer, ackbuf, (int)r_timeout, v6, v7) < 0 )\n          {\n            __syslog_chk(4LL, 1LL, "tftpd: read(ack): %m");\n            goto abort;\n          }\n          v6 = *(unsigned __int16 *)&ackbuf[2];\n          v8 = __ROL2__(*(_WORD *)ackbuf, 8);\n          if ( *(unsigned __int16 *)ackbuf == 1280 )\n            goto abort;\n        }\n        while ( v8 != 4 );\n        v9 = __ROL2__(*(_WORD *)&ackbuf[2], 8);\n        if ( block_7572 == v9 )\n          break;\n        synchnet(peer);\n      }\n      block_7572 = v9 + 1;\n      if ( v9 == -1 )\n        block_7572 = rollover_val;\n      if ( segsize != v12 )\n        goto abort;\n    }\n    v10 = __errno_location();\n    nak(*v10 + 100, 0LL);\n  }\nabort:\n  fclose(file);\n}\n', 'tftp_recvfile': 'void __fastcall tftp_recvfile(const formats *pf_0, tftphdr *oack, int oacklen)\n{\n  u_short v3; // dx\n  unsigned int th_opcode; // ecx\n  unsigned __int64 *v5; // r8\n  tftphdr *v6; // rsi\n  int v7; // eax\n  unsigned __int16 v8; // bp\n  int v9; // ebx\n  int v10; // eax\n  tftphdr *v11; // rdx\n  int v12; // edi\n  union {unsigned __int16 tu_block;__int16 tu_code;} v13; // ax\n  unsigned int v14; // ecx\n  unsigned __int64 *v15; // r8\n  int v16; // eax\n  int *v17; // rax\n  tftphdr *dp; // [rsp+28h] [rbp-30h] BYREF\n  unsigned __int64 r_timeout[5]; // [rsp+30h] [rbp-28h] BYREF\n\n  r_timeout[1] = __readfsqword(0x28u);\n  oap_7594 = oack;\n  dp = w_init();\n  do\n  {\n    timeout = rexmtval;\n    v3 = block_7596 + 1;\n    if ( block_7596 )\n    {\n      acksize_7597 = 4;\n      ap_7595 = (tftphdr *)ackbuf;\n      *(_WORD *)ackbuf = 1024;\n      *(_WORD *)&ackbuf[2] = __ROL2__(block_7596, 8);\n      oap_7594 = 0LL;\n      block_7596 = v3;\n      if ( !v3 )\n        block_7596 = rollover_val;\n    }\n    else\n    {\n      ap_7595 = (tftphdr *)ackbuf;\n      if ( oap_7594 )\n      {\n        block_7596 = 1;\n        acksize_7597 = oacklen;\n      }\n      else\n      {\n        *(_DWORD *)ackbuf = 1024;\n        acksize_7597 = 4;\n        block_7596 = 1;\n      }\n    }\n    __sigsetjmp(timeoutbuf, 1);\nsend_ack:\n    r_timeout[0] = timeout;\n    if ( acksize_7597 != send(peer, ackbuf, acksize_7597, 0) )\n    {\n      __syslog_chk(4LL, 1LL, "tftpd: write(ack): %m");\n      return;\n    }\n    write_behind(file, pf_0->f_convert);\n    while ( 1 )\n    {\n      v6 = dp;\n      do\n      {\n        v7 = recv_time(peer, v6, (int)r_timeout, th_opcode, v5);\n        if ( v7 < 0 )\n        {\n          __syslog_chk(4LL, 1LL, "tftpd: read: %m");\n          return;\n        }\n        v6 = dp;\n        th_opcode = (unsigned __int16)dp->th_opcode;\n        LOWORD(th_opcode) = __ROL2__(th_opcode, 8);\n        if ( dp->th_opcode == 1280 )\n          return;\n      }\n      while ( (_WORD)th_opcode != 3 );\n      v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);\n      if ( block_7596 == v8 )\n        break;\n      synchnet(peer);\n      if ( v8 == block_7596 - 1 )\n        goto send_ack;\n    }\n    v9 = v7 - 4;\n    v10 = writeit(file, &dp, v7 - 4, pf_0->f_convert);\n    if ( v9 != v10 )\n    {\n      if ( v10 < 0 )\n      {\n        v17 = __errno_location();\n        nak(*v17 + 100, 0LL);\n      }\n      else\n      {\n        nak(3, 0LL);\n      }\n      return;\n    }\n  }\n  while ( segsize == v9 );\n  write_behind(file, pf_0->f_convert);\n  fclose(file);\n  v11 = ap_7595;\n  v12 = peer;\n  v13.tu_block = __ROL2__(block_7596, 8);\n  ap_7595->th_opcode = 1024;\n  v11->th_u1.th_u2.th_u3 = (union {unsigned __int16 tu_block;__int16 tu_code;})v13.tu_block;\n  send(v12, ackbuf, 4uLL, 0);\n  timeout_quit = 1;\n  v16 = recv_time(peer, &buf, (int)&timeout, v14, v15);\n  timeout_quit = 0;\n  if ( v16 > 3 && block_7596 == v8 )\n    send(peer, ackbuf, 4uLL, 0);\n}\n', 'writeit': 'int __fastcall writeit(FILE *file, tftphdr **dpp, int ct, int convert)\n{\n  int v7; // ecx\n  __int64 v8; // rax\n  __int64 v9; // rax\n\n  v7 = current;\n  bfs[current].counter = ct;\n  v8 = v7 == 0;\n  current = v7 == 0;\n  if ( bfs[v8].counter != -2 )\n  {\n    write_behind(file, convert);\n    v8 = current;\n  }\n  v9 = v8;\n  bfs[v9].counter = -3;\n  *dpp = (tftphdr *)bfs[v9].buf;\n  return ct;\n}\n', 'write_behind': 'int __fastcall write_behind(FILE *file, int convert)\n{\n  int v2; // ecx\n  __int64 v3; // rax\n  int counter; // r13d\n  char *buf; // rax\n  char *v6; // rbp\n  int v7; // ebx\n  __int64 v8; // r14\n  int v9; // eax\n  int v11; // eax\n\n  v2 = nextone;\n  v3 = nextone;\n  counter = bfs[v3].counter;\n  if ( counter < -1 )\n    return 0;\n  bfs[nextone].counter = -2;\n  buf = bfs[v3].buf;\n  v6 = buf + 4;\n  nextone = v2 == 0;\n  if ( counter <= 0 )\n  {\n    return -1;\n  }\n  else\n  {\n    if ( convert )\n    {\n      v7 = prevchar;\n      v8 = (__int64)&buf[counter - 1 + 5];\n      while ( 1 )\n      {\n        ++v6;\n        v9 = v7;\n        v7 = *(v6 - 1);\n        if ( v9 != 13 )\n          goto LABEL_8;\n        if ( v7 == 10 )\n          break;\n        if ( *(v6 - 1) )\n          goto LABEL_8;\nskipit:\n        prevchar = v7;\n        if ( v6 == (char *)v8 )\n          return counter;\n      }\n      fseek(file, -1LL, 1);\nLABEL_8:\n      putc(v7, file);\n      goto skipit;\n    }\n    v11 = fileno(file);\n    return write(v11, v6, counter);\n  }\n}\n', 'recv_time': '__int64 __fastcall recv_time(\n        int s,\n        void *rbuf,\n        unsigned __int64 *len,\n        unsigned int flags,\n        unsigned __int64 *timeout_us_p)\n{\n  unsigned __int64 v5; // rbp\n  __int64 v6; // rax\n  unsigned __int64 v7; // rcx\n  int v8; // ebx\n  int v9; // r12d\n  unsigned __int64 v10; // rdx\n  int v11; // ebx\n  __int64 result; // rax\n  int *v13; // [rsp+0h] [rbp-138h]\n  unsigned __int64 timeout_left; // [rsp+18h] [rbp-120h]\n  int v16; // [rsp+3Ch] [rbp-FCh]\n  timeval tmv; // [rsp+40h] [rbp-F8h] BYREF\n  timeval t0; // [rsp+50h] [rbp-E8h] BYREF\n  timeval t1; // [rsp+60h] [rbp-D8h] BYREF\n  fd_set fdset; // [rsp+70h] [rbp-C8h] BYREF\n  unsigned __int64 v21; // [rsp+F8h] [rbp-40h]\n\n  v5 = *len;\n  v21 = __readfsqword(0x28u);\n  gettimeofday(&t0, 0LL);\n  timeout_left = v5;\n  v13 = __errno_location();\n  while ( 1 )\n  {\n    memset(&fdset, 0, sizeof(fdset));\n    v6 = __fdelt_chk(s);\n    v7 = timeout_left;\n    fdset.fds_bits[v6] |= 1LL << (s % 64);\n    do\n    {\n      tmv.tv_sec = v7 / 0xF4240;\n      tmv.tv_usec = v7 % 0xF4240;\n      v8 = select(s + 1, &fdset, 0LL, 0LL, &tmv);\n      v9 = *v13;\n      gettimeofday(&t1, 0LL);\n      v10 = t1.tv_usec + 1000000 * (t1.tv_sec - t0.tv_sec) - t0.tv_usec;\n      v7 = v5 - v10;\n      if ( v5 <= v10 )\n        v7 = 1LL;\n      *len = v7;\n    }\n    while ( v8 == -1 && v9 == 4 );\n    timeout_left = v7;\n    if ( !v8 )\n    {\n      timeout *= 2LL;\n      if ( timeout >= maxtimeout || timeout_quit )\n        exit(0);\n      __longjmp_chk(timeoutbuf, 1LL);\n    }\n    set_socket_nonblock(s, 1);\n    v16 = recv(s, rbuf, 0xFFBCuLL, 0);\n    v11 = *v13;\n    set_socket_nonblock(s, 0);\n    if ( v16 >= 0 )\n      break;\n    if ( v11 != 11 && v11 != 4 )\n    {\n      result = (unsigned int)v16;\n      *v13 = v11;\n      return result;\n    }\n  }\n  return (unsigned int)v16;\n}\n'}
+2025-03-08 21:23:06,530 - my_text.py:383  - 0:00040001 Updated c_taint_asm_dict: {'0': {0: {'tftp_sendfile': {'movzx', 'word', 'ptr', 'mov', 'dx', '4', '500h', '8', 'eax', 'rol', 'ackbuf', 'edx', 'cs', 'cmp'}}, 1: {'tftp_sendfile': {'movzx', 'word', 'ptr', 'mov', 'dx', '4', '500h', '8', 'eax', 'rol', 'ackbuf', 'edx', 'cs', 'cmp'}}, 2: {'tftp_sendfile': {'movzx', 'test', 'rol', 'word', '1', 'mov', 'block_7572', 'ecx', '8', 'add', 'ptr', 'flags', 'ackbuf', 'cx', 'cs', 'cmp', '2'}}, 3: {'tftp_sendfile': {'movzx', 'test', 'rol', 'word', '1', 'mov', 'block_7572', 'ecx', '8', 'add', 'ptr', 'flags', 'ackbuf', 'cx', 'cs', 'cmp', '2'}}}}
+2025-03-08 21:23:06,530 - my_text.py:383  - 1:0003000174657374 Updated c_taint_asm_dict: {'0': {0: {'tftp_recvfile': {'movzx', 'rsi', 'word', 'mov', '3', 'cmp', '500h', '8', 'ecx', 'ptr', 'flags', 'rol', 'edx', 'cx'}}, 1: {'tftp_recvfile': {'movzx', 'rsi', 'word', 'mov', '3', 'cmp', '500h', '8', 'ecx', 'ptr', 'flags', 'rol', 'edx', 'cx'}}, 2: {'tftp_recvfile': {'movzx', 'rol', 'rsi', 'word', 'mov', 'di', 'ebp', '8', 'block_7596', 'ptr', 'edi', 'cs', 'cmp', '2'}, 'writeit': {'push', 'rbp', 'pop'}, 'write_behind': {'buf', 'push', 'rbp', 'pop'}, 'recv_time': {'push', 'rbp'}}, 3: {'tftp_recvfile': {'movzx', 'rol', 'rsi', 'word', 'mov', 'di', 'ebp', '8', 'block_7596', 'ptr', 'edi', 'cs', 'cmp', '2'}, 'writeit': {'push', 'rbp', 'pop'}, 'write_behind': {'buf', 'push', 'rbp', 'pop'}, 'recv_time': {'push', 'rbp'}}}}
+2025-03-08 21:23:06,530 - my_text.py:394  - bss:000000000000C380 optind@@GLIBC_2.2.5 (Unknown)
+2025-03-08 21:23:06,530 - my_text.py:394  - bss:000000000000C388 optarg@@GLIBC_2.2.5 (char *)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C390 optopt@@GLIBC_2.2.5 (Unknown)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3A0 stderr@@GLIBC_2.2.5 (FILE *)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3A8 completed.8061 (Unknown)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3C0 verbosity (int)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3C4 portrange_to (unsigned int)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3C8 portrange_from (unsigned int)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3CC portrange (int)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3D0 unixperms (int)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3D4 cancreate (int)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3D8 tftpd_progname (const char *)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3E0 acksize.7597 (int)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3E8 ap.7595 (tftphdr *)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3F0 block.7596 (u_short)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C3F8 oap.7594 (tftphdr *)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C400 blksize_set (int)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C404 exit_signal (volatile sig_atomic_t)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C408 caught_sighup (volatile sig_atomic_t)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C410 file (FILE *)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C418 rewrite_rules (rule *)
+2025-03-08 21:23:06,531 - my_text.py:394  - bss:000000000000C420 secure (int)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000000C428 dirs (const char **)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000000C430 ndirs (int)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000000C434 tsize_ok (int)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000000C438 tsize (off_t)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000000C440 from (sock_addr)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000000C460 tmp_p (char *)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000000C480 tmpbuf (char[46])
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000000C4C0 ackbuf (char[65468])
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000001C47C unk_1C47C (Unknown)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000001C480 buf (tftphdr)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000002C43C rollover_val (uint16_t)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000002C440 timeoutbuf (sigjmp_buf)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000002C508 timeout_quit (int)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000002C50C peer (int)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000002C510 ai_fam (int)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000002C514 nrule.7292 (Unknown)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000002C520 newline (int)
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000002C540 bfs (bf[2])
+2025-03-08 21:23:06,532 - my_text.py:394  - bss:000000000004C4C0 current (int)
+2025-03-08 21:23:06,533 - my_text.py:394  - bss:000000000004C4C4 nextone (int)
+2025-03-08 21:23:06,533 - my_text.py:432  - {'0': {0: {'tftp_sendfile': {'          v8 = __ROL2__(*(_WORD *)ackbuf, 8);', '          if ( *(unsigned __int16 *)ackbuf == 1280 )', '        while ( v8 != 4 );'}}, 1: {'tftp_sendfile': {'          v8 = __ROL2__(*(_WORD *)ackbuf, 8);', '          if ( *(unsigned __int16 *)ackbuf == 1280 )', '        while ( v8 != 4 );'}}, 2: {'tftp_sendfile': {'      block_7572 = v9 + 1;', '          v6 = *(unsigned __int16 *)&ackbuf[2];', '        v9 = __ROL2__(*(_WORD *)&ackbuf[2], 8);', '      if ( v9 == -1 )'}}, 3: {'tftp_sendfile': {'      block_7572 = v9 + 1;', '          v6 = *(unsigned __int16 *)&ackbuf[2];', '        v9 = __ROL2__(*(_WORD *)&ackbuf[2], 8);', '      if ( v9 == -1 )'}}}}
+2025-03-08 21:23:06,533 - my_text.py:443  - 0:00040001 Updated c_taint_c_dict: {'0': {0: {'tftp_sendfile': {'v8', '__ROL2__', '4', '8', 'while', '__int16', 'if', 'ackbuf', 'unsigned', '_WORD', '1280'}}, 1: {'tftp_sendfile': {'v8', '__ROL2__', '4', '8', 'while', '__int16', 'if', 'ackbuf', 'unsigned', '_WORD', '1280'}}, 2: {'tftp_sendfile': {'__ROL2__', 'v6', '1', 'if', 'block_7572', '8', '__int16', 'v9', 'ackbuf', 'unsigned', '_WORD', '2'}}, 3: {'tftp_sendfile': {'__ROL2__', 'v6', '1', 'if', 'block_7572', '8', '__int16', 'v9', 'ackbuf', 'unsigned', '_WORD', '2'}}}}
+2025-03-08 21:23:06,533 - my_text.py:460  - 0:00040001 var_flow: {'0': {0: {'global:ackbuf', 'tftp_sendfile:v8'}, 1: {'global:ackbuf', 'tftp_sendfile:v8'}, 2: {'global:ackbuf', 'tftp_sendfile:v6', 'tftp_sendfile:v9', 'global:block_7572'}, 3: {'global:ackbuf', 'tftp_sendfile:v6', 'tftp_sendfile:v9', 'global:block_7572'}}}
+2025-03-08 21:23:06,534 - my_text.py:478  - Key pair (0, 1): Similarity = 1.0
+2025-03-08 21:23:06,534 - my_text.py:478  - Key pair (2, 3): Similarity = 1.0
+2025-03-08 21:23:06,534 - my_text.py:482  - 0:00040001 Similarity matrix: {(0, 1): 1.0, (1, 2): 0.2, (2, 3): 1.0}
+2025-03-08 21:23:06,534 - my_text.py:519  - 0:00040001 Merged queue: [(0, 1), (2, 3)]
+2025-03-08 21:23:06,534 - my_text.py:525  - 0:00040001 used_fields: ['0,1', '2,3']
+2025-03-08 21:23:06,534 - my_text.py:541  - 0:00040001 data_new: {(0, 1): {'global': ['ackbuf'], 'tftp_sendfile': ['v8']}, (2, 3): {'tftp_sendfile': ['v9', 'v6'], 'global': ['ackbuf', 'block_7572']}}
+2025-03-08 21:23:06,534 - my_text.py:618  - 0:00040001 Sending request to https://api.siliconflow.cn/v1/chat/completions with payload: {'model': 'Qwen/Qwen2.5-7B-Instruct', 'messages': [{'role': 'user', 'content': 'I\'m currently handling a protocol packet received through the socket.recv function. When analyzing the received protocol packet, I found that the field at the offset of (0, 1)  has some situations that affect the operation of the relevant code\n\n                        Function Name: tftp_sendfile\n                        Function Function Overview: [Briefly describe the main function of the function, such as receiving and processing a protocol packet from a socket, etc.]\n                        void __fastcall tftp_sendfile(const formats *pf_0, tftphdr *oap, int oacklen)\n{\n  unsigned int v3; // ecx\n  unsigned __int64 *v4; // r8\n  __int16 v5; // dx\n  unsigned int v6; // ecx\n  unsigned __int64 *v7; // r8\n  __int16 v8; // dx\n  __int16 v9; // cx\n  int *v10; // rax\n  int v12; // [rsp+1Ch] [rbp-3Ch]\n  tftphdr *dp; // [rsp+28h] [rbp-30h] BYREF\n  unsigned __int64 r_timeout[5]; // [rsp+30h] [rbp-28h] BYREF\n\n  r_timeout[1] = __readfsqword(0x28u);\n  if ( oap )\n  {\n    timeout = rexmtval;\n    __sigsetjmp(timeoutbuf, 1);\n    while ( 1 )\n    {\n      r_timeout[0] = timeout;\n      if ( oacklen != send(peer, oap, oacklen, 0) )\n        break;\n      do\n      {\n        if ( recv_time(peer, ackbuf, (int)r_timeout, v3, v4) < 0 )\n        {\n          __syslog_chk(4LL, 1LL, "tftpd: read: %m\\n");\n          goto abort;\n        }\n        v3 = *(unsigned __int16 *)&ackbuf[2];\n        v5 = __ROL2__(*(_WORD *)ackbuf, 8);\n        if ( *(unsigned __int16 *)ackbuf == 1280 )\n        {\n          __syslog_chk(4LL, 1LL, "tftp: client does not accept options\\n", *(unsigned __int16 *)&ackbuf[2]);\n          goto abort;\n        }\n      }\n      while ( v5 != 4 );\n      if ( !*(_WORD *)&ackbuf[2] )\n        goto LABEL_13;\n      synchnet(peer);\n    }\n    __syslog_chk(4LL, 1LL, "tftpd: oack: %m\\n");\n  }\n  else\n  {\nLABEL_13:\n    dp = r_init();\n    while ( 1 )\n    {\n      v12 = readit(file, &dp, pf_0->f_convert);\n      if ( v12 < 0 )\n        break;\n      dp->th_opcode = 768;\n      dp->th_u1.th_u2.th_u3.tu_block = __ROL2__(block_7572, 8);\n      timeout = rexmtval;\n      __sigsetjmp(timeoutbuf, 1);\n      r_timeout[0] = timeout;\n      if ( v12 + 4 != send(peer, dp, v12 + 4, 0) )\n      {\n        __syslog_chk(4LL, 1LL, "tftpd: write: %m");\n        goto abort;\n      }\n      read_ahead(file, pf_0->f_convert);\n      while ( 1 )\n      {\n        do\n        {\n          if ( recv_time(peer, ackbuf, (int)r_timeout, v6, v7) < 0 )\n          {\n            __syslog_chk(4LL, 1LL, "tftpd: read(ack): %m");\n            goto abort;\n          }\n          v6 = *(unsigned __int16 *)&ackbuf[2];\n          v8 = __ROL2__(*(_WORD *)ackbuf, 8);\n          if ( *(unsigned __int16 *)ackbuf == 1280 )\n            goto abort;\n        }\n        while ( v8 != 4 );\n        v9 = __ROL2__(*(_WORD *)&ackbuf[2], 8);\n        if ( block_7572 == v9 )\n          break;\n        synchnet(peer);\n      }\n      block_7572 = v9 + 1;\n      if ( v9 == -1 )\n        block_7572 = rollover_val;\n      if ( segsize != v12 )\n        goto abort;\n    }\n    v10 = __errno_location();\n    nak(*v10 + 100, 0LL);\n  }\nabort:\n  fclose(file);\n}\n\n                                \n                During the execution of the function, I noticed that the fields at the offsets (0, 1) appear to "contaminate" the global variables ackbuf and local variables v8. The "contamination" is characterized by [Describe in detail the abnormal situation of the variable value, such as the variable value not meeting expectations, or unexplained changes, etc.].\n\n                I suspect that the fields at the offsets (0, 1) have specific types and meanings. Based on the code\'s processing logic, what are the most likely types and meanings of these fields? For instance, the fields at (offset_n, offset_m) could be 16 - byte unsigned numbers, and since they are related to length combination in the code, I speculate that they might represent lengths.\n\n                The types for classification include static text, command groups, strings, integers, decimals, and binary. The semantic categories include commands, lengths, delimiters, checksums, file names, etc.\n\n                Please provide your answer in the following Python - style format, separating the type and meaning with a comma.Remember that these offsets are a field and you only need to answer one line:\n                ```python\n                int, length\n                ```\n                '}], 'stream': False, 'max_tokens': 4096, 'stop': ['null'], 'temperature': 0.7, 'top_p': 0.7, 'top_k': 50, 'frequency_penalty': 0.5, 'n': 1, 'response_format': {'type': 'text'}, 'tools': [{'type': 'function', 'function': {'description': '<string>', 'name': '<string>', 'parameters': {}, 'strict': False}}]}
+2025-03-08 21:23:08,525 - my_text.py:621  - 0:00040001 Response result: ```python
+unsigned __int16, length
+```
+2025-03-08 21:23:10,525 - my_text.py:618  - 0:00040001 Sending request to https://api.siliconflow.cn/v1/chat/completions with payload: {'model': 'Qwen/Qwen2.5-7B-Instruct', 'messages': [{'role': 'user', 'content': 'I\'m currently handling a protocol packet received through the socket.recv function. When analyzing the received protocol packet, I found that the field at the offset of (2, 3)  has some situations that affect the operation of the relevant code\n\n                        Function Name: tftp_sendfile\n                        Function Function Overview: [Briefly describe the main function of the function, such as receiving and processing a protocol packet from a socket, etc.]\n                        void __fastcall tftp_sendfile(const formats *pf_0, tftphdr *oap, int oacklen)\n{\n  unsigned int v3; // ecx\n  unsigned __int64 *v4; // r8\n  __int16 v5; // dx\n  unsigned int v6; // ecx\n  unsigned __int64 *v7; // r8\n  __int16 v8; // dx\n  __int16 v9; // cx\n  int *v10; // rax\n  int v12; // [rsp+1Ch] [rbp-3Ch]\n  tftphdr *dp; // [rsp+28h] [rbp-30h] BYREF\n  unsigned __int64 r_timeout[5]; // [rsp+30h] [rbp-28h] BYREF\n\n  r_timeout[1] = __readfsqword(0x28u);\n  if ( oap )\n  {\n    timeout = rexmtval;\n    __sigsetjmp(timeoutbuf, 1);\n    while ( 1 )\n    {\n      r_timeout[0] = timeout;\n      if ( oacklen != send(peer, oap, oacklen, 0) )\n        break;\n      do\n      {\n        if ( recv_time(peer, ackbuf, (int)r_timeout, v3, v4) < 0 )\n        {\n          __syslog_chk(4LL, 1LL, "tftpd: read: %m\\n");\n          goto abort;\n        }\n        v3 = *(unsigned __int16 *)&ackbuf[2];\n        v5 = __ROL2__(*(_WORD *)ackbuf, 8);\n        if ( *(unsigned __int16 *)ackbuf == 1280 )\n        {\n          __syslog_chk(4LL, 1LL, "tftp: client does not accept options\\n", *(unsigned __int16 *)&ackbuf[2]);\n          goto abort;\n        }\n      }\n      while ( v5 != 4 );\n      if ( !*(_WORD *)&ackbuf[2] )\n        goto LABEL_13;\n      synchnet(peer);\n    }\n    __syslog_chk(4LL, 1LL, "tftpd: oack: %m\\n");\n  }\n  else\n  {\nLABEL_13:\n    dp = r_init();\n    while ( 1 )\n    {\n      v12 = readit(file, &dp, pf_0->f_convert);\n      if ( v12 < 0 )\n        break;\n      dp->th_opcode = 768;\n      dp->th_u1.th_u2.th_u3.tu_block = __ROL2__(block_7572, 8);\n      timeout = rexmtval;\n      __sigsetjmp(timeoutbuf, 1);\n      r_timeout[0] = timeout;\n      if ( v12 + 4 != send(peer, dp, v12 + 4, 0) )\n      {\n        __syslog_chk(4LL, 1LL, "tftpd: write: %m");\n        goto abort;\n      }\n      read_ahead(file, pf_0->f_convert);\n      while ( 1 )\n      {\n        do\n        {\n          if ( recv_time(peer, ackbuf, (int)r_timeout, v6, v7) < 0 )\n          {\n            __syslog_chk(4LL, 1LL, "tftpd: read(ack): %m");\n            goto abort;\n          }\n          v6 = *(unsigned __int16 *)&ackbuf[2];\n          v8 = __ROL2__(*(_WORD *)ackbuf, 8);\n          if ( *(unsigned __int16 *)ackbuf == 1280 )\n            goto abort;\n        }\n        while ( v8 != 4 );\n        v9 = __ROL2__(*(_WORD *)&ackbuf[2], 8);\n        if ( block_7572 == v9 )\n          break;\n        synchnet(peer);\n      }\n      block_7572 = v9 + 1;\n      if ( v9 == -1 )\n        block_7572 = rollover_val;\n      if ( segsize != v12 )\n        goto abort;\n    }\n    v10 = __errno_location();\n    nak(*v10 + 100, 0LL);\n  }\nabort:\n  fclose(file);\n}\n\n                                \n                During the execution of the function, I noticed that the fields at the offsets (2, 3) appear to "contaminate" the global variables ackbuf, block_7572 and local variables v9, v6. The "contamination" is characterized by [Describe in detail the abnormal situation of the variable value, such as the variable value not meeting expectations, or unexplained changes, etc.].\n\n                I suspect that the fields at the offsets (2, 3) have specific types and meanings. Based on the code\'s processing logic, what are the most likely types and meanings of these fields? For instance, the fields at (offset_n, offset_m) could be 16 - byte unsigned numbers, and since they are related to length combination in the code, I speculate that they might represent lengths.\n\n                The types for classification include static text, command groups, strings, integers, decimals, and binary. The semantic categories include commands, lengths, delimiters, checksums, file names, etc.\n\n                Please provide your answer in the following Python - style format, separating the type and meaning with a comma.Remember that these offsets are a field and you only need to answer one line:\n                ```python\n                int, length\n                ```\n                '}], 'stream': False, 'max_tokens': 4096, 'stop': ['null'], 'temperature': 0.7, 'top_p': 0.7, 'top_k': 50, 'frequency_penalty': 0.5, 'n': 1, 'response_format': {'type': 'text'}, 'tools': [{'type': 'function', 'function': {'description': '<string>', 'name': '<string>', 'parameters': {}, 'strict': False}}]}
+2025-03-08 21:23:14,432 - my_text.py:621  - 0:00040001 Response result: ```python
+unsigned __int16, length
+```
+2025-03-08 21:23:16,433 - my_text.py:637  - 0:00040001 field_type: {'0,1': ['unsigned __int16'], '2,3': ['unsigned __int16']}
+2025-03-08 21:23:16,433 - my_text.py:638  - 0:00040001 field_func: {'0,1': ['length'], '2,3': ['length']}
+2025-03-08 21:23:16,433 - my_text.py:688  - 0:00040001 Sending request to https://api.siliconflow.cn/v1/chat/completions with payload: {'model': 'Qwen/Qwen2.5-7B-Instruct', 'messages': [{'role': 'user', 'content': '\n            You are provided with a list named [] that contains visible strings. Your task is to analyze these strings. If the strings have specific meanings and can be further divided, please present the division results in a Python code block. Each part of the result should be separated by a comma.\n            The types of granularity for division include static text, command groups, strings, integers, decimals, and binary. The semantic granularity includes commands, lengths, delimiters, checksums, file names, etc.\n            Here is an example: If the input is ["POST /path HTTP/1.1"], the correct output should be\n            ```python\n            POST, command group, command\n            , string, delimiter\n            /path, string, file\n            HTTP/1.1, static text, static text\n            ```\n            If you don\'t think these strings have a specific meaning, just answer ```python ```\n            '}], 'stream': False, 'max_tokens': 4096, 'stop': ['null'], 'temperature': 0.7, 'top_p': 0.7, 'top_k': 50, 'frequency_penalty': 0.5, 'n': 1, 'response_format': {'type': 'text'}, 'tools': [{'type': 'function', 'function': {'description': '<string>', 'name': '<string>', 'parameters': {}, 'strict': False}}]}
+2025-03-08 21:23:17,293 - my_text.py:691  - 0:00040001 Response result: ```python
+```python
+```
+2025-03-08 21:23:19,295 - my_text.py:712  - 0:00040001 field_llm_type: {}
+2025-03-08 21:23:19,295 - my_text.py:713  - 0:00040001 field_llm_Sem: {}
+2025-03-08 21:23:19,295 - my_text.py:715  - 0:00040001 used_fields_llm: ['0,1', '2,3']
+2025-03-08 21:23:19,295 - my_text.py:716  - 0:00040001 field_llm_type_llm: {'0,1': ['unsigned __int16'], '2,3': ['unsigned __int16']}
+2025-03-08 21:23:19,295 - my_text.py:717  - 0:00040001 field_llm_Sem_llm: {'0,1': ['length'], '2,3': ['length']}
+2025-03-08 21:23:19,295 - my_text.py:432  - {'0': {0: {'tftp_recvfile': {'        if ( dp->th_opcode == 1280 )', '        th_opcode = (unsigned __int16)dp->th_opcode;', '        LOWORD(th_opcode) = __ROL2__(th_opcode, 8);', '      while ( (_WORD)th_opcode != 3 );'}}, 1: {'tftp_recvfile': {'        if ( dp->th_opcode == 1280 )', '        th_opcode = (unsigned __int16)dp->th_opcode;', '        LOWORD(th_opcode) = __ROL2__(th_opcode, 8);', '      while ( (_WORD)th_opcode != 3 );'}}, 2: {'tftp_recvfile': {'      v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);'}, 'writeit': {'  return ct;', '  v7 = current;'}, 'write_behind': {'  v2 = nextone;', '    return write(v11, v6, counter);'}, 'recv_time': {'      v8 = select(s + 1, &fdset, 0LL, 0LL, &tmv);'}}, 3: {'tftp_recvfile': {'      v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);'}, 'writeit': {'  return ct;', '  v7 = current;'}, 'write_behind': {'  v2 = nextone;', '    return write(v11, v6, counter);'}, 'recv_time': {'      v8 = select(s + 1, &fdset, 0LL, 0LL, &tmv);'}}}}
+2025-03-08 21:23:19,295 - my_text.py:443  - 1:0003000174657374 Updated c_taint_c_dict: {'0': {0: {'tftp_recvfile': {'__ROL2__', '3', '8', 'while', 'LOWORD', '__int16', '_WORD', 'if', 'unsigned', 'th_opcode', 'dp', '1280'}}, 1: {'tftp_recvfile': {'__ROL2__', '3', '8', 'while', 'LOWORD', '__int16', '_WORD', 'if', 'unsigned', 'th_opcode', 'dp', '1280'}}, 2: {'tftp_recvfile': {'v8', '__ROL2__', 'th_u3', 'th_u2', '8', 'th_u1', 'tu_block', 'dp'}, 'writeit': {'ct', 'v7', 'return', 'current'}, 'write_behind': {'nextone', 'write', 'v2', 'v6', 'v11', 'counter', 'return'}, 'recv_time': {'v8', '1', 's', 'select', '0LL', 'fdset', 'tmv'}}, 3: {'tftp_recvfile': {'v8', '__ROL2__', 'th_u3', 'th_u2', '8', 'th_u1', 'tu_block', 'dp'}, 'writeit': {'ct', 'v7', 'return', 'current'}, 'write_behind': {'nextone', 'write', 'v2', 'v6', 'v11', 'counter', 'return'}, 'recv_time': {'v8', '1', 's', 'select', '0LL', 'fdset', 'tmv'}}}}
+2025-03-08 21:23:19,295 - my_text.py:460  - 1:0003000174657374 var_flow: {'0': {0: {'tftp_recvfile:dp'}, 1: {'tftp_recvfile:dp'}, 2: {'write_behind:v6', 'write_behind:v11', 'recv_time:tmv', 'global:buf', 'tftp_recvfile:v8', 'global:block_7596', 'tftp_recvfile:dp', 'global:nextone', 'write_behind:v2', 'recv_time:v8', 'recv_time:s', 'recv_time:fdset', 'writeit:v7', 'global:current'}, 3: {'write_behind:v6', 'write_behind:v11', 'recv_time:tmv', 'global:buf', 'tftp_recvfile:v8', 'global:block_7596', 'tftp_recvfile:dp', 'global:nextone', 'write_behind:v2', 'recv_time:v8', 'recv_time:s', 'recv_time:fdset', 'writeit:v7', 'global:current'}}}
+2025-03-08 21:23:19,296 - my_text.py:478  - Key pair (0, 1): Similarity = 1.0
+2025-03-08 21:23:19,296 - my_text.py:478  - Key pair (2, 3): Similarity = 1.0
+2025-03-08 21:23:19,296 - my_text.py:482  - 1:0003000174657374 Similarity matrix: {(0, 1): 1.0, (1, 2): 0.07142857142857142, (2, 3): 1.0}
+2025-03-08 21:23:19,296 - my_text.py:519  - 1:0003000174657374 Merged queue: [(0, 1), (2, 3)]
+2025-03-08 21:23:19,296 - my_text.py:525  - 1:0003000174657374 used_fields: ['0,1', '2,3']
+2025-03-08 21:23:19,296 - my_text.py:541  - 1:0003000174657374 data_new: {(0, 1): {'tftp_recvfile': ['dp']}, (2, 3): {'write_behind': ['v6', 'v11', 'v2'], 'recv_time': ['tmv', 's', 'fdset', 'v8'], 'tftp_recvfile': ['dp', 'v8'], 'global': ['current', 'buf', 'block_7596', 'nextone'], 'writeit': ['v7']}}
+2025-03-08 21:23:19,296 - my_text.py:618  - 1:0003000174657374 Sending request to https://api.siliconflow.cn/v1/chat/completions with payload: {'model': 'Qwen/Qwen2.5-7B-Instruct', 'messages': [{'role': 'user', 'content': 'I\'m currently handling a protocol packet received through the socket.recv function. When analyzing the received protocol packet, I found that the field at the offset of (0, 1)  has some situations that affect the operation of the relevant code\n\n                        Function Name: tftp_recvfile\n                        Function Function Overview: [Briefly describe the main function of the function, such as receiving and processing a protocol packet from a socket, etc.]\n                        void __fastcall tftp_recvfile(const formats *pf_0, tftphdr *oack, int oacklen)\n{\n  u_short v3; // dx\n  unsigned int th_opcode; // ecx\n  unsigned __int64 *v5; // r8\n  tftphdr *v6; // rsi\n  int v7; // eax\n  unsigned __int16 v8; // bp\n  int v9; // ebx\n  int v10; // eax\n  tftphdr *v11; // rdx\n  int v12; // edi\n  union {unsigned __int16 tu_block;__int16 tu_code;} v13; // ax\n  unsigned int v14; // ecx\n  unsigned __int64 *v15; // r8\n  int v16; // eax\n  int *v17; // rax\n  tftphdr *dp; // [rsp+28h] [rbp-30h] BYREF\n  unsigned __int64 r_timeout[5]; // [rsp+30h] [rbp-28h] BYREF\n\n  r_timeout[1] = __readfsqword(0x28u);\n  oap_7594 = oack;\n  dp = w_init();\n  do\n  {\n    timeout = rexmtval;\n    v3 = block_7596 + 1;\n    if ( block_7596 )\n    {\n      acksize_7597 = 4;\n      ap_7595 = (tftphdr *)ackbuf;\n      *(_WORD *)ackbuf = 1024;\n      *(_WORD *)&ackbuf[2] = __ROL2__(block_7596, 8);\n      oap_7594 = 0LL;\n      block_7596 = v3;\n      if ( !v3 )\n        block_7596 = rollover_val;\n    }\n    else\n    {\n      ap_7595 = (tftphdr *)ackbuf;\n      if ( oap_7594 )\n      {\n        block_7596 = 1;\n        acksize_7597 = oacklen;\n      }\n      else\n      {\n        *(_DWORD *)ackbuf = 1024;\n        acksize_7597 = 4;\n        block_7596 = 1;\n      }\n    }\n    __sigsetjmp(timeoutbuf, 1);\nsend_ack:\n    r_timeout[0] = timeout;\n    if ( acksize_7597 != send(peer, ackbuf, acksize_7597, 0) )\n    {\n      __syslog_chk(4LL, 1LL, "tftpd: write(ack): %m");\n      return;\n    }\n    write_behind(file, pf_0->f_convert);\n    while ( 1 )\n    {\n      v6 = dp;\n      do\n      {\n        v7 = recv_time(peer, v6, (int)r_timeout, th_opcode, v5);\n        if ( v7 < 0 )\n        {\n          __syslog_chk(4LL, 1LL, "tftpd: read: %m");\n          return;\n        }\n        v6 = dp;\n        th_opcode = (unsigned __int16)dp->th_opcode;\n        LOWORD(th_opcode) = __ROL2__(th_opcode, 8);\n        if ( dp->th_opcode == 1280 )\n          return;\n      }\n      while ( (_WORD)th_opcode != 3 );\n      v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);\n      if ( block_7596 == v8 )\n        break;\n      synchnet(peer);\n      if ( v8 == block_7596 - 1 )\n        goto send_ack;\n    }\n    v9 = v7 - 4;\n    v10 = writeit(file, &dp, v7 - 4, pf_0->f_convert);\n    if ( v9 != v10 )\n    {\n      if ( v10 < 0 )\n      {\n        v17 = __errno_location();\n        nak(*v17 + 100, 0LL);\n      }\n      else\n      {\n        nak(3, 0LL);\n      }\n      return;\n    }\n  }\n  while ( segsize == v9 );\n  write_behind(file, pf_0->f_convert);\n  fclose(file);\n  v11 = ap_7595;\n  v12 = peer;\n  v13.tu_block = __ROL2__(block_7596, 8);\n  ap_7595->th_opcode = 1024;\n  v11->th_u1.th_u2.th_u3 = (union {unsigned __int16 tu_block;__int16 tu_code;})v13.tu_block;\n  send(v12, ackbuf, 4uLL, 0);\n  timeout_quit = 1;\n  v16 = recv_time(peer, &buf, (int)&timeout, v14, v15);\n  timeout_quit = 0;\n  if ( v16 > 3 && block_7596 == v8 )\n    send(peer, ackbuf, 4uLL, 0);\n}\n\n                                \n                During the execution of the function, I noticed that the fields at the offsets (0, 1) appear to "contaminate" the global variables  and local variables dp. The "contamination" is characterized by [Describe in detail the abnormal situation of the variable value, such as the variable value not meeting expectations, or unexplained changes, etc.].\n\n                I suspect that the fields at the offsets (0, 1) have specific types and meanings. Based on the code\'s processing logic, what are the most likely types and meanings of these fields? For instance, the fields at (offset_n, offset_m) could be 16 - byte unsigned numbers, and since they are related to length combination in the code, I speculate that they might represent lengths.\n\n                The types for classification include static text, command groups, strings, integers, decimals, and binary. The semantic categories include commands, lengths, delimiters, checksums, file names, etc.\n\n                Please provide your answer in the following Python - style format, separating the type and meaning with a comma.Remember that these offsets are a field and you only need to answer one line:\n                ```python\n                int, length\n                ```\n                '}], 'stream': False, 'max_tokens': 4096, 'stop': ['null'], 'temperature': 0.7, 'top_p': 0.7, 'top_k': 50, 'frequency_penalty': 0.5, 'n': 1, 'response_format': {'type': 'text'}, 'tools': [{'type': 'function', 'function': {'description': '<string>', 'name': '<string>', 'parameters': {}, 'strict': False}}]}
+2025-03-08 21:23:20,434 - my_text.py:621  - 1:0003000174657374 Response result: ```python
+unsigned __int16, length
+```
+2025-03-08 21:23:22,435 - my_text.py:618  - 1:0003000174657374 Sending request to https://api.siliconflow.cn/v1/chat/completions with payload: {'model': 'Qwen/Qwen2.5-7B-Instruct', 'messages': [{'role': 'user', 'content': 'I\'m currently handling a protocol packet received through the socket.recv function. When analyzing the received protocol packet, I found that the field at the offset of (2, 3)  has some situations that affect the operation of the relevant code\n\n                        Function Name: write_behind\n                        Function Function Overview: [Briefly describe the main function of the function, such as receiving and processing a protocol packet from a socket, etc.]\n                        int __fastcall write_behind(FILE *file, int convert)\n{\n  int v2; // ecx\n  __int64 v3; // rax\n  int counter; // r13d\n  char *buf; // rax\n  char *v6; // rbp\n  int v7; // ebx\n  __int64 v8; // r14\n  int v9; // eax\n  int v11; // eax\n\n  v2 = nextone;\n  v3 = nextone;\n  counter = bfs[v3].counter;\n  if ( counter < -1 )\n    return 0;\n  bfs[nextone].counter = -2;\n  buf = bfs[v3].buf;\n  v6 = buf + 4;\n  nextone = v2 == 0;\n  if ( counter <= 0 )\n  {\n    return -1;\n  }\n  else\n  {\n    if ( convert )\n    {\n      v7 = prevchar;\n      v8 = (__int64)&buf[counter - 1 + 5];\n      while ( 1 )\n      {\n        ++v6;\n        v9 = v7;\n        v7 = *(v6 - 1);\n        if ( v9 != 13 )\n          goto LABEL_8;\n        if ( v7 == 10 )\n          break;\n        if ( *(v6 - 1) )\n          goto LABEL_8;\nskipit:\n        prevchar = v7;\n        if ( v6 == (char *)v8 )\n          return counter;\n      }\n      fseek(file, -1LL, 1);\nLABEL_8:\n      putc(v7, file);\n      goto skipit;\n    }\n    v11 = fileno(file);\n    return write(v11, v6, counter);\n  }\n}\n\n                        \n                        Function Name: recv_time\n                        Function Function Overview: [Briefly describe the main function of the function, such as receiving and processing a protocol packet from a socket, etc.]\n                        __int64 __fastcall recv_time(\n        int s,\n        void *rbuf,\n        unsigned __int64 *len,\n        unsigned int flags,\n        unsigned __int64 *timeout_us_p)\n{\n  unsigned __int64 v5; // rbp\n  __int64 v6; // rax\n  unsigned __int64 v7; // rcx\n  int v8; // ebx\n  int v9; // r12d\n  unsigned __int64 v10; // rdx\n  int v11; // ebx\n  __int64 result; // rax\n  int *v13; // [rsp+0h] [rbp-138h]\n  unsigned __int64 timeout_left; // [rsp+18h] [rbp-120h]\n  int v16; // [rsp+3Ch] [rbp-FCh]\n  timeval tmv; // [rsp+40h] [rbp-F8h] BYREF\n  timeval t0; // [rsp+50h] [rbp-E8h] BYREF\n  timeval t1; // [rsp+60h] [rbp-D8h] BYREF\n  fd_set fdset; // [rsp+70h] [rbp-C8h] BYREF\n  unsigned __int64 v21; // [rsp+F8h] [rbp-40h]\n\n  v5 = *len;\n  v21 = __readfsqword(0x28u);\n  gettimeofday(&t0, 0LL);\n  timeout_left = v5;\n  v13 = __errno_location();\n  while ( 1 )\n  {\n    memset(&fdset, 0, sizeof(fdset));\n    v6 = __fdelt_chk(s);\n    v7 = timeout_left;\n    fdset.fds_bits[v6] |= 1LL << (s % 64);\n    do\n    {\n      tmv.tv_sec = v7 / 0xF4240;\n      tmv.tv_usec = v7 % 0xF4240;\n      v8 = select(s + 1, &fdset, 0LL, 0LL, &tmv);\n      v9 = *v13;\n      gettimeofday(&t1, 0LL);\n      v10 = t1.tv_usec + 1000000 * (t1.tv_sec - t0.tv_sec) - t0.tv_usec;\n      v7 = v5 - v10;\n      if ( v5 <= v10 )\n        v7 = 1LL;\n      *len = v7;\n    }\n    while ( v8 == -1 && v9 == 4 );\n    timeout_left = v7;\n    if ( !v8 )\n    {\n      timeout *= 2LL;\n      if ( timeout >= maxtimeout || timeout_quit )\n        exit(0);\n      __longjmp_chk(timeoutbuf, 1LL);\n    }\n    set_socket_nonblock(s, 1);\n    v16 = recv(s, rbuf, 0xFFBCuLL, 0);\n    v11 = *v13;\n    set_socket_nonblock(s, 0);\n    if ( v16 >= 0 )\n      break;\n    if ( v11 != 11 && v11 != 4 )\n    {\n      result = (unsigned int)v16;\n      *v13 = v11;\n      return result;\n    }\n  }\n  return (unsigned int)v16;\n}\n\n                        \n                        Function Name: tftp_recvfile\n                        Function Function Overview: [Briefly describe the main function of the function, such as receiving and processing a protocol packet from a socket, etc.]\n                        void __fastcall tftp_recvfile(const formats *pf_0, tftphdr *oack, int oacklen)\n{\n  u_short v3; // dx\n  unsigned int th_opcode; // ecx\n  unsigned __int64 *v5; // r8\n  tftphdr *v6; // rsi\n  int v7; // eax\n  unsigned __int16 v8; // bp\n  int v9; // ebx\n  int v10; // eax\n  tftphdr *v11; // rdx\n  int v12; // edi\n  union {unsigned __int16 tu_block;__int16 tu_code;} v13; // ax\n  unsigned int v14; // ecx\n  unsigned __int64 *v15; // r8\n  int v16; // eax\n  int *v17; // rax\n  tftphdr *dp; // [rsp+28h] [rbp-30h] BYREF\n  unsigned __int64 r_timeout[5]; // [rsp+30h] [rbp-28h] BYREF\n\n  r_timeout[1] = __readfsqword(0x28u);\n  oap_7594 = oack;\n  dp = w_init();\n  do\n  {\n    timeout = rexmtval;\n    v3 = block_7596 + 1;\n    if ( block_7596 )\n    {\n      acksize_7597 = 4;\n      ap_7595 = (tftphdr *)ackbuf;\n      *(_WORD *)ackbuf = 1024;\n      *(_WORD *)&ackbuf[2] = __ROL2__(block_7596, 8);\n      oap_7594 = 0LL;\n      block_7596 = v3;\n      if ( !v3 )\n        block_7596 = rollover_val;\n    }\n    else\n    {\n      ap_7595 = (tftphdr *)ackbuf;\n      if ( oap_7594 )\n      {\n        block_7596 = 1;\n        acksize_7597 = oacklen;\n      }\n      else\n      {\n        *(_DWORD *)ackbuf = 1024;\n        acksize_7597 = 4;\n        block_7596 = 1;\n      }\n    }\n    __sigsetjmp(timeoutbuf, 1);\nsend_ack:\n    r_timeout[0] = timeout;\n    if ( acksize_7597 != send(peer, ackbuf, acksize_7597, 0) )\n    {\n      __syslog_chk(4LL, 1LL, "tftpd: write(ack): %m");\n      return;\n    }\n    write_behind(file, pf_0->f_convert);\n    while ( 1 )\n    {\n      v6 = dp;\n      do\n      {\n        v7 = recv_time(peer, v6, (int)r_timeout, th_opcode, v5);\n        if ( v7 < 0 )\n        {\n          __syslog_chk(4LL, 1LL, "tftpd: read: %m");\n          return;\n        }\n        v6 = dp;\n        th_opcode = (unsigned __int16)dp->th_opcode;\n        LOWORD(th_opcode) = __ROL2__(th_opcode, 8);\n        if ( dp->th_opcode == 1280 )\n          return;\n      }\n      while ( (_WORD)th_opcode != 3 );\n      v8 = __ROL2__(dp->th_u1.th_u2.th_u3.tu_block, 8);\n      if ( block_7596 == v8 )\n        break;\n      synchnet(peer);\n      if ( v8 == block_7596 - 1 )\n        goto send_ack;\n    }\n    v9 = v7 - 4;\n    v10 = writeit(file, &dp, v7 - 4, pf_0->f_convert);\n    if ( v9 != v10 )\n    {\n      if ( v10 < 0 )\n      {\n        v17 = __errno_location();\n        nak(*v17 + 100, 0LL);\n      }\n      else\n      {\n        nak(3, 0LL);\n      }\n      return;\n    }\n  }\n  while ( segsize == v9 );\n  write_behind(file, pf_0->f_convert);\n  fclose(file);\n  v11 = ap_7595;\n  v12 = peer;\n  v13.tu_block = __ROL2__(block_7596, 8);\n  ap_7595->th_opcode = 1024;\n  v11->th_u1.th_u2.th_u3 = (union {unsigned __int16 tu_block;__int16 tu_code;})v13.tu_block;\n  send(v12, ackbuf, 4uLL, 0);\n  timeout_quit = 1;\n  v16 = recv_time(peer, &buf, (int)&timeout, v14, v15);\n  timeout_quit = 0;\n  if ( v16 > 3 && block_7596 == v8 )\n    send(peer, ackbuf, 4uLL, 0);\n}\n\n                        \n                        Function Name: writeit\n                        Function Function Overview: [Briefly describe the main function of the function, such as receiving and processing a protocol packet from a socket, etc.]\n                        int __fastcall writeit(FILE *file, tftphdr **dpp, int ct, int convert)\n{\n  int v7; // ecx\n  __int64 v8; // rax\n  __int64 v9; // rax\n\n  v7 = current;\n  bfs[current].counter = ct;\n  v8 = v7 == 0;\n  current = v7 == 0;\n  if ( bfs[v8].counter != -2 )\n  {\n    write_behind(file, convert);\n    v8 = current;\n  }\n  v9 = v8;\n  bfs[v9].counter = -3;\n  *dpp = (tftphdr *)bfs[v9].buf;\n  return ct;\n}\n\n                                \n                During the execution of the function, I noticed that the fields at the offsets (2, 3) appear to "contaminate" the global variables current, buf, block_7596, nextone and local variables v6, v11, v2, tmv, s, fdset, v8, dp, v8, v7. The "contamination" is characterized by [Describe in detail the abnormal situation of the variable value, such as the variable value not meeting expectations, or unexplained changes, etc.].\n\n                I suspect that the fields at the offsets (2, 3) have specific types and meanings. Based on the code\'s processing logic, what are the most likely types and meanings of these fields? For instance, the fields at (offset_n, offset_m) could be 16 - byte unsigned numbers, and since they are related to length combination in the code, I speculate that they might represent lengths.\n\n                The types for classification include static text, command groups, strings, integers, decimals, and binary. The semantic categories include commands, lengths, delimiters, checksums, file names, etc.\n\n                Please provide your answer in the following Python - style format, separating the type and meaning with a comma.Remember that these offsets are a field and you only need to answer one line:\n                ```python\n                int, length\n                ```\n                '}], 'stream': False, 'max_tokens': 4096, 'stop': ['null'], 'temperature': 0.7, 'top_p': 0.7, 'top_k': 50, 'frequency_penalty': 0.5, 'n': 1, 'response_format': {'type': 'text'}, 'tools': [{'type': 'function', 'function': {'description': '<string>', 'name': '<string>', 'parameters': {}, 'strict': False}}]}
+2025-03-08 21:23:23,510 - my_text.py:621  - 1:0003000174657374 Response result: ```python
+int, length
+```
+2025-03-08 21:23:25,510 - my_text.py:637  - 1:0003000174657374 field_type: {'0,1': ['unsigned __int16'], '2,3': ['int']}
+2025-03-08 21:23:25,510 - my_text.py:638  - 1:0003000174657374 field_func: {'0,1': ['length'], '2,3': ['length']}
+2025-03-08 21:23:25,510 - my_text.py:688  - 1:0003000174657374 Sending request to https://api.siliconflow.cn/v1/chat/completions with payload: {'model': 'Qwen/Qwen2.5-7B-Instruct', 'messages': [{'role': 'user', 'content': '\n            You are provided with a list named [\'test\'] that contains visible strings. Your task is to analyze these strings. If the strings have specific meanings and can be further divided, please present the division results in a Python code block. Each part of the result should be separated by a comma.\n            The types of granularity for division include static text, command groups, strings, integers, decimals, and binary. The semantic granularity includes commands, lengths, delimiters, checksums, file names, etc.\n            Here is an example: If the input is ["POST /path HTTP/1.1"], the correct output should be\n            ```python\n            POST, command group, command\n            , string, delimiter\n            /path, string, file\n            HTTP/1.1, static text, static text\n            ```\n            If you don\'t think these strings have a specific meaning, just answer ```python ```\n            '}], 'stream': False, 'max_tokens': 4096, 'stop': ['null'], 'temperature': 0.7, 'top_p': 0.7, 'top_k': 50, 'frequency_penalty': 0.5, 'n': 1, 'response_format': {'type': 'text'}, 'tools': [{'type': 'function', 'function': {'description': '<string>', 'name': '<string>', 'parameters': {}, 'strict': False}}]}
+2025-03-08 21:23:27,210 - my_text.py:691  - 1:0003000174657374 Response result: ```python
+```python
+POST, command group, command
+, string, delimiter
+/path, string, file
+HTTP/1.1, static text, static text
+```
+```
+2025-03-08 21:23:29,211 - my_text.py:712  - 1:0003000174657374 field_llm_type: {'POST': {'command group'}, '': {'string'}, '/path': {'string'}, 'HTTP/1.1': {'static text'}}
+2025-03-08 21:23:29,211 - my_text.py:713  - 1:0003000174657374 field_llm_Sem: {'POST': {'command'}, '': {'delimiter'}, '/path': {'file'}, 'HTTP/1.1': {'static text'}}
+2025-03-08 21:23:29,211 - my_text.py:726  - 1:0003000174657374 LLM_field_string: [-1]
+2025-03-08 21:23:29,211 - my_text.py:727  - 1:0003000174657374 string_dict: {}
+2025-03-08 21:23:29,211 - my_text.py:729  - 1:0003000174657374 used_fields_llm: ['0,1', '2,3']
+2025-03-08 21:23:29,211 - my_text.py:730  - 1:0003000174657374 field_llm_type_llm: {'0,1': ['unsigned __int16'], '2,3': ['int']}
+2025-03-08 21:23:29,211 - my_text.py:731  - 1:0003000174657374 field_llm_Sem_llm: {'0,1': ['length'], '2,3': ['length']}
+2025-03-08 21:23:29,211 - my_text.py:778  - Analysis completed successfully.
+2025-03-08 21:23:29,211 - my_text.py:788  - Closing IDA Pro...
