@@ -1,4 +1,4 @@
-ChatPRE
+# ChatPRE: Large Language Models Empowered Protocol Reverse Engineering
 
 ChatPRE is a protocol reverse engineering (PRE) tool designed to accurately and precisely perform field inference for protocol messages. This README provides detailed information on its running environment, setup instructions, and usage.
 
@@ -8,9 +8,9 @@ The following are the main components and requirements for running ChatPRE:
 
 - **Operating System**: Ubuntu 20.04
 
-- **Python Version**: Python 3.8
-
 - **IDA Pro**: IDA Pro 8.3
+
+- **Pin**: Pin 3.28
 
 ## 2. Setup Instructions
 
@@ -22,8 +22,7 @@ First, clone the ChatPRE repository and perform initial setup steps:
 cd ~
 git clone https://github.com/huoyuxi/ChatPRE
 cd ChatPRE
-./install_preliminary.sh
-./install_pin.sh
+./install.sh
 cd ..
 ```
 
