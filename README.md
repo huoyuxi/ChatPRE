@@ -1,4 +1,4 @@
-# ChatPRE: Large Language Models Empowered Protocol Reverse Engineering
+# ChatPRE: Knowledge-Aware Protocol Analysis with LLMs for Intelligent Segmentation
 
 ChatPRE is a protocol reverse engineering (PRE) tool designed to accurately and precisely perform field inference for protocol messages. This README provides detailed information on its running environment, setup instructions, and usage.
 
