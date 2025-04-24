@@ -26,7 +26,7 @@ cd ChatPRE
 cd ..
 ```
 
-**Note**: The ChatPRE - Scaled - [down.py](http://down.py/) is a scaled - down version of ChatPRE that can approximately reproduce the paper results. The full - fledged code will be open - sourced after the paper is accepted.
+**Note**: The [ChatPRE-Scaled-down.py](https://github.com/huoyuxi/ChatPRE/blob/master/Analyzer/ChatPRE-Scaled-down.py) is a scaled - down version of ChatPRE that can approximately reproduce the paper results. The full - fledged code will be open - sourced after the paper is accepted.
 
 ### 2.2 Starting a Local HTTP Server for Datasets
 
@@ -39,7 +39,7 @@ python3 -m http.server 7777
 
 ### 2.3 Analyzing Protocols Using IDA Pro
 
-Use IDA Pro with the ChatPRE - Scaled - [down.py](http://down.py/) script to analyze different protocols. Replace path\to in the following commands with the actual path to the relevant directories on your system.
+Use IDA Pro with the [ChatPRE-Scaled-down.py](https://github.com/huoyuxi/ChatPRE/blob/master/Analyzer/ChatPRE-Scaled-down.py) script to analyze different protocols. Replace path\to in the following commands with the actual path to the relevant directories on your system.
 
 ```bash
 path\to\ida-8.3\idat64 -A -S"path\to\Analyzer\ChatPRE-Scaled-down.py ethernet 0" path\to\Dataset\server\OpENer
@@ -74,7 +74,7 @@ python3 Evelate.py
 
 ### 2.7 Expanding the Dataset
 
-To expand the dataset for different protocols, use the following commands. These commands use pin with a pre - loaded library ([libx.so](http://libx.so/)) to instrument the protocol servers.
+To expand the dataset for different protocols, use the following commands. These commands use pin with a pre - loaded library ([libx.so](https://github.com/ecnusse/BinPRE/blob/main/src/libx.so)) to instrument the protocol servers.
 
 - **Modbus**:
 
