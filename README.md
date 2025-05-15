@@ -116,3 +116,38 @@ sudo LD_PRELOAD=./libx.so pin -t obj-intel64/taint.so -- ./Dataset/server/OpENer
 - **Interaction Logic**: The interaction segment requires users to set their own logic according to specific needs.
 
 - **Verification**: For verification purposes, users need to write extensions to the Analyzer\Groundtruth to support new protocols.
+
+## 4. References
+
+```bib
+@inproceedings{jiang2024binpre,
+  title={BinPRE: Enhancing Field Inference in Binary Analysis Based Protocol Reverse Engineering},
+  author={Jiang, Jiayi and Zhang, Xiyuan and Wan, Chengcheng and Chen, Haoyi and Sun, Haiying and Su, Ting},
+  booktitle={Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security},
+  pages={3689--3703},
+  year={2024}
+}
+@inproceedings{lin2008automatic,
+  title={Automatic protocol format reverse engineering through context-aware monitored execution.},
+  author={Lin, Zhiqiang and Jiang, Xuxian and Xu, Dongyan and Zhang, Xiangyu},
+  booktitle={NDSS},
+  volume={8},
+  pages={1--15},
+  year={2008}
+}
+@inproceedings{cui2008tupni,
+  title={Tupni: Automatic reverse engineering of input formats},
+  author={Cui, Weidong and Peinado, Marcus and Chen, Karl and Wang, Helen J and Irun-Briz, Luis},
+  booktitle={Proceedings of the 15th ACM conference on Computer and communications security},
+  pages={391--402},
+  year={2008}
+}
+@inproceedings{nystrom2003polyglot,
+  title={Polyglot: An extensible compiler framework for Java},
+  author={Nystrom, Nathaniel and Clarkson, Michael R and Myers, Andrew C},
+  booktitle={International Conference on Compiler Construction},
+  pages={138--152},
+  year={2003},
+  organization={Springer}
+}
+```
